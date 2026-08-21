@@ -112,7 +112,11 @@ const faqs = [
 export default function Home() {
   return (
     <div>
-      <section className="px-6 pt-20 pb-16 text-center">
+      <div className="mx-auto max-w-6xl px-6 pt-8">
+        <VideoEmbed id="xdn589wd" title="House of Tattersall showreel" />
+      </div>
+
+      <section className="px-6 pt-14 pb-4 text-center">
         <p className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
           Cinematic Wedding Films
         </p>
@@ -129,10 +133,6 @@ export default function Home() {
           </CtaButton>
         </div>
       </section>
-
-      <div className="mx-auto max-w-6xl px-6">
-        <VideoEmbed id="xdn589wd" title="House of Tattersall showreel" />
-      </div>
 
       <section className="mx-auto max-w-3xl px-6 py-20 text-center">
         <p className="text-lg leading-relaxed text-[var(--ink-muted)]">
