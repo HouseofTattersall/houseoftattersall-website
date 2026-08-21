@@ -1,9 +1,203 @@
+import Link from "next/link";
+import { PlaceholderMedia } from "@/components/placeholder-media";
+import { Faq } from "@/components/faq";
+
+const films = [
+  { couple: "Rob & Jack", venue: "Wilderness, Canterbury | 2026" },
+  { couple: "Laura & Dan", venue: "Hanbury Wedding Barns, Staffordshire | 2026" },
+  { couple: "Laura & Dan", venue: "Lower Damgate Farm, Derbyshire | 2025" },
+  { couple: "Faye & Daniel", venue: "Bourton Hall, Warwickshire | 2026" },
+  { couple: "Mikki & Richard", venue: "Hazel Gap Barn, Nottinghamshire | 2025" },
+  { couple: "Elisy & Sam", venue: "West Mill, Derbyshire | 2025" },
+];
+
+const kindWords = [
+  "He blended seamlessly into our day — we barely noticed he was filming, which is exactly what we wanted.",
+  "From the very first call, Andy put us completely at ease with his relaxed, friendly approach.",
+  "Andy has an incredible eye for capturing both the big emotional moments and the small details you'd otherwise miss.",
+  "Watching our film felt like reliving the entire day all over again.",
+  "We always felt like we were in safe hands from start to finish.",
+  "The editing is unreal! Every shot felt purposeful and the storytelling was beautiful.",
+  "He made everyone feel comfortable, even guests who had never experienced a videographer before.",
+  "Andy is not only incredibly talented, but also a genuine pleasure to have around on your wedding day.",
+  "Out of everything, this is what we'll treasure forever. We can't stop watching it.",
+  "If you're even considering a videographer, book Andy. You won't regret it.",
+  "He captured moments we didn't even realise were happening and they're now some of our favourites.",
+  "Having Andy there felt effortless, calm, professional, and like having a friend with us on the day.",
+];
+
+const faqs = [
+  {
+    q: "How far in advance should we book our wedding videographer?",
+    a: "Most couples book 12–24 months in advance, especially for peak summer dates. I only take on a limited number of weddings each year to keep every film personal and carefully crafted, so it's always worth enquiring as early as possible.",
+  },
+  {
+    q: "What areas do you cover?",
+    a: "I'm based on the border of Derbyshire and Staffordshire, regularly film weddings across the UK. The first 50 miles are including in the price, anything over that will be quoted for. I also film destination weddings across Europe.",
+  },
+  {
+    q: "How do we book?",
+    a: "The process is simple: send an enquiry, arrange a video call, secure your date with a booking fee. After that, we'll plan everything together leading up to the wedding. P.s. lots of the processes are automated so you know you will get emails reminding you at the key moments.",
+  },
+  {
+    q: "How would you describe your filming style?",
+    a: "My films are cinematic, emotional, and story-driven. In practice that means: natural light over artificial staging, real audio from your vows and speeches rather than music-only edits, a moody editorial colour grade rather than a bright social-media look, and an edit built around the story of your day rather than a chronological checklist. I don't direct or re-stage moments — if it happens, I capture it; if I miss it, I let it go. That's what gives the finished film its documentary, cinematic feel rather than a produced one.",
+  },
+  {
+    q: "We're awkward in front of the camera — is that a problem?",
+    a: "Not at all. Most couples say this before booking. My approach is calm and unobtrusive, so you can enjoy your wedding naturally without feeling like you're constantly performing for the camera.",
+  },
+  {
+    q: "Do you use drones?",
+    a: "Yes, whenever weather, venue permissions, and local flight regulations allow. Drone footage can add beautiful cinematic context to your wedding film.",
+  },
+  {
+    q: "Do you work well with photographers?",
+    a: "Definitely. I've worked alongside many incredible photographers across the UK, and collaboration is a huge part of making the day feel relaxed and seamless. My aim is always to complement the photography team, never compete with them. If you would like recommendations, please do let me know.",
+  },
+  {
+    q: "Do you record vows and speeches?",
+    a: "Yes, clear audio is a huge part of storytelling. I professionally record your vows, speeches, and key moments throughout the day so your film feels emotional and immersive.",
+  },
+  {
+    q: "Is wedding videography really worth it?",
+    a: "Photography freezes moments beautifully, but film lets you relive them — the voices, movement, laughter, speeches, and emotion. Many couples say their wedding film became one of the most valuable things they invested in after the day itself.",
+  },
+  {
+    q: "How long does it take to receive our wedding film?",
+    a: "Typically, teaser films are delivered within around 6 weeks, with full galleries delivered afterwards depending on the season and workload.",
+  },
+  {
+    q: "How do we receive our films?",
+    a: "Your films are delivered digitally through a premium online platform where you can stream, download, and share your films with family and friends.",
+  },
+  {
+    q: "Do you offer shorter coverage options?",
+    a: "I mainly focus on full-day storytelling coverage because it allows me to capture the complete atmosphere and narrative of the wedding day. However, feel free to enquire if you're planning something smaller or more intimate.",
+  },
+  {
+    q: "Can we choose the music for our wedding film?",
+    a: "I carefully select licensed music that matches the emotion and energy of your day, but I'm always happy to hear your preferences and inspiration beforehand.",
+  },
+  {
+    q: "Do you film multicultural or religious weddings?",
+    a: "Absolutely. I've filmed a wide variety of weddings and celebrations, and I always approach every culture, tradition, and ceremony with respect and care.",
+  },
+];
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <p className="text-muted-foreground">
-        Clone target not yet built. Run <code className="font-mono text-foreground">/clone-website</code> to start.
-      </p>
-    </main>
+    <div>
+      <section className="relative flex min-h-[85vh] flex-col items-center justify-center px-6 text-center">
+        <PlaceholderMedia
+          label="Hero film / photo"
+          aspect="aspect-auto"
+          className="absolute inset-0 -z-10 h-full w-full"
+        />
+        <p className="text-xs tracking-[0.3em] text-white/60 uppercase">
+          Cinematic Wedding Films
+        </p>
+        <h1 className="mt-6 max-w-3xl font-serif text-4xl leading-tight font-medium md:text-6xl">
+          Films that feel like <em className="italic">YOUR</em> wedding day
+        </h1>
+        <p className="mt-4 font-serif text-2xl text-white/70 md:text-3xl">
+          NOT just a highlight of it
+        </p>
+        <Link
+          href="/films/"
+          className="mt-10 rounded-full border border-white/40 px-8 py-3 text-sm tracking-wide uppercase hover:bg-white hover:text-black"
+        >
+          Watch My Films
+        </Link>
+      </section>
+
+      <section className="mx-auto max-w-4xl px-6 py-24 text-center">
+        <p className="text-lg leading-relaxed text-white/80">
+          House of Tattersall Films is a cinematic wedding videographer based
+          on the Staffordshire and Derbyshire border, filming weddings
+          throughout Staffordshire, Derbyshire and Nottinghamshire. From
+          intimate barn weddings to grand country house celebrations, as well
+          as further afield across the UK.
+        </p>
+        <p className="mt-6 text-lg leading-relaxed text-white/80">
+          Every film is built around a core package, covering the key moments
+          of your day from getting ready through to the first dance, then
+          tailored to suit each couple&apos;s story, venue and timeline. The
+          result is a timeless, emotionally led film that feels like your
+          wedding, not a template.
+        </p>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-6 py-12">
+        <h2 className="text-center font-serif text-2xl">
+          A small collection of recent films: each one different, each one
+          shaped by the couple, the atmosphere, and the moments that made the
+          day what it was.
+        </h2>
+        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {films.map((film) => (
+            <div key={`${film.couple}-${film.venue}`}>
+              <PlaceholderMedia label={`${film.couple} film embed`} />
+              <p className="mt-3 text-sm tracking-wide text-white uppercase">
+                {film.couple}
+              </p>
+              <p className="text-sm text-white/50">{film.venue}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-4xl px-6 py-24 text-center">
+        <h2 className="font-serif text-3xl">
+          Films that feel as much as they show
+        </h2>
+        <p className="mt-6 text-xl font-serif text-white/80 italic">
+          Every wedding has its own rhythm.
+        </p>
+        <div className="mt-4 space-y-1 text-white/70">
+          <p>The quiet moments in the morning.</p>
+          <p>The anticipation before the ceremony.</p>
+          <p>The energy once the day begins to unfold.</p>
+        </div>
+        <p className="mt-6 text-white/70">
+          My films are built around moments, with very minimal staging,
+          certainly no forced moments and never following a formula.
+        </p>
+        <p className="mt-2 text-white/70">
+          Just honest, natural storytelling, crafted with intention.
+        </p>
+        <Link
+          href="/about/"
+          className="mt-8 inline-block rounded-full border border-white/40 px-8 py-3 text-sm tracking-wide uppercase hover:bg-white hover:text-black"
+        >
+          About Me
+        </Link>
+      </section>
+
+      <section className="bg-neutral-950 px-6 py-24">
+        <div className="mx-auto max-w-6xl">
+          <h2 className="text-center font-serif text-3xl">Kind words</h2>
+          <div className="mt-12 grid gap-8 md:grid-cols-3">
+            {kindWords.map((quote) => (
+              <blockquote
+                key={quote}
+                className="text-sm leading-relaxed text-white/70 italic"
+              >
+                &ldquo;{quote}&rdquo;
+              </blockquote>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-6 py-24">
+        <h2 className="text-center font-serif text-3xl">
+          Frequently asked questions
+        </h2>
+        <div className="mt-12">
+          <Faq items={faqs} />
+        </div>
+      </section>
+    </div>
   );
 }
