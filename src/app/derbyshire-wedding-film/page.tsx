@@ -1,4 +1,4 @@
-import { PlaceholderMedia } from "@/components/placeholder-media";
+import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
 
@@ -6,7 +6,7 @@ const venues = [
   {
     name: "The West Mill, Derby",
     body: "Natural light floods through the industrial-style windows here, giving that soft, romantic glow that makes a wedding film feel properly cinematic. The exposed brick and high ceilings do a lot of the work for me before I've even picked up the camera. The West Mill is set over multiple floors, so your day naturally moves through different spaces rather than staying in one room all day, giving your film distinct chapters instead of everything looking the same. It works beautifully year-round: spring and summer bring an outdoor ceremony option and long daylight, while autumn and winter lean into that warm, intimate glow indoors.",
-    embedLabel: "Olivia & Charles film embed",
+    videoId: "356a0a1b",
   },
   {
     name: "Grangefields by Cripps & Co",
@@ -71,9 +71,9 @@ export default function DerbyshirePage() {
           <div key={venue.name}>
             <h2 className="font-serif text-2xl text-[var(--khaki)]">{venue.name}</h2>
             <p className="mt-4 leading-relaxed text-[var(--ink-muted)]">{venue.body}</p>
-            {venue.embedLabel ? (
+            {venue.videoId ? (
               <div className="mt-6">
-                <PlaceholderMedia label={venue.embedLabel} />
+                <VideoEmbed id={venue.videoId} title={venue.name} />
               </div>
             ) : null}
           </div>

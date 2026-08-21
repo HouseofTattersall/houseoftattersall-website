@@ -1,4 +1,4 @@
-import { PlaceholderMedia } from "@/components/placeholder-media";
+import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
 
@@ -6,7 +6,7 @@ const venues = [
   {
     name: "Hanbury Wedding Barns",
     body: "The ceremony barn has exposed timber frames and vaulted ceilings that genuinely help the audio. The acoustics in there are some of the best I work with. Natural light pours through the windows even on an overcast Staffordshire day, so I rarely need artificial lighting at all. What I like most as a filmmaker is the flow: there are no awkward room changes breaking up the story of your day, which keeps a documentary-style film feeling continuous rather than stitched together. Outdoor ceremonies here capture beautifully too: the countryside audio, the breeze, the atmosphere, and the pavilion and lake give good options for drone footage. In summer, the golden hour runs long, which means more time for the couple portraits that end up being everyone's favourite part of the film. Like Foxtail and The Ashes Barns, Hanbury blends an old barn foundation with a modern interior, and that contrast is something I love filming across all three venues.",
-    embedLabel: "Laura & Daniel film embed",
+    videoId: "jqkfthxi",
   },
   {
     name: "Foxtail Barns",
@@ -71,9 +71,9 @@ export default function StaffordshirePage() {
           <div key={venue.name}>
             <h2 className="font-serif text-2xl text-[var(--khaki)]">{venue.name}</h2>
             <p className="mt-4 leading-relaxed text-[var(--ink-muted)]">{venue.body}</p>
-            {venue.embedLabel ? (
+            {venue.videoId ? (
               <div className="mt-6">
-                <PlaceholderMedia label={venue.embedLabel} />
+                <VideoEmbed id={venue.videoId} title={venue.name} />
               </div>
             ) : null}
           </div>

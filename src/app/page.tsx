@@ -1,14 +1,38 @@
-import { PlaceholderMedia } from "@/components/placeholder-media";
+import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
 
 const films = [
-  { couple: "Rob & Jack", venue: "Wilderness, Canterbury | 2026" },
-  { couple: "Laura & Dan", venue: "Hanbury Wedding Barns, Staffordshire | 2026" },
-  { couple: "Laura & Dan", venue: "Lower Damgate Farm, Derbyshire | 2025" },
-  { couple: "Faye & Daniel", venue: "Bourton Hall, Warwickshire | 2026" },
-  { couple: "Mikki & Richard", venue: "Hazel Gap Barn, Nottinghamshire | 2025" },
-  { couple: "Elisy & Sam", venue: "West Mill, Derbyshire | 2025" },
+  {
+    couple: "Rob & Jack",
+    venue: "Wilderness, Canterbury | 2026",
+    videoId: "bcd7089f",
+  },
+  {
+    couple: "Laura & Dan",
+    venue: "Hanbury Wedding Barns, Staffordshire | 2026",
+    videoId: "jqkfthxi",
+  },
+  {
+    couple: "Laura & Dan",
+    venue: "Lower Damgate Farm, Derbyshire | 2025",
+    videoId: "31305438",
+  },
+  {
+    couple: "Faye & Daniel",
+    venue: "Bourton Hall, Warwickshire | 2026",
+    videoId: "rmvfmefr",
+  },
+  {
+    couple: "Mikki & Richard",
+    venue: "Hazel Gap Barn, Nottinghamshire | 2025",
+    videoId: "cdff82d2",
+  },
+  {
+    couple: "Elisy & Sam",
+    venue: "West Mill, Derbyshire | 2025",
+    videoId: "356a0a1b",
+  },
 ];
 
 const kindWords = [
@@ -107,7 +131,7 @@ export default function Home() {
       </section>
 
       <div className="mx-auto max-w-6xl px-6">
-        <PlaceholderMedia label="Hero film / photo" />
+        <VideoEmbed id="xdn589wd" title="House of Tattersall showreel" />
       </div>
 
       <section className="mx-auto max-w-3xl px-6 py-20 text-center">
@@ -140,7 +164,7 @@ export default function Home() {
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {films.map((film) => (
               <div key={`${film.couple}-${film.venue}`}>
-                <PlaceholderMedia label={`${film.couple} film`} />
+                <VideoEmbed id={film.videoId} title={`${film.couple} — ${film.venue}`} />
                 <p className="mt-3 text-sm tracking-[0.12em] text-[var(--ink)] uppercase">
                   {film.couple}
                 </p>

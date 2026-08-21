@@ -38,9 +38,14 @@ export default function EnquirePage() {
         </p>
       </div>
 
-      <div className="mt-16 rounded-lg border border-dashed border-[var(--rule)] p-8 text-sm text-[var(--ink-faint)]">
-        Enquiry form embed goes here — reconnect your existing Wedola contact
-        form embed code, or an alternative form provider.
+      <div className="mt-16 text-left">
+        <iframe
+          src="https://wedola.co/dynamic_contact?token=1756560179650x344851371770121800"
+          title="Enquiry form"
+          className="w-full border-none"
+          style={{ height: "1087px" }}
+          scrolling="yes"
+        />
       </div>
       </div>
 
