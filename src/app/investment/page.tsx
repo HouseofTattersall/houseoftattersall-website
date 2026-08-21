@@ -1,3 +1,5 @@
+import { CtaButton, CtaBand } from "@/components/cta";
+
 const kindWords = [
   "He blended seamlessly into our day — we barely noticed he was filming, which is exactly what we wanted.",
   "From the very first call, Andy put us completely at ease with his relaxed, friendly approach.",
@@ -15,23 +17,24 @@ const kindWords = [
 
 export default function InvestmentPage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-24">
-      <h1 className="font-serif text-4xl">Investment</h1>
-      <p className="mt-6 text-lg text-white/70">
+    <>
+      <div className="mx-auto max-w-3xl px-6 py-24">
+      <h1 className="font-serif text-4xl text-[var(--khaki)]">Investment</h1>
+      <p className="mt-6 text-lg text-[var(--ink-muted)]">
         A calm, unobtrusive approach from start to finish, allowing the day
         to unfold naturally while everything is captured with care.
       </p>
 
-      <p className="mt-8 rounded-lg border border-white/15 bg-white/5 px-6 py-4 text-white/80">
+      <p className="mt-8 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
         Most of my couples invest between £2,300 and £2,700 for their wedding
         film, depending on hours of coverage and any extras you add on.
       </p>
 
       <div className="mt-14">
-        <h2 className="text-xs tracking-[0.3em] text-white/60 uppercase">
+        <h2 className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
           Core Package
         </h2>
-        <ul className="mt-4 space-y-2 text-white/80">
+        <ul className="mt-4 space-y-2 text-[var(--ink-muted)]">
           <li>Pre-Wedding Consultation</li>
           <li>10 hours of full-day coverage</li>
           <li>7–9 Minute Cinematic Feature Film</li>
@@ -42,10 +45,10 @@ export default function InvestmentPage() {
       </div>
 
       <div className="mt-14">
-        <h2 className="text-xs tracking-[0.3em] text-white/60 uppercase">
+        <h2 className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
           Optional Extras
         </h2>
-        <ul className="mt-4 space-y-2 text-white/80">
+        <ul className="mt-4 space-y-2 text-[var(--ink-muted)]">
           <li>Your Ceremony in Full as a stand alone film</li>
           <li>Your Speeches in Full as a stand alone film</li>
           <li>
@@ -57,39 +60,46 @@ export default function InvestmentPage() {
       </div>
 
       <div className="mt-14">
-        <h2 className="text-xs tracking-[0.3em] text-white/60 uppercase">
+        <h2 className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
           Bundles
         </h2>
-        <ul className="mt-4 space-y-2 text-white/80">
+        <ul className="mt-4 space-y-2 text-[var(--ink-muted)]">
           <li>
-            <strong className="text-white">Story Upgrade:</strong> Ceremony in
+            <strong className="text-[var(--ink)]">Story Upgrade:</strong> Ceremony in
             Full, Speeches in Full &amp; Home Movie
           </li>
           <li>
-            <strong className="text-white">Story Upgrade PLUS:</strong>{" "}
+            <strong className="text-[var(--ink)]">Story Upgrade PLUS:</strong>{" "}
             Ceremony in Full, Speeches in Full, Home Movie, 1 Week Anniversary
             Teaser
           </li>
         </ul>
       </div>
 
-      <p className="mt-14 text-lg text-white/80">
+      <p className="mt-14 text-lg text-[var(--ink-muted)]">
         Enquire for exact availability and pricing for your date.
       </p>
 
-      <div className="mt-20 border-t border-white/10 pt-14">
-        <h2 className="font-serif text-2xl">Kind words</h2>
+      <div className="mt-10 text-center">
+        <CtaButton>Enquire</CtaButton>
+      </div>
+
+      <div className="mt-20 border-t border-[var(--rule)] pt-14">
+        <h2 className="font-serif text-2xl text-[var(--khaki)]">Kind words</h2>
         <div className="mt-8 grid gap-8 md:grid-cols-2">
           {kindWords.map((quote) => (
             <blockquote
               key={quote}
-              className="text-sm leading-relaxed text-white/70 italic"
+              className="text-sm leading-relaxed text-[var(--ink-muted)] italic"
             >
               &ldquo;{quote}&rdquo;
             </blockquote>
           ))}
         </div>
       </div>
-    </div>
+      </div>
+
+      <CtaBand />
+    </>
   );
 }

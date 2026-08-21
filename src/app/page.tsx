@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { PlaceholderMedia } from "@/components/placeholder-media";
 import { Faq } from "@/components/faq";
+import { CtaButton, CtaBand } from "@/components/cta";
 
 const films = [
   { couple: "Rob & Jack", venue: "Wilderness, Canterbury | 2026" },
@@ -88,100 +88,111 @@ const faqs = [
 export default function Home() {
   return (
     <div>
-      <section className="relative flex min-h-[85vh] flex-col items-center justify-center px-6 text-center">
-        <PlaceholderMedia
-          label="Hero film / photo"
-          aspect="aspect-auto"
-          className="absolute inset-0 -z-10 h-full w-full"
-        />
-        <p className="text-xs tracking-[0.3em] text-white/60 uppercase">
+      <section className="px-6 pt-20 pb-16 text-center">
+        <p className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
           Cinematic Wedding Films
         </p>
-        <h1 className="mt-6 max-w-3xl font-serif text-4xl leading-tight font-medium md:text-6xl">
+        <h1 className="mx-auto mt-6 max-w-3xl font-serif text-4xl leading-tight text-[var(--khaki)] md:text-6xl">
           Films that feel like <em className="italic">YOUR</em> wedding day
         </h1>
-        <p className="mt-4 font-serif text-2xl text-white/70 md:text-3xl">
+        <p className="mt-4 font-serif text-2xl text-[var(--ink-muted)] md:text-3xl">
           NOT just a highlight of it
         </p>
-        <Link
-          href="/films/"
-          className="mt-10 rounded-full border border-white/40 px-8 py-3 text-sm tracking-wide uppercase hover:bg-white hover:text-black"
-        >
-          Watch My Films
-        </Link>
+        <div className="mt-10 flex flex-wrap justify-center gap-4">
+          <CtaButton>Enquire</CtaButton>
+          <CtaButton href="/films/" variant="outline">
+            Watch My Films
+          </CtaButton>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-6 py-24 text-center">
-        <p className="text-lg leading-relaxed text-white/80">
+      <div className="mx-auto max-w-6xl px-6">
+        <PlaceholderMedia label="Hero film / photo" />
+      </div>
+
+      <section className="mx-auto max-w-3xl px-6 py-20 text-center">
+        <p className="text-lg leading-relaxed text-[var(--ink-muted)]">
           House of Tattersall Films is a cinematic wedding videographer based
           on the Staffordshire and Derbyshire border, filming weddings
           throughout Staffordshire, Derbyshire and Nottinghamshire. From
           intimate barn weddings to grand country house celebrations, as well
           as further afield across the UK.
         </p>
-        <p className="mt-6 text-lg leading-relaxed text-white/80">
+        <p className="mt-6 text-lg leading-relaxed text-[var(--ink-muted)]">
           Every film is built around a core package, covering the key moments
           of your day from getting ready through to the first dance, then
           tailored to suit each couple&apos;s story, venue and timeline. The
           result is a timeless, emotionally led film that feels like your
           wedding, not a template.
         </p>
-      </section>
-
-      <section className="mx-auto max-w-6xl px-6 py-12">
-        <h2 className="text-center font-serif text-2xl">
-          A small collection of recent films: each one different, each one
-          shaped by the couple, the atmosphere, and the moments that made the
-          day what it was.
-        </h2>
-        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {films.map((film) => (
-            <div key={`${film.couple}-${film.venue}`}>
-              <PlaceholderMedia label={`${film.couple} film embed`} />
-              <p className="mt-3 text-sm tracking-wide text-white uppercase">
-                {film.couple}
-              </p>
-              <p className="text-sm text-white/50">{film.venue}</p>
-            </div>
-          ))}
+        <div className="mt-10">
+          <CtaButton>Enquire</CtaButton>
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-6 py-24 text-center">
-        <h2 className="font-serif text-3xl">
+      <section className="bg-[var(--paper-alt)] px-6 py-20">
+        <div className="mx-auto max-w-6xl">
+          <p className="mx-auto max-w-2xl text-center font-serif text-xl text-[var(--ink)]">
+            A small collection of recent films: each one different, each one
+            shaped by the couple, the atmosphere, and the moments that made
+            the day what it was.
+          </p>
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {films.map((film) => (
+              <div key={`${film.couple}-${film.venue}`}>
+                <PlaceholderMedia label={`${film.couple} film`} />
+                <p className="mt-3 text-sm tracking-[0.12em] text-[var(--ink)] uppercase">
+                  {film.couple}
+                </p>
+                <p className="text-sm text-[var(--ink-faint)]">{film.venue}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-12 text-center">
+            <CtaButton href="/films/" variant="outline">
+              Watch My Films
+            </CtaButton>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-6 py-24 text-center">
+        <h2 className="font-serif text-3xl text-[var(--khaki)]">
           Films that feel as much as they show
         </h2>
-        <p className="mt-6 text-xl font-serif text-white/80 italic">
+        <p className="mt-6 font-serif text-xl text-[var(--ink-muted)] italic">
           Every wedding has its own rhythm.
         </p>
-        <div className="mt-4 space-y-1 text-white/70">
+        <div className="mt-4 space-y-1 text-[var(--ink-muted)]">
           <p>The quiet moments in the morning.</p>
           <p>The anticipation before the ceremony.</p>
           <p>The energy once the day begins to unfold.</p>
         </div>
-        <p className="mt-6 text-white/70">
+        <p className="mt-6 text-[var(--ink-muted)]">
           My films are built around moments, with very minimal staging,
           certainly no forced moments and never following a formula.
         </p>
-        <p className="mt-2 text-white/70">
+        <p className="mt-2 text-[var(--ink-muted)]">
           Just honest, natural storytelling, crafted with intention.
         </p>
-        <Link
-          href="/about/"
-          className="mt-8 inline-block rounded-full border border-white/40 px-8 py-3 text-sm tracking-wide uppercase hover:bg-white hover:text-black"
-        >
-          About Me
-        </Link>
+        <div className="mt-10 flex flex-wrap justify-center gap-4">
+          <CtaButton href="/about/" variant="outline">
+            About Me
+          </CtaButton>
+          <CtaButton>Enquire</CtaButton>
+        </div>
       </section>
 
-      <section className="bg-neutral-950 px-6 py-24">
+      <section className="bg-[var(--paper-alt)] px-6 py-20">
         <div className="mx-auto max-w-6xl">
-          <h2 className="text-center font-serif text-3xl">Kind words</h2>
+          <h2 className="text-center font-serif text-3xl text-[var(--khaki)]">
+            Kind words
+          </h2>
           <div className="mt-12 grid gap-8 md:grid-cols-3">
             {kindWords.map((quote) => (
               <blockquote
                 key={quote}
-                className="text-sm leading-relaxed text-white/70 italic"
+                className="text-sm leading-relaxed text-[var(--ink-muted)] italic"
               >
                 &ldquo;{quote}&rdquo;
               </blockquote>
@@ -191,13 +202,15 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-3xl px-6 py-24">
-        <h2 className="text-center font-serif text-3xl">
+        <h2 className="text-center font-serif text-3xl text-[var(--khaki)]">
           Frequently asked questions
         </h2>
         <div className="mt-12">
           <Faq items={faqs} />
         </div>
       </section>
+
+      <CtaBand />
     </div>
   );
 }

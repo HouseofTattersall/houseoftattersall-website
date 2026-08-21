@@ -50,6 +50,21 @@
 }
 
 :root {
+  /* ---- House of Tattersall palette ----
+     Off-white base, khaki green + gold for headings/boxes, off-black body.
+     Change these and the whole site follows. */
+  --paper: #f8f6f1;        /* page background, off-white */
+  --paper-alt: #efece3;    /* alternating section background */
+  --khaki: #6b6f52;        /* khaki green — headings, buttons, boxes */
+  --khaki-deep: #565a42;   /* hover / darker khaki */
+  --khaki-wash: #e6e5d8;   /* pale khaki box fill */
+  --gold: #a98950;         /* gold — eyebrows, rules, accents */
+  --gold-wash: #f0e7d6;    /* pale gold box fill */
+  --ink: #1c1b19;          /* off-black, body + primary text */
+  --ink-muted: #3d3b37;    /* body copy */
+  --ink-faint: #736f68;    /* captions, meta */
+  --rule: #dcd6c9;         /* hairlines and borders */
+
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);

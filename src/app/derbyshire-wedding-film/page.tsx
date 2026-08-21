@@ -1,5 +1,6 @@
 import { PlaceholderMedia } from "@/components/placeholder-media";
 import { Faq } from "@/components/faq";
+import { CtaButton, CtaBand } from "@/components/cta";
 
 const venues = [
   {
@@ -46,25 +47,30 @@ const faqs = [
 
 export default function DerbyshirePage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-24">
-      <p className="text-xs tracking-[0.3em] text-white/60 uppercase">
+    <>
+      <div className="mx-auto max-w-3xl px-6 py-24">
+      <p className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
         Derbyshire Wedding Videographer
       </p>
-      <h1 className="mt-4 max-w-2xl font-serif text-4xl">
+      <h1 className="mt-4 max-w-2xl font-serif text-4xl text-[var(--khaki)]">
         Films that feel like your wedding day. Not just a highlight of it.
       </h1>
 
-      <p className="mt-10 rounded-lg border border-white/15 bg-white/5 px-6 py-4 text-white/80">
+      <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
         Most of my couples investing in a Derbyshire wedding film spend
         between £2,300 and £2,700, depending on hours of coverage and any
         extras you add on. The full breakdown is on the Investment page.
       </p>
 
+      <div className="mt-10 text-center">
+        <CtaButton>Enquire</CtaButton>
+      </div>
+
       <div className="mt-20 space-y-20">
         {venues.map((venue) => (
           <div key={venue.name}>
-            <h2 className="font-serif text-2xl">{venue.name}</h2>
-            <p className="mt-4 leading-relaxed text-white/70">{venue.body}</p>
+            <h2 className="font-serif text-2xl text-[var(--khaki)]">{venue.name}</h2>
+            <p className="mt-4 leading-relaxed text-[var(--ink-muted)]">{venue.body}</p>
             {venue.embedLabel ? (
               <div className="mt-6">
                 <PlaceholderMedia label={venue.embedLabel} />
@@ -74,14 +80,17 @@ export default function DerbyshirePage() {
         ))}
       </div>
 
-      <div className="mt-20 border-t border-white/10 pt-14">
-        <h2 className="font-serif text-2xl">
+      <div className="mt-20 border-t border-[var(--rule)] pt-14">
+        <h2 className="font-serif text-2xl text-[var(--khaki)]">
           Frequently asked questions — Derbyshire
         </h2>
         <div className="mt-8">
           <Faq items={faqs} />
         </div>
       </div>
-    </div>
+      </div>
+
+      <CtaBand />
+    </>
   );
 }

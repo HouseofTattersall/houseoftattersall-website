@@ -1,3 +1,5 @@
+import { CtaBand } from "@/components/cta";
+
 const posts = {
   "Real Weddings": [
     { title: "Laura and Daniel | Lower Damgate and Holy Cross Church, Peak District 2025", slug: "lowerdamgate-ilam" },
@@ -32,12 +34,13 @@ const posts = {
 
 export default function BlogIndexPage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-24">
-      <p className="text-xs tracking-[0.3em] text-white/60 uppercase">
+    <>
+      <div className="mx-auto max-w-3xl px-6 py-24">
+      <p className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
         Film Reviews
       </p>
-      <h1 className="mt-4 font-serif text-4xl">The Blog</h1>
-      <p className="mt-6 text-white/60">
+      <h1 className="mt-4 font-serif text-4xl text-[var(--khaki)]">The Blog</h1>
+      <p className="mt-6 text-[var(--ink-faint)]">
         This is an index of your current live posts so nothing gets lost in
         the move. Individual post pages haven&apos;t been rebuilt yet — that&apos;s
         the next batch of work once you&apos;ve approved the core pages.
@@ -45,14 +48,17 @@ export default function BlogIndexPage() {
 
       {Object.entries(posts).map(([category, items]) => (
         <div key={category} className="mt-14">
-          <h2 className="font-serif text-2xl">{category}</h2>
-          <ul className="mt-6 space-y-3 text-white/70">
+          <h2 className="font-serif text-2xl text-[var(--khaki)]">{category}</h2>
+          <ul className="mt-6 space-y-3 text-[var(--ink-muted)]">
             {items.map((post) => (
               <li key={post.slug}>{post.title}</li>
             ))}
           </ul>
         </div>
       ))}
-    </div>
+      </div>
+
+      <CtaBand />
+    </>
   );
 }

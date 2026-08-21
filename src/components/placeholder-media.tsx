@@ -9,9 +9,9 @@ export function PlaceholderMedia({
 }) {
   return (
     <div
-      className={`flex ${aspect} items-center justify-center border border-dashed border-white/20 bg-gradient-to-br from-neutral-800 to-neutral-950 px-6 text-center text-xs tracking-wide text-white/40 uppercase ${className}`}
+      className={`flex ${aspect} items-center justify-center border border-dashed border-[var(--rule)] bg-[var(--paper-alt)] px-6 text-center text-xs tracking-[0.15em] text-[var(--ink-faint)] uppercase ${className}`}
     >
-      {label} — replace with real image/video
+      {label}
     </div>
   );
 }
