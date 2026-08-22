@@ -18,6 +18,11 @@ export default function EnquirePage() {
       </p>
       <p className="mt-2 text-[var(--ink-faint)]">2027 &amp; 2028 dates now open</p>
 
+      <div className="mt-14 flex flex-col gap-10 text-left md:flex-row md:items-center md:gap-14">
+        <div className="md:w-1/2">
+          <Photo src="/images/enquire-1.jpg" alt="" />
+        </div>
+        <div className="md:w-1/2">
       <div className="mt-14 space-y-2 text-[var(--ink-muted)]">
         <p>
           Email:{" "}
@@ -39,9 +44,7 @@ export default function EnquirePage() {
           </a>
         </p>
       </div>
-
-      <div className="mt-14">
-        <Photo src="/images/enquire-1.jpg" alt="" />
+        </div>
       </div>
 
       <div className="mt-16 text-left">

@@ -1,4 +1,4 @@
-import { Photo } from "@/components/photo";
+import { Split } from "@/components/split";
 import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
@@ -120,26 +120,22 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-6 py-20 text-center">
-        <p className="text-lg leading-relaxed text-[var(--ink-muted)]">
+      <Split image="/images/home-1.jpg">
+        <p className="leading-relaxed text-[var(--ink-muted)]">
           House of Tattersall Films is a cinematic wedding videographer based
           on the Staffordshire and Derbyshire border, filming weddings
           throughout Staffordshire, Derbyshire and Nottinghamshire. From
           intimate barn weddings to grand country house celebrations, as well
           as further afield across the UK.
         </p>
-        <p className="mt-6 text-lg leading-relaxed text-[var(--ink-muted)]">
+        <p className="mt-5 leading-relaxed text-[var(--ink-muted)]">
           Every film is built around a core package, covering the key moments
           of your day from getting ready through to the first dance, then
           tailored to suit each couple&apos;s story, venue and timeline. The
           result is a timeless, emotionally led film that feels like your
           wedding, not a template.
         </p>
-      </section>
-
-      <div className="mx-auto max-w-5xl px-6">
-        <Photo src="/images/home-1.jpg" alt="" />
-      </div>
+      </Split>
 
       <section className="bg-[var(--paper-alt)] px-6 py-20">
         <div className="mx-auto max-w-6xl">
@@ -168,36 +164,32 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="mx-auto mt-24 max-w-5xl px-6">
-        <Photo src="/images/home-2.jpg" alt="" />
-      </div>
-
-      <section className="mx-auto max-w-3xl px-6 pt-16 pb-24 text-center">
+      <Split image="/images/home-2.jpg" reverse>
         <h2 className="font-serif text-3xl text-[var(--khaki)]">
           Films that feel as much as they show
         </h2>
-        <p className="mt-6 font-serif text-xl text-[var(--ink-muted)] italic">
+        <p className="mt-5 font-serif text-xl text-[var(--ink-muted)] italic">
           Every wedding has its own rhythm.
         </p>
-        <div className="mt-4 space-y-1 text-[var(--ink-muted)]">
+        <div className="mt-3 space-y-1 text-[var(--ink-muted)]">
           <p>The quiet moments in the morning.</p>
           <p>The anticipation before the ceremony.</p>
           <p>The energy once the day begins to unfold.</p>
         </div>
-        <p className="mt-6 text-[var(--ink-muted)]">
+        <p className="mt-5 text-[var(--ink-muted)]">
           My films are built around moments, with very minimal staging,
           certainly no forced moments and never following a formula.
         </p>
         <p className="mt-2 text-[var(--ink-muted)]">
           Just honest, natural storytelling, crafted with intention.
         </p>
-        <div className="mt-10 flex flex-wrap justify-center gap-4">
+        <div className="mt-8 flex flex-wrap gap-4">
           <CtaButton href="/about/" variant="outline">
             About Me
           </CtaButton>
           <CtaButton>Enquire</CtaButton>
         </div>
-      </section>
+      </Split>
 
       <section className="bg-[var(--paper-alt)] px-6 py-20">
         <div className="mx-auto max-w-6xl">

@@ -37,6 +37,8 @@ export default function InvestmentPage() {
         film, depending on hours of coverage and any extras you add on.
       </p>
 
+      <div className="mt-14 flex flex-col gap-10 md:flex-row md:items-start md:gap-14">
+        <div className="md:w-1/2">
       <div className="mt-14">
         <h2 className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
           Core Package
@@ -82,9 +84,10 @@ export default function InvestmentPage() {
           </li>
         </ul>
       </div>
-
-      <div className="mt-16">
-        <Photo src="/images/investment-1.jpg" alt="" />
+        </div>
+        <div className="md:sticky md:top-28 md:w-1/2">
+          <Photo src="/images/investment-1.jpg" alt="" />
+        </div>
       </div>
 
       <p className="mt-14 text-lg text-[var(--ink-muted)]">

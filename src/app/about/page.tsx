@@ -12,16 +12,16 @@ export default function AboutPage() {
 
       <div className="mx-auto max-w-3xl px-6 py-24">
 
-      <div className="mt-12">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/images/house-of-tattersall-andy.jpg"
-          alt="Andy of House of Tattersall"
-          className="w-full rounded-sm object-cover"
-        />
-      </div>
-
-      <div className="mt-10 space-y-6 text-lg leading-relaxed text-[var(--ink-muted)]">
+      <div className="mt-12 flex flex-col gap-10 md:flex-row md:items-start md:gap-14">
+        <div className="md:w-2/5 md:sticky md:top-28">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/house-of-tattersall-andy.jpg"
+            alt="Andy of House of Tattersall"
+            className="w-full rounded-sm object-cover"
+          />
+        </div>
+        <div className="space-y-5 leading-relaxed text-[var(--ink-muted)] md:w-3/5">
         <p>I&apos;m Andy, the one behind the camera at House of Tattersall.</p>
         <p>
           I didn&apos;t start out in weddings. I came up filming live music:
@@ -76,6 +76,7 @@ export default function AboutPage() {
           and our two children, who have taught me a lot about how fast a few
           years go.
         </p>
+      </div>
       </div>
 
       <div className="mt-10 text-center">
