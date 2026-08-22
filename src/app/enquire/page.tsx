@@ -1,15 +1,15 @@
+import { PageBanner } from "@/components/page-banner";
 import { CtaBand } from "@/components/cta";
 
 export default function EnquirePage() {
   return (
     <>
+      <PageBanner
+        title="Enquire"
+        eyebrow="Enquiries"
+      />
+
       <div className="mx-auto max-w-2xl px-6 py-24 text-center">
-      <p className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
-        Enquiries
-      </p>
-      <h1 className="mt-4 font-serif text-4xl text-[var(--khaki)]">
-        Begin your <em className="italic">story</em>
-      </h1>
       <p className="mt-6 text-lg text-[var(--ink-muted)]">
         If this feels like the kind of film you&apos;re looking for,
         let&apos;s talk.

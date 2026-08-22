@@ -1,3 +1,4 @@
+import { PageBanner } from "@/components/page-banner";
 import { CtaBand } from "@/components/cta";
 
 const posts = {
@@ -35,11 +36,12 @@ const posts = {
 export default function BlogIndexPage() {
   return (
     <>
+      <PageBanner
+        title="Film Reviews"
+        eyebrow="From the blog"
+      />
+
       <div className="mx-auto max-w-3xl px-6 py-24">
-      <p className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
-        Film Reviews
-      </p>
-      <h1 className="mt-4 font-serif text-4xl text-[var(--khaki)]">The Blog</h1>
       <p className="mt-6 text-[var(--ink-faint)]">
         This is an index of your current live posts so nothing gets lost in
         the move. Individual post pages haven&apos;t been rebuilt yet — that&apos;s

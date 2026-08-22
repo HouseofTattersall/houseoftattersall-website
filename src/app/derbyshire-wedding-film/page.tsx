@@ -1,3 +1,4 @@
+import { PageBanner } from "@/components/page-banner";
 import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
@@ -6,7 +7,7 @@ const venues = [
   {
     name: "The West Mill, Derby",
     body: "Natural light floods through the industrial-style windows here, giving that soft, romantic glow that makes a wedding film feel properly cinematic. The exposed brick and high ceilings do a lot of the work for me before I've even picked up the camera. The West Mill is set over multiple floors, so your day naturally moves through different spaces rather than staying in one room all day, giving your film distinct chapters instead of everything looking the same. It works beautifully year-round: spring and summer bring an outdoor ceremony option and long daylight, while autumn and winter lean into that warm, intimate glow indoors.",
-    videoId: "356a0a1b",
+    videoId: "r6jgraj1",
   },
   {
     name: "Grangefields by Cripps & Co",
@@ -48,13 +49,12 @@ const faqs = [
 export default function DerbyshirePage() {
   return (
     <>
+      <PageBanner
+        title="Derbyshire Wedding Films"
+        eyebrow="Derbyshire Wedding Videographer"
+      />
+
       <div className="mx-auto max-w-3xl px-6 py-24">
-      <p className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
-        Derbyshire Wedding Videographer
-      </p>
-      <h1 className="mt-4 max-w-2xl font-serif text-4xl text-[var(--khaki)]">
-        Films that feel like your wedding day. Not just a highlight of it.
-      </h1>
 
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
         Most of my couples investing in a Derbyshire wedding film spend

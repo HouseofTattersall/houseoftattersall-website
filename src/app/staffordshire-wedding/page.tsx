@@ -1,3 +1,4 @@
+import { PageBanner } from "@/components/page-banner";
 import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
@@ -48,13 +49,12 @@ const faqs = [
 export default function StaffordshirePage() {
   return (
     <>
+      <PageBanner
+        title="Staffordshire Wedding Films"
+        eyebrow="Staffordshire Wedding Videographer"
+      />
+
       <div className="mx-auto max-w-3xl px-6 py-24">
-      <p className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
-        Staffordshire Wedding Videographer
-      </p>
-      <h1 className="mt-4 max-w-2xl font-serif text-4xl text-[var(--khaki)]">
-        Films that feel like your wedding day. Not just a highlight of it.
-      </h1>
 
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
         Most of my couples investing in a Staffordshire wedding film spend

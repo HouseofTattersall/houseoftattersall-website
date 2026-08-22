@@ -4,29 +4,14 @@ import { CtaButton, CtaBand } from "@/components/cta";
 
 const films = [
   {
-    couple: "Rob & Jack",
-    venue: "Wilderness, Canterbury | 2026",
-    videoId: "bcd7089f",
-  },
-  {
-    couple: "Laura & Dan",
-    venue: "Hanbury Wedding Barns, Staffordshire | 2026",
-    videoId: "jqkfthxi",
-  },
-  {
-    couple: "Laura & Dan",
-    venue: "Lower Damgate Farm, Derbyshire | 2025",
-    videoId: "31305438",
-  },
-  {
     couple: "Faye & Daniel",
     venue: "Bourton Hall, Warwickshire | 2026",
     videoId: "rmvfmefr",
   },
   {
-    couple: "Mikki & Richard",
-    venue: "Hazel Gap Barn, Nottinghamshire | 2025",
-    videoId: "cdff82d2",
+    couple: "Rob & Jack",
+    venue: "The Wilderness, Canterbury | 2026",
+    videoId: "prev8ow4",
   },
   {
     couple: "Elisy & Sam",
@@ -149,9 +134,6 @@ export default function Home() {
           result is a timeless, emotionally led film that feels like your
           wedding, not a template.
         </p>
-        <div className="mt-10">
-          <CtaButton>Enquire</CtaButton>
-        </div>
       </section>
 
       <section className="bg-[var(--paper-alt)] px-6 py-20">
@@ -172,9 +154,10 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <div className="mt-12 text-center">
-            <CtaButton href="/films/" variant="outline">
-              Watch My Films
+          <div className="mt-12 flex flex-wrap justify-center gap-4">
+            <CtaButton href="/films/">More films</CtaButton>
+            <CtaButton href="/investment/" variant="outline">
+              Investment
             </CtaButton>
           </div>
         </div>

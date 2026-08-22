@@ -1,3 +1,4 @@
+import { PageBanner } from "@/components/page-banner";
 import { CtaButton, CtaBand } from "@/components/cta";
 
 const kindWords = [
@@ -18,8 +19,12 @@ const kindWords = [
 export default function InvestmentPage() {
   return (
     <>
+      <PageBanner
+        title="Investment"
+        eyebrow="Packages & pricing"
+      />
+
       <div className="mx-auto max-w-3xl px-6 py-24">
-      <h1 className="font-serif text-4xl text-[var(--khaki)]">Investment</h1>
       <p className="mt-6 text-lg text-[var(--ink-muted)]">
         A calm, unobtrusive approach from start to finish, allowing the day
         to unfold naturally while everything is captured with care.
