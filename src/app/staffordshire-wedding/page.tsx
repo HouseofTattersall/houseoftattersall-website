@@ -1,3 +1,4 @@
+import { FaqSchema, ServiceAreaSchema } from "@/components/schema";
 import { PageBanner } from "@/components/page-banner";
 import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
@@ -109,6 +110,12 @@ export default function StaffordshirePage() {
         <div className="mt-8">
           <Faq items={faqs} />
         </div>
+        <FaqSchema items={faqs} />
+        <ServiceAreaSchema
+          county="Staffordshire"
+          url="https://www.houseoftattersall.com/staffordshire-wedding/"
+          venues={["Hanbury Wedding Barns", "Foxtail Barns", "The Ashes Barns"]}
+        />
       </div>
       </div>
 

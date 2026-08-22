@@ -1,21 +1,9 @@
+import { Testimonials } from "@/components/testimonials";
 import { Photo } from "@/components/photo";
 import { PageBanner } from "@/components/page-banner";
 import { CtaButton, CtaBand } from "@/components/cta";
 
-const kindWords = [
-  "He blended seamlessly into our day — we barely noticed he was filming, which is exactly what we wanted.",
-  "From the very first call, Andy put us completely at ease with his relaxed, friendly approach.",
-  "Andy has an incredible eye for capturing both the big emotional moments and the small details you'd otherwise miss.",
-  "Watching our film felt like reliving the entire day all over again.",
-  "We always felt like we were in safe hands from start to finish.",
-  "The editing is unreal! Every shot felt purposeful and the storytelling was beautiful.",
-  "He made everyone feel comfortable, even guests who had never experienced a videographer before.",
-  "Andy is not only incredibly talented, but also a genuine pleasure to have around on your wedding day.",
-  "Out of everything, this is what we'll treasure forever. We can't stop watching it.",
-  "If you're even considering a videographer, book Andy. You won't regret it.",
-  "He captured moments we didn't even realise were happening and they're now some of our favourites.",
-  "Having Andy there felt effortless, calm, professional, and like having a friend with us on the day.",
-];
+
 
 export default function InvestmentPage() {
   return (
@@ -97,21 +85,9 @@ export default function InvestmentPage() {
       <div className="mt-10 text-center">
         <CtaButton>Enquire</CtaButton>
       </div>
+      </div>
 
-      <div className="mt-20 border-t border-[var(--rule)] pt-14">
-        <h2 className="font-serif text-2xl text-[var(--khaki)]">Kind words</h2>
-        <div className="mt-8 grid gap-8 md:grid-cols-2">
-          {kindWords.map((quote) => (
-            <blockquote
-              key={quote}
-              className="text-sm leading-relaxed text-[var(--ink-muted)] italic"
-            >
-              &ldquo;{quote}&rdquo;
-            </blockquote>
-          ))}
-        </div>
-      </div>
-      </div>
+      <Testimonials />
 
       <CtaBand />
     </>

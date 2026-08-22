@@ -1,3 +1,4 @@
+import { FaqSchema, ServiceAreaSchema } from "@/components/schema";
 import { Photo } from "@/components/photo";
 import { PageBanner } from "@/components/page-banner";
 import { VideoEmbed } from "@/components/video-embed";
@@ -116,6 +117,12 @@ export default function DerbyshirePage() {
         <div className="mt-8">
           <Faq items={faqs} />
         </div>
+        <FaqSchema items={faqs} />
+        <ServiceAreaSchema
+          county="Derbyshire"
+          url="https://www.houseoftattersall.com/derbyshire-wedding-film/"
+          venues={["The West Mill, Derby", "Grangefields by Cripps & Co", "Yeldersley Hall"]}
+        />
       </div>
       </div>
 
