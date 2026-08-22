@@ -269,7 +269,7 @@ From ceremony coverage in the light-filled Oak Room to romantic portraits in the
     body: `
 ## Why The Pumping House Ollerton is Extraordinary for Wedding Videography
 
-The Pumping House in Ollerton holds a very special place in my heart. Not only have I filmed one of my favourite weddings here, but this is also where I collected my Best Wedding Videographer in the East Midlands award from The Wedding Industry Awards. This Grade II listed Victorian building on the edge of Sherwood Forest has given me some of my absolute favourite shots, and I'm excited to share why it's such an incredible venue for wedding videography and photography.
+The Pumping House in Ollerton holds a very special place in my heart. Not only have I filmed one of my favourite weddings here, but this is also where I collected my Regional Winner award for the East Midlands at The Wedding Industry Awards 2025, the year House of Tattersall also placed in the UK Top 10. This Grade II listed Victorian building on the edge of Sherwood Forest has given me some of my absolute favourite shots, and I'm excited to share why it's such an incredible venue for wedding videography and photography.
 
 ## Unmatched Diversity for Cinematic Wedding Films
 
@@ -350,7 +350,7 @@ Being on the edge of Sherwood Forest is a massive advantage for wedding films. T
 
 ## Award-Winning Venue, Award-Winning Films
 
-As the venue where I collected my Best Wedding Videographer in the East Midlands award, The Pumping House will always be special to me. But beyond personal sentiment, this venue consistently delivers the diversity, lighting, and character that create award-worthy wedding films.
+As the venue where I collected my East Midlands Regional Winner award, The Pumping House will always be special to me. But beyond personal sentiment, this venue consistently delivers the diversity, lighting, and character that create award-worthy wedding films.
 
 The combination of Victorian industrial architecture, Sherwood Forest setting, and exceptional natural light means every wedding I film here has the potential to be extraordinary.
 

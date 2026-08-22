@@ -11,7 +11,7 @@ export const venuePostsC: Post[] = [
     body: `
 ## Grangefields Wedding Videographer | Cinematic Wedding Films in Derbyshire
 
-If you're planning a wedding at Grangefields in Ashbourne, Derbyshire, you've chosen one of the most stunning barn wedding venues in the UK. As an award-winning Grangefields wedding videographer, House of Tattersall Films specialises in creating cinematic, music-driven wedding films that capture the magic of your day at this breathtaking Cripps & Co venue.
+If you're planning a wedding at Grangefields in Ashbourne, Derbyshire, you've chosen one of the most stunning barn wedding venues in the UK. As an award-winning Grangefields wedding videographer, I specialise in creating cinematic, music-driven wedding films that capture the magic of your day at this breathtaking Cripps & Co venue.
 
 ## Why Choose Grangefields for Your Wedding?
 
@@ -29,6 +29,22 @@ Grangefields is a hidden gem nestled in Derbyshire's Golden Triangle on the hist
 ## Filming Weddings at Grangefields
 
 As a Derbyshire wedding videographer who has worked extensively across the East Midlands, I understand what makes Grangefields such a special venue for wedding films. The private drive creates a sense of arrival, the vaulted ceilings provide incredible natural acoustics for your vows and speeches, and the courtyard offers endless opportunities for romantic couple shots.
+
+## Grangefields Wedding Videography Pricing
+
+Most of my couples invest between £2,300 and £2,700 for their wedding film, depending on hours of coverage and any extras added on. The full breakdown of what's included, along with the optional extras and bundles, is on my [Investment](/investment/) page.
+
+## Why Choose House of Tattersall for Your Grangefields Wedding?
+
+House of Tattersall was Regional Winner and placed in the UK Top 10 at The Wedding Industry Awards 2025, and was a Finalist and Highly Commended in 2026.
+
+### My Approach to Grangefields Weddings
+
+- **Venue familiarity:** Extensive experience filming at barn venues across Derbyshire, Staffordshire, and Nottinghamshire
+- **Unobtrusive style:** I blend into your day, capturing authentic moments without disrupting the flow
+- **Music-driven storytelling:** Every film is crafted around carefully selected music that reflects your personality
+- **Cinematic quality:** Cinema-grade cameras and multi-source audio recording
+- **Collaborative approach:** I work seamlessly with Grangefields' team and your photographer
 
 ## Perfect Filming Locations at Grangefields
 
@@ -53,11 +69,11 @@ As a Derbyshire wedding videographer who has worked extensively across the East 
 
 Grangefields is part of the prestigious Cripps & Co family of venues, known for exceptional service and attention to detail. Their on-site team is experienced in coordinating with wedding suppliers, making the filming process smooth and stress-free.
 
-The venue's Funktion-One sound system ensures perfect audio capture for speeches and ceremonies, while the late-night license until 12:30am means we can capture those epic dance floor moments that make wedding films truly special.
+The venue's Funktion-One sound system ensures perfect audio capture for speeches and ceremonies, while the late-night license until 12:30am means I can capture those epic dance floor moments that make wedding films truly special.
 
 ## Grangefields and Cripps & Co Venues
 
-Grangefields is one of 11 stunning venues in the Cripps & Co collection. If you're considering multiple venues, House of Tattersall Films also films at:
+Grangefields is one of 11 stunning venues in the Cripps & Co collection. If you're considering multiple venues, I also film at:
 
 - Hazel Gap (Nottinghamshire)
 - Thorpe Garden (Derbyshire)

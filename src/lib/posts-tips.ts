@@ -206,7 +206,7 @@ If you're planning a wedding in the UK; Derbyshire, Staffordshire, or Nottingham
     excerpt:
       "Recognised among the top 20 wedding videographers in the UK for a second year running at The Wedding Industry Awards.",
     body: `
-## House of Tattersall Recognised Among Top 20 Wedding Videographers in the UK for Second Year Running
+## House of Tattersall (at the time 'Andy Tatt Media') Recognised Among Top 20 Wedding Videographers in the UK for Second Year Running
 
 For the second year in a row, House of Tattersall has been recognised among the top 20 wedding videographers in the UK, after being awarded Highly Commended in the Wedding Videography category for the East Midlands at The Wedding Industry Awards 2026.
 
@@ -255,7 +255,7 @@ Being named Highly Commended in the East Midlands and placed in the top 20 weddi
 
 ## Enquire About Your Wedding Film
 
-If you are looking for a wedding videographer in Derbyshire, Staffordshire or the Peak District, or you are planning a celebration in Buxton or at Buxton Crescent Hotel, I would love to hear about your plans.
+If you are looking for a wedding videographer in Derbyshire, Staffordshire or the Peak District, or you are planning a celebration in Buxton or at Buxton Crescent Hotel, House of Tattersall (at the time 'Andy Tatt Media') would love to hear about your plans.
 
 To check availability and request a full investment guide, get in touch to start the conversation about your wedding film.
 `,
