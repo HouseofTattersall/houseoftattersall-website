@@ -2,6 +2,97 @@ import type { Post } from "./post-types";
 
 export const tipsPosts: Post[] = [
   {
+    slug: "that-wedding-videographer-podcast",
+    title: "I've been featured on That Wedding Videographer Podcast",
+    category: "Updates",
+    date: "22 August 2026",
+    excerpt:
+      "On balancing a busy family life with wedding season, the systems that keep it all straight, and the people I trust with the work.",
+    body: `
+I was invited onto **That Wedding Videographer Podcast** to talk about something I don't think our industry discusses honestly enough: how you build a wedding film business that doesn't quietly take over the rest of your life.
+
+[Listen to the episode on Spotify](https://open.spotify.com/episode/0WsCAoaxcAzMtDHvB9poAg?si=UHG98BxrTVeX1uu2S09Xxg)
+
+## What we talked about
+
+Wedding season is relentless. Saturdays disappear from May through September, and the editing stacks up behind them. I've got a young family and plenty going on outside of filming, so the question I've spent the last few years answering is a practical one: how do you keep the quality high without the work swallowing everything else?
+
+The answer, for me, hasn't been working harder. It's been building a proper system and being honest about which parts of the job I'm genuinely the best person to do.
+
+## The systems behind every film
+
+### Wedola: everything in one place
+
+Wedola is my CRM, and it handles all of it. Couple communications, contracts, wedding day details, my calendar. Everything about every booking lives in one place rather than scattered across a spreadsheet, an inbox and a notes app.
+
+I ran on spreadsheets for longer than I should have. The problem wasn't that they didn't work, it was that they only worked as long as I remembered to update them. A proper system doesn't rely on my memory in the middle of peak season, which means nothing slips: no forgotten emails, no chasing for details the week before a wedding, no couple wondering whether I've gone quiet.
+
+[Try Wedola here](https://wedola.co?referral=ITDACEZH)
+
+### Bride & Groom: my editing team
+
+This is the one that surprises people, so let me be straightforward about it.
+
+Every film I shoot is edited by [Bride & Groom](https://bridengroom.video/). They've worked with me long enough to know my style properly: the pacing, the way I build a story rather than run through a timeline, the moody editorial grade, how I use real audio from vows and speeches. They're faster than me and, honestly, better than me at the edit itself.
+
+I met the team at That Wedding Videographer Podcast Summit 2026. We ended up in a long conversation about vision, about what actually makes a wedding film feel like the couple rather than a template, and it was clear straight away that we were looking at the work the same way.
+
+What that partnership buys is quality and consistency. It also buys me time, which means I'm sharper on the day of your wedding rather than running on four hours' sleep because I was editing until 2am.
+
+Use code **FRIEND175176082262** for £75 off your first order.
+
+### Vidflow: how the finished film reaches you
+
+I used to deliver through YouTube and WeTransfer. Looking back, that was never good enough. Adverts before your wedding film. Clunky links that expire. Downloads that fail halfway through.
+
+Vidflow is the fix. It's essentially Netflix for wedding films: it plays properly on any device, you can download from it, and it doesn't look like an afterthought. It also stores your films for 10 years.
+
+A wedding film represents a significant investment, and a team of people work on every one. The moment you finally sit down to watch it shouldn't feel cheap.
+
+## If you're a couple reading this
+
+You might be wondering what it means that someone else edits your film. It's a fair question, so here's the straight answer.
+
+I film your day. I'm the one there from the morning preparations to the first dance, making the calls about what to capture and how. The story of your film, what goes in and what it's built around, comes from me and from the conversations we have before the wedding.
+
+Every film goes to them with an extensive brief written by me. It goes into far too much detail, honestly, but that's the point: it covers every part of my vision and every part of your day. The moments that mattered, the ones you told me to watch for, the bits that only make sense if you were stood there. Where the story should build and where it should sit still. Nothing is left to guesswork.
+
+Bride & Groom then execute that brief to a standard I couldn't consistently hit alone while also filming 15 to 20 weddings a year. They know my work inside out. Nothing is handed to a stranger and nothing is templated.
+
+The reason I'm telling you this rather than quietly leaving it out is that it's the reason your film comes back when it should, looking like it should. A one-person operation trying to do everything is the reason so many couples wait six months for a film. I'd rather be honest about the team than pretend it's just me and let the turnaround slip.
+
+## If you're a videographer reading this
+
+The point I made on the podcast is that most of us treat every part of the job as equally ours to do, and it's why so many people burn out in their third or fourth season.
+
+Look at your own workflow and ask which parts genuinely need you. For me, the answer was that the filming does, the relationship with the couple does, and the story decisions do. The colour grade at midnight on a Tuesday doesn't.
+
+Build the systems before you need them, not in the middle of August when you're already underwater.
+
+## A note on the links above
+
+I want to be upfront: I get a small perk if you sign up to Wedola through my link, and the Bride & Groom code is a referral code. I'd recommend all three of these regardless, because they're what I actually use every week, but you should know that before you click.
+`,
+    faqs: [
+      {
+        q: "Who edits your wedding films?",
+        a: "My films are edited by Bride & Groom, a team who have worked with me long enough to know my style in detail. I film every wedding personally and write an extensive brief for each film covering my vision and every part of your day, and they execute that brief. It means consistent quality and a turnaround that does not slip.",
+      },
+      {
+        q: "How do you deliver wedding films?",
+        a: "Through Vidflow, a premium platform that plays on any smart device, allows downloads, and stores your films for 10 years. No adverts, no expiring links.",
+      },
+      {
+        q: "How do you manage bookings and communication?",
+        a: "I use Wedola as my CRM, which handles couple communications, contracts, wedding day details and my calendar in one place, so nothing gets missed during peak season.",
+      },
+      {
+        q: "Where can I listen to the podcast episode?",
+        a: "The episode is on That Wedding Videographer Podcast and can be listened to on Spotify. It covers balancing wedding work with family life, the systems that keep everything organised, and the team behind each film.",
+      },
+    ],
+  },
+  {
     slug: "wedding-speeches",
     title: "Wedding Speeches: A Videographer's Guide to Great Audio, Great Footage",
     category: "Guides",
