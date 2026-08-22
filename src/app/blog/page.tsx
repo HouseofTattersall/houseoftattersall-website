@@ -1,33 +1,65 @@
+import Link from "next/link";
 import { PageBanner } from "@/components/page-banner";
 import { CtaBand } from "@/components/cta";
-import Link from "next/link";
+import { realWeddings, venueGuides, guides } from "@/lib/posts";
+import type { Post } from "@/lib/posts";
 
-const guides = [
+const buyerGuides = [
   {
-    title: "How much does a wedding videographer cost in the UK?",
     slug: "how-much-does-a-wedding-videographer-cost",
-    blurb:
+    title: "How much does a wedding videographer cost in the UK?",
+    excerpt:
       "What UK wedding videography actually costs, what moves the price, and what should be included as standard.",
   },
   {
-    title: "Wedding videographer vs photographer: do you need both?",
     slug: "wedding-videographer-vs-photographer",
-    blurb:
+    title: "Wedding videographer vs photographer: do you need both?",
+    excerpt:
       "The real difference between the two, and which I'd prioritise if your budget only stretches to one.",
   },
   {
-    title: "How to choose a wedding videographer",
     slug: "how-to-choose-a-wedding-videographer",
-    blurb:
+    title: "How to choose a wedding videographer",
+    excerpt:
       "How to tell suppliers apart when every website shows beautiful work, and the questions that reveal experience.",
   },
   {
-    title: "Is a wedding videographer worth it?",
     slug: "is-a-wedding-videographer-worth-it",
-    blurb:
+    title: "Is a wedding videographer worth it?",
+    excerpt:
       "An honest answer, including the cases where it isn't, and what couples say about their films years later.",
   },
 ];
+
+function PostList({
+  heading,
+  items,
+}: {
+  heading: string;
+  items: { slug: string; title: string; excerpt: string }[];
+}) {
+  return (
+    <section className="mt-16">
+      <h2 className="font-serif text-2xl text-[var(--khaki)]">{heading}</h2>
+      <div className="mt-6 divide-y divide-[var(--rule)] border-t border-b border-[var(--rule)]">
+        {items.map((p) => (
+          <Link key={p.slug} href={`/blog/${p.slug}/`} className="group block py-6">
+            <h3 className="font-serif text-lg text-[var(--khaki)] group-hover:text-[var(--khaki-deep)]">
+              {p.title}
+            </h3>
+            <p className="mt-2 text-[var(--ink-muted)]">{p.excerpt}</p>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+const toItem = (p: Post) => ({
+  slug: p.slug,
+  title: p.title,
+  excerpt: p.excerpt,
+});
 
 export default function BlogIndexPage() {
   return (
@@ -38,40 +70,16 @@ export default function BlogIndexPage() {
         image="/images/banner-blog.jpg"
       />
 
-      <div className="mx-auto max-w-3xl px-6 py-16">
-        <h2 className="font-serif text-2xl text-[var(--khaki)]">
-          Guides for couples
-        </h2>
-        <div className="mt-8 divide-y divide-[var(--rule)] border-t border-b border-[var(--rule)]">
-          {guides.map((g) => (
-            <Link
-              key={g.slug}
-              href={`/blog/${g.slug}/`}
-              className="group block py-6"
-            >
-              <h3 className="font-serif text-lg text-[var(--khaki)] group-hover:text-[var(--khaki-deep)]">
-                {g.title}
-              </h3>
-              <p className="mt-2 text-[var(--ink-muted)]">{g.blurb}</p>
-            </Link>
-          ))}
-        </div>
+      <div className="mx-auto max-w-3xl px-6 py-14">
+        <p className="leading-relaxed text-[var(--ink-muted)]">
+          Real weddings I&apos;ve filmed, honest guides to the venues I work at
+          most, and answers to the questions couples ask me before they book.
+        </p>
 
-        <div className="mt-14 rounded-sm border border-[var(--gold)]/40 bg-[var(--khaki-wash)] p-8">
-          <p className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
-            Coming back soon
-          </p>
-          <p className="mt-3 leading-relaxed text-[var(--ink-muted)]">
-            Real wedding write-ups and venue guides across Derbyshire,
-            Staffordshire, Nottinghamshire, Leicestershire and Rutland are being
-            moved across to the new site and will be back here shortly. In the
-            meantime, you can see recent films on the{" "}
-            <Link href="/films/" className="underline underline-offset-4">
-              films page
-            </Link>
-            .
-          </p>
-        </div>
+        <PostList heading="Guides for couples" items={buyerGuides} />
+        <PostList heading="Real weddings" items={realWeddings.map(toItem)} />
+        <PostList heading="Venue guides" items={venueGuides.map(toItem)} />
+        <PostList heading="Tips and updates" items={guides.map(toItem)} />
       </div>
 
       <CtaBand />
