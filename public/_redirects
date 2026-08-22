@@ -1,0 +1,34 @@
+# Old blog URLs kept alive until each post is rebuilt.
+# 302 (temporary) so Google keeps the original URLs indexed and restores
+# them when the real posts return. Switch to 301 only if a post is retired.
+
+# Derbyshire venue guides -> Derbyshire page
+/blog/the-west-mill-wedding-videographer-derbyshire   /derbyshire-wedding-film/   302
+/blog/yeldersley-hall-wedding-videographer-derbyshire /derbyshire-wedding-film/   302
+/blog/grangefields-derbyshire                         /derbyshire-wedding-film/   302
+/blog/lowerdamgate-ilam                               /derbyshire-wedding-film/   302
+/blog/westmill-derby                                  /derbyshire-wedding-film/   302
+
+# Staffordshire venue guides -> Staffordshire page
+/blog/hanbury-barns                                   /staffordshire-wedding/     302
+/blog/foxtail-barns-wedding-videographer              /staffordshire-wedding/     302
+/blog/the-ashes-wedding-videographer                  /staffordshire-wedding/     302
+/blog/hanbury-dan-laura                               /staffordshire-wedding/     302
+
+# Other venue guides and real weddings -> films
+/blog/hazel-gap-barn-wedding-videographer-            /films/                     302
+/blog/pumping-house-wedding-videographer              /films/                     302
+/blog/bridge-house-barn-wedding-videographer          /films/                     302
+/blog/rutland-wedding-videographer                    /films/                     302
+/blog/davenport-house                                 /films/                     302
+/blog/palm-house-sefton-park-videography              /films/                     302
+/blog/bourton-hall-fd                                 /films/                     302
+/blog/wilderness                                      /films/                     302
+
+# Guides -> blog index
+/blog/wedding-speeches                                /blog/                      302
+/blog/5-wedding-day-tips-from-a-wedding-videographer  /blog/                      302
+/blog/uk-top-20-wedding-videographers                 /blog/                      302
+/blog/wedding-bands-that-actually-get-the-dancefloor-moving /blog/                302
+/blog/european-wedding-films                          /blog/                      302
+/blog/destination-wedding-films                       /blog/                      302

@@ -1,37 +1,33 @@
 import { PageBanner } from "@/components/page-banner";
 import { CtaBand } from "@/components/cta";
+import Link from "next/link";
 
-const posts = {
-  "Real Weddings": [
-    { title: "Laura and Daniel | Lower Damgate and Holy Cross Church, Peak District 2025", slug: "lowerdamgate-ilam" },
-    { title: "Olivia and Charles Wedding Film | West Mill, Derby 2026", slug: "westmill-derby" },
-    { title: "Faye and Daniel's Wedding Film | Bourton Hall, Rugby", slug: "bourton-hall-fd" },
-    { title: "Laura & Daniel's Wedding Film | Hanbury Wedding Barns, Staffordshire", slug: "hanbury-dan-laura" },
-    { title: "Rob & Jack's Wilderness Wedding Film | Preston Court, Kent | Summer 2026", slug: "wilderness" },
-  ],
-  "Updates & Guides": [
-    { title: "Wedding Speeches: A Videographer's Guide to Great Audio, Great Footage", slug: "wedding-speeches" },
-    { title: "5 Wedding Day Tips From a Wedding Videographer", slug: "5-wedding-day-tips-from-a-wedding-videographer" },
-    { title: "Wedding Bands That Actually Get the Dancefloor Moving", slug: "wedding-bands-that-actually-get-the-dancefloor-moving" },
-    { title: "Destination Wedding Videography in Europe", slug: "european-wedding-films" },
-    { title: "Destination Wedding Films", slug: "destination-wedding-films" },
-    { title: "UK Top 20 Wedding Videographers", slug: "uk-top-20-wedding-videographers" },
-  ],
-  "Venue Guides": [
-    { title: "Davenport House, Wedding Videographer", slug: "davenport-house" },
-    { title: "Palm House Sefton Park, Wedding Videographer", slug: "palm-house-sefton-park-videography" },
-    { title: "Hanbury Barns, Wedding Videographer | Staffordshire", slug: "hanbury-barns" },
-    { title: "Foxtail Barns, Wedding Videographer | Staffordshire", slug: "foxtail-barns-wedding-videographer" },
-    { title: "Grangefields, Wedding Videographer | Derbyshire", slug: "grangefields-derbyshire" },
-    { title: "The Ashes Barn Wedding Film | Staffordshire", slug: "the-ashes-wedding-videographer" },
-    { title: "Rutland Wedding Videographer | Barnsdale & Normanton Church", slug: "rutland-wedding-videographer" },
-    { title: "Hazel Gap Barn, Wedding Videographer | Nottinghamshire", slug: "hazel-gap-barn-wedding-videographer-" },
-    { title: "Bridge House Barn, Wedding Videographer | Leicestershire", slug: "bridge-house-barn-wedding-videographer" },
-    { title: "The Pumping House, Wedding Videographer | Newark", slug: "pumping-house-wedding-videographer" },
-    { title: "Yeldersley Hall, Wedding Videographer | Derbyshire", slug: "yeldersley-hall-wedding-videographer-derbyshire" },
-    { title: "The West Mill, Wedding Videographer | Derbyshire", slug: "the-west-mill-wedding-videographer-derbyshire" },
-  ],
-};
+const guides = [
+  {
+    title: "How much does a wedding videographer cost in the UK?",
+    slug: "how-much-does-a-wedding-videographer-cost",
+    blurb:
+      "What UK wedding videography actually costs, what moves the price, and what should be included as standard.",
+  },
+  {
+    title: "Wedding videographer vs photographer: do you need both?",
+    slug: "wedding-videographer-vs-photographer",
+    blurb:
+      "The real difference between the two, and which I'd prioritise if your budget only stretches to one.",
+  },
+  {
+    title: "How to choose a wedding videographer",
+    slug: "how-to-choose-a-wedding-videographer",
+    blurb:
+      "How to tell suppliers apart when every website shows beautiful work, and the questions that reveal experience.",
+  },
+  {
+    title: "Is a wedding videographer worth it?",
+    slug: "is-a-wedding-videographer-worth-it",
+    blurb:
+      "An honest answer, including the cases where it isn't, and what couples say about their films years later.",
+  },
+];
 
 export default function BlogIndexPage() {
   return (
@@ -42,23 +38,40 @@ export default function BlogIndexPage() {
         image="/images/banner-blog.jpg"
       />
 
-      <div className="mx-auto max-w-3xl px-6 py-24">
-      <p className="mt-6 text-[var(--ink-faint)]">
-        This is an index of your current live posts so nothing gets lost in
-        the move. Individual post pages haven&apos;t been rebuilt yet — that&apos;s
-        the next batch of work once you&apos;ve approved the core pages.
-      </p>
-
-      {Object.entries(posts).map(([category, items]) => (
-        <div key={category} className="mt-14">
-          <h2 className="font-serif text-2xl text-[var(--khaki)]">{category}</h2>
-          <ul className="mt-6 space-y-3 text-[var(--ink-muted)]">
-            {items.map((post) => (
-              <li key={post.slug}>{post.title}</li>
-            ))}
-          </ul>
+      <div className="mx-auto max-w-3xl px-6 py-16">
+        <h2 className="font-serif text-2xl text-[var(--khaki)]">
+          Guides for couples
+        </h2>
+        <div className="mt-8 divide-y divide-[var(--rule)] border-t border-b border-[var(--rule)]">
+          {guides.map((g) => (
+            <Link
+              key={g.slug}
+              href={`/blog/${g.slug}/`}
+              className="group block py-6"
+            >
+              <h3 className="font-serif text-lg text-[var(--khaki)] group-hover:text-[var(--khaki-deep)]">
+                {g.title}
+              </h3>
+              <p className="mt-2 text-[var(--ink-muted)]">{g.blurb}</p>
+            </Link>
+          ))}
         </div>
-      ))}
+
+        <div className="mt-14 rounded-sm border border-[var(--gold)]/40 bg-[var(--khaki-wash)] p-8">
+          <p className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
+            Coming back soon
+          </p>
+          <p className="mt-3 leading-relaxed text-[var(--ink-muted)]">
+            Real wedding write-ups and venue guides across Derbyshire,
+            Staffordshire, Nottinghamshire, Leicestershire and Rutland are being
+            moved across to the new site and will be back here shortly. In the
+            meantime, you can see recent films on the{" "}
+            <Link href="/films/" className="underline underline-offset-4">
+              films page
+            </Link>
+            .
+          </p>
+        </div>
       </div>
 
       <CtaBand />
