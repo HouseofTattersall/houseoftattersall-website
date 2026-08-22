@@ -61,6 +61,7 @@ export default function FilmsPage() {
       <PageBanner
         title="Films"
         eyebrow="Recent wedding films"
+        image="/images/banner-films.jpg"
       />
 
       <div className="mx-auto max-w-6xl px-6 py-24">

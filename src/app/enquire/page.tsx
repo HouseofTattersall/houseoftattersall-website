@@ -1,3 +1,4 @@
+import { Photo } from "@/components/photo";
 import { PageBanner } from "@/components/page-banner";
 import { CtaBand } from "@/components/cta";
 
@@ -7,6 +8,7 @@ export default function EnquirePage() {
       <PageBanner
         title="Enquire"
         eyebrow="Enquiries"
+        image="/images/banner-enquire.jpg"
       />
 
       <div className="mx-auto max-w-2xl px-6 py-24 text-center">
@@ -36,6 +38,10 @@ export default function EnquirePage() {
             @houseoftattersallfilms
           </a>
         </p>
+      </div>
+
+      <div className="mt-14">
+        <Photo src="/images/enquire-1.jpg" alt="" />
       </div>
 
       <div className="mt-16 text-left">

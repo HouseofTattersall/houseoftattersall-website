@@ -1,3 +1,4 @@
+import { Photo } from "@/components/photo";
 import { PageBanner } from "@/components/page-banner";
 import { CtaButton, CtaBand } from "@/components/cta";
 
@@ -22,6 +23,7 @@ export default function InvestmentPage() {
       <PageBanner
         title="Investment"
         eyebrow="Packages & pricing"
+        image="/images/banner-investment.jpg"
       />
 
       <div className="mx-auto max-w-3xl px-6 py-24">
@@ -79,6 +81,10 @@ export default function InvestmentPage() {
             Teaser
           </li>
         </ul>
+      </div>
+
+      <div className="mt-16">
+        <Photo src="/images/investment-1.jpg" alt="" />
       </div>
 
       <p className="mt-14 text-lg text-[var(--ink-muted)]">

@@ -39,6 +39,7 @@ export default function BlogIndexPage() {
       <PageBanner
         title="Film Reviews"
         eyebrow="From the blog"
+        image="/images/banner-blog.jpg"
       />
 
       <div className="mx-auto max-w-3xl px-6 py-24">

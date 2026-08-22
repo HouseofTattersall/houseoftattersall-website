@@ -1,3 +1,4 @@
+import { Photo } from "@/components/photo";
 import { PageBanner } from "@/components/page-banner";
 import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
@@ -6,15 +7,18 @@ import { CtaButton, CtaBand } from "@/components/cta";
 const venues = [
   {
     name: "The West Mill, Derby",
+    photo: "/images/venue-west-mill.jpg",
     body: "Natural light floods through the industrial-style windows here, giving that soft, romantic glow that makes a wedding film feel properly cinematic. The exposed brick and high ceilings do a lot of the work for me before I've even picked up the camera. The West Mill is set over multiple floors, so your day naturally moves through different spaces rather than staying in one room all day, giving your film distinct chapters instead of everything looking the same. It works beautifully year-round: spring and summer bring an outdoor ceremony option and long daylight, while autumn and winter lean into that warm, intimate glow indoors.",
     videoId: "r6jgraj1",
   },
   {
     name: "Grangefields by Cripps & Co",
+    photo: "/images/venue-grangefields.jpg",
     body: "The ceremony room here has a red-brick, vaulted-ceiling feel with natural light flooding through the windows, perfect for the moment you're exchanging vows. The Funktion-One sound system in the barn means I get genuinely clean audio off the desk for speeches and toasts, which is rarer than you'd think at barn venues. The Tuscan-inspired courtyard is where I'd point you for golden hour portraits, with the countryside behind you, and the open show kitchen in the dining barn means the atmosphere during the wedding breakfast and speeches is something else. You can feel it in the footage. The private drive up to the venue sets the tone before the day's even started.",
   },
   {
     name: "Yeldersley Hall",
+    photo: "/images/venue-yeldersley.jpg",
     body: "Capped at 80 guests, which sounds like a small detail but it isn't. It means cleaner audio on your vows, speeches and the laughter in between, without a room full of side conversation to fight against. The bridal suite has genuinely great light and views for getting-ready footage, and because the venue includes accommodation for 14, I can capture your morning without anyone watching the clock. The function room does double duty as ceremony space and evening reception, so your film gets a real shift in mood between the two. Across the 12 acres of grounds I can get drone footage over the Derbyshire countryside without restriction, and the marquee (available April to December) fills with the same soft, natural light as the rest of the venue.",
   },
 ];
@@ -52,6 +56,7 @@ export default function DerbyshirePage() {
       <PageBanner
         title="Derbyshire Wedding Films"
         eyebrow="Derbyshire Wedding Videographer"
+        image="/images/banner-derbyshire.jpg"
       />
 
       <div className="mx-auto max-w-3xl px-6 py-24">
@@ -70,7 +75,12 @@ export default function DerbyshirePage() {
         {venues.map((venue) => (
           <div key={venue.name}>
             <h2 className="font-serif text-2xl text-[var(--khaki)]">{venue.name}</h2>
-            <p className="mt-4 leading-relaxed text-[var(--ink-muted)]">{venue.body}</p>
+            {venue.photo ? (
+              <div className="mt-6">
+                <Photo src={venue.photo} alt={venue.name} />
+              </div>
+            ) : null}
+            <p className="mt-6 leading-relaxed text-[var(--ink-muted)]">{venue.body}</p>
             {venue.videoId ? (
               <div className="mt-6">
                 <VideoEmbed id={venue.videoId} title={venue.name} />

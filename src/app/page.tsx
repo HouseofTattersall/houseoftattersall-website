@@ -1,3 +1,4 @@
+import { Photo } from "@/components/photo";
 import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
@@ -136,6 +137,10 @@ export default function Home() {
         </p>
       </section>
 
+      <div className="mx-auto max-w-5xl px-6">
+        <Photo src="/images/home-1.jpg" alt="" />
+      </div>
+
       <section className="bg-[var(--paper-alt)] px-6 py-20">
         <div className="mx-auto max-w-6xl">
           <p className="mx-auto max-w-2xl text-center font-serif text-xl text-[var(--ink)]">
@@ -163,7 +168,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-6 py-24 text-center">
+      <div className="mx-auto mt-24 max-w-5xl px-6">
+        <Photo src="/images/home-2.jpg" alt="" />
+      </div>
+
+      <section className="mx-auto max-w-3xl px-6 pt-16 pb-24 text-center">
         <h2 className="font-serif text-3xl text-[var(--khaki)]">
           Films that feel as much as they show
         </h2>
