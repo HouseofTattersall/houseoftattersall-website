@@ -88,7 +88,7 @@ export default function Home() {
   return (
     <div>
       <div className="mx-auto max-w-6xl px-6 pt-8">
-        <VideoEmbed id="xdn589wd" title="House of Tattersall showreel" />
+        <VideoEmbed id="xdn589wd" title="House of Tattersall showreel" priority />
       </div>
 
       <section className="px-6 pt-14 pb-4 text-center">
