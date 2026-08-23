@@ -24,6 +24,30 @@ export const realWeddings = weddingPosts;
 export const venueGuides = [...venuePostsA, ...venuePostsB, ...venuePostsC];
 export const guides = tipsPosts;
 
+const MONTHS = [
+  "january",
+  "february",
+  "march",
+  "april",
+  "may",
+  "june",
+  "july",
+  "august",
+  "september",
+  "october",
+  "november",
+  "december",
+];
+
+/** "23 August 2026" -> "2026-08-23", for schema and sitemaps. */
+export function isoDate(date: string): string | undefined {
+  const m = /^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})$/.exec(date.trim());
+  if (!m) return undefined;
+  const month = MONTHS.indexOf(m[2].toLowerCase());
+  if (month === -1) return undefined;
+  return `${m[3]}-${String(month + 1).padStart(2, "0")}-${m[1].padStart(2, "0")}`;
+}
+
 /** Banner image per post category, so every post has artwork. */
 export function bannerFor(post: Post): string {
   if (post.banner) return post.banner;

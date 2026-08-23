@@ -32,7 +32,7 @@ const venues: Venue[] = [
 const faqs = [
   {
     q: "How much does a wedding videographer in Staffordshire cost?",
-    a: "Most of my couples invest between £2,300 and £2,700 for their wedding film, depending on hours of coverage and any extras like a ceremony-in-full or speeches-in-full add-on. My full package breakdown is on the Investment page.",
+    a: "My films start from £2,000, and most couples invest between £2,300 and £2,700 for their wedding film, depending on hours of coverage and any extras like a ceremony-in-full or speeches-in-full add-on. My full package breakdown is on the Investment page.",
   },
   {
     q: "Do you film weddings at [specific venue] in Staffordshire?",
@@ -68,9 +68,9 @@ export default function StaffordshirePage() {
       <div className="mx-auto max-w-3xl px-6 py-24">
 
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
-        Most of my couples investing in a Staffordshire wedding film spend
-        between £2,300 and £2,700, depending on hours of coverage and any
-        extras you add on. The full breakdown is on the Investment page.
+        Luxury cinematic wedding films in Staffordshire from £2,000, with most
+        couples investing between £2,300 and £2,700 depending on hours of
+        coverage and any extras. The full breakdown is on the Investment page.
       </p>
 
       <div className="mt-10 text-center">
@@ -105,7 +105,7 @@ export default function StaffordshirePage() {
 
       <div className="mt-20 border-t border-[var(--rule)] pt-14">
         <h2 className="font-serif text-2xl text-[var(--khaki)]">
-          Frequently asked questions — Staffordshire
+          Frequently asked questions, Staffordshire
         </h2>
         <div className="mt-8">
           <Faq items={faqs} />

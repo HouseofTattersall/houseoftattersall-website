@@ -32,7 +32,7 @@ As a Derbyshire wedding videographer who has worked extensively across the East 
 
 ## Grangefields Wedding Videography Pricing
 
-Most of my couples invest between £2,300 and £2,700 for their wedding film, depending on hours of coverage and any extras added on. The full breakdown of what's included, along with the optional extras and bundles, is on my [Investment](/investment/) page.
+My films start from £2,000, with most couples investing between £2,300 and £2,700 for their wedding film, depending on hours of coverage and any extras added on. The full breakdown of what's included, along with the optional extras and bundles, is on my [Investment](/investment/) page.
 
 ## Why Choose House of Tattersall for Your Grangefields Wedding?
 
@@ -99,11 +99,11 @@ Grangefields is one of 11 stunning venues in the Cripps & Co collection. If you'
     body: `
 ## The Perfect Rutland Wedding Combo: Normanton Church & Barnsdale
 
-If you're looking for something truly unique for your Rutland wedding, let me tell you about one of the most spectacular combinations I've filmed: a ceremony at the iconic Normanton Church on Rutland Water, followed by a celebration at The Barnsdale. This pairing gives you the best of both worlds—a dramatic, one-of-a-kind ceremony location and a relaxed, luxurious country house reception.
+If you're looking for something truly unique for your Rutland wedding, let me tell you about one of the most spectacular combinations I've filmed: a ceremony at the iconic Normanton Church on Rutland Water, followed by a celebration at The Barnsdale. This pairing gives you the best of both worlds, a dramatic, one-of-a-kind ceremony location and a relaxed, luxurious country house reception.
 
 ## Normanton Church: The Iconic "Church on Water"
 
-Normanton Church is one of the most recognisable landmarks in the UK. This stunning classical church appears to float on Rutland Water, creating an absolutely breathtaking backdrop for wedding videography. The dramatic setting is unlike anything else—and that's exactly what makes it perfect for couples who want something unique.
+Normanton Church is one of the most recognisable landmarks in the UK. This stunning classical church appears to float on Rutland Water, creating an absolutely breathtaking backdrop for wedding videography. The dramatic setting is unlike anything else, and that's exactly what makes it perfect for couples who want something unique.
 
 ### A Brief History
 
@@ -123,7 +123,7 @@ Although deconsecrated, Normanton Church is licensed for civil ceremonies, so co
 
 ## The Barnsdale: Relaxed Luxury for Your Reception
 
-Just minutes from Normanton Church, The Barnsdale is the perfect reception venue to complement your waterside ceremony. This relaxed country house hotel near Rutland Water offers elegant luxury with a quirky British sensibility—exactly what you want after your dramatic ceremony.
+Just minutes from Normanton Church, The Barnsdale is the perfect reception venue to complement your waterside ceremony. This relaxed country house hotel near Rutland Water offers elegant luxury with a quirky British sensibility, exactly what you want after your dramatic ceremony.
 
 ### Part of the Signet Collection
 
@@ -140,7 +140,7 @@ The venue features a beautiful barn space that's perfect for wedding receptions.
 
 ### Exceptional Food & Drink
 
-The Barnsdale is renowned for its food. The 1760 Brasserie serves top-notch cuisine created with the best local produce, and the relaxed atmosphere means your guests can truly enjoy themselves. For wedding films, this creates natural, joyful moments—guests celebrating, laughing, and enjoying incredible food together.
+The Barnsdale is renowned for its food. The 1760 Brasserie serves top-notch cuisine created with the best local produce, and the relaxed atmosphere means your guests can truly enjoy themselves. For wedding films, this creates natural, joyful moments, guests celebrating, laughing, and enjoying incredible food together.
 
 ### Accommodation for Wedding Guests
 
@@ -148,7 +148,7 @@ With 45 colourful, inviting rooms (including the impressive Fort Henry Suite), T
 
 ## Why This Combination Works Perfectly
 
-**Dramatic Contrast.** The combination of Normanton Church's theatrical, waterside drama and The Barnsdale's relaxed country house elegance creates a wedding day with incredible variety. Your wedding film will showcase two completely different aesthetics—both stunning in their own right.
+**Dramatic Contrast.** The combination of Normanton Church's theatrical, waterside drama and The Barnsdale's relaxed country house elegance creates a wedding day with incredible variety. Your wedding film will showcase two completely different aesthetics, both stunning in their own right.
 
 **Seamless Logistics.** The venues are just minutes apart, making the transition from ceremony to reception smooth and stress-free. This proximity means:
 
@@ -157,7 +157,7 @@ With 45 colourful, inviting rooms (including the impressive Fort Henry Suite), T
 - Guests can easily move between venues
 - I can capture both locations comprehensively
 
-**Unique Rutland Setting.** Both venues showcase the best of Rutland—the iconic water views at Normanton Church and the rolling countryside at The Barnsdale. For couples who love this beautiful county, this combination celebrates everything that makes Rutland special.
+**Unique Rutland Setting.** Both venues showcase the best of Rutland, the iconic water views at Normanton Church and the rolling countryside at The Barnsdale. For couples who love this beautiful county, this combination celebrates everything that makes Rutland special.
 
 ## Perfect for Videography
 
@@ -171,7 +171,7 @@ From a videographer's perspective, this pairing is exceptional:
 
 - **Ceremony timing:** Book your Normanton Church ceremony early and plan your day around the available time slots.
 - **Reception flow:** The Barnsdale's team will work with you to create a seamless transition from ceremony to reception.
-- **Photography & Videography:** Both venues offer incredible opportunities for creative shots—from waterside portraits at Normanton to countryside golden hour shots at The Barnsdale.
+- **Photography & Videography:** Both venues offer incredible opportunities for creative shots, from waterside portraits at Normanton to countryside golden hour shots at The Barnsdale.
 
 ## Ready to Film Your Rutland Water Wedding?
 

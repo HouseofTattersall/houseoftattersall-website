@@ -2,6 +2,121 @@ import type { Post } from "./post-types";
 
 export const tipsPosts: Post[] = [
   {
+    slug: "how-your-wedding-film-is-delivered-vidflow",
+    title: "What Does a Wedding Film Actually Look Like When It Arrives?",
+    category: "Guides",
+    date: "23 August 2026",
+    excerpt:
+      "Most couples have no idea what they actually receive at the end. Here is exactly how your wedding film is delivered, on Vidflow, and what you can do with it.",
+    banner: "/images/banner-films.jpg",
+    video: {
+      id: "jqkfthxi",
+      name: "Laura and Daniel's wedding film, Hanbury Wedding Barns, Staffordshire",
+      description:
+        "Laura and Daniel's cinematic wedding feature film by House of Tattersall, filmed at Hanbury Wedding Barns in Staffordshire and shown in the Vidflow player exactly as couples receive it in their private gallery.",
+    },
+    body: `
+Almost every couple I speak to asks what the film will look like. Almost none of them ask what it will look like when it **arrives**, and that is the part you will actually live with.
+
+You will watch your wedding film on a sofa, on a phone in bed, on a laptop with your mum, on a telly at Christmas with both families in the room. So the way it reaches you matters more than most people realise when they are booking.
+
+Here is exactly what you get.
+
+## How do I deliver wedding films?
+
+I deliver every film through Vidflow, a premium platform built specifically for wedding filmmakers. Think of it as Netflix for your wedding.
+
+![The Emily and James wedding film from The Pumping House, Ollerton, shown on a phone, a laptop and a tablet in the Vidflow player, with Roku, Apple TV, Android TV, Fire TV, Samsung, LG, Sony and Google TV app logos beneath](/images/vidflow-devices-emily-james-pumping-house.jpg "Emily and James, The Pumping House, Ollerton. The same gallery, on every screen you own.")
+
+Rather than a download link that expires, or a YouTube page with adverts in front of your vows, you get your own private gallery with your names on it. Everything from your day sits in one place: the feature film, the teaser, the ceremony and speeches in full if you have added those, and the home movie.
+
+## What can you do with your gallery?
+
+This is the part Vidflow explains better than I can, so here it is straight:
+
+- 🎬 Watch in up to 4K
+- 📥 Download original files
+- 📱 Watch on phone/tablet/computer
+- 📺 Smart TV apps
+- 🔒 Private/password-protected gallery
+- ⏳ 10 years of access
+
+The smart TV point is the one couples get most excited about. There are apps for Roku, Apple TV, Android TV, Fire TV, Samsung, LG, Sony and Google TV, so on your first anniversary you open the app on the telly and your wedding film is sat there like any other title.
+
+## Can I see a real gallery?
+
+Yes. This is a real couple's gallery, exactly as they received it, filmed at [The West Mill](/blog/the-west-mill-wedding-videographer-derbyshire/) in Derbyshire.
+
+[Open a real Vidflow wedding gallery](https://galleries.vidflow.co/bnsbwf4s)
+
+Have a click around. That is what lands in your inbox.
+
+## What does the film itself look like?
+
+This is [Laura and Daniel's feature film](/blog/hanbury-dan-laura/) in full, filmed at Hanbury Wedding Barns in Staffordshire, playing in the Vidflow player exactly as it would in your gallery.
+
+!video[Laura and Daniel's wedding film, Hanbury Wedding Barns, Staffordshire](jqkfthxi)
+
+## Is it easy to share with family?
+
+Very. The gallery is private and password-protected, so it goes to the people you choose and nobody else. Grandparents get a link that opens on whatever device they own without you having to talk them through it on the phone.
+
+![The Emily and James wedding film playing in the Vidflow app on a phone held in one hand](/images/vidflow-phone-emily-james-pumping-house.jpg "Your whole wedding, in your hand, ten years from now.")
+
+## What happens to the files in ten years' time?
+
+You get 10 years of access, and you can download the original files at any point during that. So your gallery is not a link you need to rush to save before it disappears. It is simply there, for a decade, whenever you fancy watching.
+
+## Does Vidflow mean the videographer is good?
+
+No, and I want to be honest about this rather than let it do more work than it should. If you're looking at wedding videographers and see "Watch on VidFlow", that's generally a good sign for the delivery experience, but it tells you virtually nothing about the quality of the videographer's actual filming or editing. VidFlow is the presentation/delivery layer after they've made the film.
+
+So judge the films first. Watch full films rather than 30 second Instagram cuts, listen to how the audio is handled, and see whether the story feels like the couple or like a template. Then look at how it will be delivered. In that order.
+
+## When does it arrive?
+
+Films come back within 6 to 12 weeks. You will get an email with your gallery link, and from that moment it is yours to watch, download and share for the next decade.
+
+If you would like to talk about your own film, whether you're getting married in [Derbyshire](/derbyshire-wedding-film/), [Staffordshire](/staffordshire-wedding/), [Nottinghamshire](/nottinghamshire-wedding/) or further afield, I would love to hear about your day. Films start from £2,000, with most couples investing between £2,300 and £2,700, and the full breakdown is on the [Investment](/investment/) page.
+
+!cta[Enquire about your film](/enquire/)
+`,
+    faqs: [
+      {
+        q: "How is a wedding film delivered?",
+        a: "I deliver every wedding film through Vidflow, a premium delivery platform built for wedding filmmakers. You receive a private, password-protected online gallery containing your feature film, teaser, and any ceremony or speeches in full, rather than a download link that expires or a YouTube page with adverts.",
+      },
+      {
+        q: "What is Vidflow?",
+        a: "Vidflow is a delivery and streaming platform for wedding films, often described as Netflix for your wedding. It lets couples watch in up to 4K, download the original files, watch on phone, tablet or computer, use smart TV apps on Roku, Apple TV, Android TV, Fire TV, Samsung, LG, Sony and Google TV, keep the gallery private and password-protected, and retain 10 years of access.",
+      },
+      {
+        q: "Can I watch my wedding film on my TV?",
+        a: "Yes. Vidflow has apps for Roku, Apple TV, Android TV, Fire TV, Samsung, LG, Sony and Google TV, so your wedding film sits on your television alongside anything else you watch. You can also cast it from a phone or laptop.",
+      },
+      {
+        q: "Can I download my wedding video files?",
+        a: "Yes. You can download the original files from your Vidflow gallery at any point during your 10 years of access, in up to 4K, so you can keep your own copy as well as streaming from the gallery.",
+      },
+      {
+        q: "How long do I have access to my wedding film?",
+        a: "Vidflow stores your films for 10 years, so your gallery stays live and watchable for a decade rather than expiring after a few weeks like a file transfer link.",
+      },
+      {
+        q: "Is my wedding video gallery private?",
+        a: "Yes. Your gallery is private and password-protected, so only the people you choose to share the link with can watch it. It is not public and it is not indexed.",
+      },
+      {
+        q: "Does a videographer using Vidflow mean their films are good?",
+        a: "No. Vidflow is the presentation and delivery layer that sits after the film has been made, so it tells you about the delivery experience rather than the filming or editing. Judge the films first by watching full films rather than short social cuts, then look at how they will be delivered.",
+      },
+      {
+        q: "How long does a wedding film take to arrive?",
+        a: "Films come back within 6 to 12 weeks. You receive an email containing your Vidflow gallery link, and from that point the films are yours to watch, download and share.",
+      },
+    ],
+  },
+  {
     slug: "that-wedding-videographer-podcast",
     title: "I've been featured on That Wedding Videographer Podcast",
     category: "Updates",
@@ -110,7 +225,7 @@ If you asked me for one guiding principle: **be original and be real.**
 
 One or two internet-found jokes are totally fine, but the speeches that land best (in the room and in your wedding video) are the ones that feel like you. A genuine story, a specific memory, or a simple heartfelt line will always beat a speech that sounds like it was copy-pasted.
 
-**Videographer perspective:** Authentic speeches get authentic reactions—and reactions are what make speech footage feel alive.
+**Videographer perspective:** Authentic speeches get authentic reactions, and reactions are what make speech footage feel alive.
 
 ## 1) Sound first: always use a microphone
 
@@ -140,7 +255,7 @@ If a speaker roams, I lose options. I can't lock in those key angles, and I can'
 
 ## 3) Consider a microphone stand (hands-free = calmer speakers)
 
-Mic stands are more common at American weddings, but they're brilliant for UK weddings too—especially if your speakers like to use their hands.
+Mic stands are more common at American weddings, but they're brilliant for UK weddings too, especially if your speakers like to use their hands.
 
 **Why it helps:**
 
@@ -163,7 +278,7 @@ Phones are risky (notifications, screen dimming, battery, scrolling mishaps) and
 
 If public speaking feels less natural, go **A5 or cue cards.**
 
-**Why?** The bigger the paper, the more it shakes when nerves kick in. And it's completely okay to be nervous—most people are. Little choices like this hide it brilliantly.
+**Why?** The bigger the paper, the more it shakes when nerves kick in. And it's completely okay to be nervous, most people are. Little choices like this hide it brilliantly.
 
 ## 5) How I film speeches (so you know what's happening)
 
@@ -189,20 +304,20 @@ Depending on time and setup, I may also:
 - Place additional recorders around the room
 - Use on-camera mics as backups
 
-**The goal:** clean speech audio and the room's ambience—so you can hear the important bits, but it still feels like you're back in the moment.
+**The goal:** clean speech audio and the room's ambience, so you can hear the important bits, but it still feels like you're back in the moment.
 
 ## Quick checklist to send your speakers
 
 - Use the microphone (even if you think you don't need it)
 - Stand in the same spot for the whole speech
 - Don't read from a phone - print it or use cue cards (A5 if you're nervous)
-- Keep it genuine—a couple of jokes are fine, but make it personal
+- Keep it genuine, a couple of jokes are fine, but make it personal
 
 ## Want speeches that sound amazing in your wedding film?
 
 Two of my film packages include speeches and ceremony in full - [see them here](/investment/)
 
-If you're planning a wedding in the UK, especially Derbyshire, Staffordshire, or Nottinghamshire and you want wedding videography that captures every laugh, every cheer, and every emotional line clearly—I'd love to help.
+If you're planning a wedding in the UK, especially Derbyshire, Staffordshire, or Nottinghamshire and you want wedding videography that captures every laugh, every cheer, and every emotional line clearly, I'd love to help.
 `,
   },
 
@@ -232,15 +347,15 @@ From a wedding videographers perspective, the dancefloor is where the energy goe
 
 ## 2) Cake cutting: a lovely tradition, but it's over in seconds
 
-Cake cutting is a classic wedding moment—but it's rarely the "big scene" couples imagine. It's quick, it's often squeezed in, and it can feel like a performance if it's over planned.
+Cake cutting is a classic wedding moment, but it's rarely the "big scene" couples imagine. It's quick, it's often squeezed in, and it can feel like a performance if it's over planned.
 
 **Make it easy (and film-friendly):**
 
-- Prioritise taste and enjoyment. Your cake should be delicious—don't stress the "perfect" photo moment.
+- Prioritise taste and enjoyment. Your cake should be delicious, don't stress the "perfect" photo moment.
 - Ask your DJ/band/coordinator to announce it clearly so guests gather quickly.
 - If possible, do it somewhere with decent light and a bit of space (not tucked in a dark corner).
 
-**Videographer perspective:** The best cake-cutting clips aren't about the knife—they're about reactions. If guests are nearby and engaged, your wedding video gets laughter, cheers, and those little candid moments that make it feel real.
+**Videographer perspective:** The best cake-cutting clips aren't about the knife, they're about reactions. If guests are nearby and engaged, your wedding video gets laughter, cheers, and those little candid moments that make it feel real.
 
 ## 3) First dance: 30–60 seconds is perfect (then get the party started)
 
@@ -251,11 +366,11 @@ If you're not comfortable being watched, this will be music to your ears: you do
 - Aim for **30–60 seconds** of "just you two." That's all I need for a beautiful sequence in your wedding film.
 - Brief your bridal party to join the dancefloor quickly after that. Ask your DJ/band to line up an epic party track immediately after to lift the room.
 
-A personal favourite for that "switch" moment? Something like **Fireball by Pitbull**—big energy, instant atmosphere.
+A personal favourite for that "switch" moment? Something like **Fireball by Pitbull**, big energy, instant atmosphere.
 
 **Videographer perspective:** A short first dance keeps it relaxed and natural on camera, and the fast transition into a packed dancefloor gives your wedding video that proper celebration feel.
 
-## 4) Speeches: there's no correct way—just a way that keeps the room engaged
+## 4) Speeches: there's no correct way, just a way that keeps the room engaged
 
 Speeches can be hilarious, emotional, and unforgettable. They can also drag if the timing doesn't match the energy of the room.
 
@@ -265,23 +380,23 @@ Speeches can be hilarious, emotional, and unforgettable. They can also drag if t
 - If speeches are **long**, do them **after food** (or spread them out) so guests are comfortable.
 - Encourage speakers to keep it story-led: a few great moments beat a full life history.
 
-**Videographer perspective:** The best speech footage comes from a comfortable room—people laughing properly, wiping tears, and reacting naturally. Good timing helps your wedding videographer capture those reactions without the energy dipping.
+**Videographer perspective:** The best speech footage comes from a comfortable room, people laughing properly, wiping tears, and reacting naturally. Good timing helps your wedding videographer capture those reactions without the energy dipping.
 
-## 5) Couple portraits aren't "posing"—they're your calm moment (and they make the film)
+## 5) Couple portraits aren't "posing", they're your calm moment (and they make the film)
 
 Think of couple portraits as a pocket of peace. It's one of the only times all day where it's just the two of you, away from the noise.
 
 **How to make it work:**
 
-- Try to give yourselves **30+ minutes** at some point. It's not about stiff posing—it's about walking, chatting, holding hands, and being present.
+- Try to give yourselves **30+ minutes** at some point. It's not about stiff posing, it's about walking, chatting, holding hands, and being present.
 - If your timeline is tight, do two short blocks (15 minutes + 15 minutes) instead of one long one.
 - **Golden hour:** if you're game to step out for a few minutes, I'll always recommend it. Even if it's mid-food. Even if it's "not convenient." The light is almost always worth it.
 
-**Videographer perspective:** These moments are where I can shape your wedding film around you as a couple—natural movement, real connection, and cinematic light. In the UK, golden hour can be unreal—soft skies, warm tones, and that calm, romantic feel.
+**Videographer perspective:** These moments are where I can shape your wedding film around you as a couple, natural movement, real connection, and cinematic light. In the UK, golden hour can be unreal, soft skies, warm tones, and that calm, romantic feel.
 
 ## Your day, your way
 
-The best wedding films don't come from a "perfect" schedule—they come from a day that feels like you.
+The best wedding films don't come from a "perfect" schedule, they come from a day that feels like you.
 
 Choose the traditions you love, simplify the ones you don't, and give yourselves space to actually enjoy it.
 

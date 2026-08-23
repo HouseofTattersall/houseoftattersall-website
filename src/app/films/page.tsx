@@ -70,7 +70,7 @@ export default function FilmsPage() {
       <div className="mt-16 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
         {films.map((film) => (
           <div key={`${film.couple}-${film.venue}`}>
-            <VideoEmbed id={film.videoId} title={`${film.couple} — ${film.venue}`} />
+            <VideoEmbed id={film.videoId} title={`${film.couple}, ${film.venue}`} />
             <p className="mt-3 text-sm tracking-wide text-[var(--ink)] uppercase">
               {film.couple}
             </p>

@@ -21,8 +21,9 @@ export default function InvestmentPage() {
       </p>
 
       <p className="mt-8 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
-        Most of my couples invest between £2,300 and £2,700 for their wedding
-        film, depending on hours of coverage and any extras you add on.
+        Luxury cinematic wedding films start from £2,000. Most couples invest
+        between £2,300 and £2,700 for their wedding film, depending on hours
+        of coverage and any extras you add on.
       </p>
 
       <div className="mt-14 flex flex-col gap-10 md:flex-row md:items-start md:gap-14">
@@ -49,10 +50,10 @@ export default function InvestmentPage() {
           <li>Your Ceremony in Full as a stand alone film</li>
           <li>Your Speeches in Full as a stand alone film</li>
           <li>
-            1 Week Anniversary — Short Social Teaser within 1 week of your
+            1 Week Anniversary: Short Social Teaser within 1 week of your
             wedding
           </li>
-          <li>Home Movie — Every usable clip in one film from my main camera</li>
+          <li>Home Movie: Every usable clip in one film from my main camera</li>
         </ul>
       </div>
 

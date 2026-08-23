@@ -55,10 +55,10 @@
      Change these and the whole site follows. */
   --paper: #f8f6f1;        /* page background, off-white */
   --paper-alt: #efece3;    /* alternating section background */
-  --khaki: #6b6f52;        /* khaki green — headings, buttons, boxes */
+  --khaki: #6b6f52;        /* khaki green, headings, buttons, boxes */
   --khaki-deep: #565a42;   /* hover / darker khaki */
   --khaki-wash: #e6e5d8;   /* pale khaki box fill */
-  --gold: #a98950;         /* gold — eyebrows, rules, accents */
+  --gold: #a98950;         /* gold, eyebrows, rules, accents */
   --gold-wash: #f0e7d6;    /* pale gold box fill */
   --ink: #1c1b19;          /* off-black, body + primary text */
   --ink-muted: #3d3b37;    /* body copy */

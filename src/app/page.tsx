@@ -40,10 +40,10 @@ const faqs = [
   },
   {
     q: "How would you describe your filming style?",
-    a: "My films are cinematic, emotional, and story-driven. In practice that means: natural light over artificial staging, real audio from your vows and speeches rather than music-only edits, a moody editorial colour grade rather than a bright social-media look, and an edit built around the story of your day rather than a chronological checklist. I don't direct or re-stage moments — if it happens, I capture it; if I miss it, I let it go. That's what gives the finished film its documentary, cinematic feel rather than a produced one.",
+    a: "My films are cinematic, emotional, and story-driven. In practice that means: natural light over artificial staging, real audio from your vows and speeches rather than music-only edits, a moody editorial colour grade rather than a bright social-media look, and an edit built around the story of your day rather than a chronological checklist. I don't direct or re-stage moments, if it happens, I capture it; if I miss it, I let it go. That's what gives the finished film its documentary, cinematic feel rather than a produced one.",
   },
   {
-    q: "We're awkward in front of the camera — is that a problem?",
+    q: "We're awkward in front of the camera, is that a problem?",
     a: "Not at all. Most couples say this before booking. My approach is calm and unobtrusive, so you can enjoy your wedding naturally without feeling like you're constantly performing for the camera.",
   },
   {
@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     q: "Is wedding videography really worth it?",
-    a: "Photography freezes moments beautifully, but film lets you relive them — the voices, movement, laughter, speeches, and emotion. Many couples say their wedding film became one of the most valuable things they invested in after the day itself.",
+    a: "Photography freezes moments beautifully, but film lets you relive them, the voices, movement, laughter, speeches, and emotion. Many couples say their wedding film became one of the most valuable things they invested in after the day itself.",
   },
   {
     q: "How long does it take to receive our wedding film?",
@@ -111,11 +111,11 @@ export default function Home() {
 
       <Split image="/images/home-1.jpg">
         <p className="leading-relaxed text-[var(--ink-muted)]">
-          House of Tattersall Films is a cinematic wedding videographer based
-          on the Staffordshire and Derbyshire border, filming weddings
-          throughout Staffordshire, Derbyshire and Nottinghamshire. From
-          intimate barn weddings to grand country house celebrations, as well
-          as further afield across the UK.
+          House of Tattersall Films creates luxury, cinematic wedding films
+          across Derbyshire, Staffordshire and Nottinghamshire. Based on the
+          Staffordshire and Derbyshire border, filming weddings from intimate
+          barn celebrations to grand country houses, as well as further afield
+          across the UK.
         </p>
         <p className="mt-5 leading-relaxed text-[var(--ink-muted)]">
           Every film is built around a core package, covering the key moments
@@ -123,6 +123,11 @@ export default function Home() {
           tailored to suit each couple&apos;s story, venue and timeline. The
           result is a timeless, emotionally led film that feels like your
           wedding, not a template.
+        </p>
+        <p className="mt-6 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-5 py-4 text-[var(--ink-muted)]">
+          Luxury cinematic wedding films from £2,000, with most couples
+          investing between £2,300 and £2,700 depending on hours of coverage
+          and any extras.
         </p>
       </Split>
 
@@ -136,7 +141,7 @@ export default function Home() {
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {films.map((film) => (
               <div key={`${film.couple}-${film.venue}`}>
-                <VideoEmbed id={film.videoId} title={`${film.couple} — ${film.venue}`} />
+                <VideoEmbed id={film.videoId} title={`${film.couple}, ${film.venue}`} />
                 <p className="mt-3 text-sm tracking-[0.12em] text-[var(--ink)] uppercase">
                   {film.couple}
                 </p>

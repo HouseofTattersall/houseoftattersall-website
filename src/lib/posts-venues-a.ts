@@ -234,7 +234,7 @@ From the emotional ceremony (whether in the elegant barn or by the lake) through
     body: `
 ## The Ashes Barns Wedding Videography: Staffordshire's Award-Winning Exclusive Use Venue
 
-If you're searching for a rustic barn wedding venue in Staffordshire with countryside charm and exceptional flexibility, The Ashes Barns is an absolute gem. I've filmed here multiple times, and it's one of those venues where everything just works—from the exclusive use policy to the no corkage drinks option that lets you personalise your day exactly how you want it.
+If you're searching for a rustic barn wedding venue in Staffordshire with countryside charm and exceptional flexibility, The Ashes Barns is an absolute gem. I've filmed here multiple times, and it's one of those venues where everything just works, from the exclusive use policy to the no corkage drinks option that lets you personalise your day exactly how you want it.
 
 ## Why The Ashes Barns is Perfect for Wedding Videography
 
@@ -263,11 +263,11 @@ The Ashes Barns features several distinct spaces, each offering unique opportuni
 
 **Party Barn:** When it's time to celebrate, the party barn comes alive with dancing, laughter, and all those joyful moments that make wedding films special.
 
-This variety of spaces means your wedding film has visual diversity and storytelling depth—each part of your day has its own distinct look and feel.
+This variety of spaces means your wedding film has visual diversity and storytelling depth, each part of your day has its own distinct look and feel.
 
 ## No Corkage Policy: Flexibility That Makes a Difference
 
-The Ashes Barns is one of Staffordshire's most sought-after no corkage wedding venues. You can supply all your own daytime drinks without any corkage fee or service fee—a brilliant option that gives you complete control over your wedding budget and beverage choices.
+The Ashes Barns is one of Staffordshire's most sought-after no corkage wedding venues. You can supply all your own daytime drinks without any corkage fee or service fee, a brilliant option that gives you complete control over your wedding budget and beverage choices.
 
 This relaxed approach extends to the entire venue experience. The Ashes team understands that your wedding should reflect your personality, and they give you the freedom to make it uniquely yours.
 
@@ -281,7 +281,7 @@ The surrounding countryside provides beautiful backdrops for couple portraits an
 
 ### The Wedding Rowing Boat
 
-One unique feature at The Ashes Barns is the wedding rowing boat—a charming addition that creates romantic, cinematic shots on the water. It's these thoughtful details that set The Ashes apart and give your wedding film those memorable, distinctive moments.
+One unique feature at The Ashes Barns is the wedding rowing boat, a charming addition that creates romantic, cinematic shots on the water. It's these thoughtful details that set The Ashes apart and give your wedding film those memorable, distinctive moments.
 
 ### Onsite Wedding Accommodation
 
@@ -296,7 +296,7 @@ Having accommodation onsite is brilliant for wedding videography because:
 
 ## Bespoke Wedding Food Options
 
-The Ashes Barns is known for its bespoke wedding food, created to match your tastes and preferences. The venue regularly hosts tasting events so you can sample the menu before your big day—a detail that shows their commitment to excellence.
+The Ashes Barns is known for its bespoke wedding food, created to match your tastes and preferences. The venue regularly hosts tasting events so you can sample the menu before your big day, a detail that shows their commitment to excellence.
 
 For wedding films, mealtimes create some of the most natural, joyful footage: guests laughing together, heartfelt speeches, and those spontaneous reactions that make your day uniquely yours.
 
@@ -313,7 +313,7 @@ According to reviews and testimonials, couples consistently praise:
 
 ## Dog-Friendly Wedding Venue
 
-The Ashes Barns welcomes your four-legged family members with their dog-friendly wedding policy. If your dog is part of your family, they can be part of your wedding day too—and trust me, dogs always create some of the most heartwarming moments in wedding films.
+The Ashes Barns welcomes your four-legged family members with their dog-friendly wedding policy. If your dog is part of your family, they can be part of your wedding day too, and trust me, dogs always create some of the most heartwarming moments in wedding films.
 
 ## Perfect for Videography and Photography
 
@@ -321,9 +321,9 @@ The Ashes Barns even provides a comprehensive Photographer's Guide on their webs
 
 **Natural Light Throughout the Day.** The barn spaces feature excellent natural light, which is essential for creating beautiful, cinematic wedding films. From morning preparations through to evening celebrations, the light at The Ashes Barns is consistently gorgeous.
 
-**Rustic Aesthetic with Modern Comfort.** The combination of exposed beams, countryside character, and modern amenities creates a visual style that's both timeless and contemporary—perfect for wedding films that you'll love watching for decades to come.
+**Rustic Aesthetic with Modern Comfort.** The combination of exposed beams, countryside character, and modern amenities creates a visual style that's both timeless and contemporary, perfect for wedding films that you'll love watching for decades to come.
 
-**Capacity and Flexibility.** Licensed for civil ceremonies and civil partnerships for up to 150 guests, The Ashes Barns offers the perfect size for intimate to mid-sized weddings. This capacity creates an atmosphere that's celebratory without feeling overwhelming—ideal for capturing genuine emotions and connections.
+**Capacity and Flexibility.** Licensed for civil ceremonies and civil partnerships for up to 150 guests, The Ashes Barns offers the perfect size for intimate to mid-sized weddings. This capacity creates an atmosphere that's celebratory without feeling overwhelming, ideal for capturing genuine emotions and connections.
 
 ## Easy Access from Multiple Counties
 

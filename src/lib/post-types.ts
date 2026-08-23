@@ -12,4 +12,6 @@ export type Post = {
   body: string;
   faqs?: FaqItem[];
   banner?: string;
+  /** A film embedded inside the body, for VideoObject markup */
+  video?: { id: string; name: string; description: string };
 };

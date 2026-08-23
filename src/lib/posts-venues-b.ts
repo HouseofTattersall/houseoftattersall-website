@@ -21,7 +21,7 @@ For winter weddings and autumn celebrations, the venue's interior lighting creat
 
 ### A Multi-Level Venue That Keeps Your Wedding Film Dynamic
 
-What I absolutely love about The West Mill for wedding videography is how the venue is structured across multiple floors—like layers of a wedding cake. This layout naturally keeps your wedding day feeling fresh and dynamic, which translates directly into a more engaging wedding film.
+What I absolutely love about The West Mill for wedding videography is how the venue is structured across multiple floors, like layers of a wedding cake. This layout naturally keeps your wedding day feeling fresh and dynamic, which translates directly into a more engaging wedding film.
 
 This multi-level structure means your wedding film never feels static or repetitive. Each part of your day has its own distinct look and feel, creating a cinematic narrative that flows beautifully from ceremony to celebration.
 
@@ -51,7 +51,7 @@ I've filmed at The West Mill across all seasons, and it genuinely works beautifu
 
 Located in the heart of Derby, The West Mill combines convenience with character. For couples across Derbyshire, Nottinghamshire, and Staffordshire looking for a wedding venue that will look absolutely stunning on film, this is it.
 
-The venue's industrial elegance, combined with its thoughtful layout and exceptional natural light, means I can create a wedding film that's truly cinematic—the kind of film you'll want to watch again and again.
+The venue's industrial elegance, combined with its thoughtful layout and exceptional natural light, means I can create a wedding film that's truly cinematic, the kind of film you'll want to watch again and again.
 
 ## Ready to Create Your Wedding Film at The West Mill?
 
@@ -177,17 +177,17 @@ From ceremony coverage to drone footage over the Peak District countryside, emot
     body: `
 ## Why Hazel Gap Barn is Exceptional for Wedding Videography
 
-I've had the pleasure of filming at Hazel Gap Barn several times over the years, and I've even shot photography here back in the day. This stunning red-brick barn on the historic Welbeck Estate in Nottinghamshire is part of the Cripps & Co family of venues—and that means you're getting exceptional quality, incredible staff, and a venue that's been designed with celebrations in mind.
+I've had the pleasure of filming at Hazel Gap Barn several times over the years, and I've even shot photography here back in the day. This stunning red-brick barn on the historic Welbeck Estate in Nottinghamshire is part of the Cripps & Co family of venues, and that means you're getting exceptional quality, incredible staff, and a venue that's been designed with celebrations in mind.
 
 ## Part of the Cripps & Co Family
 
-Being part of Cripps & Co makes a real difference. This group operates some of the most beautiful barn venues across the country, and they've perfected the art of creating spaces that work brilliantly for both couples and suppliers. The staff at Hazel Gap are genuinely fantastic—professional, supportive, and always going the extra mile to make sure your day runs smoothly. As a videographer, working with a team this experienced makes my job easier and your wedding film better.
+Being part of Cripps & Co makes a real difference. This group operates some of the most beautiful barn venues across the country, and they've perfected the art of creating spaces that work brilliantly for both couples and suppliers. The staff at Hazel Gap are genuinely fantastic, professional, supportive, and always going the extra mile to make sure your day runs smoothly. As a videographer, working with a team this experienced makes my job easier and your wedding film better.
 
 ## A Dramatic Red-Brick Barn on the Welbeck Estate
 
 Hazel Gap is striking from the moment you arrive. The dramatic red-brick barn features a crenellated entrance and a pair of watchtowers that curve around a picturesque courtyard. For wedding videography, this architectural character provides incredible establishing shots and a unique visual identity that sets your film apart.
 
-Located on the historic Welbeck Estate near Edwinstowe, the venue combines heritage with modern luxury—exactly what you want for a cinematic wedding film.
+Located on the historic Welbeck Estate near Edwinstowe, the venue combines heritage with modern luxury, exactly what you want for a cinematic wedding film.
 
 ## The Light-Filled Oak Room
 
@@ -214,7 +214,7 @@ The Nottinghamshire countryside location means you get that quintessential Engli
 
 ## Late License Until 1am
 
-With a late license until 1am, Hazel Gap allows for extended celebrations—and extended filming opportunities. Those late-night dancing shots, sparkler exits, and final moments of your wedding day are all captured beautifully, giving your wedding film a complete narrative from start to finish. You can book me for extended hours if you would like the party to be filmed late into the night.
+With a late license until 1am, Hazel Gap allows for extended celebrations, and extended filming opportunities. Those late-night dancing shots, sparkler exits, and final moments of your wedding day are all captured beautifully, giving your wedding film a complete narrative from start to finish. You can book me for extended hours if you would like the party to be filmed late into the night.
 
 ## Underfloor Heating and Fire Pits
 
@@ -227,7 +227,7 @@ The barn has advanced underfloor heating, roaring fires, and outdoor fire pits, 
 
 ## Exceptional Food and Drink
 
-Cripps & Co is renowned for their food, cooked over open flames on signature BBQs and French rotisseries. The feast-style dining creates natural, joyful moments that are perfect for wedding films—guests enjoying incredible food, sharing tables, and celebrating together. Their curated wine list and award-winning Cripps Drinks range also mean your reception will have that premium feel that translates on film.
+Cripps & Co is renowned for their food, cooked over open flames on signature BBQs and French rotisseries. The feast-style dining creates natural, joyful moments that are perfect for wedding films, guests enjoying incredible food, sharing tables, and celebrating together. Their curated wine list and award-winning Cripps Drinks range also mean your reception will have that premium feel that translates on film.
 
 ## Civil Ceremonies and Church Options
 
@@ -279,7 +279,7 @@ What makes The Pumping House truly exceptional for wedding videography is the sh
 
 **The Ollerton Room** - Licensed for civil ceremonies with capacity for up to 110 guests, this room features beautiful parquet flooring and original paned windows overlooking the forest. The natural light here is exceptional, and the backdrop of Sherwood Forest creates romantic, timeless ceremony footage.
 
-**The Conservatory Room** - Perfect for drinks receptions and canapés, this bright, welcoming space offers a different aesthetic again. The mezzanine above provides stunning elevated shots looking down into the Engine Hall below—these panoramic angles are some of my favourite shots to capture.
+**The Conservatory Room** - Perfect for drinks receptions and canapés, this bright, welcoming space offers a different aesthetic again. The mezzanine above provides stunning elevated shots looking down into the Engine Hall below, these panoramic angles are some of my favourite shots to capture.
 
 **The Grounds** - Set in three acres of ancient Sherwood Forest woodland, the outdoor spaces are absolutely incredible for wedding videography. From drinks on the lawn to romantic couple portraits among the trees, the forest setting provides that quintessential English countryside backdrop that looks stunning in every season.
 
@@ -312,7 +312,7 @@ The Engine Hall can host larger receptions, giving you flexibility for your gues
 
 What I love about filming at The Pumping House is their "your day, your way" approach. No two weddings here are the same, which means every wedding film I create here is unique. Unlike venues with strict styling rules, The Pumping House gives couples complete flexibility to bring their vision to life.
 
-This freedom extends to suppliers too—you can bring your own, or choose from their trusted list. For wedding videography, this flexibility means I can work seamlessly with your chosen photographer and other suppliers to capture your day exactly as you've envisioned it.
+This freedom extends to suppliers too, you can bring your own, or choose from their trusted list. For wedding videography, this flexibility means I can work seamlessly with your chosen photographer and other suppliers to capture your day exactly as you've envisioned it.
 
 ## Natural Light That Elevates Wedding Films
 
@@ -344,7 +344,7 @@ Being on the edge of Sherwood Forest is a massive advantage for wedding films. T
 
 - Romantic forest backdrops for couple portraits
 - Dappled natural light filtering through the trees
-- Seasonal variety—spring blooms, summer greenery, autumn colours, winter atmosphere
+- Seasonal variety: spring blooms, summer greenery, autumn colours, winter atmosphere
 - Drone footage opportunities showcasing the forest setting (weather and airspace permitting)
 - Unique Nottinghamshire character that sets your film apart
 
@@ -362,7 +362,7 @@ Located in Ollerton, Newark, The Pumping House is perfectly positioned for coupl
 
 I've worked alongside numerous wedding photographers at The Pumping House, and the venue works brilliantly for both disciplines. The variety of spaces, exceptional natural light, and generous capacity mean we can capture every angle without interfering with each other's work.
 
-The venue's flexibility and "no two weddings are the same" philosophy also means your wedding film will be uniquely yours—not a cookie-cutter version of every other wedding filmed there.
+The venue's flexibility and "no two weddings are the same" philosophy also means your wedding film will be uniquely yours, not a cookie-cutter version of every other wedding filmed there.
 
 ## Ready to Create Your Pumping House Wedding Film?
 
@@ -383,7 +383,7 @@ From ceremony coverage to drone footage over Sherwood Forest, emotional speeches
     excerpt:
       "A waterfront tipi venue in rolling Leicestershire countryside, and a true blank canvas.",
     body: `
-Bridge House Barn in Leicestershire is one of those venues that makes my job as a wedding videographer genuinely exciting. This idyllic waterfront tipi venue offers something completely different from traditional barn settings—and that translates into stunning, unique wedding films.
+Bridge House Barn in Leicestershire is one of those venues that makes my job as a wedding videographer genuinely exciting. This idyllic waterfront tipi venue offers something completely different from traditional barn settings, and that translates into stunning, unique wedding films.
 
 ## A Waterfront Tipi Venue Like No Other
 
@@ -397,13 +397,13 @@ What sets Bridge House Barn apart is the combination of magnificent tipis set ag
 
 The tipi design is brilliant for wedding videography because of the abundance of natural light. Unlike enclosed barns that can be dark and challenging, the tipis at Bridge House Barn flood with daylight, creating that soft, romantic lighting that makes wedding films look cinematic.
 
-The open-sided options also mean I can capture the connection between your indoor celebration and the stunning outdoor setting—you get the best of both worlds on film.
+The open-sided options also mean I can capture the connection between your indoor celebration and the stunning outdoor setting, you get the best of both worlds on film.
 
 ## Blank Canvas for Your Vision
 
 Bridge House Barn operates as a true blank canvas venue, which I absolutely love as a videographer. Every wedding here looks different because couples have complete freedom to style the space their way. This means your wedding film will be uniquely yours, reflecting your personality and vision rather than looking like every other wedding filmed at the venue.
 
-The personal touch from Emma and her team also shines through in wedding films—you can see the care and attention in every detail.
+The personal touch from Emma and her team also shines through in wedding films, you can see the care and attention in every detail.
 
 ## Perfect for Outdoor Wedding Videography
 
@@ -415,7 +415,7 @@ The waterfront location means:
 - Romantic sunset shots over the lake
 - Natural soundscapes (water, birds, countryside) that enhance your film's audio
 - Drone footage opportunities showcasing the panoramic views
-- Seasonal variety—every time of year looks different and beautiful
+- Seasonal variety, every time of year looks different and beautiful
 
 ## Ideal for Leicestershire & East Midlands Couples
 
