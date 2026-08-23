@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "How much does a wedding videographer cost in the UK?",
-    a: "Most full-day UK wedding videography sits between £1,500 and £3,500. My own films are between £2,300 and £2,700 for most couples, depending on hours of coverage and any extras added on.",
+    a: "Most full-day UK wedding videography sits between £1,500 and £3,500. My own films start from £2,000, with most couples investing between £2,300 and £2,700 depending on hours of coverage and any extras added on.",
   },
   {
     q: "What should be included in a wedding videography package?",
@@ -43,8 +43,9 @@ export default function Page() {
         same-day edits, or a name that carries a premium.
       </P>
       <Lead>
-        My own films sit between £2,300 and £2,700 for most couples, depending
-        on hours of coverage and any extras added on.
+        My own films start from £2,000, with most couples investing between
+        £2,300 and £2,700, depending on hours of coverage and any extras added
+        on.
       </Lead>
 
       <H2>Why is there such a big range?</H2>

@@ -5,9 +5,11 @@ import { SiteFooter } from "@/components/site-footer";
 import { LocalBusinessSchema } from "@/components/schema";
 
 export const metadata: Metadata = {
-  title: "House of Tattersall | Cinematic Wedding Videographer",
+  metadataBase: new URL("https://www.houseoftattersall.com"),
+  title:
+    "House of Tattersall | Luxury Cinematic Wedding Videographer, Derbyshire, Staffordshire & Nottinghamshire",
   description:
-    "Cinematic award-winning wedding videography across the UK, serving Derbyshire, Staffordshire & Nottinghamshire.",
+    "Luxury cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Award-winning films from £2,000, with most couples investing £2,300 to £2,700.",
 };
 
 export default function RootLayout({

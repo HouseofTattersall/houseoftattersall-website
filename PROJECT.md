@@ -18,7 +18,7 @@ The website for **House of Tattersall**, a cinematic wedding videographer run by
 
 Getting these wrong across pages was a real problem once already. Check against this list.
 
-- **Pricing:** most couples invest **£2,300 to £2,700**. Never publish a different figure without asking.
+- **Pricing:** films start **from £2,000**; most couples invest **£2,300 to £2,700**. Never publish a different figure without asking.
 - **Wedding videography since:** 2022. Professional filming (live music, events, brand work) since **November 2014**.
 - **Volume:** a deliberately limited number each year, **typically 15 to 20**.
 - **Coverage:** all of Staffordshire and Derbyshire with **no travel charge**.

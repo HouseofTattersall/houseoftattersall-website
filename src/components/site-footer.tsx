@@ -19,6 +19,9 @@ export function SiteFooter() {
           <Link href="/staffordshire-wedding/" className="hover:text-[var(--khaki)]">
             Staffordshire Wedding Videographer
           </Link>
+          <Link href="/nottinghamshire-wedding/" className="hover:text-[var(--khaki)]">
+            Nottinghamshire Wedding Videographer
+          </Link>
           <Link href="/investment/" className="hover:text-[var(--khaki)]">
             Investment
           </Link>

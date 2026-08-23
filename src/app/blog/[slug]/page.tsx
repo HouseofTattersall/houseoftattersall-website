@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { posts, getPost, bannerFor } from "@/lib/posts";
+import { posts, getPost, bannerFor, isoDate } from "@/lib/posts";
 import { PageBanner } from "@/components/page-banner";
 import { Prose } from "@/components/prose";
 import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
-import { FaqSchema } from "@/components/schema";
+import { FaqSchema, ArticleSchema, VideoSchema } from "@/components/schema";
 import { CtaBand } from "@/components/cta";
 
 export function generateStaticParams() {
@@ -21,9 +21,26 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
+  const image = bannerFor(post);
   return {
     title: `${post.title} | House of Tattersall`,
     description: post.excerpt,
+    alternates: { canonical: `/blog/${post.slug}/` },
+    openGraph: {
+      type: "article",
+      title: post.title,
+      description: post.excerpt,
+      url: `/blog/${post.slug}/`,
+      images: [image],
+      locale: "en_GB",
+      siteName: "House of Tattersall",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: [image],
+    },
   };
 }
 
@@ -36,13 +53,37 @@ export default async function PostPage({
   const post = getPost(slug);
   if (!post) notFound();
 
+  const published = isoDate(post.date);
+  const banner = bannerFor(post);
+
   return (
     <>
-      <PageBanner
+      <ArticleSchema
         title={post.title}
-        eyebrow={post.category}
-        image={bannerFor(post)}
+        description={post.excerpt}
+        slug={post.slug}
+        image={banner}
+        datePublished={published}
       />
+      {post.video ? (
+        <VideoSchema
+          name={post.video.name}
+          description={post.video.description}
+          videoId={post.video.id}
+          thumbnail={banner}
+          uploadDate={published}
+        />
+      ) : null}
+      {post.videoId ? (
+        <VideoSchema
+          name={post.title}
+          description={post.excerpt}
+          videoId={post.videoId}
+          thumbnail={banner}
+          uploadDate={published}
+        />
+      ) : null}
+      <PageBanner title={post.title} eyebrow={post.category} image={banner} />
 
       <article className="mx-auto max-w-2xl px-6 py-14">
         <p className="text-xs tracking-[0.2em] text-[var(--gold)] uppercase">

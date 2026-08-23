@@ -26,6 +26,71 @@ export function FaqSchema({ items }: { items: FaqItem[] }) {
   );
 }
 
+const SITE = "https://www.houseoftattersall.com";
+
+/** Article markup so search and AI systems can attribute and date each post. */
+export function ArticleSchema({
+  title,
+  description,
+  slug,
+  image,
+  datePublished,
+}: {
+  title: string;
+  description: string;
+  slug: string;
+  image: string;
+  datePublished?: string;
+}) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        headline: title,
+        description,
+        image: `${SITE}${image}`,
+        mainEntityOfPage: `${SITE}/blog/${slug}/`,
+        url: `${SITE}/blog/${slug}/`,
+        ...(datePublished ? { datePublished, dateModified: datePublished } : {}),
+        author: { "@type": "Person", name: "Andy Tattersall" },
+        publisher: { "@id": `${SITE}/#business` },
+        inLanguage: "en-GB",
+      }}
+    />
+  );
+}
+
+/** VideoObject markup for a film embedded in a post. */
+export function VideoSchema({
+  name,
+  description,
+  videoId,
+  thumbnail,
+  uploadDate,
+}: {
+  name: string;
+  description: string;
+  videoId: string;
+  thumbnail: string;
+  uploadDate?: string;
+}) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        name,
+        description,
+        thumbnailUrl: `${SITE}${thumbnail}`,
+        embedUrl: `https://galleries.vidflow.co/videos/${videoId}`,
+        ...(uploadDate ? { uploadDate } : {}),
+        publisher: { "@id": `${SITE}/#business` },
+      }}
+    />
+  );
+}
+
 export function LocalBusinessSchema() {
   return (
     <JsonLd
@@ -35,7 +100,7 @@ export function LocalBusinessSchema() {
         "@id": "https://www.houseoftattersall.com/#business",
         name: "House of Tattersall",
         description:
-          "Cinematic wedding videographer based on the Staffordshire and Derbyshire border, filming weddings throughout Staffordshire, Derbyshire and Nottinghamshire, and UK-wide.",
+          "Luxury cinematic wedding videographer based on the Staffordshire and Derbyshire border, filming weddings throughout Derbyshire, Staffordshire and Nottinghamshire, and UK-wide.",
         url: "https://www.houseoftattersall.com/",
         email: "info@houseoftattersall.com",
         image: "https://www.houseoftattersall.com/images/banner-films.jpg",
@@ -57,6 +122,7 @@ export function LocalBusinessSchema() {
           { "@type": "Country", name: "United Kingdom" },
         ],
         knowsAbout: [
+          "Luxury wedding videography",
           "Cinematic wedding videography",
           "Documentary wedding films",
           "Barn wedding videography",
@@ -72,7 +138,7 @@ export function LocalBusinessSchema() {
           priceCurrency: "GBP",
           priceSpecification: {
             "@type": "PriceSpecification",
-            minPrice: 2300,
+            minPrice: 2000,
             maxPrice: 2700,
             priceCurrency: "GBP",
           },
@@ -112,7 +178,7 @@ export function ServiceAreaSchema({
           priceCurrency: "GBP",
           priceSpecification: {
             "@type": "PriceSpecification",
-            minPrice: 2300,
+            minPrice: 2000,
             maxPrice: 2700,
             priceCurrency: "GBP",
           },
