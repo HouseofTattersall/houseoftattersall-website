@@ -14,6 +14,11 @@ const films = [
     videoId: "r6jgraj1",
   },
   {
+    couple: "Hattie & Jack",
+    venue: "Normanton Church | 2026",
+    videoId: "xdn589wd",
+  },
+  {
     couple: "Rob & Jack",
     venue: "The Wilderness, Canterbury | 2026",
     videoId: "prev8ow4",
@@ -22,11 +27,6 @@ const films = [
     couple: "Mira & Mitul",
     venue: "Leicestershire | 2026",
     videoId: "0bf128e7",
-  },
-  {
-    couple: "Harriet & Jack",
-    venue: "Normanton Church | 2026",
-    videoId: "b431ff97",
   },
   {
     couple: "Laura & Dan",
