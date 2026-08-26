@@ -154,6 +154,205 @@ export function LocalBusinessSchema() {
   );
 }
 
+/**
+ * Client testimonials, marked up as reviews.
+ *
+ * Deliberately carries no star ratings: the testimonials are written quotes,
+ * not scored reviews, and inventing a rating would be a fabrication. Note that
+ * Google does not show rich-result stars for reviews a business hosts about
+ * itself, so the value here is that AI assistants can identify and quote them.
+ */
+export function ReviewSchema({
+  items,
+}: {
+  items: { names: string; venue: string; quote: string }[];
+}) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        name: "Client testimonials for House of Tattersall",
+        numberOfItems: items.length,
+        itemListElement: items.map((t, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          item: {
+            "@type": "Review",
+            author: { "@type": "Person", name: t.names },
+            reviewBody: t.quote,
+            itemReviewed: {
+              "@type": "LocalBusiness",
+              "@id": `${SITE}/#business`,
+              name: "House of Tattersall",
+            },
+            locationCreated: { "@type": "Place", name: t.venue },
+          },
+        })),
+      }}
+    />
+  );
+}
+
+/** Site-level markup, rendered once in the root layout. */
+export function WebSiteSchema() {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": `${SITE}/#website`,
+        url: `${SITE}/`,
+        name: "House of Tattersall",
+        description:
+          "Luxury cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire.",
+        publisher: { "@id": `${SITE}/#business` },
+        inLanguage: "en-GB",
+      }}
+    />
+  );
+}
+
+/** Trail markup, so search engines show a path rather than a bare URL. */
+export function BreadcrumbSchema({
+  trail,
+}: {
+  /** Ordered, excluding Home, which is added automatically */
+  trail: { name: string; path: string }[];
+}) {
+  const items = [{ name: "Home", path: "/" }, ...trail];
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: items.map((item, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: item.name,
+          item: `${SITE}${item.path}`,
+        })),
+      }}
+    />
+  );
+}
+
+/** Andy himself, so he can be recognised as an entity rather than only the business. */
+export function PersonSchema() {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": `${SITE}/#andy`,
+        name: "Andy Tattersall",
+        jobTitle: "Wedding Videographer",
+        description:
+          "Award-winning luxury wedding videographer, filming a deliberately limited number of weddings each year across Derbyshire, Staffordshire and Nottinghamshire. Professional filming since November 2014, weddings since 2022.",
+        url: `${SITE}/about/`,
+        image: `${SITE}/images/house-of-tattersall-andy.jpg`,
+        worksFor: { "@id": `${SITE}/#business` },
+        homeLocation: {
+          "@type": "Place",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Denstone",
+            addressRegion: "Staffordshire",
+            addressCountry: "GB",
+          },
+        },
+        knowsAbout: [
+          "Wedding videography",
+          "Cinematic wedding films",
+          "Documentary filmmaking",
+          "Wedding audio recording",
+          "Drone cinematography",
+        ],
+        sameAs: ["https://www.instagram.com/houseoftattersallfilms"],
+      }}
+    />
+  );
+}
+
+/** A portfolio of films, as a list search engines can read. */
+export function FilmListSchema({
+  films,
+}: {
+  films: { couple: string; venue: string; videoId: string }[];
+}) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        name: "Wedding films by House of Tattersall",
+        numberOfItems: films.length,
+        itemListElement: films.map((film, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          item: {
+            "@type": "VideoObject",
+            name: `${film.couple}, ${film.venue.split(" | ")[0]}`,
+            description: `A cinematic wedding film by House of Tattersall for ${film.couple}, filmed at ${film.venue.split(" | ")[0]}.`,
+            thumbnailUrl: `${SITE}/images/banner-films.jpg`,
+            embedUrl: `https://galleries.vidflow.co/videos/${film.videoId}`,
+            publisher: { "@id": `${SITE}/#business` },
+          },
+        })),
+      }}
+    />
+  );
+}
+
+/** Packages and pricing, for the Investment page. */
+export function PackagesSchema() {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "Service",
+        serviceType: "Luxury cinematic wedding videography",
+        provider: { "@id": `${SITE}/#business` },
+        url: `${SITE}/investment/`,
+        areaServed: [
+          { "@type": "AdministrativeArea", name: "Derbyshire" },
+          { "@type": "AdministrativeArea", name: "Staffordshire" },
+          { "@type": "AdministrativeArea", name: "Nottinghamshire" },
+          { "@type": "Country", name: "United Kingdom" },
+        ],
+        offers: {
+          "@type": "Offer",
+          name: "Wedding film core package",
+          description:
+            "Pre-wedding consultation, 10 hours of full-day coverage, a 7 to 9 minute cinematic feature film, a landscape film trailer, drone footage where permitted, and a 6 to 12 week turnaround. Delivered through Vidflow with 10 years of access.",
+          priceCurrency: "GBP",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            minPrice: 2000,
+            maxPrice: 2700,
+            priceCurrency: "GBP",
+          },
+        },
+        hasOfferCatalog: {
+          "@type": "OfferCatalog",
+          name: "Optional extras and bundles",
+          itemListElement: [
+            "Ceremony in Full",
+            "Speeches in Full",
+            "1 Week Anniversary short social teaser",
+            "Home Movie",
+            "Story Upgrade bundle",
+            "Story Upgrade PLUS bundle",
+          ].map((name) => ({
+            "@type": "Offer",
+            itemOffered: { "@type": "Service", name },
+          })),
+        },
+      }}
+    />
+  );
+}
+
 /** Service page markup for the county landing pages. */
 export function ServiceAreaSchema({
   county,

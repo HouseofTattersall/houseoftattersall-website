@@ -6,7 +6,12 @@ import { PageBanner } from "@/components/page-banner";
 import { Prose } from "@/components/prose";
 import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
-import { FaqSchema, ArticleSchema, VideoSchema } from "@/components/schema";
+import {
+  FaqSchema,
+  ArticleSchema,
+  VideoSchema,
+  BreadcrumbSchema,
+} from "@/components/schema";
 import { CtaBand } from "@/components/cta";
 
 export function generateStaticParams() {
@@ -58,6 +63,12 @@ export default async function PostPage({
 
   return (
     <>
+      <BreadcrumbSchema
+        trail={[
+          { name: "Film Reviews", path: "/blog/" },
+          { name: post.title, path: `/blog/${post.slug}/` },
+        ]}
+      />
       <ArticleSchema
         title={post.title}
         description={post.excerpt}

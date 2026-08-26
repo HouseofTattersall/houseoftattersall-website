@@ -1,4 +1,5 @@
 import { testimonials } from "@/lib/testimonials";
+import { ReviewSchema } from "@/components/schema";
 
 export function Testimonials({
   heading = "Kind words",
@@ -11,6 +12,7 @@ export function Testimonials({
 
   return (
     <section className="bg-[var(--paper-alt)] px-6 py-20">
+      <ReviewSchema items={items} />
       <div className="mx-auto max-w-6xl">
         <h2 className="text-center font-serif text-3xl text-[var(--khaki)]">
           {heading}

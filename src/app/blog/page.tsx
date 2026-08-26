@@ -1,8 +1,21 @@
+import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { PageBanner } from "@/components/page-banner";
 import { CtaBand } from "@/components/cta";
 import { realWeddings, venueGuides, guides } from "@/lib/posts";
 import type { Post } from "@/lib/posts";
+import { BreadcrumbSchema } from "@/components/schema";
+
+export const metadata: Metadata = pageMeta({
+  title:
+    "Film Reviews, Venue Guides & Wedding Advice | House of Tattersall",
+  description:
+    "Honest venue guides, real wedding film reviews and practical planning advice from a working wedding videographer across Derbyshire, Staffordshire and Nottinghamshire.",
+  path: "/blog/",
+  image: "/images/banner-blog.jpg",
+});
+
 
 const buyerGuides = [
   {
@@ -64,6 +77,7 @@ const toItem = (p: Post) => ({
 export default function BlogIndexPage() {
   return (
     <>
+      <BreadcrumbSchema trail={[{ name: "Film Reviews", path: "/blog/" }]} />
       <PageBanner
         title="Film Reviews"
         eyebrow="From the blog"

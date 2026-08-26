@@ -26,6 +26,9 @@ const faqs = [
 export default function Page() {
   return (
     <Article
+      slug="is-a-wedding-videographer-worth-it"
+      datePublished="2026-01-14"
+      description="An honest answer from a wedding videographer, including the cases where it isn't worth it and what couples actually say about their films years later."
       title="Is a wedding videographer worth it?"
       banner="/images/banner-enquire.jpg"
       intro="I'm obviously biased. So rather than tell you it's worth it, here's what I actually think, including the cases where it isn't."

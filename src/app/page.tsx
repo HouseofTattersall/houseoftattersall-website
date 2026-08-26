@@ -4,6 +4,7 @@ import { FaqSchema } from "@/components/schema";
 import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
+import { StyleExplainer } from "@/components/style-explainer";
 
 const films = [
   {
@@ -184,6 +185,10 @@ export default function Home() {
           <CtaButton>Enquire</CtaButton>
         </div>
       </Split>
+
+      <div className="mx-auto max-w-3xl px-6 pb-8">
+        <StyleExplainer />
+      </div>
 
       <Testimonials />
 

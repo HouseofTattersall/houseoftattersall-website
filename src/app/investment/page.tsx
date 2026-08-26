@@ -1,13 +1,28 @@
+import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { Testimonials } from "@/components/testimonials";
 import { Photo } from "@/components/photo";
 import { PageBanner } from "@/components/page-banner";
 import { CtaButton, CtaBand } from "@/components/cta";
+import { BreadcrumbSchema, PackagesSchema } from "@/components/schema";
+
+export const metadata: Metadata = pageMeta({
+  title:
+    "Wedding Videography Packages & Pricing | From £2,000",
+  description:
+    "Wedding film packages and pricing. Films start from £2,000, with most couples investing between £2,300 and £2,700, including full-day coverage, a feature film, trailer and drone footage.",
+  path: "/investment/",
+  image: "/images/banner-investment.jpg",
+});
+
 
 
 
 export default function InvestmentPage() {
   return (
     <>
+      <PackagesSchema />
+      <BreadcrumbSchema trail={[{ name: "Investment", path: "/investment/" }]} />
       <PageBanner
         title="Investment"
         eyebrow="Packages & pricing"

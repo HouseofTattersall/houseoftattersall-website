@@ -30,6 +30,9 @@ const faqs = [
 export default function Page() {
   return (
     <Article
+      slug="how-much-does-a-wedding-videographer-cost"
+      datePublished="2026-01-10"
+      description="An honest breakdown of UK wedding videography pricing, what moves the price, what should be included as standard, and what the common extras are worth."
       title="How much does a wedding videographer cost in the UK?"
       banner="/images/banner-investment.jpg"
       intro="Most couples I speak to have no reference point for this. You've never booked a wedding videographer before and you'll probably never book another one, so 'is that a lot?' is an impossible question to answer on your own. Here's the honest version."

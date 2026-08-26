@@ -1,8 +1,21 @@
-import { FaqSchema, ServiceAreaSchema } from "@/components/schema";
+import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
+import { BreadcrumbSchema, FaqSchema, ServiceAreaSchema } from "@/components/schema";
 import { PageBanner } from "@/components/page-banner";
 import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
+import { StyleExplainer } from "@/components/style-explainer";
+
+export const metadata: Metadata = pageMeta({
+  title:
+    "Staffordshire Wedding Videographer | Luxury Cinematic Wedding Films",
+  description:
+    "Documentary-shot, cinematic wedding videography across Staffordshire, including Hanbury Wedding Barns, Foxtail Barns and The Ashes Barns. From £2,000, no travel charge.",
+  path: "/staffordshire-wedding/",
+  image: "/images/banner-staffordshire.jpg",
+});
+
 
 type Venue = {
   name: string;
@@ -30,6 +43,10 @@ const venues: Venue[] = [
 ];
 
 const faqs = [
+  {
+    q: "Do you film documentary style weddings in Staffordshire?",
+    a: "Yes, documentary is how every film I make is shot. I capture your Staffordshire wedding as it actually happens rather than directing or re-staging moments, with natural light and real audio from your vows and speeches. The cinematic quality comes from the coverage, the colour grade and the edit, not from staging the day.",
+  },
   {
     q: "How much does a wedding videographer in Staffordshire cost?",
     a: "My films start from £2,000, and most couples invest between £2,300 and £2,700 for their wedding film, depending on hours of coverage and any extras like a ceremony-in-full or speeches-in-full add-on. My full package breakdown is on the Investment page.",
@@ -59,6 +76,7 @@ const faqs = [
 export default function StaffordshirePage() {
   return (
     <>
+      <BreadcrumbSchema trail={[{ name: "Staffordshire Wedding Films", path: "/staffordshire-wedding/" }]} />
       <PageBanner
         title="Staffordshire Wedding Films"
         eyebrow="Staffordshire Wedding Videographer"
@@ -76,6 +94,9 @@ export default function StaffordshirePage() {
       <div className="mt-10 text-center">
         <CtaButton>Enquire</CtaButton>
       </div>
+
+
+      <StyleExplainer county="Staffordshire" />
 
       <div className="mt-20 space-y-20">
         {venues.map((venue) => (

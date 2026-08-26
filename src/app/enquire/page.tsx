@@ -1,10 +1,24 @@
+import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { Photo } from "@/components/photo";
 import { PageBanner } from "@/components/page-banner";
 import { CtaBand } from "@/components/cta";
+import { BreadcrumbSchema } from "@/components/schema";
+
+export const metadata: Metadata = pageMeta({
+  title:
+    "Enquire | Check Your Date, House of Tattersall Wedding Films",
+  description:
+    "Check availability for your wedding date and request the full investment guide. Luxury cinematic wedding films from £2,000 across Derbyshire, Staffordshire and Nottinghamshire.",
+  path: "/enquire/",
+  image: "/images/banner-enquire.jpg",
+});
+
 
 export default function EnquirePage() {
   return (
     <>
+      <BreadcrumbSchema trail={[{ name: "Enquire", path: "/enquire/" }]} />
       <PageBanner
         title="Enquire"
         eyebrow="Enquiries"

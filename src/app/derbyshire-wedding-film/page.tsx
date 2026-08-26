@@ -1,9 +1,22 @@
-import { FaqSchema, ServiceAreaSchema } from "@/components/schema";
+import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
+import { BreadcrumbSchema, FaqSchema, ServiceAreaSchema } from "@/components/schema";
 import { Photo } from "@/components/photo";
 import { PageBanner } from "@/components/page-banner";
 import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
+import { StyleExplainer } from "@/components/style-explainer";
+
+export const metadata: Metadata = pageMeta({
+  title:
+    "Derbyshire Wedding Videographer | Luxury Cinematic Wedding Films",
+  description:
+    "Documentary-shot, cinematic wedding videography across Derbyshire and the Peak District, including The West Mill, Grangefields and Yeldersley Hall. From £2,000, no travel charge.",
+  path: "/derbyshire-wedding-film/",
+  image: "/images/banner-derbyshire.jpg",
+});
+
 
 type Venue = {
   name: string;
@@ -33,6 +46,14 @@ const venues: Venue[] = [
 
 const faqs = [
   {
+    q: "What is your wedding filming style?",
+    a: "Documentary and cinematic. Documentary describes how I shoot: I capture your Derbyshire wedding as it actually happens, without directing or re-staging moments. Cinematic describes the result: two or three angles on the ceremony and speeches, professionally recorded audio from your vows, natural light, a moody editorial colour grade, and an edit built around the story of your day rather than a chronological checklist.",
+  },
+  {
+    q: "Do you film documentary style weddings in Derbyshire?",
+    a: "Yes, documentary is how every film I make is shot. Nothing is posed or run again for the camera. The only exception is your couple portraits, which are less about posing and more a quiet half hour away from the day, filmed as you walk and talk rather than staged.",
+  },
+  {
     q: "How much does a wedding videographer in Derbyshire cost?",
     a: "My films start from £2,000, and most couples invest between £2,300 and £2,700 for their wedding film, depending on hours of coverage and any extras like a ceremony-in-full or speeches-in-full add-on. My full package breakdown is on the Investment page.",
   },
@@ -61,6 +82,7 @@ const faqs = [
 export default function DerbyshirePage() {
   return (
     <>
+      <BreadcrumbSchema trail={[{ name: "Derbyshire Wedding Films", path: "/derbyshire-wedding-film/" }]} />
       <PageBanner
         title="Derbyshire Wedding Films"
         eyebrow="Derbyshire Wedding Videographer"
@@ -78,6 +100,9 @@ export default function DerbyshirePage() {
       <div className="mt-10 text-center">
         <CtaButton>Enquire</CtaButton>
       </div>
+
+
+      <StyleExplainer county="Derbyshire" />
 
       <div className="mt-20 space-y-20">
         {venues.map((venue) => (

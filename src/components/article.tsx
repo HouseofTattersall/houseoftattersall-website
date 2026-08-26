@@ -1,21 +1,47 @@
 import { PageBanner } from "@/components/page-banner";
 import { CtaBand } from "@/components/cta";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/schema";
 
 export function Article({
   title,
   eyebrow = "Guides",
   banner,
   intro,
+  slug,
+  description,
+  datePublished,
   children,
 }: {
   title: string;
   eyebrow?: string;
   banner?: string;
   intro?: string;
+  /** Route segment under /blog/, so the guide can carry Article and Breadcrumb markup */
+  slug?: string;
+  description?: string;
+  datePublished?: string;
   children: React.ReactNode;
 }) {
   return (
     <>
+      {slug ? (
+        <>
+          <BreadcrumbSchema
+            trail={[
+              { name: "Film Reviews", path: "/blog/" },
+              { name: title, path: `/blog/${slug}/` },
+            ]}
+          />
+          <ArticleSchema
+            title={title}
+            description={description ?? intro ?? title}
+            slug={slug}
+            image={banner ?? "/images/banner-blog.jpg"}
+            datePublished={datePublished}
+          />
+        </>
+      ) : null}
+
       <PageBanner title={title} eyebrow={eyebrow} image={banner} />
 
       <article className="mx-auto max-w-2xl px-6 py-16">

@@ -1,9 +1,24 @@
+import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { PageBanner } from "@/components/page-banner";
 import { CtaButton, CtaBand } from "@/components/cta";
+import { BreadcrumbSchema, PersonSchema } from "@/components/schema";
+
+export const metadata: Metadata = pageMeta({
+  title:
+    "About Andy Tattersall | Luxury Wedding Videographer, Staffordshire & Derbyshire",
+  description:
+    "Award-winning wedding videographer Andy Tattersall, based in Denstone on the Staffordshire and Derbyshire border. Filming a limited 15 to 20 cinematic wedding films a year since 2022.",
+  path: "/about/",
+  image: "/images/banner-about.jpg",
+});
+
 
 export default function AboutPage() {
   return (
     <>
+      <PersonSchema />
+      <BreadcrumbSchema trail={[{ name: "About", path: "/about/" }]} />
       <PageBanner
         title="About"
         eyebrow="Getting to know the vision"

@@ -30,6 +30,9 @@ const faqs = [
 export default function Page() {
   return (
     <Article
+      slug="how-to-choose-a-wedding-videographer"
+      datePublished="2026-01-12"
+      description="How to tell wedding videographers apart when every website shows beautiful work: what to watch, what to listen for, and the questions that reveal experience."
       title="How to choose a wedding videographer"
       banner="/images/banner-derbyshire.jpg"
       intro="You're looking at four websites that all show beautiful work and say roughly the same thing. Here's how to actually tell them apart."

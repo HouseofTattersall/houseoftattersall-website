@@ -30,6 +30,9 @@ const faqs = [
 export default function Page() {
   return (
     <Article
+      slug="wedding-videographer-vs-photographer"
+      datePublished="2026-01-16"
+      description="The difference between a wedding videographer and a photographer, whether you need both, and which to prioritise if your budget only stretches to one."
       title="Wedding videographer vs photographer: do you need both?"
       banner="/images/banner-films.jpg"
       intro="This is the question I get asked most, usually phrased as 'we've booked a photographer, do we really need a videographer too?' Here's my honest answer, including the part where I argue against myself."

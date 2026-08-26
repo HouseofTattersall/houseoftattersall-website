@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { FaqSchema, ServiceAreaSchema } from "@/components/schema";
+import { BreadcrumbSchema, FaqSchema, ServiceAreaSchema } from "@/components/schema";
 import { PageBanner } from "@/components/page-banner";
 import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
 import Link from "next/link";
+import { StyleExplainer } from "@/components/style-explainer";
 
 export const metadata: Metadata = {
   title:
@@ -75,6 +76,7 @@ const faqs = [
 export default function NottinghamshirePage() {
   return (
     <>
+      <BreadcrumbSchema trail={[{ name: "Nottinghamshire Wedding Films", path: "/nottinghamshire-wedding/" }]} />
       <PageBanner
         title="Nottinghamshire Wedding Films"
         eyebrow="Nottinghamshire Wedding Videographer"
@@ -103,6 +105,9 @@ export default function NottinghamshirePage() {
         <div className="mt-10 text-center">
           <CtaButton>Enquire</CtaButton>
         </div>
+
+
+        <StyleExplainer county="Nottinghamshire" />
 
         <div className="mt-20 space-y-20">
           {venues.map((venue) => (
