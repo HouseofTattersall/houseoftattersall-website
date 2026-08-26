@@ -1,6 +1,19 @@
+import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { PageBanner } from "@/components/page-banner";
 import { VideoEmbed } from "@/components/video-embed";
 import { CtaButton, CtaBand } from "@/components/cta";
+import { BreadcrumbSchema, FilmListSchema } from "@/components/schema";
+
+export const metadata: Metadata = pageMeta({
+  title:
+    "Wedding Films | Cinematic Wedding Videography, Derbyshire & Staffordshire",
+  description:
+    "Watch recent cinematic wedding films from venues across Derbyshire, Staffordshire, Nottinghamshire and beyond, including The Pumping House, The West Mill and Hanbury Wedding Barns.",
+  path: "/films/",
+  image: "/images/banner-films.jpg",
+});
+
 
 const films = [
   {
@@ -58,6 +71,8 @@ const films = [
 export default function FilmsPage() {
   return (
     <>
+      <FilmListSchema films={films} />
+      <BreadcrumbSchema trail={[{ name: "Films", path: "/films/" }]} />
       <PageBanner
         title="Films"
         eyebrow="Recent wedding films"
