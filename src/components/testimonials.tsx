@@ -4,11 +4,19 @@ import { ReviewSchema } from "@/components/schema";
 export function Testimonials({
   heading = "Kind words",
   limit,
+  county,
 }: {
   heading?: string;
   limit?: number;
+  /** Show only couples who married in this county */
+  county?: string;
 }) {
-  const items = limit ? testimonials.slice(0, limit) : testimonials;
+  const pool = county
+    ? testimonials.filter((t) => t.county === county)
+    : testimonials;
+  const items = limit ? pool.slice(0, limit) : pool;
+
+  if (!items.length) return null;
 
   return (
     <section className="bg-[var(--paper-alt)] px-6 py-20">

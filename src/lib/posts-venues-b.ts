@@ -5,7 +5,7 @@ export const venuePostsB: Post[] = [
     slug: "the-west-mill-wedding-videographer-derbyshire",
     title: "The West Mill, Wedding Videographer | Derbyshire",
     category: "Venue guide, Derbyshire",
-    date: "28 October 2025",
+    date: "1 September 2026",
     excerpt:
       "Industrial windows, a multi-level layout like the layers of a wedding cake, and light that works all year.",
     body: `
@@ -65,7 +65,7 @@ From ceremony coverage to drone footage, speeches to first dance, I'll create a 
     slug: "yeldersley-hall-wedding-videographer-derbyshire",
     title: "Yeldersley Hall, Wedding Videographer | Derbyshire",
     category: "Venue guide, Derbyshire",
-    date: "28 October 2025",
+    date: "1 September 2026",
     excerpt:
       "An exclusive-use country house near Ashbourne, capped at 80 guests, with twelve acres of Peak District countryside.",
     body: `
@@ -170,7 +170,7 @@ From ceremony coverage to drone footage over the Peak District countryside, emot
     slug: "hazel-gap-barn-wedding-videographer-",
     title: "Hazel Gap Barn, Wedding Videographer | Nottinghamshire",
     category: "Venue guide, Nottinghamshire",
-    date: "28 October 2025",
+    date: "1 September 2026",
     videoId: "cdff82d2",
     excerpt:
       "A dramatic red-brick barn on the Welbeck Estate, with a courtyard that transforms after dark.",
@@ -262,7 +262,7 @@ From ceremony coverage in the light-filled Oak Room to romantic portraits in the
     slug: "pumping-house-wedding-videographer",
     title: "The Pumping House, Wedding Videographer | Newark",
     category: "Venue guide, Nottinghamshire",
-    date: "28 October 2025",
+    date: "1 September 2026",
     videoId: "bcd7089f",
     excerpt:
       "A Grade II listed Victorian building on the edge of Sherwood Forest, and where I collected my East Midlands award.",
@@ -378,7 +378,7 @@ From ceremony coverage to drone footage over Sherwood Forest, emotional speeches
     slug: "bridge-house-barn-wedding-videographer",
     title: "Bridge House Barn, Wedding Videographer | Leicestershire",
     category: "Venue guide, Leicestershire",
-    date: "28 October 2025",
+    date: "1 September 2026",
     videoId: "0bf128e7",
     excerpt:
       "A waterfront tipi venue in rolling Leicestershire countryside, and a true blank canvas.",

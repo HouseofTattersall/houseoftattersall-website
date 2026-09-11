@@ -39,6 +39,11 @@ export default function AboutPage() {
         <div className="space-y-5 leading-relaxed text-[var(--ink-muted)] md:w-3/5">
         <p>I&apos;m Andy, the one behind the camera at House of Tattersall.</p>
         <p>
+          I&apos;m a wedding videographer based in Denstone, Staffordshire, and
+          I film cinematic wedding films across Staffordshire, Derbyshire and
+          Nottinghamshire, as well as further afield across the UK and Europe.
+        </p>
+        <p>
           I didn&apos;t start out in weddings. I came up filming live music:
           gigs and music videos. One pass at a moment that was never going to
           happen the same way twice. That&apos;s really what pulled me across

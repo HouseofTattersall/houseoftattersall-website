@@ -3,6 +3,8 @@ export type Testimonial = {
   venue: string;
   date: string;
   quote: string;
+  /** Used to show a couple's own words on the matching county page */
+  county?: "Derbyshire" | "Staffordshire" | "Nottinghamshire";
 };
 
 export const testimonials: Testimonial[] = [
@@ -16,6 +18,7 @@ export const testimonials: Testimonial[] = [
   {
     names: "Olivia and Charles",
     venue: "The West Mill, Derby",
+    county: "Derbyshire",
     date: "June 2026",
     quote:
       "We honestly couldn't be happier with our wedding video. From the moment we met Andy on video call, his friendly, relaxed, and genuinely cool nature put us completely at ease! He blended so well into our day, making us and all our guests feel comfortable while capturing every moment so naturally. What was really special is his incredible talent for noticing and preserving both the big, emotional moments and the small details that might otherwise go unnoticed.",
@@ -30,6 +33,7 @@ export const testimonials: Testimonial[] = [
   {
     names: "Alice and Ryan",
     venue: "Carriage Hall, Nottinghamshire",
+    county: "Nottinghamshire",
     date: "July 2023",
     quote:
       "From the first chat it was clear that Andy was somebody that would go above and beyond for us. The video we received was stunning, and the montage is unbelievable how it all links together. It's something we will treasure forever, and we can't wait to show it to family and friends. We'd urge anybody looking for a friendly, professional and talented videographer to choose Andy.",
@@ -37,6 +41,7 @@ export const testimonials: Testimonial[] = [
   {
     names: "Amy and Tom",
     venue: "Cockliffe Country House, Nottinghamshire",
+    county: "Nottinghamshire",
     date: "July 2023",
     quote:
       "Mate! WOW! We've just watched it. That is absolutely incredible!!! You've captured so much in 1 minute there!!!!! There were a few tears not gunna lie. Absolutely incredible!!!! Thank you soooo soooo much! We're soo grateful for what you've done!",
@@ -44,6 +49,7 @@ export const testimonials: Testimonial[] = [
   {
     names: "Hannah and Tom",
     venue: "Foxtail Barns, Staffordshire",
+    county: "Staffordshire",
     date: "July 2023",
     quote:
       "Andy!!! Just want to say a massive thank you for yesterday! You were absolutely 10/10! You guys were so relaxed and put us both at ease all day knowing you had everything on point. Even with the weather situation you pulled it off! We're so happy we chose you to video our day and wouldn't hesitate to recommend you to anyone in the future! Andy this is just incredible, I can't stop crying watching it! Thank you so very very much!",
@@ -51,6 +57,7 @@ export const testimonials: Testimonial[] = [
   {
     names: "Bethany and Connor",
     venue: "Derbyshire",
+    county: "Derbyshire",
     date: "June 2023",
     quote:
       "Andy was incredible to work with. Ultimate professional from first contact to on the wedding day. The film is amazing! We will cherish it forever. Thank you Andy! Legend",
@@ -58,6 +65,7 @@ export const testimonials: Testimonial[] = [
   {
     names: "Dave and Steph",
     venue: "The West Mill, Derby",
+    county: "Derbyshire",
     date: "April 2023",
     quote:
       "We had Andy video our wedding, we was very friendly and professional. the video is amazing can't recommend highly enough!!",

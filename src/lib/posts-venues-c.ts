@@ -5,7 +5,7 @@ export const venuePostsC: Post[] = [
     slug: "grangefields-derbyshire",
     title: "Grangefields, Wedding Videographer | Derbyshire",
     category: "Venue guide, Derbyshire",
-    date: "28 October 2025",
+    date: "1 September 2026",
     excerpt:
       "A Cripps & Co venue on the Trusley Estate, with vaulted ceilings, a Tuscan courtyard and a show kitchen.",
     body: `
@@ -92,7 +92,7 @@ Grangefields is one of 11 stunning venues in the Cripps & Co collection. If you'
     slug: "rutland-wedding-videographer",
     title: "Rutland Wedding Videographer | Barnsdale & Normanton Church",
     category: "Venue guide, Rutland",
-    date: "28 October 2025",
+    date: "1 September 2026",
     videoId: "e049bf75",
     excerpt:
       "The church that appears to float on Rutland Water, paired with a relaxed country house reception minutes away.",
@@ -185,7 +185,7 @@ From ceremony coverage at the iconic church on the water to relaxed reception fi
     slug: "davenport-house",
     title: "Davenport House, Wedding Videographer | Shropshire",
     category: "Venue guide, Shropshire",
-    date: "October 2025",
+    date: "3 September 2026",
     excerpt:
       "A Grade I listed Georgian estate, a lovingly restored family home, and one of the most rewarding days of my career.",
     body: `
@@ -303,7 +303,7 @@ While I can't share the work I filmed here due to a non-disclosure agreement, I 
     slug: "palm-house-sefton-park-videography",
     title: "Palm House Sefton Park, Wedding Videographer | Liverpool",
     category: "Venue guide, Liverpool",
-    date: "October 2025",
+    date: "3 September 2026",
     excerpt:
       "A restored Victorian glasshouse filled with tropical plants, and a venue that glows like a jewel after dark.",
     body: `

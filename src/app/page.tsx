@@ -102,6 +102,11 @@ export default function Home() {
         <p className="mt-4 font-serif text-2xl text-[var(--ink-muted)] md:text-3xl">
           NOT just a highlight of it
         </p>
+        <p className="mx-auto mt-6 max-w-2xl leading-relaxed text-[var(--ink-muted)]">
+          House of Tattersall is a wedding videographer based in Denstone,
+          Staffordshire, filming cinematic wedding films across Staffordshire,
+          Derbyshire and Nottinghamshire. Films start from £2,000.
+        </p>
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <CtaButton>Enquire</CtaButton>
           <CtaButton href="/films/" variant="outline">

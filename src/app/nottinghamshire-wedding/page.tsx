@@ -6,6 +6,7 @@ import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
 import Link from "next/link";
 import { StyleExplainer } from "@/components/style-explainer";
+import { Testimonials } from "@/components/testimonials";
 
 export const metadata: Metadata = {
   title:
@@ -92,7 +93,11 @@ export default function NottinghamshirePage() {
           film in most.
         </p>
 
-        <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
+        <p className="text-lg leading-relaxed text-[var(--ink-muted)]">
+        House of Tattersall is a wedding videographer covering Nottinghamshire, based on the Staffordshire and Derbyshire border and filming cinematic wedding films at venues across the county, from Hazel Gap Barn on the edge of Sherwood Forest to The Pumping House in Ollerton.
+      </p>
+
+      <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
           Luxury cinematic wedding films in Nottinghamshire from £2,000, with
           most couples investing between £2,300 and £2,700 depending on hours
           of coverage and any extras. The full breakdown is on the{" "}
@@ -169,6 +174,11 @@ export default function NottinghamshirePage() {
           />
         </div>
       </div>
+
+      <Testimonials
+        heading="What couples married in Nottinghamshire said"
+        county="Nottinghamshire"
+      />
 
       <CtaBand />
     </>

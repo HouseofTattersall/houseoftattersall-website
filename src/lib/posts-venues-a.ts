@@ -5,7 +5,7 @@ export const venuePostsA: Post[] = [
     slug: "foxtail-barns-wedding-videographer",
     title: "Foxtail Barns, Wedding Videographer | Staffordshire",
     category: "Venue guide, Staffordshire",
-    date: "29 October 2025",
+    date: "2 September 2026",
     excerpt:
       "The iconic bridge, the walled garden, and the ceremony barn that glows even on grey Staffordshire days.",
     body: `
@@ -132,7 +132,7 @@ For videographers and photographers, that experience is invaluable. We're not fi
     slug: "hanbury-barns",
     title: "Hanbury Barns, Wedding Videographer | Staffordshire",
     category: "Venue guide, Staffordshire",
-    date: "29 October 2025",
+    date: "2 September 2026",
     excerpt:
       "A National Forest setting, an outdoor pavilion over the lake, and a layout with no interrupting room changes.",
     body: `
@@ -227,7 +227,7 @@ From the emotional ceremony (whether in the elegant barn or by the lake) through
     slug: "the-ashes-wedding-videographer",
     title: "The Ashes Barn Wedding Film | Staffordshire",
     category: "Venue guide, Staffordshire",
-    date: "28 October 2025",
+    date: "1 September 2026",
     videoId: "902e449d",
     excerpt:
       "An award-winning exclusive use venue with no corkage, multiple barns, and a wedding rowing boat.",
