@@ -32,7 +32,7 @@ As a Derbyshire wedding videographer who has worked extensively across the East 
 
 ## Grangefields Wedding Videography Pricing
 
-My films start from £2,000, with most couples investing between £2,300 and £2,700 for their wedding film, depending on hours of coverage and any extras added on. The full breakdown of what's included, along with the optional extras and bundles, is on my [Investment](/investment/) page.
+My Core package is £2,100 and my Complete Story package, which adds a second videographer, is £2,750. The full breakdown of what's included, along with the optional extras and bundles, is on my [Investment](/investment/) page.
 
 ## Why Choose House of Tattersall for Your Grangefields Wedding?
 

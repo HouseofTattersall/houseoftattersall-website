@@ -13,7 +13,7 @@ export const metadata: Metadata = pageMeta({
   title:
     "Derbyshire Wedding Videographer | Luxury Cinematic Wedding Films",
   description:
-    "Documentary-shot, cinematic wedding videography across Derbyshire and the Peak District, including The West Mill, Grangefields and Yeldersley Hall. From £2,000, no travel charge.",
+    "Documentary-shot, cinematic wedding videography across Derbyshire and the Peak District, including The West Mill, Grangefields and Yeldersley Hall. From £2,100, no travel charge.",
   path: "/derbyshire-wedding-film/",
   image: "/images/banner-derbyshire.jpg",
 });
@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     q: "How much does a wedding videographer in Derbyshire cost?",
-    a: "My films start from £2,000, and most couples invest between £2,300 and £2,700 for their wedding film, depending on hours of coverage and any extras like a ceremony-in-full or speeches-in-full add-on. My full package breakdown is on the Investment page.",
+    a: "My Core package is £2,100 and the Complete Story package, which adds a second videographer plus your ceremony and speeches in full, is £2,750. My full package breakdown is on the Investment page.",
   },
   {
     q: "Do you film weddings at [specific venue] in Derbyshire?",
@@ -97,9 +97,7 @@ export default function DerbyshirePage() {
       </p>
 
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
-        Luxury cinematic wedding films in Derbyshire from £2,000, with most
-        couples investing between £2,300 and £2,700 depending on hours of
-        coverage and any extras. The full breakdown is on the Investment page.
+        Luxury cinematic wedding films in Derbyshire from £2,100. The Complete Story package, which adds a second videographer, is £2,750. The full breakdown is on the Investment page.
       </p>
 
       <div className="mt-10 text-center">

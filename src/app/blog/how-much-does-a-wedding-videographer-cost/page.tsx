@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "How much does a wedding videographer cost in the UK?",
-    a: "Most full-day UK wedding videography sits between £1,500 and £3,500. My own films start from £2,000, with most couples investing between £2,300 and £2,700 depending on hours of coverage and any extras added on.",
+    a: "Most full-day UK wedding videography sits between £1,500 and £3,500. My Core package is £2,100 and my Complete Story package, which adds a second videographer plus your ceremony and speeches in full, is £2,750.",
   },
   {
     q: "What should be included in a wedding videography package?",
@@ -46,9 +46,7 @@ export default function Page() {
         same-day edits, or a name that carries a premium.
       </P>
       <Lead>
-        My own films start from £2,000, with most couples investing between
-        £2,300 and £2,700, depending on hours of coverage and any extras added
-        on.
+        My Core package is £2,100 and my Complete Story package, which adds a second videographer plus your ceremony and speeches in full, is £2,750.
       </Lead>
 
       <H2>Why is there such a big range?</H2>
@@ -64,7 +62,9 @@ export default function Page() {
         <strong className="text-[var(--ink)]">One filmmaker or two.</strong> A
         second shooter means two angles on the ceremony and someone else
         catching the reactions while the main camera is on the couple. It also
-        roughly doubles the day rate.
+        roughly doubles the day rate. I film every wedding personally, and my
+        Complete Story package adds a second videographer alongside me for the
+        whole day.
       </P>
       <P>
         <strong className="text-[var(--ink)]">Edit time.</strong> This is the

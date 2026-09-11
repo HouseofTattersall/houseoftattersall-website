@@ -77,7 +77,7 @@ So judge the films first. Watch full films rather than 30 second Instagram cuts,
 
 Films come back within 6 to 12 weeks. You will get an email with your gallery link, and from that moment it is yours to watch, download and share for the next decade.
 
-If you would like to talk about your own film, whether you're getting married in [Derbyshire](/derbyshire-wedding-film/), [Staffordshire](/staffordshire-wedding/), [Nottinghamshire](/nottinghamshire-wedding/) or further afield, I would love to hear about your day. Films start from £2,000, with most couples investing between £2,300 and £2,700, and the full breakdown is on the [Investment](/investment/) page.
+If you would like to talk about your own film, whether you're getting married in [Derbyshire](/derbyshire-wedding-film/), [Staffordshire](/staffordshire-wedding/), [Nottinghamshire](/nottinghamshire-wedding/) or further afield, I would love to hear about your day. Films start from £2,100, with the Complete Story package including a second videographer at £2,750, and the full breakdown is on the [Investment](/investment/) page.
 
 !cta[Enquire about your film](/enquire/)
 `,

@@ -134,12 +134,12 @@ export function LocalBusinessSchema() {
           "@type": "Offer",
           name: "Wedding film core package",
           description:
-            "Pre-wedding consultation, 10 hours of full-day coverage, 7-9 minute cinematic feature film, landscape film trailer, drone footage, 6-12 week turnaround.",
+            "Pre-wedding consultation, 10 hours of full-day coverage, 7-9 minute cinematic feature film, landscape film trailer, drone footage, 6-12 week turnaround. Delivered through Vidflow with 10 years of access.",
           priceCurrency: "GBP",
           priceSpecification: {
             "@type": "PriceSpecification",
-            minPrice: 2000,
-            maxPrice: 2700,
+            minPrice: 2100,
+            maxPrice: 2750,
             priceCurrency: "GBP",
           },
         },
@@ -328,24 +328,33 @@ export function PackagesSchema() {
           priceCurrency: "GBP",
           priceSpecification: {
             "@type": "PriceSpecification",
-            minPrice: 2000,
-            maxPrice: 2700,
+            minPrice: 2100,
+            maxPrice: 2750,
             priceCurrency: "GBP",
           },
         },
         hasOfferCatalog: {
           "@type": "OfferCatalog",
-          name: "Optional extras and bundles",
+          name: "Packages and optional extras",
           itemListElement: [
-            "Ceremony in Full",
-            "Speeches in Full",
-            "1 Week Anniversary short social teaser",
-            "Home Movie",
-            "Story Upgrade bundle",
-            "Story Upgrade PLUS bundle",
-          ].map((name) => ({
+            { name: "Core package", price: 2100 },
+            {
+              name: "The Complete Story package, including a second videographer",
+              price: 2750,
+            },
+            { name: "Your ceremony in full, as a stand-alone film", price: 225 },
+            { name: "Your speeches in full, as a stand-alone film", price: 225 },
+            { name: "1 week anniversary short social teaser", price: 210 },
+            { name: "Home movie, every usable clip in one film", price: 400 },
+            {
+              name: "Feature film extended to 16 to 18 minutes",
+              price: 195,
+            },
+          ].map((o) => ({
             "@type": "Offer",
-            itemOffered: { "@type": "Service", name },
+            itemOffered: { "@type": "Service", name: o.name },
+            price: o.price,
+            priceCurrency: "GBP",
           })),
         },
       }}
@@ -377,8 +386,8 @@ export function ServiceAreaSchema({
           priceCurrency: "GBP",
           priceSpecification: {
             "@type": "PriceSpecification",
-            minPrice: 2000,
-            maxPrice: 2700,
+            minPrice: 2100,
+            maxPrice: 2750,
             priceCurrency: "GBP",
           },
         },

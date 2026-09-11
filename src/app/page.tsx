@@ -105,7 +105,7 @@ export default function Home() {
         <p className="mx-auto mt-6 max-w-2xl leading-relaxed text-[var(--ink-muted)]">
           House of Tattersall is a wedding videographer based in Denstone,
           Staffordshire, filming cinematic wedding films across Staffordshire,
-          Derbyshire and Nottinghamshire. Films start from £2,000.
+          Derbyshire and Nottinghamshire. Films start from £2,100.
         </p>
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <CtaButton>Enquire</CtaButton>
@@ -131,9 +131,7 @@ export default function Home() {
           wedding, not a template.
         </p>
         <p className="mt-6 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-5 py-4 text-[var(--ink-muted)]">
-          Luxury cinematic wedding films from £2,000, with most couples
-          investing between £2,300 and £2,700 depending on hours of coverage
-          and any extras.
+          Luxury cinematic wedding films from £2,100. The Complete Story package, which adds a second videographer, is £2,750.
         </p>
       </Split>
 

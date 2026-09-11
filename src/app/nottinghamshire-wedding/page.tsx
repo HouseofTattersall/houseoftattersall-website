@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title:
     "Nottinghamshire Wedding Videographer | Luxury Cinematic Wedding Films",
   description:
-    "Luxury cinematic wedding videography across Nottinghamshire, including Hazel Gap Barn, The Pumping House and Cockliffe Country House. Most couples invest £2,300 to £2,700.",
+    "Luxury cinematic wedding videography across Nottinghamshire, including Hazel Gap Barn, The Pumping House and Cockliffe Country House. Core package £2,100, or £2,750 with a second videographer.",
 };
 
 type Venue = {
@@ -50,7 +50,7 @@ const venues: Venue[] = [
 const faqs = [
   {
     q: "How much does a wedding videographer in Nottinghamshire cost?",
-    a: "My films start from £2,000, and most couples invest between £2,300 and £2,700 for their wedding film, depending on hours of coverage and any extras like a ceremony-in-full or speeches-in-full add-on. My full package breakdown is on the Investment page.",
+    a: "My Core package is £2,100 and the Complete Story package, which adds a second videographer plus your ceremony and speeches in full, is £2,750. My full package breakdown is on the Investment page.",
   },
   {
     q: "Which Nottinghamshire wedding venues have you filmed at?",
@@ -98,9 +98,7 @@ export default function NottinghamshirePage() {
       </p>
 
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
-          Luxury cinematic wedding films in Nottinghamshire from £2,000, with
-          most couples investing between £2,300 and £2,700 depending on hours
-          of coverage and any extras. The full breakdown is on the{" "}
+          Luxury cinematic wedding films in Nottinghamshire from £2,100. The Complete Story package, which adds a second videographer, is £2,750. The full breakdown is on the{" "}
           <Link href="/investment/" className="underline underline-offset-4">
             Investment
           </Link>{" "}

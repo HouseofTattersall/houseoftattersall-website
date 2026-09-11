@@ -9,7 +9,7 @@ export const metadata: Metadata = pageMeta({
   title:
     "Enquire | Check Your Date, House of Tattersall Wedding Films",
   description:
-    "Check availability for your wedding date and request the full investment guide. Luxury cinematic wedding films from £2,000 across Derbyshire, Staffordshire and Nottinghamshire.",
+    "Check availability for your wedding date and request the full investment guide. Luxury cinematic wedding films from £2,100 across Derbyshire, Staffordshire and Nottinghamshire.",
   path: "/enquire/",
   image: "/images/banner-enquire.jpg",
 });
