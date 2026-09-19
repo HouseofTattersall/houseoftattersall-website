@@ -5,9 +5,19 @@ export type Testimonial = {
   quote: string;
   /** Used to show a couple's own words on the matching county page */
   county?: "Derbyshire" | "Staffordshire" | "Nottinghamshire";
+  /** Pulled out as the headline quote on the homepage */
+  featured?: boolean;
 };
 
 export const testimonials: Testimonial[] = [
+  {
+    names: "Jack and Rob",
+    venue: "The Wilderness, Canterbury",
+    date: "2026",
+    featured: true,
+    quote:
+      "We're so so SO happy with the film, it's so beautiful and exactly what we were hoping for. We keep watching it over and over and everyone we show it to cries. My mum showed just the trailer to her hairdresser even and she stood there crying during her appointment",
+  },
   {
     names: "Faye and Daniel",
     venue: "Bourton Hall, Warwickshire",

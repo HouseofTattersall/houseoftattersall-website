@@ -11,15 +11,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "How much does a wedding videographer cost in the UK?",
-    a: "Most full-day UK wedding videography sits between £1,500 and £3,500. My Core package is £2,100 and my Complete Story package, which adds a second videographer plus your ceremony and speeches in full, is £2,750.",
+    a: "Most full-day UK wedding videography sits between £1,500 and £3,500. My Core package is £2,100 and includes your ceremony and speeches in full as standard. My Complete Story package, which adds a second videographer and a one-week teaser, is £2,750.",
   },
   {
     q: "What should be included in a wedding videography package?",
-    a: "At that price point, expect a pre-wedding consultation, full-day coverage rather than a short window, a feature film of at least 5 to 7 minutes, professionally recorded audio from your vows and speeches, and delivery through a proper platform. My core package also includes a landscape trailer and drone footage where the venue allows, with a 6 to 12 week turnaround.",
+    a: "At that price point, expect a pre-wedding consultation, full-day coverage rather than a short window, a feature film of at least 5 to 7 minutes, professionally recorded audio from your vows and speeches, and delivery through a proper platform. My Core package also includes your ceremony and speeches in full as standalone films, a landscape trailer and drone footage where the venue allows, with a 6 to 12 week turnaround.",
   },
   {
     q: "Do wedding videographers charge for travel?",
-    a: "Most do beyond a certain radius. I cover all of Staffordshire and Derbyshire with no travel charge, and quote separately beyond that. Always ask, because a competitive quote can change once travel and accommodation are added.",
+    a: "Most do beyond a certain radius. My first 50 miles are included in the price, which covers all of Staffordshire and Derbyshire, with a small charge per mile beyond that. Always ask, because a competitive quote can change once travel and accommodation are added.",
   },
   {
     q: "Why do wedding videographers vary so much in price?",
@@ -46,7 +46,12 @@ export default function Page() {
         same-day edits, or a name that carries a premium.
       </P>
       <Lead>
-        My Core package is £2,100 and my Complete Story package, which adds a second videographer plus your ceremony and speeches in full, is £2,750.
+        For wedding videography in Derbyshire and Staffordshire, House of
+        Tattersall&apos;s Core package is £2,100. It includes 10 hours of
+        full-day coverage, professionally recorded vows and speeches, your
+        ceremony and speeches in full, and travel included for the first 50 miles,
+        which covers both counties. The Complete Story package, which adds a
+        second videographer and a one-week teaser, is £2,750.
       </Lead>
 
       <H2>Why is there such a big range?</H2>
@@ -91,24 +96,25 @@ export default function Page() {
         <li>Delivery through a proper platform, not a link that expires</li>
       </UL>
       <P>
-        My core package includes all of that, plus a landscape trailer and drone
-        footage where the venue allows it, with a 6 to 12 week turnaround. I
-        deliver through Vidflow, a premium platform that plays properly on all
-        smart devices, and which also acts as storage for your films for 10
-        years.
+        My Core package includes all of that, plus your ceremony and speeches
+        in full as standalone films, a landscape trailer and drone footage
+        where the venue allows it, with a 6 to 12 week turnaround. I deliver
+        through Vidflow, a premium platform that plays properly on all smart
+        devices, and which also acts as storage for your films for 10 years.
       </P>
 
       <H2>What are the common extras, and are they worth it?</H2>
       <P>The ones couples ask for most:</P>
       <P>
-        <strong className="text-[var(--ink)]">Your ceremony in full.</strong>{" "}
-        Worth it if you had readings or vows you wrote yourselves. The feature
-        film will only ever use fragments.
-      </P>
-      <P>
-        <strong className="text-[var(--ink)]">Your speeches in full.</strong>{" "}
-        The one I&apos;d argue for hardest. Speeches are usually the single most
-        emotional part of the day and the part guests most want to rewatch.
+        <strong className="text-[var(--ink)]">
+          Your ceremony and speeches in full.
+        </strong>{" "}
+        The two I used to argue for hardest, so I stopped charging for them.
+        Both are now included as standard in my Core package. The feature film
+        will only ever use fragments of your vows, and speeches are usually the
+        single most emotional part of the day and the part guests most want to
+        rewatch. If a videographer you&apos;re comparing charges for these,
+        factor it into their quote.
       </P>
       <P>
         <strong className="text-[var(--ink)]">A one-week teaser.</strong> A
@@ -123,10 +129,11 @@ export default function Page() {
 
       <H2>Do videographers charge for travel?</H2>
       <P>
-        Most do beyond a certain radius. I cover all of Staffordshire and
-        Derbyshire with no travel charge, and quote separately beyond that.
-        Always ask, because a quote that looks competitive can change once
-        travel and accommodation are added.
+        Most do beyond a certain radius. My first 50 miles are included in
+        the price, which covers all of Staffordshire and Derbyshire, and
+        there&apos;s a small charge per mile beyond that. Always ask, because a
+        quote that looks competitive can change once travel and accommodation
+        are added.
       </P>
 
       <H2>When should we budget for it?</H2>

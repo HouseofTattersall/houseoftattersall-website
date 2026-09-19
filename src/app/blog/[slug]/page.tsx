@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { posts, getPost, bannerFor, isoDate } from "@/lib/posts";
+import { testimonials } from "@/lib/testimonials";
 import { PageBanner } from "@/components/page-banner";
 import { Prose } from "@/components/prose";
 import { VideoEmbed } from "@/components/video-embed";
@@ -11,6 +12,7 @@ import {
   ArticleSchema,
   VideoSchema,
   BreadcrumbSchema,
+  ReviewSchema,
 } from "@/components/schema";
 import { CtaBand } from "@/components/cta";
 
@@ -69,6 +71,13 @@ export default async function PostPage({
           { name: post.title, path: `/blog/${post.slug}/` },
         ]}
       />
+      {post.reviewNames?.length ? (
+        <ReviewSchema
+          items={testimonials.filter((t) =>
+            post.reviewNames?.includes(t.names),
+          )}
+        />
+      ) : null}
       <ArticleSchema
         title={post.title}
         description={post.excerpt}

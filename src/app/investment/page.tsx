@@ -3,12 +3,18 @@ import { pageMeta } from "@/lib/seo";
 import { Testimonials } from "@/components/testimonials";
 import { PageBanner } from "@/components/page-banner";
 import { CtaButton, CtaBand } from "@/components/cta";
-import { BreadcrumbSchema, PackagesSchema } from "@/components/schema";
+import {
+  BreadcrumbSchema,
+  PackagesSchema,
+  FaqSchema,
+} from "@/components/schema";
+import { Journey } from "@/components/journey";
+import { Faq } from "@/components/faq";
 
 export const metadata: Metadata = pageMeta({
   title: "Wedding Videography Packages & Pricing | From £2,100",
   description:
-    "Wedding film packages and pricing. The Core package is £2,100 and the Complete Story package, with a second videographer, is £2,750. All of Staffordshire and Derbyshire covered with no travel charge.",
+    "Wedding film packages and pricing. The £2,100 Core package includes full-day coverage, a feature film, and your ceremony and speeches in full. The Complete Story package, with a second videographer, is £2,750. The first 50 miles of travel are included, covering all of Staffordshire and Derbyshire.",
   path: "/investment/",
   image: "/images/banner-investment.jpg",
 });
@@ -17,6 +23,8 @@ const corePackage = [
   "Pre-wedding consultation",
   "10 hours of full-day coverage",
   "7 to 9 minute cinematic feature film",
+  "Your ceremony in full, as a standalone film",
+  "Your speeches in full, as a standalone film",
   "Landscape film trailer",
   "Drone footage",
   "6 to 12 week turnaround",
@@ -25,8 +33,6 @@ const corePackage = [
 const completePackage = [
   "Everything in the Core package",
   "A second videographer throughout your day",
-  "Your ceremony in full, as a standalone film",
-  "Your speeches in full, as a standalone film",
   "1 week anniversary: a short social teaser within a week of your wedding",
 ];
 
@@ -39,16 +45,6 @@ const secondShooterGains = [
 
 const extras = [
   {
-    name: "Your ceremony in full",
-    desc: "As a stand-alone film",
-    price: "£225",
-  },
-  {
-    name: "Your speeches in full",
-    desc: "As a stand-alone film",
-    price: "£225",
-  },
-  {
     name: "1 week anniversary",
     desc: "Short social teaser within 1 week of your wedding",
     price: "£210",
@@ -57,6 +53,25 @@ const extras = [
     name: "Home movie",
     desc: "Every usable clip in one film, from the main camera",
     price: "£400",
+  },
+];
+
+const faqs = [
+  {
+    q: "How do I book you for our wedding?",
+    a: "Send an enquiry with your date and venue, then we have a video call so you can meet me and ask anything. A £200 booking fee secures the date, and I send you a client portal holding your contract, invoice, schedule and questionnaire in one place.",
+  },
+  {
+    q: "How much is the booking fee?",
+    a: "£200 secures your date. The remaining balance is due before the wedding, and you get automatic reminders for it six weeks beforehand alongside your questionnaire.",
+  },
+  {
+    q: "What happens in the run-up to the wedding?",
+    a: "Six weeks before, automatic reminders go out for your questionnaire and your remaining balance. If anything needs talking through we have a second video call, and I confirm exactly what time I will arrive on the day.",
+  },
+  {
+    q: "When do we get our wedding films?",
+    a: "Your teaser arrives within 6 to 12 weeks of the wedding, and I aim for 6 to 9 weeks even in the busiest part of the season. Everything else follows within a week of that. Films are delivered on Vidflow, on your own private page, watchable on any smart device and downloadable for 10 years.",
   },
 ];
 
@@ -140,9 +155,9 @@ export default function InvestmentPage() {
         </div>
 
         <p className="border-b border-[var(--rule)] py-8 text-center text-sm text-[var(--ink-faint)]">
-          Both packages cover all of Staffordshire and Derbyshire with no
-          travel charge. Anywhere further afield is quoted at enquiry. Get in
-          touch for exact availability for your date.
+          Both packages include the first 50 miles of travel, which covers
+          all of Staffordshire and Derbyshire, with a small charge per mile
+          beyond that. Get in touch for exact availability for your date.
         </p>
 
         {/* Why a second videographer */}
@@ -223,6 +238,18 @@ export default function InvestmentPage() {
               </li>
             ))}
           </ul>
+        </section>
+
+        <Journey />
+
+        <section className="pt-16">
+          <h2 className="font-serif text-3xl text-[var(--khaki)]">
+            Booking, in short
+          </h2>
+          <div className="mt-8">
+            <Faq items={faqs} />
+          </div>
+          <FaqSchema items={faqs} />
         </section>
 
         <div className="mt-14 text-center">

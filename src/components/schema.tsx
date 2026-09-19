@@ -134,7 +134,7 @@ export function LocalBusinessSchema() {
           "@type": "Offer",
           name: "Wedding film core package",
           description:
-            "Pre-wedding consultation, 10 hours of full-day coverage, 7-9 minute cinematic feature film, landscape film trailer, drone footage, 6-12 week turnaround. Delivered through Vidflow with 10 years of access.",
+            "Pre-wedding consultation, 10 hours of full-day coverage, 7-9 minute cinematic feature film, your ceremony in full, your speeches in full, landscape film trailer, drone footage, 6-12 week turnaround. Delivered through Vidflow with 10 years of access.",
           priceCurrency: "GBP",
           priceSpecification: {
             "@type": "PriceSpecification",
@@ -324,7 +324,7 @@ export function PackagesSchema() {
           "@type": "Offer",
           name: "Wedding film core package",
           description:
-            "Pre-wedding consultation, 10 hours of full-day coverage, a 7 to 9 minute cinematic feature film, a landscape film trailer, drone footage where permitted, and a 6 to 12 week turnaround. Delivered through Vidflow with 10 years of access.",
+            "Pre-wedding consultation, 10 hours of full-day coverage, a 7 to 9 minute cinematic feature film, your ceremony in full and your speeches in full as standalone films, a landscape film trailer, drone footage where permitted, and a 6 to 12 week turnaround. Delivered through Vidflow with 10 years of access.",
           priceCurrency: "GBP",
           priceSpecification: {
             "@type": "PriceSpecification",
@@ -342,8 +342,6 @@ export function PackagesSchema() {
               name: "The Complete Story package, including a second videographer",
               price: 2750,
             },
-            { name: "Your ceremony in full, as a stand-alone film", price: 225 },
-            { name: "Your speeches in full, as a stand-alone film", price: 225 },
             { name: "1 week anniversary short social teaser", price: 210 },
             { name: "Home movie, every usable clip in one film", price: 400 },
             {

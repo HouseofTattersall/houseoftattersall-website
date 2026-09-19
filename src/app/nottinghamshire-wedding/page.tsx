@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     q: "Do you charge travel to Nottinghamshire?",
-    a: "I'm based on the Staffordshire and Derbyshire border, so Nottinghamshire is comfortably within my normal working area. Travel is quoted at enquiry and is rarely an issue for a Nottinghamshire wedding.",
+    a: "I'm based on the Staffordshire and Derbyshire border, so Nottinghamshire is comfortably within my normal working area. The first 50 miles are included in the price, with a small charge per mile beyond that, so travel is rarely an issue for a Nottinghamshire wedding.",
   },
   {
     q: "How far in advance should we book a Nottinghamshire wedding videographer?",

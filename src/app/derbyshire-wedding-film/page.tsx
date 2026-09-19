@@ -13,7 +13,7 @@ export const metadata: Metadata = pageMeta({
   title:
     "Derbyshire Wedding Videographer | Luxury Cinematic Wedding Films",
   description:
-    "Documentary-shot, cinematic wedding videography across Derbyshire and the Peak District, including The West Mill, Grangefields and Yeldersley Hall. From £2,100, no travel charge.",
+    "Documentary-shot, cinematic wedding videography across Derbyshire and the Peak District, including The West Mill, Grangefields and Yeldersley Hall. From £2,100, with the first 50 miles of travel included.",
   path: "/derbyshire-wedding-film/",
   image: "/images/banner-derbyshire.jpg",
 });
@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     q: "Do you film weddings at [specific venue] in Derbyshire?",
-    a: "I've filmed regularly at venues including The West Mill, Grangefields and Yeldersley Hall. I cover all of Derbyshire as standard with no travel charge, and I'm always happy to visit a venue I haven't filmed at before.",
+    a: "I've filmed regularly at venues including The West Mill, Grangefields and Yeldersley Hall. The first 50 miles are included in the price, which covers all of Derbyshire, with a small charge per mile beyond that. I'm always happy to visit a venue I haven't filmed at before.",
   },
   {
     q: "How far in advance should we book a Derbyshire wedding videographer?",
@@ -93,7 +93,7 @@ export default function DerbyshirePage() {
       <div className="mx-auto max-w-3xl px-6 py-24">
 
       <p className="text-lg leading-relaxed text-[var(--ink-muted)]">
-        House of Tattersall is a wedding videographer in Derbyshire, based on the Staffordshire and Derbyshire border and filming cinematic wedding films right across the county and the Peak District. Wedding videography in Derbyshire is covered with no travel charge, whether you are marrying at The West Mill in Derby, Yeldersley Hall, Grangefields or Lower Damgate Farm. I film a deliberately limited number of weddings each year, typically 15 to 20.
+        House of Tattersall is a wedding videographer in Derbyshire, based on the Staffordshire and Derbyshire border and filming cinematic wedding films right across the county and the Peak District. The first 50 miles of travel are included in the price, which covers the whole of Derbyshire, whether you are marrying at The West Mill in Derby, Yeldersley Hall, Grangefields or Lower Damgate Farm. I film a deliberately limited number of weddings each year, typically 15 to 20.
       </p>
 
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">

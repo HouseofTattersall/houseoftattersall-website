@@ -12,7 +12,7 @@ export const metadata: Metadata = pageMeta({
   title:
     "Staffordshire Wedding Videographer | Luxury Cinematic Wedding Films",
   description:
-    "Documentary-shot, cinematic wedding videography across Staffordshire, including Hanbury Wedding Barns, Foxtail Barns and The Ashes Barns. From £2,100, no travel charge.",
+    "Documentary-shot, cinematic wedding videography across Staffordshire, including Hanbury Wedding Barns, Foxtail Barns and The Ashes Barns. From £2,100, with the first 50 miles of travel included.",
   path: "/staffordshire-wedding/",
   image: "/images/banner-staffordshire.jpg",
 });
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "Do you film weddings at [specific venue] in Staffordshire?",
-    a: "I've filmed regularly at venues including Hanbury Wedding Barns, Foxtail Barns and The Ashes Barns. I cover all of Staffordshire as standard with no travel charge, and I'm always happy to visit a venue I haven't filmed at before.",
+    a: "I've filmed regularly at venues including Hanbury Wedding Barns, Foxtail Barns and The Ashes Barns. The first 50 miles are included in the price, which covers all of Staffordshire, with a small charge per mile beyond that. I'm always happy to visit a venue I haven't filmed at before.",
   },
   {
     q: "How far in advance should we book a Staffordshire wedding videographer?",
@@ -87,7 +87,7 @@ export default function StaffordshirePage() {
       <div className="mx-auto max-w-3xl px-6 py-24">
 
       <p className="text-lg leading-relaxed text-[var(--ink-muted)]">
-        House of Tattersall is a wedding videographer in Staffordshire, based in Denstone and filming cinematic wedding films across the whole county. Wedding videography anywhere in Staffordshire is covered with no travel charge, from Hanbury Wedding Barns and Foxtail Barns to The Ashes Barns. I film a deliberately limited number of weddings each year, typically 15 to 20.
+        House of Tattersall is a wedding videographer in Staffordshire, based in Denstone and filming cinematic wedding films across the whole county. The first 50 miles of travel are included in the price, which covers the whole of Staffordshire, from Hanbury Wedding Barns and Foxtail Barns to The Ashes Barns. I film a deliberately limited number of weddings each year, typically 15 to 20.
       </p>
 
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">

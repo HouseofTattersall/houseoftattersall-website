@@ -2,6 +2,236 @@ import type { Post } from "./post-types";
 
 export const tipsPosts: Post[] = [
   {
+    slug: "wedding-content-creator-vs-videographer",
+    title: "Wedding Content Creator or Wedding Videographer: Do You Need Both?",
+    category: "Guides",
+    date: "19 September 2026",
+    banner: "/images/banner-blog.jpg",
+    excerpt:
+      "They look similar and they really are not. An honest guide to what each one gives you, what they cost in the UK, and how couples are booking both.",
+    body: `
+Wedding content creators are the fastest growing supplier category in the industry, and the argument about them has got a lot noisier than it needs to be.
+
+So let me be upfront before you read another word. I am a wedding videographer. I do not offer content creation, and I have not yet worked alongside a content creator at a wedding. Read this as a videographer explaining the difference honestly, not as a neutral referee. I will tell you where a content creator is the better buy, because sometimes they genuinely are.
+
+## What is a wedding content creator?
+
+Someone who covers your day for social media. They shoot mostly on a phone, often an iPhone on a gimbal, sometimes with a small mirrorless camera alongside. They stay close, they stay light, and they film the things that look right on a screen you hold upright.
+
+UK packages run roughly £300 to £950 depending on hours, with most full-day coverage landing somewhere in the middle of that. You will usually get three to five edited reels, a pile of raw clips, and it arrives within 24 to 48 hours. Some deliver on the night.
+
+That speed is the product. It is not a cut-price version of videography. It is a different job.
+
+## What is a wedding videographer?
+
+Someone making a film. Two or three angles on the ceremony and speeches, professionally recorded audio on your vows, drone where the venue allows it, and an edit built around the story of your day rather than a run through the schedule.
+
+It takes weeks rather than hours. Mine take six to twelve. It costs more, because there are days of editing in it rather than an evening.
+
+## The honest difference
+
+Speed against permanence. That is genuinely most of it.
+
+- A content creator gives you something to post on Sunday, while everyone still wants to talk about it.
+- A videographer gives you something to watch in twenty years, when the people in it have changed.
+
+Both of those are real things to want. Neither is silly.
+
+## Five things only a film gives you
+
+I am not going to pretend this list is balanced. These are the reasons I would argue for video.
+
+**Your vows, properly recorded.** This is the big one. Phone audio in a stone church with ninety guests is not the same as a recorder on the lectern and a microphone on the groom. Your vows are about ninety seconds of your entire life. If they are not captured cleanly, they are simply gone.
+
+**Your speeches, in full.** Same reason. The best man's timing, the pause before your dad gets the next line out. That is not a thirty second clip.
+
+**Footage that survives the format.** Vertical phone video looks right on a phone today. Put it on a television in 2040 and it is a tall strip in the middle of a black screen. A film shot in 4K with the original files behind it ages very differently.
+
+**An edit with a shape.** Reels are moments, deliberately so. A film has a build, a quiet middle and an ending. That is a different craft and it takes days, not an evening.
+
+**Something that is not on a platform.** Your reels live in an app that may not exist in a decade, owned by a company that changes the rules whenever it likes. Your film sits on your own gallery, downloadable, in files you keep.
+
+## Where a content creator genuinely wins
+
+Being fair about this matters, so here it is.
+
+**Speed.** Nothing I make arrives on Sunday morning. If posting the day after the wedding is what you want most, a content creator does that and I do not.
+
+**Volume.** Thirty clips of things I would never film: the shoes, the table plan, your friends being idiots at the bar at half eleven.
+
+**Price.** If your budget is a few hundred pounds rather than a few thousand, a content creator gives you something real for it. A cut-price videographer with three hours of coverage does not.
+
+**The in-between.** They are at your table and in the getting ready room, filming from inside the day rather than observing it. That closeness is a genuine advantage.
+
+## Can you have both?
+
+Yes, and more couples are doing exactly that. If the budget stretches, they do different jobs and they do not fight over the same ground.
+
+If you do book both, two practical things worth sorting in advance:
+
+- Tell each of them that the other is coming, before the day rather than on it.
+- Agree who has priority during the ceremony and the speeches. That is when your videographer needs fixed camera positions and clean audio, and it is the one part of the day where two people improvising in the same small space causes problems.
+
+Everywhere else, a content creator being close and quick is no trouble at all.
+
+## If you can only have one
+
+Here is the honest answer rather than the sales one.
+
+If what you most want is to relive the day properly, hear the vows and the speeches, and still have it in twenty years, book the videographer. That is what the format exists for.
+
+If what you most want is to see your wedding through your friends' eyes this week, and your budget is a few hundred pounds, book the content creator. You will get far more out of that than out of the cheapest videographer you can find.
+
+## One more thing, since I am being honest
+
+More couples tell me video matters to them every year, and I am glad about that.
+
+But if I were planning my own wedding, I would still put photography first. That is what hangs on your wall and sits as your phone background. Then film. Then, if there is room in the budget, content.
+
+You are welcome to disagree. Most videographers would.
+
+!cta[Talk to me about your film](/enquire/)
+`,
+    faqs: [
+      {
+        q: "What is the difference between a wedding content creator and a wedding videographer?",
+        a: "A content creator covers your day for social media, filming mostly on a phone and delivering three to five edited reels plus raw clips within 24 to 48 hours. A wedding videographer makes a film, using multiple camera angles, professionally recorded audio from your vows and speeches, and a story-led edit, delivered over several weeks. Speed against permanence is most of the difference.",
+      },
+      {
+        q: "How much does a wedding content creator cost in the UK?",
+        a: "Roughly £300 to £950 in 2026, depending on hours of coverage and how many edited reels are included. Entry-level packages of four to six hours with raw footage only start around £300, while full-day coverage with three to five edited reels typically sits between £450 and £950.",
+      },
+      {
+        q: "Can a content creator replace a wedding videographer?",
+        a: "Not really, because they are doing different jobs. A content creator gives you fast, social-first clips within a day or two. A videographer gives you clean audio from your vows and speeches, multiple angles, and a story-led film designed to be watched for decades. If you want your vows recorded properly, that is a videographer's job.",
+      },
+      {
+        q: "Should I book both a content creator and a wedding videographer?",
+        a: "Many couples now do, and they work well together if the budget allows. Tell each supplier the other is coming, and agree who has priority during the ceremony and speeches, since that is when the videographer needs fixed positions and clean audio.",
+      },
+      {
+        q: "How quickly does a wedding content creator deliver?",
+        a: "Usually within 24 to 48 hours, and some deliver on the night of the wedding. That speed is the main thing you are paying for.",
+      },
+      {
+        q: "If I can only afford one, which should I book?",
+        a: "If you want to relive the day, hear your vows and speeches, and still have it in twenty years, book the videographer. If you mainly want to post about your wedding in the days afterwards and your budget is a few hundred pounds, book the content creator rather than the cheapest videographer available.",
+      },
+    ],
+  },
+  {
+    slug: "who-makes-your-wedding-film",
+    title: "Who Actually Makes Your Wedding Film?",
+    category: "Guides",
+    date: "19 September 2026",
+    banner: "/images/banner-about.jpg",
+    excerpt:
+      "Most wedding videographers are a one man band. I am not, quite. Here is exactly who touches your film, what that changes, and why it means you wait weeks rather than months.",
+    body: `
+Most wedding videographers are a one man band, and there is a lot to be said for that. You deal with the same person from your first email to the day your film lands. It is personal, it is consistent, and you always know who to call.
+
+I work that way too, mostly. But not entirely, and you should know exactly where the difference sits before you book anyone, including me.
+
+## Like most videographers, you deal with me
+
+From the moment you enquire, you are dealing with me. I answer your email. I arrange the video call. I am on the call. I answer the questions, including the awkward ones about budget.
+
+There is no account manager, no sales team, and nobody else answering emails with my name at the bottom.
+
+## Like some videographers, the admin runs itself
+
+The moment you book, a system starts working in the background.
+
+You get a client portal with everything in one place: your contract, your invoice, your schedule and your questionnaire. If you are the sort of couple who plans eleven months ahead at 11pm on a Tuesday, it is all sat there waiting for you.
+
+Six weeks before the wedding, reminders go out automatically for your questionnaire and your remaining balance. Not because I cannot remember, but because in the middle of August I should not have to.
+
+I still email, and I am on Instagram and WhatsApp if that is easier for you. The automation is not there to keep you at arm's length. It is there so nothing slips through a gap while I am stood on a dancefloor somewhere.
+
+All of it runs through Wedola, which is used by some of the best videographers in the business.
+
+## On the day, you are with me
+
+I film every wedding personally. That is not something I am planning to change.
+
+On some weddings there is a second videographer alongside me, either because you have booked the Complete Story package or because the day calls for it. They are a trusted individual who runs their own business and whose style matches mine, not a pair of hands hired off a list. Two cameras means reactions and angles that one person physically cannot be in two places to catch.
+
+## After the wedding, this is where I differ
+
+Here is the part most videographers do not spell out.
+
+I have been filming weddings for four years, and working professionally in video and photography since November 2014. In that time I worked out what I am good at, what I am less good at, and what a House of Tattersall film actually is: how it looks, how it moves, how it feels.
+
+Once I knew that properly, I knew I was ready to bring people in. Not videographers. Editors.
+
+My films are edited by [Bride & Groom](https://bridengroom.video/), and Vlad has cut my films for around eighteen months now. I have met Serge, who owns it, and I am seeing him again at Coda Conference shortly. This is a relationship rather than an outsourcing arrangement.
+
+Every film goes to Vlad with a brief that is, honestly, far too long. It covers your day in detail. Which moments mattered and why. The song choices. How the film should open. How the grade should feel. Where the story should build and where it should sit still. Nothing is left to guesswork.
+
+He is better at editing than I am, and it is his whole focus. I am good at explaining the vision. That division is the entire point.
+
+### What that actually means for you
+
+I book Vlad in well before your wedding, not after it. Your first draft usually comes back to me around four weeks after the day.
+
+That is why your teaser arrives within six to twelve weeks, why I aim for six to nine even in the busiest part of the season, and why everything else follows within a week of that.
+
+No editing queue stretching into next spring. No email in March asking where your film has got to. The reason so many couples wait six months or more is not that their videographer does not care. It is that one person is trying to film all summer and edit all summer at the same time, and there are not enough hours in it.
+
+## Then it reaches you
+
+Your films land on Vidflow: your own private page, watchable on any smart device, downloadable, and stored for ten years. [Here is exactly what that looks like when it arrives](/blog/how-your-wedding-film-is-delivered-vidflow/).
+
+## So who is actually on the team?
+
+Loosely, three people and two platforms.
+
+- **Me.** Lead filmmaker and director. I shoot every wedding, write every brief, and I am the human you deal with throughout.
+- **Vlad.** My editor at Bride & Groom, around eighteen months in.
+- **An associate videographer.** A trusted second filmmaker on the days that call for one, running their own business, with a style that matches mine.
+- **Wedola**, which is effectively my personal assistant: CRM, contracts, portal, reminders.
+- **Vidflow**, which hosts and delivers your films.
+
+I could have called that a team of five or six. It is not. It is three people and two pieces of software, and I would rather tell you that than dress it up.
+
+## Why I am telling you this
+
+Because at some point you are going to wonder whether I edit it myself, and I would rather answer that before you book than after.
+
+Some couples want the person who filmed their day to also sit and cut it. That is a completely reasonable thing to want, and if it is what matters most to you, book a true one man band. There are plenty of brilliant ones.
+
+What you get here instead is a film shot by the person you met, shaped by the person you met, and edited by someone better at editing than the person you met. Back in your hands in weeks rather than months.
+
+!cta[Check your date](/enquire/)
+`,
+    faqs: [
+      {
+        q: "Do you edit your own wedding films?",
+        a: "No, and I am upfront about it. I film every wedding personally and write an extensive brief for each film covering the story, the song choices, the grade and the pacing. My editor Vlad, at Bride & Groom, then cuts the film to that brief. He is better at editing than I am and it is his sole focus, which is why films come back in weeks rather than months.",
+      },
+      {
+        q: "Who is on the House of Tattersall team?",
+        a: "Three people and two platforms. Andy Tattersall as lead filmmaker and director, Vlad as editor at Bride & Groom, and a trusted associate videographer on the days that call for a second camera. Wedola handles the CRM, contracts, client portal and reminders, and Vidflow hosts and delivers the finished films.",
+      },
+      {
+        q: "Will someone else film my wedding instead of you?",
+        a: "No. Andy films every wedding personally. On some weddings a second videographer works alongside him, either because the Complete Story package has been booked or because the day calls for it, but he is always there himself.",
+      },
+      {
+        q: "Why do some wedding films take six months to arrive?",
+        a: "Usually because one person is filming every weekend through the season and editing on the weekdays in between. There are not enough hours in it. Booking an editor in advance, before the wedding rather than after, is what keeps a turnaround to weeks instead of months.",
+      },
+      {
+        q: "How soon after the wedding do you start editing?",
+        a: "The editor is booked in before the wedding. The first draft usually comes back around four weeks after the day, which is why the teaser lands within six to twelve weeks, with an aim of six to nine even in the busiest part of the season.",
+      },
+      {
+        q: "What is Wedola?",
+        a: "Wedola is the CRM and client management system behind every booking. It holds the contract, invoice, schedule and questionnaire in one client portal, and sends automatic reminders six weeks before the wedding for the questionnaire and remaining balance.",
+      },
+    ],
+  },
+  {
     slug: "how-your-wedding-film-is-delivered-vidflow",
     title: "What Does a Wedding Film Actually Look Like When It Arrives?",
     category: "Guides",
@@ -28,7 +258,7 @@ I deliver every film through Vidflow, a premium platform built specifically for 
 
 ![The Emily and James wedding film from The Pumping House, Ollerton, shown on a phone, a laptop and a tablet in the Vidflow player, with Roku, Apple TV, Android TV, Fire TV, Samsung, LG, Sony and Google TV app logos beneath](/images/vidflow-devices-emily-james-pumping-house.jpg "Emily and James, The Pumping House, Ollerton. The same gallery, on every screen you own.")
 
-Rather than a download link that expires, or a YouTube page with adverts in front of your vows, you get your own private gallery with your names on it. Everything from your day sits in one place: the feature film, the teaser, the ceremony and speeches in full if you have added those, and the home movie.
+Rather than a download link that expires, or a YouTube page with adverts in front of your vows, you get your own private gallery with your names on it. Everything from your day sits in one place: the feature film, the teaser, your ceremony and speeches in full, and the home movie if you have added it.
 
 ## What can you do with your gallery?
 
@@ -75,16 +305,16 @@ So judge the films first. Watch full films rather than 30 second Instagram cuts,
 
 ## When does it arrive?
 
-Films come back within 6 to 12 weeks. You will get an email with your gallery link, and from that moment it is yours to watch, download and share for the next decade.
+Your teaser comes back within 6 to 12 weeks, and I aim for 6 to 9 even in the busiest part of the season. Everything else follows within a week of that. You will get an email with your gallery link, and from that moment it is yours to watch, download and share for the next decade.
 
-If you would like to talk about your own film, whether you're getting married in [Derbyshire](/derbyshire-wedding-film/), [Staffordshire](/staffordshire-wedding/), [Nottinghamshire](/nottinghamshire-wedding/) or further afield, I would love to hear about your day. Films start from £2,100, with the Complete Story package including a second videographer at £2,750, and the full breakdown is on the [Investment](/investment/) page.
+If you would like to talk about your own film, whether you're getting married in [Derbyshire](/derbyshire-wedding-film/), [Staffordshire](/staffordshire-wedding/), [Nottinghamshire](/nottinghamshire-wedding/) or further afield, I would love to hear about your day. The Core package is £2,100 and includes your ceremony and speeches in full, with a Complete Story package at £2,750 that adds a second videographer, and the full breakdown is on the [Investment](/investment/) page.
 
 !cta[Enquire about your film](/enquire/)
 `,
     faqs: [
       {
         q: "How is a wedding film delivered?",
-        a: "I deliver every wedding film through Vidflow, a premium delivery platform built for wedding filmmakers. You receive a private, password-protected online gallery containing your feature film, teaser, and any ceremony or speeches in full, rather than a download link that expires or a YouTube page with adverts.",
+        a: "I deliver every wedding film through Vidflow, a premium delivery platform built for wedding filmmakers. You receive a private, password-protected online gallery containing your feature film, teaser, and your ceremony and speeches in full, rather than a download link that expires or a YouTube page with adverts.",
       },
       {
         q: "What is Vidflow?",
@@ -112,7 +342,7 @@ If you would like to talk about your own film, whether you're getting married in
       },
       {
         q: "How long does a wedding film take to arrive?",
-        a: "Films come back within 6 to 12 weeks. You receive an email containing your Vidflow gallery link, and from that point the films are yours to watch, download and share.",
+        a: "Your teaser comes back within 6 to 12 weeks of the wedding, with everything else following within a week of that. My aim is 6 to 9 weeks even in the busiest part of the season. You receive an email containing your Vidflow gallery link, and from that point the films are yours to watch, download and share.",
       },
     ],
   },
@@ -329,6 +559,8 @@ If you're planning a wedding in the UK, especially Derbyshire, Staffordshire, or
     excerpt:
       "Five practical, low-stress tips that help your day flow better and help your film capture the atmosphere as it felt.",
     body: `
+House of Tattersall is a wedding videographer working across Derbyshire, Staffordshire and Nottinghamshire, making cinematic, story-driven wedding films with a moody, timeless look and real audio from your vows and speeches.
+
 Planning a wedding in the East Midlands and wondering how to make the day feel incredible on film? I'm a UK wedding videographer based in Derbyshire, filming weddings across the UK and Europe but especially Staffordshire and Nottinghamshire. These are the moments couples most often overthink.
 
 Here are five practical, low-stress tips that will help your wedding day flow better and help your wedding video capture the atmosphere exactly as it felt.
@@ -409,9 +641,12 @@ If you're planning a wedding in the UK; Derbyshire, Staffordshire, or Nottingham
     title: "UK Top 20 Wedding Videographers",
     category: "Updates",
     date: "18 November 2025",
+    reviewNames: ["Jack and Rob", "Faye and Daniel"],
     excerpt:
       "Recognised among the top 20 wedding videographers in the UK for a second year running at The Wedding Industry Awards.",
     body: `
+House of Tattersall is a wedding videographer based in Denstone, Staffordshire, filming cinematic, documentary-shot wedding films across Derbyshire, Staffordshire and Nottinghamshire. The Core package is £2,100 and includes full-day coverage, your ceremony and speeches in full, and the first 50 miles of travel included, which covers all of Staffordshire and Derbyshire.
+
 ## House of Tattersall (at the time 'Andy Tatt Media') Recognised Among Top 20 Wedding Videographers in the UK for Second Year Running
 
 For the second year in a row, House of Tattersall has been recognised among the top 20 wedding videographers in the UK, after being awarded Highly Commended in the Wedding Videography category for the East Midlands at The Wedding Industry Awards 2026.
@@ -431,6 +666,14 @@ One of the most important aspects of The Wedding Industry Awards is that real co
 That feedback is then combined with scores from industry experts, including venue teams, planners and other wedding professionals. The result is an award that genuinely reflects the quality of service, consistency and client experience.
 
 For couples getting married in Derbyshire, Staffordshire or the Peak District, this means you can book House of Tattersall knowing that previous clients have trusted and highly rated the service they received.
+
+### What those couples actually said
+
+Two of the couples whose feedback feeds into awards like this one:
+
+"We're so so SO happy with the film, it's so beautiful and exactly what we were hoping for. We keep watching it over and over and everyone we show it to cries. My mum showed just the trailer to her hairdresser even and she stood there crying during her appointment" Jack and Rob, 2026
+
+"Andy is incredibly talented at what he does. He has an amazing eye for capturing the best moments and shots, and it's obvious how passionate he is about videography." Faye and Daniel, Bourton Hall, June 2026
 
 ## Filming Weddings Across Derbyshire, Staffordshire and the Peak District
 

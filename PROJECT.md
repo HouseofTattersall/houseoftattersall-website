@@ -21,7 +21,9 @@ Getting these wrong across pages was a real problem once already. Check against 
 - **Pricing:** Core package **£2,100**; Complete Story package (adds a second videographer) **£2,750**. Never publish a different figure without asking.
 - **Wedding videography since:** 2022. Professional filming (live music, events, brand work) since **November 2014**.
 - **Volume:** a deliberately limited number each year, **typically 15 to 20**.
-- **Coverage:** all of Staffordshire and Derbyshire with **no travel charge**.
+- **Travel:** the **first 50 miles are included** in the price, which covers all
+  of Staffordshire and Derbyshire. Beyond 50 miles there is a **small charge per
+  mile**. Do not publish a per-mile rate without asking.
 - **Awards** (use exactly this list, from the About page):
   - 2026 The Wedding Industry Awards, Finalist & Highly Commended
   - 2026 I Do Wedding Awards, Finalist
@@ -32,9 +34,21 @@ Getting these wrong across pages was a real problem once already. Check against 
 - **Former trading name:** Andy Tatt Media. Where it appears, write "House of Tattersall (at the time 'Andy Tatt Media')".
 - **Camera setup:** two or three angles on ceremony and speeches.
 - **Backups:** Andy backs footage up himself and sends it to his editor the following day, so it sits in three places within 24 hours.
-- **Editing:** films are edited by Bride & Groom to an extensive brief Andy writes. He shoots every wedding personally.
+- **Editing:** films are edited by **Bride & Groom** to an extensive brief Andy
+  writes. **Vlad** is the editor there who cuts his films, around 18 months as of
+  September 2026; **Serge** owns the company. The editor is booked before the
+  wedding, and the first draft returns about four weeks after the day. Andy
+  shoots every wedding personally.
 - **Delivery:** Vidflow. Plays on any smart device, downloadable, stores films for 10 years.
 - **Enquiry form:** Wedola (also his CRM).
+- **Booking fee:** **£200** secures the date.
+- **Booking process:** enquiry, video call, £200 to secure, client portal
+  (contract, invoice, schedule, questionnaire), automatic reminders six weeks
+  out, a second call if needed, arrival time confirmed, then delivery.
+- **Delivery timing:** the teaser arrives within **6 to 12 weeks**, everything
+  else within a week of that. Andy's **aim is 6 to 9 weeks** even in busy
+  season. Publish 6-12 as the commitment and 6-9 only as an aim, never a
+  promise.
 
 ## Palette
 

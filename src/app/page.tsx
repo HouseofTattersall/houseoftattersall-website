@@ -5,6 +5,7 @@ import { VideoEmbed } from "@/components/video-embed";
 import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
 import { StyleExplainer } from "@/components/style-explainer";
+import { FeaturedQuote } from "@/components/featured-quote";
 
 const films = [
   {
@@ -33,7 +34,7 @@ const faqs = [
   },
   {
     q: "What areas do you cover?",
-    a: "I'm based on the border of Derbyshire and Staffordshire, regularly film weddings across the UK. The first 50 miles are including in the price, anything over that will be quoted for. I also film destination weddings across Europe.",
+    a: "I'm based on the border of Derbyshire and Staffordshire, and regularly film weddings across the UK. The first 50 miles are included in the price, which covers all of Staffordshire and Derbyshire, and there's a small charge per mile beyond that. I also film destination weddings across Europe.",
   },
   {
     q: "How do we book?",
@@ -65,7 +66,7 @@ const faqs = [
   },
   {
     q: "How long does it take to receive our wedding film?",
-    a: "Typically, teaser films are delivered within around 6 weeks, with full galleries delivered afterwards depending on the season and workload.",
+    a: "Your teaser is delivered within 6 to 12 weeks of the wedding, and everything else follows within a week of that. My aim is 6 to 9 weeks even in the busiest part of the season.",
   },
   {
     q: "How do we receive our films?",
@@ -114,6 +115,8 @@ export default function Home() {
           </CtaButton>
         </div>
       </section>
+
+      <FeaturedQuote />
 
       <Split image="/images/home-1.jpg">
         <p className="leading-relaxed text-[var(--ink-muted)]">
