@@ -339,7 +339,7 @@ export function PackagesSchema() {
           itemListElement: [
             { name: "Core package", price: 2100 },
             {
-              name: "The Complete Story package, including a second videographer",
+              name: "The Complete Story package, including a second videographer and a 16 to 18 minute feature film",
               price: 2750,
             },
             { name: "1 week anniversary short social teaser", price: 210 },

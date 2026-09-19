@@ -18,7 +18,11 @@ The website for **House of Tattersall**, a cinematic wedding videographer run by
 
 Getting these wrong across pages was a real problem once already. Check against this list.
 
-- **Pricing:** Core package **£2,100**; Complete Story package (adds a second videographer) **£2,750**. Never publish a different figure without asking.
+- **Pricing:** Core package **£2,100** (7-9 minute feature film, ceremony and
+  speeches in full). Complete Story package **£2,750** (adds a second
+  videographer, a **16-18 minute** feature film as standard, and the 1 week
+  anniversary teaser). Extras: extended feature film £195, 1 week anniversary
+  £210, home movie £400. Never publish a different figure without asking.
 - **Wedding videography since:** 2022. Professional filming (live music, events, brand work) since **November 2014**.
 - **Volume:** a deliberately limited number each year, **typically 15 to 20**.
 - **Travel:** the **first 50 miles are included** in the price, which covers all

@@ -14,7 +14,7 @@ import { Faq } from "@/components/faq";
 export const metadata: Metadata = pageMeta({
   title: "Wedding Videography Packages & Pricing | From £2,100",
   description:
-    "Wedding film packages and pricing. The £2,100 Core package includes full-day coverage, a feature film, and your ceremony and speeches in full. The Complete Story package, with a second videographer, is £2,750. The first 50 miles of travel are included, covering all of Staffordshire and Derbyshire.",
+    "Wedding film packages and pricing. The £2,100 Core package includes full-day coverage, a feature film, and your ceremony and speeches in full. The Complete Story package, with a second videographer and a 16 to 18 minute feature film, is £2,750. The first 50 miles of travel are included, covering all of Staffordshire and Derbyshire.",
   path: "/investment/",
   image: "/images/banner-investment.jpg",
 });
@@ -33,6 +33,7 @@ const corePackage = [
 const completePackage = [
   "Everything in the Core package",
   "A second videographer throughout your day",
+  "Your feature film extended to 16 to 18 minutes as standard",
   "1 week anniversary: a short social teaser within a week of your wedding",
 ];
 
@@ -44,6 +45,11 @@ const secondShooterGains = [
 ];
 
 const extras = [
+  {
+    name: "Extended feature film",
+    desc: "Your feature film extended from 7 to 9 minutes up to 16 to 18 minutes. Included as standard in the Complete Story package.",
+    price: "£195",
+  },
   {
     name: "1 week anniversary",
     desc: "Short social teaser within 1 week of your wedding",
@@ -142,15 +148,6 @@ export default function InvestmentPage() {
                 </li>
               ))}
             </ul>
-            <p className="mt-7 border-t border-dashed border-[var(--paper)]/30 pt-5 text-sm leading-relaxed text-[var(--gold-wash)]">
-              Upgrade available: extend your feature film from 7 to 9 minutes
-              up to{" "}
-              <strong className="font-medium text-[var(--paper)]">
-                16 to 18 minutes
-              </strong>{" "}
-              for{" "}
-              <strong className="font-medium text-[var(--paper)]">£195</strong>.
-            </p>
           </div>
         </div>
 
