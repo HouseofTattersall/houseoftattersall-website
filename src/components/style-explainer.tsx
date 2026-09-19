@@ -67,6 +67,19 @@ export function StyleExplainer({ county }: { county?: string }) {
         The finished film should feel like a film about the two of you, not a
         record of a timetable.
       </p>
+
+      <p className="mt-6 border-t border-[var(--gold)]/30 pt-6 leading-relaxed text-[var(--ink-muted)]">
+        You will notice I have said very little about cameras. That is
+        deliberate.{" "}
+        <strong className="text-[var(--ink)]">
+          4K, drones and gimbals are the floor now, not the difference.
+        </strong>{" "}
+        Every videographer at this price has them, and a list of kit tells you
+        almost nothing about what your film will feel like. What changes your
+        film is the person holding the camera: whether they know what is about
+        to happen, whether they are stood in the right place when it does, and
+        whether they can tell the difference between a moment and a shot.
+      </p>
     </section>
   );
 }

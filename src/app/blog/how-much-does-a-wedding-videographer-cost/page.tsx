@@ -82,8 +82,8 @@ export default function Page() {
           How many weddings they take.
         </strong>{" "}
         Someone filming 40 weddings a year can charge less per wedding. Someone
-        filming 15 to 20 can give each couple more attention but has to price
-        accordingly.
+        filming 15, as I do, can give each couple more attention but has to
+        price accordingly.
       </P>
 
       <H2>What should be included as standard?</H2>

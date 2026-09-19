@@ -8,6 +8,7 @@ import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
 import { StyleExplainer } from "@/components/style-explainer";
 import { Testimonials } from "@/components/testimonials";
+import { AwardsStrip } from "@/components/awards-strip";
 
 export const metadata: Metadata = pageMeta({
   title:
@@ -93,7 +94,7 @@ export default function DerbyshirePage() {
       <div className="mx-auto max-w-3xl px-6 py-24">
 
       <p className="text-lg leading-relaxed text-[var(--ink-muted)]">
-        House of Tattersall is a wedding videographer in Derbyshire, based on the Staffordshire and Derbyshire border and filming cinematic wedding films right across the county and the Peak District. The first 50 miles of travel are included in the price, which covers the whole of Derbyshire, whether you are marrying at The West Mill in Derby, Yeldersley Hall, Grangefields or Lower Damgate Farm. I film a deliberately limited number of weddings each year, typically 15 to 20.
+        House of Tattersall is a wedding videographer in Derbyshire, based on the Staffordshire and Derbyshire border and filming cinematic wedding films right across the county and the Peak District. The first 50 miles of travel are included in the price, which covers the whole of Derbyshire, whether you are marrying at The West Mill in Derby, Yeldersley Hall, Grangefields or Lower Damgate Farm. I take a maximum of 15 weddings a year.
       </p>
 
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
@@ -153,6 +154,8 @@ export default function DerbyshirePage() {
         />
       </div>
       </div>
+
+      <AwardsStrip heading="Award-winning wedding films" />
 
       <Testimonials
         heading="What couples married in Derbyshire said"

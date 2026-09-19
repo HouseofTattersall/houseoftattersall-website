@@ -24,14 +24,17 @@ Getting these wrong across pages was a real problem once already. Check against 
   anniversary teaser). Extras: extended feature film £195, 1 week anniversary
   £210, home movie £400. Never publish a different figure without asking.
 - **Wedding videography since:** 2022. Professional filming (live music, events, brand work) since **November 2014**.
-- **Volume:** a deliberately limited number each year, **typically 15 to 20**.
+- **Volume:** a **hard cap of 15 weddings a year**. Not "15 to 20": Andy
+  confirmed 15 is the ceiling. Every one filmed by him personally.
 - **Travel:** the **first 50 miles are included** in the price, which covers all
   of Staffordshire and Derbyshire. Beyond 50 miles there is a **small charge per
   mile**. Do not publish a per-mile rate without asking.
 - **Awards** (use exactly this list, from the About page):
   - 2026 The Wedding Industry Awards, Finalist & Highly Commended
   - 2026 I Do Wedding Awards, Finalist
-  - 2025 The Wedding Industry Awards, Regional Winner / UK Top 10
+  - 2025 The Wedding Industry Awards, National Finalist
+  - 2025 The Wedding Industry Awards, East Midlands Winner, Videographer of the
+    Year (TWIA's own badge wording for a regional win)
   - 2024 The Wedding Industry Awards, Finalist
   - Guest on That Wedding Videographer Podcast, 2026
   - Previously Top 100 Music Photographers in the World, How To Become A Rockstar Photographer

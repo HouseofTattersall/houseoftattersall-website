@@ -6,6 +6,7 @@ import { Faq } from "@/components/faq";
 import { CtaButton, CtaBand } from "@/components/cta";
 import { StyleExplainer } from "@/components/style-explainer";
 import { FeaturedQuote } from "@/components/featured-quote";
+import { AwardsStrip } from "@/components/awards-strip";
 
 const films = [
   {
@@ -115,6 +116,8 @@ export default function Home() {
           </CtaButton>
         </div>
       </section>
+
+      <AwardsStrip />
 
       <FeaturedQuote />
 

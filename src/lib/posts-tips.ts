@@ -402,7 +402,7 @@ I film your day. I'm the one there from the morning preparations to the first da
 
 Every film goes to them with an extensive brief written by me. It goes into far too much detail, honestly, but that's the point: it covers every part of my vision and every part of your day. The moments that mattered, the ones you told me to watch for, the bits that only make sense if you were stood there. Where the story should build and where it should sit still. Nothing is left to guesswork.
 
-Bride & Groom then execute that brief to a standard I couldn't consistently hit alone while also filming 15 to 20 weddings a year. They know my work inside out. Nothing is handed to a stranger and nothing is templated.
+Bride & Groom then execute that brief to a standard I couldn't consistently hit alone while also filming up to 15 weddings a year. They know my work inside out. Nothing is handed to a stranger and nothing is templated.
 
 The reason I'm telling you this rather than quietly leaving it out is that it's the reason your film comes back when it should, looking like it should. A one-person operation trying to do everything is the reason so many couples wait six months for a film. I'd rather be honest about the team than pretend it's just me and let the turnaround slip.
 

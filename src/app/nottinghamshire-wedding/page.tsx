@@ -7,6 +7,7 @@ import { CtaButton, CtaBand } from "@/components/cta";
 import Link from "next/link";
 import { StyleExplainer } from "@/components/style-explainer";
 import { Testimonials } from "@/components/testimonials";
+import { AwardsStrip } from "@/components/awards-strip";
 
 export const metadata: Metadata = {
   title:
@@ -62,7 +63,7 @@ const faqs = [
   },
   {
     q: "How far in advance should we book a Nottinghamshire wedding videographer?",
-    a: "I'd recommend booking 12 to 24 months ahead, especially for a summer date. I take on a deliberately limited number of weddings each year, typically 15 to 20, so earlier is safer.",
+    a: "I'd recommend booking 12 to 24 months ahead, especially for a summer date. I take a maximum of 15 weddings a year, so earlier is safer.",
   },
   {
     q: "What is your wedding filming style?",
@@ -172,6 +173,8 @@ export default function NottinghamshirePage() {
           />
         </div>
       </div>
+
+      <AwardsStrip heading="Award-winning wedding films" />
 
       <Testimonials
         heading="What couples married in Nottinghamshire said"

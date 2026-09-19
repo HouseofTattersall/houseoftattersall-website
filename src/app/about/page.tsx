@@ -8,7 +8,7 @@ export const metadata: Metadata = pageMeta({
   title:
     "About Andy Tattersall | Luxury Wedding Videographer, Staffordshire & Derbyshire",
   description:
-    "Award-winning wedding videographer Andy Tattersall, based in Denstone on the Staffordshire and Derbyshire border. Filming a limited 15 to 20 cinematic wedding films a year since 2022.",
+    "Award-winning wedding videographer Andy Tattersall, based in Denstone on the Staffordshire and Derbyshire border. A maximum of 15 cinematic wedding films a year, every one filmed personally, since 2022.",
   path: "/about/",
   image: "/images/banner-about.jpg",
 });
@@ -84,10 +84,10 @@ export default function AboutPage() {
           day&apos;s right.
         </p>
         <p>
-          I take on a deliberately limited number of weddings each year
-          (typically 15 to 20) so that every couple gets my full attention in
-          the lead-up to their day and in the edit afterwards, not a slot
-          squeezed between others. If a date&apos;s important to you, it&apos;s
+          I take a maximum of 15 weddings a year. That is a deliberate ceiling, not
+          a quiet year, and it is the reason every couple gets my full attention
+          in the lead-up to their day and in the edit afterwards, rather than a
+          slot squeezed between others. If a date&apos;s important to you, it&apos;s
           worth asking early.
         </p>
         <p>
@@ -108,7 +108,11 @@ export default function AboutPage() {
         <ul className="mt-6 space-y-2 text-[var(--ink-muted)]">
           <li>2026: The Wedding Industry Awards, Finalist &amp; Highly Commended</li>
           <li>2026: I Do Wedding Awards, Finalist</li>
-          <li>2025: The Wedding Industry Awards, Regional Winner / UK Top 10</li>
+          <li>2025: The Wedding Industry Awards, National Finalist</li>
+          <li>
+            2025: The Wedding Industry Awards, East Midlands Winner,
+            Videographer of the Year
+          </li>
           <li>2024: The Wedding Industry Awards, Finalist</li>
         </ul>
         <p className="mt-4 text-[var(--ink-muted)]">

@@ -146,7 +146,8 @@ export function LocalBusinessSchema() {
         award: [
           "The Wedding Industry Awards 2026 Finalist & Highly Commended",
           "I Do Wedding Awards 2026 Finalist",
-          "The Wedding Industry Awards 2025 Regional Winner / UK Top 10",
+          "The Wedding Industry Awards 2025 National Finalist",
+          "The Wedding Industry Awards 2025 East Midlands Winner, Videographer of the Year",
           "The Wedding Industry Awards 2024 Finalist",
         ],
       }}
