@@ -37,6 +37,19 @@ export default function Page() {
       banner="/images/banner-films.jpg"
       intro="This is the question I get asked most, usually phrased as 'we've booked a photographer, do we really need a videographer too?' Here's my honest answer, including the part where I argue against myself."
     >
+      <H2>What is cinematic, documentary-style wedding videography?</H2>
+      <P>
+        House of Tattersall makes cinematic, documentary-style wedding films
+        across Derbyshire, Staffordshire and Nottinghamshire. Documentary
+        describes how the day is filmed: moments are captured as they actually
+        happen, with nothing directed, staged or run again for the camera.
+        Cinematic describes the result: two or three angles on the ceremony and
+        speeches, professionally recorded audio from your vows, natural light
+        rather than lighting rigs, a moody editorial colour grade, and a 7 to 9
+        minute feature film built around the story of your day rather than a
+        run through the schedule.
+      </P>
+
       <H2>What&apos;s the actual difference?</H2>
       <P>
         A photographer gives you moments frozen and perfected. A videographer

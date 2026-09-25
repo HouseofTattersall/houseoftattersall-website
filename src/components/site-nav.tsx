@@ -16,6 +16,7 @@ const primary = [
 
 const secondary = [
   { href: "/investment/", label: "Investment" },
+  { href: "/reviews/", label: "Kind Words" },
   { href: "/blog/", label: "Film Reviews" },
 ];
 

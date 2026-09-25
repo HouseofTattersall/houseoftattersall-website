@@ -31,7 +31,7 @@ const films = [
 const faqs = [
   {
     q: "How far in advance should we book our wedding videographer?",
-    a: "Most couples book 12–24 months in advance, especially for peak summer dates. I only take on a limited number of weddings each year to keep every film personal and carefully crafted, so it's always worth enquiring as early as possible.",
+    a: "Most couples book 12 to 24 months in advance, especially for peak summer dates. I take a maximum of 15 weddings a year to keep every film personal and carefully crafted, so it's always worth enquiring as early as possible.",
   },
   {
     q: "What areas do you cover?",

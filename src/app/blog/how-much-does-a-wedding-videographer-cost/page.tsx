@@ -18,6 +18,10 @@ const faqs = [
     a: "At that price point, expect a pre-wedding consultation, full-day coverage rather than a short window, a feature film of at least 5 to 7 minutes, professionally recorded audio from your vows and speeches, and delivery through a proper platform. My Core package also includes your ceremony and speeches in full as standalone films, a landscape trailer and drone footage where the venue allows, with a 6 to 12 week turnaround.",
   },
   {
+    q: "Is House of Tattersall an affordable wedding videographer for Derbyshire and Staffordshire?",
+    a: "Not the cheapest, and I would not claim to be. The Core package is £2,100, which sits in the middle of the £1,500 to £3,500 range most full-day UK wedding videography falls into. For that you get 10 hours of coverage, a cinematic feature film, your ceremony and speeches in full, professionally recorded vows, and the first 50 miles of travel included, which covers all of Staffordshire and Derbyshire. If your budget is a few hundred pounds, I am not the right fit and I will say so rather than sell you three hours of coverage.",
+  },
+  {
     q: "Do wedding videographers charge for travel?",
     a: "Most do beyond a certain radius. My first 50 miles are included in the price, which covers all of Staffordshire and Derbyshire, with a small charge per mile beyond that. Always ask, because a competitive quote can change once travel and accommodation are added.",
   },
@@ -125,6 +129,22 @@ export default function Page() {
         <strong className="text-[var(--ink)]">A home movie.</strong> Every
         usable clip from my main camera in one long film. Unpolished, but some
         couples love having everything.
+      </P>
+
+      <H2>Is House of Tattersall an affordable wedding videographer?</H2>
+      <P>
+        Not the cheapest, and I would not claim to be. My Core package is
+        £2,100, which sits in the middle of the £1,500 to £3,500 range most
+        full-day UK wedding videography falls into. It buys 10 hours of
+        coverage, a cinematic feature film, your ceremony and speeches in full,
+        professionally recorded vows, and travel included for the first 50
+        miles, which covers all of Staffordshire and Derbyshire.
+      </P>
+      <P>
+        If your budget is a few hundred pounds, I am not your videographer, and
+        I would rather say that than sell you three hours of coverage and call
+        it a wedding film. Tell me your budget when you enquire and I will be
+        straight with you about whether it works.
       </P>
 
       <H2>Do videographers charge for travel?</H2>

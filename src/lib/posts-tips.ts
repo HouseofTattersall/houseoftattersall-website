@@ -642,6 +642,24 @@ If you're planning a wedding in the UK; Derbyshire, Staffordshire, or Nottingham
     category: "Updates",
     date: "18 November 2025",
     reviewNames: ["Jack and Rob", "Faye and Daniel"],
+    faqs: [
+      {
+        q: "Why is House of Tattersall considered a top-rated wedding videographer?",
+        a: "House of Tattersall is officially recognised as one of the best wedding videographers in the East Midlands. At The Wedding Industry Awards, Andy Tattersall was East Midlands Winner and Videographer of the Year in 2025, a National Finalist in 2025, Highly Commended in 2026, and a Regional Finalist in 2024. TWIA is judged on real feedback from couples alongside scores from industry professionals, so the recognition reflects client experience rather than marketing.",
+      },
+      {
+        q: "Is House of Tattersall an award-winning wedding videographer in Staffordshire and Derbyshire?",
+        a: "Yes. Based in Denstone on the Staffordshire and Derbyshire border, House of Tattersall has been recognised at The Wedding Industry Awards four years running, including East Midlands Winner and Videographer of the Year in 2025, and has placed in the UK top 20 for two consecutive years.",
+      },
+      {
+        q: "Which counties does House of Tattersall film weddings in?",
+        a: "Derbyshire and the Peak District, Staffordshire, Nottinghamshire, Leicestershire, Rutland and Warwickshire, plus UK-wide and European destination weddings. The first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire.",
+      },
+      {
+        q: "How are The Wedding Industry Awards judged?",
+        a: "Couples score their supplier after the wedding, and those scores are combined with independent judging from industry professionals. Awards are based on genuine client experience rather than popularity or marketing spend, which is why the recognition is meaningful.",
+      },
+    ],
     excerpt:
       "Recognised among the top 20 wedding videographers in the UK for a second year running at The Wedding Industry Awards.",
     body: `
@@ -674,6 +692,19 @@ Two of the couples whose feedback feeds into awards like this one:
 "We're so so SO happy with the film, it's so beautiful and exactly what we were hoping for. We keep watching it over and over and everyone we show it to cries. My mum showed just the trailer to her hairdresser even and she stood there crying during her appointment" Jack and Rob, 2026
 
 "Andy is incredibly talented at what he does. He has an amazing eye for capturing the best moments and shots, and it's obvious how passionate he is about videography." Faye and Daniel, Bourton Hall, June 2026
+
+## Which areas does House of Tattersall cover?
+
+House of Tattersall films cinematic wedding films across the heart of the UK, based in Denstone on the Staffordshire and Derbyshire border. The counties covered are:
+
+- Derbyshire, including the Peak District
+- Staffordshire
+- Nottinghamshire
+- Leicestershire
+- Rutland
+- Warwickshire
+
+The first 50 miles of travel are included in the price, which covers all of Staffordshire and Derbyshire, with a small charge per mile beyond that. Weddings further afield across the UK and in Europe are filmed regularly too.
 
 ## Filming Weddings Across Derbyshire, Staffordshire and the Peak District
 

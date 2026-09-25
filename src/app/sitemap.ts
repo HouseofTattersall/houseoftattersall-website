@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/films",
     "/investment",
+    "/reviews",
     "/enquire",
     "/derbyshire-wedding-film",
     "/staffordshire-wedding",
