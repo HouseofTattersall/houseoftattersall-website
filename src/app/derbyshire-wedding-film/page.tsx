@@ -9,6 +9,7 @@ import { CtaButton, CtaBand } from "@/components/cta";
 import { StyleExplainer } from "@/components/style-explainer";
 import { Testimonials } from "@/components/testimonials";
 import { AwardsStrip } from "@/components/awards-strip";
+import Link from "next/link";
 
 export const metadata: Metadata = pageMeta({
   title:
@@ -26,11 +27,13 @@ type Venue = {
   videoId?: string;
   photo?: string;
   feature?: boolean;
+  guide?: string;
 };
 
 const venues: Venue[] = [
   {
     name: "The West Mill, Derby",
+    guide: "/blog/the-west-mill-wedding-videographer-derbyshire/",
     feature: true,
     photo: "/images/venue-west-mill.jpg",
     body: "Natural light floods through the industrial-style windows here, giving that soft, romantic glow that makes a wedding film feel properly cinematic. The exposed brick and high ceilings do a lot of the work for me before I've even picked up the camera. The West Mill is set over multiple floors, so your day naturally moves through different spaces rather than staying in one room all day, giving your film distinct chapters instead of everything looking the same. It works beautifully year-round: spring and summer bring an outdoor ceremony option and long daylight, while autumn and winter lean into that warm, intimate glow indoors.",
@@ -38,10 +41,12 @@ const venues: Venue[] = [
   },
   {
     name: "Grangefields by Cripps & Co",
+    guide: "/blog/grangefields-derbyshire/",
     body: "The ceremony room here has a red-brick, vaulted-ceiling feel with natural light flooding through the windows, perfect for the moment you're exchanging vows. The Funktion-One sound system in the barn means I get genuinely clean audio off the desk for speeches and toasts, which is rarer than you'd think at barn venues. The Tuscan-inspired courtyard is where I'd point you for golden hour portraits, with the countryside behind you, and the open show kitchen in the dining barn means the atmosphere during the wedding breakfast and speeches is something else. You can feel it in the footage. The private drive up to the venue sets the tone before the day's even started.",
   },
   {
     name: "Yeldersley Hall",
+    guide: "/blog/yeldersley-hall-wedding-videographer-derbyshire/",
     body: "Capped at 80 guests, which sounds like a small detail but it isn't. It means cleaner audio on your vows, speeches and the laughter in between, without a room full of side conversation to fight against. The bridal suite has genuinely great light and views for getting-ready footage, and because the venue includes accommodation for 14, I can capture your morning without anyone watching the clock. The function room does double duty as ceremony space and evening reception, so your film gets a real shift in mood between the two. Across the 12 acres of grounds I can get drone footage over the Derbyshire countryside without restriction, and the marquee (available April to December) fills with the same soft, natural light as the rest of the venue.",
   },
 ];
@@ -57,7 +62,7 @@ const faqs = [
   },
   {
     q: "How much does a wedding videographer in Derbyshire cost?",
-    a: "My Core package is £2,100 and the Complete Story package, which adds a second videographer plus your ceremony and speeches in full, is £2,750. My full package breakdown is on the Investment page.",
+    a: "My Core package is £2,100 and includes your ceremony and speeches in full. The Complete Story package is £2,540 and adds a second videographer, a teaser, a highlight film and a 14 to 18 minute feature film. My full package breakdown is on the Investment page.",
   },
   {
     q: "Do you film weddings at [specific venue] in Derbyshire?",
@@ -98,7 +103,7 @@ export default function DerbyshirePage() {
       </p>
 
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
-        Luxury cinematic wedding films in Derbyshire from £2,100. The Complete Story package, which adds a second videographer, is £2,750. The full breakdown is on the Investment page.
+        Luxury cinematic wedding films in Derbyshire from £2,100. The Complete Story package, which adds a second videographer and five films, is £2,540. The full breakdown is on the Investment page.
       </p>
 
       <div className="mt-10 text-center">
@@ -134,6 +139,16 @@ export default function DerbyshirePage() {
               <div className="mt-6">
                 <VideoEmbed id={venue.videoId} title={venue.name} />
               </div>
+            ) : null}
+            {venue.guide ? (
+              <p className="mt-4 text-sm">
+                <Link
+                  href={venue.guide}
+                  className="text-[var(--khaki)] underline underline-offset-4"
+                >
+                  Read my full guide to filming at {venue.name.split(",")[0]}
+                </Link>
+              </p>
             ) : null}
           </div>
         ))}

@@ -45,8 +45,7 @@ export default function Page() {
         happen, with nothing directed, staged or run again for the camera.
         Cinematic describes the result: two or three angles on the ceremony and
         speeches, professionally recorded audio from your vows, natural light
-        rather than lighting rigs, a moody editorial colour grade, and a 7 to 9
-        minute feature film built around the story of your day rather than a
+        rather than lighting rigs, a moody editorial colour grade, and a 6 to 8 minute feature film built around the story of your day rather than a
         run through the schedule.
       </P>
 

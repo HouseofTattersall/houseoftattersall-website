@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "How much does a wedding videographer cost in the UK?",
-    a: "Most full-day UK wedding videography sits between £1,500 and £3,500. My Core package is £2,100 and includes your ceremony and speeches in full as standard. My Complete Story package, which adds a second videographer and a one-week teaser, is £2,750.",
+    a: "Most full-day UK wedding videography sits between £1,500 and £3,500. My Core package is £2,100 and includes your ceremony and speeches in full as standard. The Complete Story package is £2,540 and adds a second videographer plus a teaser, a highlight film and a longer feature film.",
   },
   {
     q: "What should be included in a wedding videography package?",
-    a: "At that price point, expect a pre-wedding consultation, full-day coverage rather than a short window, a feature film of at least 5 to 7 minutes, professionally recorded audio from your vows and speeches, and delivery through a proper platform. My Core package also includes your ceremony and speeches in full as standalone films, a landscape trailer and drone footage where the venue allows, with a 6 to 12 week turnaround.",
+    a: "At that price point, expect a pre-wedding consultation, full-day coverage rather than a short window, a feature film of at least 5 to 7 minutes, professionally recorded audio from your vows and speeches, and delivery through a proper platform. My Core package also includes your ceremony and speeches in full as standalone films, a landscape trailer and drone footage where the venue allows, with an expected 6 to 9 week turnaround.",
   },
   {
     q: "Is House of Tattersall an affordable wedding videographer for Derbyshire and Staffordshire?",
@@ -55,7 +55,8 @@ export default function Page() {
         full-day coverage, professionally recorded vows and speeches, your
         ceremony and speeches in full, and travel included for the first 50 miles,
         which covers both counties. The Complete Story package, which adds a
-        second videographer and a one-week teaser, is £2,750.
+        second videographer, a teaser, a highlight film and a 14 to 18 minute
+        feature film, is £2,540.
       </Lead>
 
       <H2>Why is there such a big range?</H2>
@@ -77,7 +78,7 @@ export default function Page() {
       </P>
       <P>
         <strong className="text-[var(--ink)]">Edit time.</strong> This is the
-        part nobody sees. A 7 to 9 minute film built around story rather than
+        part nobody sees. A 6 to 8 minute film built around story rather than
         chronology takes days of editing, not hours. Cheaper packages are
         usually cheaper because the edit is faster and more formulaic.
       </P>
@@ -102,7 +103,8 @@ export default function Page() {
       <P>
         My Core package includes all of that, plus your ceremony and speeches
         in full as standalone films, a landscape trailer and drone footage
-        where the venue allows it, with a 6 to 12 week turnaround. I deliver
+        where the venue allows it, with an expected 6 to 9 week turnaround. I
+        deliver
         through Vidflow, a premium platform that plays properly on all smart
         devices, and which also acts as storage for your films for 10 years.
       </P>

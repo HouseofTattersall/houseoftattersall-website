@@ -9,14 +9,14 @@ export const metadata: Metadata = {
   title:
     "House of Tattersall | Luxury Cinematic Wedding Videographer, Derbyshire, Staffordshire & Nottinghamshire",
   description:
-    "Luxury cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Award-winning films from £2,100, with a two-videographer package at £2,750.",
+    "Luxury cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Award-winning films from £2,100, with a two-videographer package at £2,540.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     title:
       "House of Tattersall | Luxury Cinematic Wedding Videographer, Derbyshire, Staffordshire & Nottinghamshire",
     description:
-      "Luxury cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Award-winning films from £2,100, with a two-videographer package at £2,750.",
+      "Luxury cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Award-winning films from £2,100, with a two-videographer package at £2,540.",
     url: "/",
     images: ["/images/banner-films.jpg"],
     siteName: "House of Tattersall",

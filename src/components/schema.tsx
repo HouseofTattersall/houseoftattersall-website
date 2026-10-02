@@ -134,12 +134,12 @@ export function LocalBusinessSchema() {
           "@type": "Offer",
           name: "Wedding film core package",
           description:
-            "Pre-wedding consultation, 10 hours of full-day coverage, 7-9 minute cinematic feature film, your ceremony in full, your speeches in full, landscape film trailer, drone footage, 6-12 week turnaround. Delivered through Vidflow with 10 years of access.",
+            "Pre-wedding consultation, 10 hours of full-day coverage, 6-8 minute cinematic feature film, your ceremony in full, your speeches in full, landscape film trailer, drone footage, 6-9 week expected turnaround. Delivered through Vidflow with 10 years of access.",
           priceCurrency: "GBP",
           priceSpecification: {
             "@type": "PriceSpecification",
             minPrice: 2100,
-            maxPrice: 2750,
+            maxPrice: 2540,
             priceCurrency: "GBP",
           },
         },
@@ -325,7 +325,7 @@ export function PackagesSchema() {
           "@type": "Offer",
           name: "Wedding film core package",
           description:
-            "Pre-wedding consultation, 10 hours of full-day coverage, a 7 to 9 minute cinematic feature film, your ceremony in full and your speeches in full as standalone films, a landscape film trailer, drone footage where permitted, and a 6 to 12 week turnaround. Delivered through Vidflow with 10 years of access.",
+            "Pre-wedding consultation, 10 hours of full-day coverage, a 6 to 8 minute cinematic feature film, your ceremony in full and your speeches in full as standalone films, a landscape film trailer, drone footage where permitted, and an expected 6 to 9 week turnaround. Delivered through Vidflow with 10 years of access.",
           priceCurrency: "GBP",
           priceSpecification: {
             "@type": "PriceSpecification",
@@ -340,14 +340,13 @@ export function PackagesSchema() {
           itemListElement: [
             { name: "Core package", price: 2100 },
             {
-              name: "The Complete Story package, including a second videographer and a 16 to 18 minute feature film",
-              price: 2750,
+              name: "The Complete Story package: second videographer, 60 second film trailer, 4 to 6 minute highlight film, 14 to 18 minute feature film, ceremony and speeches",
+              price: 2540,
             },
-            { name: "1 week anniversary short social teaser", price: 210 },
             { name: "Home movie, every usable clip in one film", price: 400 },
             {
-              name: "Feature film extended to 16 to 18 minutes",
-              price: 195,
+              name: "Feature film extended to 14 to 18 minutes",
+              price: 250,
             },
           ].map((o) => ({
             "@type": "Offer",

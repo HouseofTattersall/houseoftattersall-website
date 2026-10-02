@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     q: "How long does it take to receive our wedding film?",
-    a: "Your teaser is delivered within 6 to 12 weeks of the wedding, and everything else follows within a week of that. My aim is 6 to 9 weeks even in the busiest part of the season.",
+    a: "Expect your teaser within 6 to 9 weeks of the wedding, with everything else following within a week of that.",
   },
   {
     q: "How do we receive our films?",
@@ -137,7 +137,7 @@ export default function Home() {
           wedding, not a template.
         </p>
         <p className="mt-6 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-5 py-4 text-[var(--ink-muted)]">
-          Luxury cinematic wedding films from £2,100. The Complete Story package, which adds a second videographer, is £2,750.
+          Luxury cinematic wedding films from £2,100. The Complete Story package, which adds a second videographer and five films, is £2,540.
         </p>
       </Split>
 

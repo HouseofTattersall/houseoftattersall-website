@@ -18,11 +18,19 @@ The website for **House of Tattersall**, a cinematic wedding videographer run by
 
 Getting these wrong across pages was a real problem once already. Check against this list.
 
-- **Pricing:** Core package **£2,100** (7-9 minute feature film, ceremony and
-  speeches in full). Complete Story package **£2,750** (adds a second
-  videographer, a **16-18 minute** feature film as standard, and the 1 week
-  anniversary teaser). Extras: extended feature film £195, 1 week anniversary
-  £210, home movie £400. Never publish a different figure without asking.
+- **Pricing** (set 2 October 2026):
+  - **Core, £2,100.** Consultation, 10 hours coverage, **6-8 minute** feature
+    film, **60 second film trailer**, ceremony in full, speeches in full, drone,
+    6-9 week expected turnaround.
+  - **The Complete Story, £2,540.** Consultation, 10 hours coverage, a second
+    videographer, **60 second film trailer**, **4-6 minute highlight film**,
+    **14-18 minute feature film**, ceremony in full, speeches in full, drone,
+    6-9 week expected turnaround. Do **not** describe it as "everything in
+    Core": the two packages are listed separately now.
+  - Extras: extended feature film (6-8 up to 14-18 minutes) **£250**, home movie
+    **£400**.
+  - The **1 week anniversary teaser is discontinued**. Do not reintroduce it.
+  - Never publish a different figure without asking.
 - **Wedding videography since:** 2022. Professional filming (live music, events, brand work) since **November 2014**.
 - **Volume:** a **hard cap of 15 weddings a year**. Not "15 to 20": Andy
   confirmed 15 is the ceiling. Every one filmed by him personally.
@@ -52,10 +60,9 @@ Getting these wrong across pages was a real problem once already. Check against 
 - **Booking process:** enquiry, video call, £200 to secure, client portal
   (contract, invoice, schedule, questionnaire), automatic reminders six weeks
   out, a second call if needed, arrival time confirmed, then delivery.
-- **Delivery timing:** the teaser arrives within **6 to 12 weeks**, everything
-  else within a week of that. Andy's **aim is 6 to 9 weeks** even in busy
-  season. Publish 6-12 as the commitment and 6-9 only as an aim, never a
-  promise.
+- **Delivery timing:** the teaser is **expected within 6 to 9 weeks**,
+  everything else within a week of that. Always word it as *expected*
+  turnaround, never as a guarantee. Changed from 6-12 on 2 October 2026.
 
 ## Palette
 

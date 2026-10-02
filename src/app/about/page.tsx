@@ -2,7 +2,12 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { PageBanner } from "@/components/page-banner";
 import { CtaButton, CtaBand } from "@/components/cta";
-import { BreadcrumbSchema, PersonSchema } from "@/components/schema";
+import {
+  BreadcrumbSchema,
+  PersonSchema,
+  FaqSchema,
+} from "@/components/schema";
+import { Faq } from "@/components/faq";
 
 export const metadata: Metadata = pageMeta({
   title:
@@ -13,6 +18,33 @@ export const metadata: Metadata = pageMeta({
   image: "/images/banner-about.jpg",
 });
 
+
+const faqs = [
+  {
+    q: "What is your style of wedding videography?",
+    a: "Cinematic and documentary. Documentary describes how I film: your day is captured as it happens, with nothing directed, staged or run again for the camera. Cinematic describes the result: two or three angles on the ceremony and speeches, professionally recorded audio from your vows, natural light rather than lighting rigs, a moody editorial colour grade, and an edit built around the story of your day.",
+  },
+  {
+    q: "Who is House of Tattersall?",
+    a: "Andy Tattersall, a wedding videographer based in Denstone on the Staffordshire and Derbyshire border, filming cinematic wedding films across Staffordshire, Derbyshire and Nottinghamshire. Weddings since 2022, professional filming since November 2014, and recognised at The Wedding Industry Awards four years running.",
+  },
+  {
+    q: "How many weddings do you film a year?",
+    a: "A maximum of 15. That is a deliberate ceiling rather than a quiet year, and it is what keeps turnaround at 6 to 9 weeks while every couple gets full attention before the day and in the edit afterwards.",
+  },
+  {
+    q: "Do you film every wedding yourself?",
+    a: "Yes. Andy films every wedding personally. On The Complete Story package a second videographer works alongside him, and editing is handled by Vlad at Bride & Groom to an extensive brief Andy writes for every film.",
+  },
+  {
+    q: "What areas do you cover?",
+    a: "Derbyshire and the Peak District, Staffordshire, Nottinghamshire, Leicestershire, Rutland and Warwickshire, plus UK-wide and European destination weddings. The first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire, with a small charge per mile beyond that.",
+  },
+  {
+    q: "How much do your wedding films cost?",
+    a: "The Core package is £2,100 and includes 10 hours of coverage, a 6 to 8 minute cinematic feature film, and your ceremony and speeches in full. The Complete Story package is £2,540 and adds a second videographer, a 60 second film trailer, a 4 to 6 minute highlight film and a 14 to 18 minute feature film.",
+  },
+];
 
 export default function AboutPage() {
   return (
@@ -240,6 +272,16 @@ export default function AboutPage() {
           </li>
         </ul>
       </div>
+      </div>
+
+      <div className="mx-auto max-w-3xl px-6 pb-20">
+        <h2 className="font-serif text-2xl text-[var(--khaki)]">
+          Frequently asked questions
+        </h2>
+        <div className="mt-8">
+          <Faq items={faqs} />
+        </div>
+        <FaqSchema items={faqs} />
       </div>
 
       <CtaBand />

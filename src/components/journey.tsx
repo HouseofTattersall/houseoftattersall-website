@@ -29,7 +29,7 @@ const steps = [
   },
   {
     title: "Your films",
-    body: "Your teaser arrives within 6 to 12 weeks of the wedding, and I aim for 6 to 9 even in the busiest part of the season. Everything else follows within a week of that. It all lands on Vidflow, on your own page, ready to watch on any smart device.",
+    body: "Your teaser is expected within 6 to 9 weeks of the wedding, with everything else following within a week of that. It all lands on Vidflow, on your own page, ready to watch on any smart device.",
   },
 ];
 

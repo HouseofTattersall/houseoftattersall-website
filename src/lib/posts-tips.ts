@@ -26,7 +26,7 @@ That speed is the product. It is not a cut-price version of videography. It is a
 
 Someone making a film. Two or three angles on the ceremony and speeches, professionally recorded audio on your vows, drone where the venue allows it, and an edit built around the story of your day rather than a run through the schedule.
 
-It takes weeks rather than hours. Mine take six to twelve. It costs more, because there are days of editing in it rather than an evening.
+It takes weeks rather than hours. Mine usually take six to nine. It costs more, because there are days of editing in it rather than an evening.
 
 ## The honest difference
 
@@ -174,7 +174,7 @@ He is better at editing than I am, and it is his whole focus. I am good at expla
 
 I book Vlad in well before your wedding, not after it. Your first draft usually comes back to me around four weeks after the day.
 
-That is why your teaser arrives within six to twelve weeks, why I aim for six to nine even in the busiest part of the season, and why everything else follows within a week of that.
+That is why your teaser is expected within six to nine weeks, even in the busiest part of the season, and why everything else follows within a week of that.
 
 No editing queue stretching into next spring. No email in March asking where your film has got to. The reason so many couples wait six months or more is not that their videographer does not care. It is that one person is trying to film all summer and edit all summer at the same time, and there are not enough hours in it.
 
@@ -223,7 +223,7 @@ What you get here instead is a film shot by the person you met, shaped by the pe
       },
       {
         q: "How soon after the wedding do you start editing?",
-        a: "The editor is booked in before the wedding. The first draft usually comes back around four weeks after the day, which is why the teaser lands within six to twelve weeks, with an aim of six to nine even in the busiest part of the season.",
+        a: "The editor is booked in before the wedding. The first draft usually comes back around four weeks after the day, which is why the teaser is expected within six to nine weeks even in the busiest part of the season.",
       },
       {
         q: "What is Wedola?",
@@ -305,9 +305,9 @@ So judge the films first. Watch full films rather than 30 second Instagram cuts,
 
 ## When does it arrive?
 
-Your teaser comes back within 6 to 12 weeks, and I aim for 6 to 9 even in the busiest part of the season. Everything else follows within a week of that. You will get an email with your gallery link, and from that moment it is yours to watch, download and share for the next decade.
+Your teaser is expected back within 6 to 9 weeks, even in the busiest part of the season, with everything else following within a week of that. You will get an email with your gallery link, and from that moment it is yours to watch, download and share for the next decade.
 
-If you would like to talk about your own film, whether you're getting married in [Derbyshire](/derbyshire-wedding-film/), [Staffordshire](/staffordshire-wedding/), [Nottinghamshire](/nottinghamshire-wedding/) or further afield, I would love to hear about your day. The Core package is £2,100 and includes your ceremony and speeches in full, with a Complete Story package at £2,750 that adds a second videographer, and the full breakdown is on the [Investment](/investment/) page.
+If you would like to talk about your own film, whether you're getting married in [Derbyshire](/derbyshire-wedding-film/), [Staffordshire](/staffordshire-wedding/), [Nottinghamshire](/nottinghamshire-wedding/) or further afield, I would love to hear about your day. The Core package is £2,100 and includes your ceremony and speeches in full, with a Complete Story package at £2,540 that adds a second videographer and five films, and the full breakdown is on the [Investment](/investment/) page.
 
 !cta[Enquire about your film](/enquire/)
 `,
@@ -342,7 +342,7 @@ If you would like to talk about your own film, whether you're getting married in
       },
       {
         q: "How long does a wedding film take to arrive?",
-        a: "Your teaser comes back within 6 to 12 weeks of the wedding, with everything else following within a week of that. My aim is 6 to 9 weeks even in the busiest part of the season. You receive an email containing your Vidflow gallery link, and from that point the films are yours to watch, download and share.",
+        a: "Your teaser is expected back within 6 to 9 weeks of the wedding, with everything else following within a week of that. You receive an email containing your Vidflow gallery link, and from that point the films are yours to watch, download and share.",
       },
     ],
   },

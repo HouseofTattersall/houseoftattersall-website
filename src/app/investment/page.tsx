@@ -14,27 +14,58 @@ import { Faq } from "@/components/faq";
 export const metadata: Metadata = pageMeta({
   title: "Wedding Videography Packages & Pricing | From £2,100",
   description:
-    "Wedding film packages and pricing. The £2,100 Core package includes full-day coverage, a feature film, and your ceremony and speeches in full. The Complete Story package, with a second videographer and a 16 to 18 minute feature film, is £2,750. The first 50 miles of travel are included, covering all of Staffordshire and Derbyshire.",
+    "Wedding film packages and pricing. The £2,100 Core package includes 10 hours of coverage, a cinematic feature film, and your ceremony and speeches in full. The Complete Story is £2,540 and adds a second videographer and five films. First 50 miles of travel included, covering all of Staffordshire and Derbyshire.",
   path: "/investment/",
   image: "/images/banner-investment.jpg",
 });
 
-const corePackage = [
-  "Pre-wedding consultation",
-  "10 hours of full-day coverage",
-  "7 to 9 minute cinematic feature film",
-  "Your ceremony in full, as a standalone film",
-  "Your speeches in full, as a standalone film",
-  "Landscape film trailer",
-  "Drone footage",
-  "6 to 12 week turnaround",
-];
+type Package = {
+  name: string;
+  strap: string;
+  price: string;
+  films: { name: string; length: string }[];
+  included: string[];
+  featured?: boolean;
+};
 
-const completePackage = [
-  "Everything in the Core package",
-  "A second videographer throughout your day",
-  "Your feature film extended to 16 to 18 minutes as standard",
-  "1 week anniversary: a short social teaser within a week of your wedding",
+const packages: Package[] = [
+  {
+    name: "Core",
+    strap: "For couples who want the full day, beautifully told",
+    price: "£2,100",
+    films: [
+      { name: "Cinematic feature film", length: "6 to 8 min" },
+      { name: "Film trailer", length: "60 sec" },
+      { name: "Your ceremony", length: "In full" },
+      { name: "Your speeches", length: "In full" },
+    ],
+    included: [
+      "Pre-wedding consultation",
+      "10 hours of full-day coverage",
+      "Drone footage",
+      "6 to 9 week expected turnaround",
+    ],
+  },
+  {
+    name: "The Complete Story",
+    strap: "Two filmmakers, five films, nothing missed",
+    price: "£2,540",
+    featured: true,
+    films: [
+      { name: "Film trailer", length: "60 sec" },
+      { name: "Highlight film", length: "4 to 6 min" },
+      { name: "Feature film", length: "14 to 18 min" },
+      { name: "Your ceremony", length: "In full" },
+      { name: "Your speeches", length: "In full" },
+    ],
+    included: [
+      "Pre-wedding consultation",
+      "10 hours of full-day coverage",
+      "A second videographer throughout your day",
+      "Drone footage",
+      "6 to 9 week expected turnaround",
+    ],
+  },
 ];
 
 const secondShooterGains = [
@@ -47,13 +78,8 @@ const secondShooterGains = [
 const extras = [
   {
     name: "Extended feature film",
-    desc: "Your feature film extended from 7 to 9 minutes up to 16 to 18 minutes. Included as standard in the Complete Story package.",
-    price: "£195",
-  },
-  {
-    name: "1 week anniversary",
-    desc: "Short social teaser within 1 week of your wedding",
-    price: "£210",
+    desc: "Your feature film extended from 6 to 8 minutes up to 14 to 18 minutes. Included as standard in The Complete Story.",
+    price: "£250",
   },
   {
     name: "Home movie",
@@ -77,15 +103,17 @@ const faqs = [
   },
   {
     q: "When do we get our wedding films?",
-    a: "Your teaser arrives within 6 to 12 weeks of the wedding, and I aim for 6 to 9 weeks even in the busiest part of the season. Everything else follows within a week of that. Films are delivered on Vidflow, on your own private page, watchable on any smart device and downloadable for 10 years.",
+    a: "Your teaser is expected within 6 to 9 weeks of the wedding, with everything else following within a week of that. Films are delivered on Vidflow, on your own private page, watchable on any smart device and downloadable for 10 years.",
   },
 ];
 
-function Tick() {
+function Tick({ dark = false }: { dark?: boolean }) {
   return (
     <span
       aria-hidden="true"
-      className="mt-[0.45rem] block h-[6px] w-[10px] shrink-0 -rotate-45 border-b-[1.5px] border-l-[1.5px] border-[var(--gold)]"
+      className={`mt-[0.45rem] block h-[6px] w-[10px] shrink-0 -rotate-45 border-b-[1.5px] border-l-[1.5px] ${
+        dark ? "border-[var(--gold-wash)]" : "border-[var(--gold)]"
+      }`}
     />
   );
 }
@@ -112,43 +140,105 @@ export default function InvestmentPage() {
 
         {/* Packages */}
         <div className="mt-14 grid gap-7 md:grid-cols-2">
-          <div className="border border-[var(--rule)] bg-[var(--paper)] p-8 md:p-10">
-            <p className="text-sm text-[var(--ink-faint)]">
-              For couples who want the full day, beautifully told
-            </p>
-            <h2 className="mt-3 font-serif text-3xl text-[var(--khaki)]">
-              Core package
-            </h2>
-            <p className="mt-1 font-serif text-4xl text-[var(--khaki)]">
-              £2,100
-            </p>
-            <ul className="mt-7 divide-y divide-[var(--rule)] border-t border-[var(--rule)]">
-              {corePackage.map((item) => (
-                <li key={item} className="py-3 text-[var(--ink-muted)]">
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
+          {packages.map((pkg) => {
+            const dark = pkg.featured;
+            return (
+              <div
+                key={pkg.name}
+                className={`flex flex-col p-8 md:p-10 ${
+                  dark
+                    ? "border border-[var(--khaki-deep)] bg-[var(--khaki)]"
+                    : "border border-[var(--rule)] bg-[var(--paper)]"
+                }`}
+              >
+                <p
+                  className={`text-sm ${
+                    dark ? "text-[var(--gold-wash)]" : "text-[var(--ink-faint)]"
+                  }`}
+                >
+                  {pkg.strap}
+                </p>
+                <h2
+                  className={`mt-3 font-serif text-3xl ${
+                    dark ? "text-[var(--paper)]" : "text-[var(--khaki)]"
+                  }`}
+                >
+                  {pkg.name}
+                </h2>
+                <p
+                  className={`mt-1 font-serif text-4xl ${
+                    dark ? "text-[var(--paper)]" : "text-[var(--khaki)]"
+                  }`}
+                >
+                  {pkg.price}
+                </p>
 
-          <div className="border border-[var(--khaki-deep)] bg-[var(--khaki)] p-8 md:p-10">
-            <p className="text-sm text-[var(--gold-wash)]">
-              Two cameras, every angle, nothing missed
-            </p>
-            <h2 className="mt-3 font-serif text-3xl text-[var(--paper)]">
-              The complete story package
-            </h2>
-            <p className="mt-1 font-serif text-4xl text-[var(--paper)]">
-              £2,750
-            </p>
-            <ul className="mt-7 divide-y divide-[var(--paper)]/20 border-t border-[var(--paper)]/20">
-              {completePackage.map((item) => (
-                <li key={item} className="py-3 text-[var(--paper)]/90">
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
+                <p
+                  className={`mt-8 text-xs tracking-[0.3em] uppercase ${
+                    dark ? "text-[var(--gold-wash)]" : "text-[var(--gold)]"
+                  }`}
+                >
+                  The films
+                </p>
+                <ul
+                  className={`mt-3 divide-y border-t ${
+                    dark
+                      ? "divide-[var(--paper)]/20 border-[var(--paper)]/20"
+                      : "divide-[var(--rule)] border-[var(--rule)]"
+                  }`}
+                >
+                  {pkg.films.map((film) => (
+                    <li
+                      key={film.name}
+                      className="flex items-baseline justify-between gap-4 py-3"
+                    >
+                      <span
+                        className={
+                          dark ? "text-[var(--paper)]" : "text-[var(--ink)]"
+                        }
+                      >
+                        {film.name}
+                      </span>
+                      {film.length ? (
+                        <span
+                          className={`shrink-0 font-serif text-sm whitespace-nowrap italic ${
+                            dark
+                              ? "text-[var(--gold-wash)]"
+                              : "text-[var(--ink-faint)]"
+                          }`}
+                        >
+                          {film.length}
+                        </span>
+                      ) : null}
+                    </li>
+                  ))}
+                </ul>
+
+                <p
+                  className={`mt-8 text-xs tracking-[0.3em] uppercase ${
+                    dark ? "text-[var(--gold-wash)]" : "text-[var(--gold)]"
+                  }`}
+                >
+                  Also included
+                </p>
+                <ul className="mt-3 space-y-2">
+                  {pkg.included.map((item) => (
+                    <li
+                      key={item}
+                      className={`flex gap-3 text-sm leading-relaxed ${
+                        dark
+                          ? "text-[var(--paper)]/90"
+                          : "text-[var(--ink-muted)]"
+                      }`}
+                    >
+                      <Tick dark={dark} />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
         </div>
 
         <p className="border-b border-[var(--rule)] py-8 text-center text-sm text-[var(--ink-faint)]">

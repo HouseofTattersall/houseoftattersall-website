@@ -8,6 +8,7 @@ import { CtaButton, CtaBand } from "@/components/cta";
 import { StyleExplainer } from "@/components/style-explainer";
 import { Testimonials } from "@/components/testimonials";
 import { AwardsStrip } from "@/components/awards-strip";
+import Link from "next/link";
 
 export const metadata: Metadata = pageMeta({
   title:
@@ -25,21 +26,25 @@ type Venue = {
   videoId?: string;
   photo?: string;
   feature?: boolean;
+  guide?: string;
 };
 
 const venues: Venue[] = [
   {
     name: "Hanbury Wedding Barns",
+    guide: "/blog/hanbury-barns/",
     feature: true,
     body: "The ceremony barn has exposed timber frames and vaulted ceilings that genuinely help the audio. The acoustics in there are some of the best I work with. Natural light pours through the windows even on an overcast Staffordshire day, so I rarely need artificial lighting at all. What I like most as a filmmaker is the flow: there are no awkward room changes breaking up the story of your day, which keeps a documentary-style film feeling continuous rather than stitched together. Outdoor ceremonies here capture beautifully too: the countryside audio, the breeze, the atmosphere, and the pavilion and lake give good options for drone footage. In summer, the golden hour runs long, which means more time for the couple portraits that end up being everyone's favourite part of the film. Like Foxtail and The Ashes Barns, Hanbury blends an old barn foundation with a modern interior, and that contrast is something I love filming across all three venues.",
     videoId: "jqkfthxi",
   },
   {
     name: "Foxtail Barns",
+    guide: "/blog/foxtail-barns-wedding-videographer/",
     body: "The ceremony conservatory is a videographer's dream for light, and the acoustics mean I can capture your vows and readings cleanly without intrusive kit. Even on a grey Staffordshire day the ceremony barn seems to glow, and the walled garden gives soft, diffused light for the quieter, more intimate shots. The iconic bridge on the grounds is where golden hour portraits really come alive. I've filmed here often enough now that I know every corner and where the light falls at different times of day, which means less time working out the venue on your wedding day and more time actually capturing it.",
   },
   {
     name: "The Ashes Barns",
+    guide: "/blog/the-ashes-wedding-videographer/",
     body: "Such a beautiful little spot, with different sections for different parts of the day so your film naturally moves through distinct scenes: the Dressing Room, the Ceremony Barn, the Wedding Breakfast Barn, and the Party Barn each have their own look and feel. What I love filming here, and it's true of the other Ensarb venues too like Foxtail and Hanbury, is the way the old barn foundations sit alongside genuinely modern interiors. That contrast between rustic and contemporary gives a wedding film here real texture, and the surrounding countryside gives plenty of options for portraits beyond the barns themselves.",
   },
 ];
@@ -51,7 +56,7 @@ const faqs = [
   },
   {
     q: "How much does a wedding videographer in Staffordshire cost?",
-    a: "My Core package is £2,100 and the Complete Story package, which adds a second videographer plus your ceremony and speeches in full, is £2,750. My full package breakdown is on the Investment page.",
+    a: "My Core package is £2,100 and includes your ceremony and speeches in full. The Complete Story package is £2,540 and adds a second videographer, a teaser, a highlight film and a 14 to 18 minute feature film. My full package breakdown is on the Investment page.",
   },
   {
     q: "Do you film weddings at [specific venue] in Staffordshire?",
@@ -92,7 +97,7 @@ export default function StaffordshirePage() {
       </p>
 
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
-        Luxury cinematic wedding films in Staffordshire from £2,100. The Complete Story package, which adds a second videographer, is £2,750. The full breakdown is on the Investment page.
+        Luxury cinematic wedding films in Staffordshire from £2,100. The Complete Story package, which adds a second videographer and five films, is £2,540. The full breakdown is on the Investment page.
       </p>
 
       <div className="mt-10 text-center">
@@ -123,6 +128,16 @@ export default function StaffordshirePage() {
               <div className="mt-6">
                 <VideoEmbed id={venue.videoId} title={venue.name} />
               </div>
+            ) : null}
+            {venue.guide ? (
+              <p className="mt-4 text-sm">
+                <Link
+                  href={venue.guide}
+                  className="text-[var(--khaki)] underline underline-offset-4"
+                >
+                  Read my full guide to filming at {venue.name.split(",")[0]}
+                </Link>
+              </p>
             ) : null}
           </div>
         ))}
