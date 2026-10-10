@@ -2,6 +2,141 @@ import type { Post } from "./post-types";
 
 export const tipsPosts: Post[] = [
   {
+    slug: "more-than-your-videographer",
+    title: "More Than Your Videographer: I'm Your Hype Man Too",
+    category: "Guides",
+    date: "10 October 2026",
+    excerpt:
+      "The camera is the easy part. The real job is being the person who makes a long, emotional, slightly overwhelming day feel manageable, and who tells you that you look incredible when nobody else has got round to it yet.",
+    reviewNames: [
+      "Olivia and Charles",
+      "Faye and Daniel",
+      "Hannah and Tom",
+      "Amy and Tom",
+      "Alice and Ryan",
+    ],
+    body: `
+Here is something nobody tells you when you are choosing a wedding videographer. You are not really choosing a camera operator. You are choosing a person who will be within about ten feet of you for ten hours, on the most emotional day of your life, from the moment you are in a dressing gown with wet hair to the moment you are sweaty on a dancefloor at midnight.
+
+That is a strange amount of access to give a stranger.
+
+So the camera, honestly, is the easy part. Anyone at this price has good kit. The thing that actually decides whether you enjoy having me there, and whether your film looks like you or looks like two people being watched, is something much less technical. It is whether we get on.
+
+## What a hype man actually does at a wedding
+
+It sounds like a joke word. It is not really.
+
+Think about the morning. You have been getting ready for three hours. You have been looking at yourself in a mirror in pieces: the hair, then the makeup, then the dress. You have not yet seen the whole thing, and the people around you are all busy with their own buttons and bouquets and nerves.
+
+Somebody needs to stop, look at you properly, and tell you.
+
+That is part of the job. Not flattery, and not a line I trot out at every wedding, but the honest reaction of someone who has filmed a lot of weddings and can tell you where yours sits. Couples remember that moment. It changes how they carry themselves for the rest of the day, and the camera picks that up immediately.
+
+The same thing happens in smaller ways all day long:
+
+- In the corridor before the ceremony, when you have gone very quiet and need someone to tell you that this bit always feels like this and it passes the second the doors open
+- During portraits, when you are self-conscious and would rather be with your guests, and the half hour goes much better if it feels like a walk with someone you like rather than a photoshoot
+- Before the speeches, when the best man has gone grey and needs telling he will be fine
+- At about four in the afternoon, when the adrenaline dips and someone needs to make you laugh
+
+None of that is in a package list. All of it is in the film.
+
+## Why being relaxed is a technical requirement, not a nicety
+
+I shoot documentary. That is not a style choice I made because it sounds good in a brochure, it is the whole basis of how I work: I do not direct, I do not re-stage, and I do not ask you to do something again for the camera. If it happens, I capture it. If I miss it, I let it go.
+
+Which means I have removed the one tool most videographers use to make footage look good. I cannot tell you to laugh. I cannot run the first look twice from a better angle.
+
+So the only way I get footage of two people who look relaxed and happy and like themselves is if you actually are relaxed and happy and like yourselves while I am filming. The friendliness is not a bonus on top of the work. It is the method.
+
+This is also why almost every couple says the same thing before booking: we are awkward in front of a camera. Of course you are. Everybody is, at first, and then after about forty minutes of someone pleasant being around and not pointing a lens in your face, you forget. That forgetting is where the film comes from.
+
+## What couples actually say about it
+
+I would rather let them tell you than keep telling you myself.
+
+Olivia and Charles, who married at The West Mill in Derby, put it this way:
+
+> From the moment we met Andy on video call, his friendly, relaxed, and genuinely cool nature put us completely at ease! He blended so well into our day, making us and all our guests feel comfortable while capturing every moment so naturally.
+
+Faye and Daniel got married on the hottest day recorded in the UK in May, in an old building with no air conditioning:
+
+> Despite that, Andy worked tirelessly all day, stayed calm and professional, and kept us laughing throughout.
+
+Hannah and Tom, at Foxtail Barns:
+
+> You guys were so relaxed and put us both at ease all day knowing you had everything on point. Even with the weather situation you pulled it off!
+
+And Amy and Tom, who sent me this the day their teaser landed, which I think tells you the tone of the whole relationship:
+
+> Mate! WOW! We've just watched it. That is absolutely incredible!!!
+
+Nobody writes "Mate! WOW!" to a supplier. They write it to someone they got on with.
+
+## It starts long before the wedding day
+
+This is the bit that makes the day itself work. By the time I turn up at your venue, we are not meeting.
+
+We will have had a video call before you booked, which is as much about whether you like me as whether you like my films. There will have been a client portal, a questionnaire, and a second call if anything needs talking through. Six weeks out there are reminders so nothing lands on you at the wrong moment. You will know what time I am arriving because we will have agreed it.
+
+By the morning of the wedding I know your sister is doing a reading, I know your dad will cry, and I know the dancefloor does not really start until the band's second set. None of that is magic. It is just groundwork, and it is why I do not need to interrupt you on the day to ask.
+
+It is also why I take a maximum of fifteen weddings a year. Fifteen couples is a number of people I can genuinely know. Forty is not.
+
+## And it is not just the two of you
+
+Your guests get the same treatment, which matters more than it sounds.
+
+Your nan is going to be a bit suspicious of the camera. Your mates are going to try to get in shot and pull a face. One of your parents is going to be quietly emotional in a corner and would hate to be filmed badly in that moment. How I handle all of that decides what the second half of your film looks like, and whether your guests remember the videographer as part of the day or as a man in black walking backwards in front of the top table.
+
+The aim is that by the evening, people have genuinely forgotten I am working.
+
+## One more thing: ask me about other suppliers
+
+I won't list recommended suppliers here as every wedding is different, but please do ask if you are looking for the perfect photography, videography team, entertainment and so on. I probably know someone who may be right for you.
+
+I have worked alongside a lot of photographers, bands, DJs, planners and venue teams across Derbyshire, Staffordshire and Nottinghamshire, and I have a good sense of who suits which kind of couple. Some photographers are brilliant and quiet, some are brilliant and loud, and the right answer genuinely depends on you. A recommendation that fits is worth far more than a list.
+
+So ask. It costs you nothing and it might save you a lot of scrolling.
+
+## So, what are you actually booking?
+
+A film, obviously. Two or three angles on your ceremony, your vows recorded properly, your speeches in full, a feature film you will watch on your anniversary for the next thirty years.
+
+But also: one more person on your side on the day. Someone who has done this often enough to be calm when the rain comes, who will tell you that you look incredible, and who will be genuinely delighted for you, because after fifteen of these a year I have not got bored of it yet.
+
+If that is the kind of person you want standing next to you all day, let's have a chat.
+
+!cta[Start a conversation](/enquire/)
+`,
+    faqs: [
+      {
+        q: "Will you be in our faces all day?",
+        a: "No. The approach is deliberately unobtrusive: I shoot documentary, so I am watching and waiting far more than I am directing. Most couples say they forgot I was there by the afternoon. The friendly, chatty side comes out in the moments where it helps, like getting ready or portraits, and goes quiet the moment the day takes over.",
+      },
+      {
+        q: "We are awkward in front of a camera, is that a problem?",
+        a: "Not at all, and almost every couple says it before booking. Nothing is posed or run again for the camera, so there is no performance to get wrong. After about forty minutes of someone pleasant being around, people stop noticing the camera, and that is exactly where the natural footage comes from.",
+      },
+      {
+        q: "Can you recommend other wedding suppliers?",
+        a: "Yes, just ask. I won't publish a list because every wedding is different and a recommendation only works if it fits the couple, but I have worked alongside a lot of photographers, bands, DJs, planners and venue teams across Derbyshire, Staffordshire and Nottinghamshire, and I am happy to point you at people who would suit you.",
+      },
+      {
+        q: "Do you work well with our photographer?",
+        a: "Yes, routinely. Collaboration is a huge part of making the day feel relaxed and seamless, and the aim is always to complement the photography team rather than compete with them. If you have not booked one yet, ask and I will suggest some who I think would suit you.",
+      },
+      {
+        q: "Do we get to meet you before we book?",
+        a: "Yes, and I would encourage it. Every booking starts with a video call, which is as much about whether you like me as whether you like my films. You are giving someone ten hours of close access on an emotional day, so it is worth knowing who that person is first.",
+      },
+      {
+        q: "How many weddings do you film a year?",
+        a: "A maximum of 15, every one filmed personally by me. That cap is what makes it possible to actually know each couple before their day, and it is what keeps the turnaround to weeks rather than months.",
+      },
+    ],
+  },
+  {
     slug: "2026-wedding-venues-on-film",
     title: "The 2026 Season, Venue by Venue: What Each One Gave the Film",
     category: "Updates",

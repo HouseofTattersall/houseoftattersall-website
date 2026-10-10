@@ -135,6 +135,18 @@ export function Prose({ body }: { body: string }) {
           </Link>
         </div>,
       );
+    } else if (line.startsWith("> ")) {
+      // > a quotation, usually a couple's own words
+      flushPara();
+      flushList();
+      out.push(
+        <blockquote
+          key={`bq${k++}`}
+          className="mt-6 border-l-2 border-[var(--gold)] pl-6 font-serif text-lg leading-relaxed text-[var(--ink-muted)] italic"
+        >
+          {inline(line.slice(2), `bq${k}`)}
+        </blockquote>,
+      );
     } else if (line.startsWith("### ")) {
       flushPara();
       flushList();
