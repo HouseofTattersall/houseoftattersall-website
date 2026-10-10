@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/derbyshire-wedding-film",
     "/staffordshire-wedding",
     "/nottinghamshire-wedding",
+    "/west-mill-wedding-videographer",
     "/blog",
   ];
 

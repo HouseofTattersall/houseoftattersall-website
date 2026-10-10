@@ -2,66 +2,6 @@ import type { Post } from "./post-types";
 
 export const venuePostsB: Post[] = [
   {
-    slug: "the-west-mill-wedding-videographer-derbyshire",
-    title: "The West Mill, Wedding Videographer | Derbyshire",
-    category: "Venue guide, Derbyshire",
-    date: "1 September 2026",
-    excerpt:
-      "Industrial windows, a multi-level layout like the layers of a wedding cake, and light that works all year.",
-    body: `
-## Why The West Mill Derby is Perfect for Your Wedding Film
-
-When couples ask me about the best wedding venues in Derbyshire for cinematic wedding videography, The West Mill in Derby is always at the top of my list. I've had the privilege of filming multiple weddings here, and every single time, this venue delivers something extraordinary for both wedding films and wedding photography.
-
-### Natural Light That Transforms Your Wedding Video
-
-The light at The West Mill is honestly a videographer's dream. Throughout the day, natural light floods through the industrial-style windows, creating that soft, romantic glow that makes wedding films feel truly cinematic. Whether I'm capturing your ceremony, couple portraits, or those candid reception moments, the lighting here works beautifully for both video and photography without needing excessive artificial lighting setups.
-
-For winter weddings and autumn celebrations, the venue's interior lighting creates a warm, intimate atmosphere that translates gorgeously on film. Summer and spring weddings benefit from the abundant daylight that highlights the venue's stunning architectural features.
-
-### A Multi-Level Venue That Keeps Your Wedding Film Dynamic
-
-What I absolutely love about The West Mill for wedding videography is how the venue is structured across multiple floors, like layers of a wedding cake. This layout naturally keeps your wedding day feeling fresh and dynamic, which translates directly into a more engaging wedding film.
-
-This multi-level structure means your wedding film never feels static or repetitive. Each part of your day has its own distinct look and feel, creating a cinematic narrative that flows beautifully from ceremony to celebration.
-
-### Cinematic Features for Wedding Videography
-
-The West Mill's industrial heritage provides incredible cinematic elements:
-
-- **Exposed brick walls** - Adds texture and character to every frame
-- **High ceilings** - Perfect for drone-style interior shots and dramatic wide angles
-- **Original architectural features** - Creates that sought-after rustic-meets-elegant aesthetic
-- **Versatile spaces** - Allows for creative videography and photography compositions
-
-### Why Photographers Love It Too
-
-If you're booking both a wedding videographer and wedding photographer (which I always recommend), The West Mill works brilliantly for both. The spaces are generous enough that we can work alongside each other without getting in each other's shots. I've collaborated with countless wedding photographers here, and the venue provides endless opportunities for stunning couple portraits, detail shots, and group photography.
-
-### Perfect for All-Year-Round Wedding Films
-
-I've filmed at The West Mill across all seasons, and it genuinely works beautifully year-round:
-
-- **Spring weddings** - Fresh light and the venue's gardens coming to life
-- **Summer celebrations** - Maximum natural light and outdoor ceremony options
-- **Autumn weddings** - Warm tones and cosy interior atmosphere
-- **Winter weddings** - Intimate, romantic lighting that creates magical film moments
-
-### Derby's Premier Wedding Venue for Cinematic Films
-
-Located in the heart of Derby, The West Mill combines convenience with character. For couples across Derbyshire, Nottinghamshire, and Staffordshire looking for a wedding venue that will look absolutely stunning on film, this is it.
-
-The venue's industrial elegance, combined with its thoughtful layout and exceptional natural light, means I can create a wedding film that's truly cinematic, the kind of film you'll want to watch again and again.
-
-## Ready to Create Your Wedding Film at The West Mill?
-
-If you're planning your wedding at The West Mill Derby and want a cinematic wedding videographer who knows this venue inside and out, I'd love to hear from you. I understand exactly how to capture the best angles, utilise the natural light, and tell your story across the venue's beautiful multi-level spaces.
-
-From ceremony coverage to drone footage, speeches to first dance, I'll create a wedding film that showcases both your love story and the stunning backdrop of The West Mill.
-`,
-  },
-
-  {
     slug: "yeldersley-hall-wedding-videographer-derbyshire",
     title: "Yeldersley Hall, Wedding Videographer | Derbyshire",
     category: "Venue guide, Derbyshire",

@@ -96,6 +96,12 @@ export default function StaffordshirePage() {
         House of Tattersall is a wedding videographer in Staffordshire, based in Denstone and filming cinematic wedding films across the whole county. The first 50 miles of travel are included in the price, which covers the whole of Staffordshire, from Hanbury Wedding Barns and Foxtail Barns to The Ashes Barns. I take a maximum of 15 weddings a year.
       </p>
 
+      <p className="mt-6 leading-relaxed text-[var(--ink-muted)]">
+        <strong className="text-[var(--ink)]">Towns and areas covered in Staffordshire:</strong>{" "}
+        Stoke-on-Trent, Lichfield, Stafford, Uttoxeter, Leek, Burton upon Trent and the Staffordshire Moorlands. If your venue is anywhere in Staffordshire, it is
+        within the first 50 miles and there is no travel charge.
+      </p>
+
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
         Luxury cinematic wedding films in Staffordshire from £2,100. The Complete Story package, which adds a second videographer and five films, is £2,540. The full breakdown is on the Investment page.
       </p>

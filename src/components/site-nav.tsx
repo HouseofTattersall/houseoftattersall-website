@@ -7,6 +7,7 @@ const locations = [
   { href: "/derbyshire-wedding-film/", label: "Derbyshire" },
   { href: "/staffordshire-wedding/", label: "Staffordshire" },
   { href: "/nottinghamshire-wedding/", label: "Nottinghamshire" },
+  { href: "/west-mill-wedding-videographer/", label: "The West Mill, Derby" },
 ];
 
 const primary = [

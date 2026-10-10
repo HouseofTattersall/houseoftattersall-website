@@ -1,3 +1,7 @@
+# The West Mill venue guide was promoted to a landing page at the site root.
+# 301 (permanent) so the old URL's ranking transfers to the new one.
+/blog/the-west-mill-wedding-videographer-derbyshire  /west-mill-wedding-videographer/  301!
+
 # Legacy blog URLs that have NOT yet been rebuilt.
 # 302 (temporary) so search engines keep the original URL indexed.
 /blog/wedding-bands-that-actually-get-the-dancefloor-moving  /blog/   302

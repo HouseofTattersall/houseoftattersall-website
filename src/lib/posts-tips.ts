@@ -2,6 +2,255 @@ import type { Post } from "./post-types";
 
 export const tipsPosts: Post[] = [
   {
+    slug: "2026-wedding-venues-on-film",
+    title: "The 2026 Season, Venue by Venue: What Each One Gave the Film",
+    category: "Updates",
+    date: "9 October 2026",
+    banner: "/images/banner-films.jpg",
+    excerpt:
+      "Six weddings from the 2026 season, each at a different venue, and the specific thing about each place that shaped the film. With every film embedded in full.",
+    body: `
+A wedding film is shaped by the venue more than most couples expect. Not in the obvious way, not "this one is prettier than that one", but in practical ways that change what I can actually capture: where the light falls at four in the afternoon, whether the speeches can be heard, whether there is anywhere to stand that is not in the photographer's shot.
+
+Here are six weddings from the 2026 season, each somewhere different, and the specific thing about each venue that changed the film. Every film is embedded in full.
+
+## The West Mill, Derby
+
+Olivia and Charles, Derbyshire.
+
+!video[Olivia and Charles, The West Mill, Derby](r6jgraj1)
+
+The thing that makes The West Mill work on film is that it is one building spread over several floors. Your day physically moves: ceremony, breakfast and evening all happen in different rooms. That gives the film distinct chapters rather than three hours of the same backdrop with different lighting.
+
+The industrial windows do the rest. Soft light all day, no rigs needed.
+
+[My full guide to filming at The West Mill](/west-mill-wedding-videographer/)
+
+## Hanbury Wedding Barns, Staffordshire
+
+Laura and Daniel, Staffordshire.
+
+!video[Laura and Daniel, Hanbury Wedding Barns](jqkfthxi)
+
+Laura and Daniel had already found a film of mine they loved and could tell me why, which makes my job considerably easier. We leaned into nature as a running thread: a pair of swans that quietly recur through the whole film.
+
+Hanbury is also one of the closest venues to me, which sounds like a detail that only matters to me. It is not. Less time in the car means more time at the venue before anyone needs me.
+
+[My full guide to filming at Hanbury](/blog/hanbury-barns/) and [the full story of Laura and Daniel's day](/blog/hanbury-dan-laura/)
+
+## Normanton Church, Rutland
+
+Hattie and Jack.
+
+!video[Hattie and Jack, Normanton Church](xdn589wd)
+
+Normanton Church sits out on the water at Rutland, and there is nowhere else in the country that looks like it. The drama is free: you point a camera at it and the establishing shot is already there.
+
+What it asks of you is timing, because the light on the water changes fast and the window for the best of it is narrow.
+
+[My full guide to filming at Normanton Church and The Barnsdale](/blog/rutland-wedding-videographer/)
+
+## Bourton Hall, Warwickshire
+
+Faye and Daniel.
+
+!video[Faye and Daniel, Bourton Hall](rmvfmefr)
+
+The hottest day recorded in the UK in May, in a beautiful old building with no air conditioning. Faye and Daniel's own words about that day are on my [reviews page](/reviews/), and they are kinder about it than I would have been.
+
+Hot days are a genuine filming problem. Heat haze over long lenses, everyone retreating indoors, and a confetti moment that has to work first time because nobody is doing it twice in that temperature. It worked first time.
+
+## The Wilderness, Canterbury
+
+Rob and Jack.
+
+!video[Rob and Jack, The Wilderness, Canterbury](prev8ow4)
+
+A long way from Denstone, and worth every mile. The Wilderness has a completely different energy to a traditional country house: softer light, natural texture, and a setting that does not look like anywhere else I film.
+
+This is also the film that produced my favourite message of the year, from Jack: his mum showed the trailer to her hairdresser, who stood there crying during the appointment.
+
+## Leicestershire
+
+Mira and Mitul.
+
+!video[Mira and Mitul, Leicestershire](0bf128e7)
+
+Multicultural weddings are among my favourite days to film, and also the most demanding. More ceremony, more colour, more happening at once, and far less of it on a schedule you can plan around. You cannot cover a day like this by waiting for the moments on the running order.
+
+## What this adds up to
+
+Six venues, six very different days, one person filming all of them.
+
+That is the part I would point at if you are comparing videographers. Not the kit list. Whether the person turning up has stood in a room like yours before and knows where to be when it happens.
+
+If you are getting married at any of these venues, or anywhere across [Derbyshire](/derbyshire-wedding-film/), [Staffordshire](/staffordshire-wedding/) or [Nottinghamshire](/nottinghamshire-wedding/) in 2027 or 2028, send me your date. I take a maximum of 15 weddings a year and the summer Saturdays go first.
+
+!cta[Check your date](/enquire/)
+`,
+    faqs: [
+      {
+        q: "Which wedding venues did House of Tattersall film at in 2026?",
+        a: "Published 2026 films include The West Mill in Derby, Hanbury Wedding Barns in Staffordshire, Normanton Church in Rutland, Bourton Hall in Warwickshire, The Wilderness in Canterbury, and a multicultural wedding in Leicestershire.",
+      },
+      {
+        q: "Do you film at The West Mill in Derby?",
+        a: "Yes, regularly. The West Mill is one of the venues featured in the 2026 season films. It is set over several floors so the day moves through different rooms, which gives the film distinct chapters, and the industrial windows provide soft natural light all day.",
+      },
+      {
+        q: "Do you film weddings at Hanbury Wedding Barns?",
+        a: "Yes. Hanbury Wedding Barns in Staffordshire is one of the closest venues to Denstone and has been filmed several times, including Laura and Daniel's 2026 wedding.",
+      },
+      {
+        q: "Do you film at Normanton Church in Rutland?",
+        a: "Yes. Hattie and Jack's 2026 wedding was filmed at Normanton Church, which sits out on the water at Rutland Water and gives establishing shots nowhere else in the country can.",
+      },
+      {
+        q: "Do you film multicultural weddings?",
+        a: "Yes, and they are among the most rewarding days to film. The 2026 season included a multicultural wedding in Leicestershire. These days involve more ceremony, more colour and far more happening outside a fixed running order, which is exactly why a documentary approach suits them.",
+      },
+      {
+        q: "How far will you travel for a wedding?",
+        a: "The first 50 miles are included in the price, which covers all of Staffordshire and Derbyshire, with a small charge per mile beyond that. The 2026 season included weddings as far as Canterbury, so distance is rarely the obstacle.",
+      },
+    ],
+  },
+  {
+    slug: "end-of-2026-season-whats-changed",
+    title: "What's Changed at the End of the 2026 Season",
+    category: "Updates",
+    date: "4 October 2026",
+    banner: "/images/banner-investment.jpg",
+    excerpt:
+      "New packages, faster films, and a two-camera package that now costs less than it did in 2026. Here is everything that has changed, and the honest reason why.",
+    body: `
+The 2026 season is done. Between now and the spring I am editing, catching up with couples, and getting 2027 straight, which is the point in the year where I look properly at what I offer rather than just carrying last year forward.
+
+A few things have changed, and not cosmetically. Here is all of it, including the bit that costs me money.
+
+## The Complete Story now costs £2,540
+
+It was £2,750. It now includes more than it did.
+
+That is not a typo and it is not a sale. It is deliberate, and the reason is simple: **I want more couples on two cameras.**
+
+Every time I film a wedding with a second videographer, the finished film is noticeably better, and not in a subtle way. But at £2,750 not enough couples were reaching for it, so most weddings carried on being filmed by one person. Dropping the price is the most direct thing I can do about that.
+
+## What the extra £440 actually buys
+
+The two packages are now £2,100 and £2,540. So the decision is a £440 one, and I think it is worth doing the arithmetic out loud.
+
+For that £440 you get three things:
+
+- A second videographer with me for the whole day
+- A 4 to 6 minute highlight film
+- Your feature film extended from 6 to 8 minutes up to 14 to 18 minutes
+
+Here is the part worth noticing. If you book the Core package and add the extended feature film on its own, that extra costs **£250**. Which means the remaining **£190** is buying you an entire second filmmaker for your whole wedding day, plus a highlight film that did not exist before.
+
+Across the industry, a second shooter usually adds something close to a second day rate. £190 does not cover what a second filmmaker costs me. That is the point of the change rather than an accident of it.
+
+## What is in each package now
+
+**Core, £2,100**
+
+- Pre-wedding consultation
+- 10 hours of full-day coverage
+- A 6 to 8 minute cinematic feature film
+- A 60 second film trailer
+- Your ceremony in full
+- Your speeches in full
+- Drone footage
+- 6 to 9 week expected turnaround
+
+**The Complete Story, £2,540**
+
+- Pre-wedding consultation
+- 10 hours of full-day coverage
+- A second videographer throughout your day
+- A 60 second film trailer
+- A 4 to 6 minute highlight film
+- A 14 to 18 minute feature film
+- Your ceremony in full
+- Your speeches in full
+- Drone footage
+- 6 to 9 week expected turnaround
+
+Both packages now include your ceremony and your speeches in full, as standalone films, at no extra cost. That used to be an add-on. It is the part of the day couples rewatch most, so charging separately for it had started to feel wrong.
+
+## Why a second videographer changes the film
+
+With one camera, every angle is a decision. A tripod gets moved, a lens gets changed, and for a few seconds the camera is not quite where the moment is happening.
+
+With two of us there is far less time spent setting up and checking audio, and far more time simply filming. In practice that means:
+
+- Guest reactions and laughter during the speeches, caught while the main camera stays on the speaker
+- Happy tears in the ceremony, from both sides of the room at once
+- Both of you getting ready, in different rooms, at the same time
+- Wide shots and close detail filmed together rather than one after the other
+
+[The full breakdown of both packages is on the Investment page](/investment/).
+
+## Films now come back in 6 to 9 weeks
+
+Turnaround used to be quoted at 6 to 12 weeks. It is now 6 to 9.
+
+That is not me working later into the night. It is because my editor is booked in before your wedding rather than after it, so your first draft usually comes back to me about four weeks after the day. [I have written about how that works and who actually makes your film here](/blog/who-makes-your-wedding-film/).
+
+To be clear about the language: 6 to 9 weeks is the expected turnaround, not a contractual guarantee. I would rather tell you what normally happens than quote a number designed to be unbeatable.
+
+## What has gone
+
+The 1 week anniversary teaser has been discontinued. It was a nice idea that too few couples took up to justify keeping the workflow for it, and every package now includes a 60 second film trailer anyway.
+
+The extended feature film is still available on the Core package as an optional extra, now at £250 for 14 to 18 minutes. The home movie is still £400.
+
+## What has not changed
+
+- **I still film a maximum of 15 weddings a year**, and I still film every single one of them personally
+- **The first 50 miles of travel are still included**, which covers all of Staffordshire and Derbyshire
+- **Your films still arrive on Vidflow**, on your own private page, downloadable, stored for 10 years
+
+## 2027 and 2028 dates
+
+The cap is the bit worth paying attention to if you are reading this while planning. Fifteen weddings is not many, and the summer Saturdays go first.
+
+If you are getting married in [Derbyshire](/derbyshire-wedding-film/), [Staffordshire](/staffordshire-wedding/) or [Nottinghamshire](/nottinghamshire-wedding/) in 2027 or 2028, send me your date and I will tell you honestly whether it is free. If your budget does not stretch to either package, say so when you enquire. I would rather have that conversation than not hear from you.
+
+!cta[Check your date](/enquire/)
+`,
+    faqs: [
+      {
+        q: "How much does wedding videography cost for 2027?",
+        a: "The Core package is £2,100 and includes 10 hours of coverage, a 6 to 8 minute cinematic feature film, a 60 second film trailer, and your ceremony and speeches in full. The Complete Story package is £2,540 and adds a second videographer, a 4 to 6 minute highlight film, and a 14 to 18 minute feature film. Both include drone footage and the first 50 miles of travel.",
+      },
+      {
+        q: "Why did the Complete Story package get cheaper?",
+        a: "Deliberately, to get more couples onto two cameras. Weddings filmed with a second videographer produce a noticeably better film, but at £2,750 too few couples were choosing it. The price came down to £2,540 while the package gained a highlight film and a longer feature film.",
+      },
+      {
+        q: "What is the difference between the Core and Complete Story packages?",
+        a: "£440. For that you get a second videographer for the whole day, a 4 to 6 minute highlight film, and your feature film extended from 6 to 8 minutes up to 14 to 18 minutes. Bought on its own, the extended feature film alone is £250, so the remaining £190 covers the second filmmaker and the highlight film.",
+      },
+      {
+        q: "Are the ceremony and speeches included as standard?",
+        a: "Yes, in both packages, as standalone films at no extra cost. They used to be paid add-ons. They are the films couples rewatch most, so they are now included.",
+      },
+      {
+        q: "How long do wedding films take to arrive?",
+        a: "The expected turnaround is 6 to 9 weeks for your teaser, with everything else following within a week of that. It used to be 6 to 12 weeks. The editor is booked before the wedding rather than after it, which is what makes the shorter turnaround possible.",
+      },
+      {
+        q: "Do you still offer the 1 week anniversary teaser?",
+        a: "No, it has been discontinued. Too few couples took it up to justify keeping it, and both packages now include a 60 second film trailer as standard.",
+      },
+      {
+        q: "How many weddings do you take each year?",
+        a: "A maximum of 15, all filmed personally by Andy Tattersall. That cap is why 2027 and 2028 summer Saturdays tend to go early, and why it is worth checking your date sooner rather than later.",
+      },
+    ],
+  },
+  {
     slug: "wedding-content-creator-vs-videographer",
     title: "Wedding Content Creator or Wedding Videographer: Do You Need Both?",
     category: "Guides",
@@ -275,7 +524,7 @@ The smart TV point is the one couples get most excited about. There are apps for
 
 ## Can I see a real gallery?
 
-Yes. This is a real couple's gallery, exactly as they received it, filmed at [The West Mill](/blog/the-west-mill-wedding-videographer-derbyshire/) in Derbyshire.
+Yes. This is a real couple's gallery, exactly as they received it, filmed at [The West Mill](/west-mill-wedding-videographer/) in Derbyshire.
 
 [Open a real Vidflow wedding gallery](https://galleries.vidflow.co/bnsbwf4s)
 
@@ -481,7 +730,7 @@ When someone stays put, I can reliably capture:
 
 If a speaker roams, I lose options. I can't lock in those key angles, and I can't film as much of the important stuff without missing moments.
 
-**Real example:** At venues like [The West Mill](/blog/the-west-mill-wedding-videographer-derbyshire/), the space either side of the top table is perfect. One consistent spot gives you clean framing, consistent lighting, and loads of reaction coverage.
+**Real example:** At venues like [The West Mill](/west-mill-wedding-videographer/), the space either side of the top table is perfect. One consistent spot gives you clean framing, consistent lighting, and loads of reaction coverage.
 
 ## 3) Consider a microphone stand (hands-free = calmer speakers)
 
@@ -638,7 +887,7 @@ If you're planning a wedding in the UK; Derbyshire, Staffordshire, or Nottingham
 
   {
     slug: "uk-top-20-wedding-videographers",
-    title: "UK Top 20 Wedding Videographers",
+    title: "Top Rated Wedding Videographer in Derbyshire and Staffordshire: UK Top 20, Two Years Running",
     category: "Updates",
     date: "18 November 2025",
     reviewNames: ["Jack and Rob", "Faye and Daniel"],
@@ -661,9 +910,11 @@ If you're planning a wedding in the UK; Derbyshire, Staffordshire, or Nottingham
       },
     ],
     excerpt:
-      "Recognised among the top 20 wedding videographers in the UK for a second year running at The Wedding Industry Awards.",
+      "Top rated in Derbyshire and Staffordshire: placed in the UK top 20 for a second year running at The Wedding Industry Awards, and East Midlands Winner in 2025.",
     body: `
-House of Tattersall is a wedding videographer based in Denstone, Staffordshire, filming cinematic, documentary-shot wedding films across Derbyshire, Staffordshire and Nottinghamshire. The Core package is £2,100 and includes full-day coverage, your ceremony and speeches in full, and the first 50 miles of travel included, which covers all of Staffordshire and Derbyshire.
+House of Tattersall is a top rated wedding videographer in Derbyshire and Staffordshire, placed in the UK top 20 for two years running at The Wedding Industry Awards, and named East Midlands Winner and Videographer of the Year in 2025.
+
+Based in Denstone on the Staffordshire and Derbyshire border, filming cinematic, documentary-shot wedding films across Derbyshire, Staffordshire and Nottinghamshire. The Core package is £2,100 and includes full-day coverage, your ceremony and speeches in full, and the first 50 miles of travel, which covers all of both counties.
 
 ## House of Tattersall (at the time 'Andy Tatt Media') Recognised Among Top 20 Wedding Videographers in the UK for Second Year Running
 

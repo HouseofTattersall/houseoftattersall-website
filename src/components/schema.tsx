@@ -100,7 +100,7 @@ export function LocalBusinessSchema() {
         "@id": "https://www.houseoftattersall.com/#business",
         name: "House of Tattersall",
         description:
-          "Luxury cinematic wedding videographer based on the Staffordshire and Derbyshire border, filming weddings throughout Derbyshire, Staffordshire and Nottinghamshire, and UK-wide.",
+          "House of Tattersall offers award-winning cinematic and documentary-style wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Run by Andy Tattersall from Denstone on the Staffordshire and Derbyshire border, filming a maximum of 15 weddings a year, every one personally. East Midlands Winner and Videographer of the Year at The Wedding Industry Awards 2025. Packages from £2,100, with the first 50 miles of travel included.",
         url: "https://www.houseoftattersall.com/",
         email: "info@houseoftattersall.com",
         image: "https://www.houseoftattersall.com/images/banner-films.jpg",
@@ -354,6 +354,61 @@ export function PackagesSchema() {
             price: o.price,
             priceCurrency: "GBP",
           })),
+        },
+      }}
+    />
+  );
+}
+
+/**
+ * Service page markup for a single-venue landing page.
+ *
+ * Names the venue as a Place rather than only as text, so an AI assistant
+ * asked "who films weddings at <venue>" has something structured to match.
+ */
+export function VenuePageSchema({
+  venue,
+  locality,
+  region,
+  url,
+  description,
+}: {
+  venue: string;
+  locality: string;
+  region: string;
+  url: string;
+  description: string;
+}) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "Service",
+        serviceType: `Wedding videography at ${venue}`,
+        name: `Wedding videographer at ${venue}`,
+        description,
+        provider: { "@id": `${SITE}/#business` },
+        url,
+        areaServed: {
+          "@type": "Place",
+          name: venue,
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: locality,
+            addressRegion: region,
+            addressCountry: "GB",
+          },
+        },
+        offers: {
+          "@type": "Offer",
+          name: "Wedding film core package",
+          priceCurrency: "GBP",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            minPrice: 2100,
+            maxPrice: 2540,
+            priceCurrency: "GBP",
+          },
         },
       }}
     />

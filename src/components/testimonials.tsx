@@ -5,15 +5,22 @@ export function Testimonials({
   heading = "Kind words",
   limit,
   county,
+  venue,
 }: {
   heading?: string;
   limit?: number;
   /** Show only couples who married in this county */
   county?: string;
+  /** Show only couples who married at this venue, matched loosely on name */
+  venue?: string;
 }) {
-  const pool = county
-    ? testimonials.filter((t) => t.county === county)
-    : testimonials;
+  const pool = venue
+    ? testimonials.filter((t) =>
+        t.venue.toLowerCase().includes(venue.toLowerCase()),
+      )
+    : county
+      ? testimonials.filter((t) => t.county === county)
+      : testimonials;
   const items = limit ? pool.slice(0, limit) : pool;
 
   if (!items.length) return null;

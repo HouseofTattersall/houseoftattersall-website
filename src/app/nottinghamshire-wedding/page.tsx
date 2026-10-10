@@ -98,6 +98,12 @@ export default function NottinghamshirePage() {
         House of Tattersall is a wedding videographer covering Nottinghamshire, based on the Staffordshire and Derbyshire border and filming cinematic wedding films at venues across the county, from Hazel Gap Barn on the edge of Sherwood Forest to The Pumping House in Ollerton.
       </p>
 
+      <p className="mt-6 leading-relaxed text-[var(--ink-muted)]">
+        <strong className="text-[var(--ink)]">Towns and areas covered in Nottinghamshire:</strong>{" "}
+        Nottingham, Newark, Mansfield, Southwell, Ollerton and the edge of Sherwood Forest. If your venue is anywhere in Nottinghamshire, it is
+        within the first 50 miles and there is no travel charge.
+      </p>
+
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
           Luxury cinematic wedding films in Nottinghamshire from £2,100. The Complete Story package, which adds a second videographer and five films, is £2,540. The full breakdown is on the{" "}
           <Link href="/investment/" className="underline underline-offset-4">

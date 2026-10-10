@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { PageBanner } from "@/components/page-banner";
 import { VideoEmbed } from "@/components/video-embed";
@@ -25,6 +26,7 @@ const films = [
     couple: "Olivia & Charles",
     venue: "The West Mill, Derbyshire | 2026",
     videoId: "r6jgraj1",
+    venuePage: { href: "/west-mill-wedding-videographer/", label: "The West Mill" },
   },
   {
     couple: "Hattie & Jack",
@@ -65,6 +67,7 @@ const films = [
     couple: "Elisy & Sam",
     venue: "West Mill, Derbyshire | 2025",
     videoId: "356a0a1b",
+    venuePage: { href: "/west-mill-wedding-videographer/", label: "The West Mill" },
   },
 ];
 
@@ -90,6 +93,16 @@ export default function FilmsPage() {
               {film.couple}
             </p>
             <p className="text-sm text-[var(--ink-faint)]">{film.venue}</p>
+            {"venuePage" in film && film.venuePage ? (
+              <p className="mt-2 text-sm">
+                <Link
+                  href={film.venuePage.href}
+                  className="text-[var(--khaki)] underline underline-offset-4"
+                >
+                  Filming at {film.venuePage.label}
+                </Link>
+              </p>
+            ) : null}
           </div>
         ))}
       </div>
