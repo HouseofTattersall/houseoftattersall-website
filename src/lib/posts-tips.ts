@@ -8,6 +8,8 @@ export const tipsPosts: Post[] = [
     date: "10 October 2026",
     excerpt:
       "The camera is the easy part. The real job is being the person who makes a long, emotional, slightly overwhelming day feel manageable, and who tells you that you look incredible when nobody else has got round to it yet.",
+    seoDescription:
+      "Why the person behind the camera matters more than the camera, and why a relaxed couple is a technical requirement of documentary filming, not a nicety.",
     reviewNames: [
       "Olivia and Charles",
       "Faye and Daniel",
@@ -387,7 +389,7 @@ If you are getting married in [Derbyshire](/derbyshire-wedding-film/), [Stafford
   },
   {
     slug: "wedding-content-creator-vs-videographer",
-    title: "Wedding Content Creator or Wedding Videographer: Do You Need Both?",
+    title: "Wedding Content Creator or Videographer: Do You Need Both?",
     category: "Guides",
     date: "19 September 2026",
     banner: "/images/banner-blog.jpg",
@@ -511,6 +513,8 @@ You are welcome to disagree. Most videographers would.
     banner: "/images/banner-about.jpg",
     excerpt:
       "Most wedding videographers are a one man band. I am not, quite. Here is exactly who touches your film, what that changes, and why it means you wait weeks rather than months.",
+    seoDescription:
+      "Exactly who touches your wedding film, what that changes, and why it means you wait weeks for it rather than months.",
     body: `
 Most wedding videographers are a one man band, and there is a lot to be said for that. You deal with the same person from your first email to the day your film lands. It is personal, it is consistent, and you always know who to call.
 
@@ -823,7 +827,7 @@ I want to be upfront: I get a small perk if you sign up to Wedola through my lin
   },
   {
     slug: "wedding-speeches",
-    title: "Wedding Speeches: A Videographer's Guide to Great Audio, Great Footage",
+    title: "Wedding Speeches: A Videographer's Guide to Great Audio",
     category: "Guides",
     date: "22 January 2026",
     excerpt:
@@ -1022,7 +1026,7 @@ If you're planning a wedding in the UK; Derbyshire, Staffordshire, or Nottingham
 
   {
     slug: "uk-top-20-wedding-videographers",
-    title: "Top Rated Wedding Videographer in Derbyshire and Staffordshire: UK Top 20, Two Years Running",
+    title: "Top Rated Wedding Videographer, Derbyshire & Staffordshire",
     category: "Updates",
     date: "18 November 2025",
     reviewNames: ["Jack and Rob", "Faye and Daniel"],

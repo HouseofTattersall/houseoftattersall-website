@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://www.houseoftattersall.com/sitemap.xml
+
+# Plain-language summary of this business, written for AI crawlers:
+# https://www.houseoftattersall.com/llms.txt

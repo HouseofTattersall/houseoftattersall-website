@@ -330,7 +330,7 @@ export function PackagesSchema() {
           priceSpecification: {
             "@type": "PriceSpecification",
             minPrice: 2100,
-            maxPrice: 2750,
+            maxPrice: 2540,
             priceCurrency: "GBP",
           },
         },
@@ -440,7 +440,7 @@ export function ServiceAreaSchema({
           priceSpecification: {
             "@type": "PriceSpecification",
             minPrice: 2100,
-            maxPrice: 2750,
+            maxPrice: 2540,
             priceCurrency: "GBP",
           },
         },

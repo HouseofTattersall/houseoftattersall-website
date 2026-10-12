@@ -17,9 +17,9 @@ import { Testimonials } from "@/components/testimonials";
 import { AwardsStrip } from "@/components/awards-strip";
 
 export const metadata: Metadata = pageMeta({
-  title: "The West Mill Wedding Videographer | Cinematic Films in Derby",
+  title: "The West Mill Wedding Videographer, Derby",
   description:
-    "Cinematic wedding videographer at The West Mill, Derby. Films from multiple weddings at the venue, from £2,100 with travel to Derby included. Documentary-shot by Andy Tattersall, a maximum of 15 weddings a year.",
+    "Cinematic wedding videographer at The West Mill, Derby, with films from several weddings at the venue. From £2,100, travel to Derby included.",
   path: "/west-mill-wedding-videographer/",
   image: "/images/venue-west-mill.jpg",
 });

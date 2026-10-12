@@ -16,4 +16,9 @@ export type Post = {
   video?: { id: string; name: string; description: string };
   /** Couples quoted in the body, by name, so the quotes carry Review markup */
   reviewNames?: string[];
+  /**
+   * Search-result description, when the visible excerpt is longer than the
+   * ~160 characters Google shows. The excerpt stays as written for readers.
+   */
+  seoDescription?: string;
 };

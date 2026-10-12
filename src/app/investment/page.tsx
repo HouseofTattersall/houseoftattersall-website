@@ -14,7 +14,7 @@ import { Faq } from "@/components/faq";
 export const metadata: Metadata = pageMeta({
   title: "Wedding Videography Packages & Pricing | From £2,100",
   description:
-    "Wedding film packages and pricing. The £2,100 Core package includes 10 hours of coverage, a cinematic feature film, and your ceremony and speeches in full. The Complete Story is £2,540 and adds a second videographer and five films. First 50 miles of travel included, covering all of Staffordshire and Derbyshire.",
+    "Wedding film packages from £2,100, with your ceremony and speeches in full. The Complete Story is £2,540 and adds a second videographer and five films.",
   path: "/investment/",
   image: "/images/banner-investment.jpg",
 });

@@ -9,9 +9,9 @@ import { BreadcrumbSchema } from "@/components/schema";
 
 export const metadata: Metadata = pageMeta({
   title:
-    "Film Reviews, Venue Guides & Wedding Advice | House of Tattersall",
+    "Venue Guides, Real Weddings & Advice | House of Tattersall",
   description:
-    "Honest venue guides, real wedding film reviews and practical planning advice from a working wedding videographer across Derbyshire, Staffordshire and Nottinghamshire.",
+    "Honest venue guides, real weddings and planning advice from a working wedding videographer in Derbyshire and Staffordshire.",
   path: "/blog/",
   image: "/images/banner-blog.jpg",
 });

@@ -3,7 +3,7 @@ import { Article, H2, P, Lead } from "@/components/article";
 import { FaqSchema } from "@/components/schema";
 
 export const metadata: Metadata = {
-  title: "Wedding videographer vs photographer: do you need both? | House of Tattersall",
+  title: "Wedding videographer vs photographer: do you need both?",
   description:
     "The difference between a wedding videographer and a photographer, whether you need both, and which to prioritise if your budget only stretches to one.",
 };

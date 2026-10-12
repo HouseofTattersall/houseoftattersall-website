@@ -121,7 +121,10 @@ export default function Home() {
 
       <FeaturedQuote />
 
-      <Split image="/images/home-1.jpg">
+      <Split
+        image="/images/home-1.jpg"
+        alt="A groom kissing his bride's cheek in golden evening light, filmed by House of Tattersall"
+      >
         <p className="leading-relaxed text-[var(--ink-muted)]">
           House of Tattersall Films creates luxury, cinematic wedding films
           across Derbyshire, Staffordshire and Nottinghamshire. Based on the
@@ -168,7 +171,11 @@ export default function Home() {
         </div>
       </section>
 
-      <Split image="/images/home-2.jpg" reverse>
+      <Split
+        image="/images/home-2.jpg"
+        alt="A bride in a red qipao looking up at her groom during a Chinese tea ceremony wedding"
+        reverse
+      >
         <h2 className="font-serif text-3xl text-[var(--khaki)]">
           Films that feel as much as they show
         </h2>

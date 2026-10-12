@@ -11,9 +11,9 @@ import { Faq } from "@/components/faq";
 
 export const metadata: Metadata = pageMeta({
   title:
-    "About Andy Tattersall | Luxury Wedding Videographer, Staffordshire & Derbyshire",
+    "About Andy Tattersall | Wedding Videographer, Staffordshire",
   description:
-    "Award-winning wedding videographer Andy Tattersall, based in Denstone on the Staffordshire and Derbyshire border. A maximum of 15 cinematic wedding films a year, every one filmed personally, since 2022.",
+    "Award-winning wedding videographer Andy Tattersall, based in Denstone. A maximum of 15 weddings a year, every one filmed personally, since 2022.",
   path: "/about/",
   image: "/images/banner-about.jpg",
 });
@@ -64,7 +64,7 @@ export default function AboutPage() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/images/house-of-tattersall-andy.jpg"
-            alt="Andy of House of Tattersall"
+            alt="Andy Tattersall of House of Tattersall, sitting in the dunes on a windy beach"
             className="w-full rounded-sm object-cover"
           />
         </div>

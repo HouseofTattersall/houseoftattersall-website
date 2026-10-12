@@ -12,9 +12,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = pageMeta({
   title:
-    "Staffordshire Wedding Videographer | Luxury Cinematic Wedding Films",
+    "Staffordshire Wedding Videographer | Cinematic Films",
   description:
-    "Documentary-shot, cinematic wedding videography across Staffordshire, including Hanbury Wedding Barns, Foxtail Barns and The Ashes Barns. From £2,100, with the first 50 miles of travel included.",
+    "Cinematic wedding videography across Staffordshire, including Hanbury Barns, Foxtail Barns and The Ashes. From £2,100, travel included.",
   path: "/staffordshire-wedding/",
   image: "/images/banner-staffordshire.jpg",
 });

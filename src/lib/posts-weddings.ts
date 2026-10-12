@@ -4,7 +4,7 @@ export const weddingPosts: Post[] = [
   {
     slug: "lowerdamgate-ilam",
     title:
-      "Laura and Daniel | Lower Damgate and Holy Cross Church, Peak District 2025",
+      "Laura & Daniel's Peak District Wedding Film | Lower Damgate",
     category: "Real Weddings, Derbyshire",
     date: "18 August 2026",
     videoId: "2ee05a0c",
@@ -154,7 +154,7 @@ If you're planning a wedding at Bourton Hall in Rugby, or another country house 
   {
     slug: "hanbury-dan-laura",
     title:
-      "Laura & Daniel's Wedding Film | Hanbury Wedding Barns, Staffordshire",
+      "Laura & Daniel's Wedding Film | Hanbury Barns, Staffordshire",
     category: "Real Weddings, Staffordshire",
     date: "15 August 2026",
     videoId: "oaecbs42",
@@ -191,7 +191,7 @@ If you're getting married at Hanbury Wedding Barns, Foxtail Barns, or another St
 
   {
     slug: "wilderness",
-    title: "Rob & Jack's Wilderness Wedding Film | Preston Court, Kent | Summer 2026",
+    title: "Rob & Jack's Tipi Wedding Film | Preston Court, Kent",
     category: "Real Weddings",
     date: "15 August 2026",
     videoId: "prev8ow4",

@@ -7,16 +7,16 @@ import { LocalBusinessSchema, WebSiteSchema } from "@/components/schema";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.houseoftattersall.com"),
   title:
-    "House of Tattersall | Luxury Cinematic Wedding Videographer, Derbyshire, Staffordshire & Nottinghamshire",
+    "Wedding Videographer Derbyshire & Staffordshire | House of Tattersall",
   description:
-    "Luxury cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Award-winning films from £2,100, with a two-videographer package at £2,540.",
+    "Award-winning cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Films from £2,100, a maximum of 15 weddings a year.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     title:
-      "House of Tattersall | Luxury Cinematic Wedding Videographer, Derbyshire, Staffordshire & Nottinghamshire",
+      "Wedding Videographer Derbyshire & Staffordshire | House of Tattersall",
     description:
-      "Luxury cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Award-winning films from £2,100, with a two-videographer package at £2,540.",
+      "Award-winning cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Films from £2,100, a maximum of 15 weddings a year.",
     url: "/",
     images: ["/images/banner-films.jpg"],
     siteName: "House of Tattersall",
@@ -37,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full antialiased">
+    <html lang="en-GB" className="h-full antialiased">
       <body className="flex min-h-full flex-col bg-[var(--paper)] text-[var(--ink-muted)]">
         <LocalBusinessSchema />
         <WebSiteSchema />

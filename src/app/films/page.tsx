@@ -8,9 +8,9 @@ import { BreadcrumbSchema, FilmListSchema } from "@/components/schema";
 
 export const metadata: Metadata = pageMeta({
   title:
-    "Wedding Films | Cinematic Wedding Videography, Derbyshire & Staffordshire",
+    "Wedding Films | Derbyshire & Staffordshire Videography",
   description:
-    "Watch recent cinematic wedding films from venues across Derbyshire, Staffordshire, Nottinghamshire and beyond, including The Pumping House, The West Mill and Hanbury Wedding Barns.",
+    "Watch recent cinematic wedding films from venues across Derbyshire, Staffordshire and Nottinghamshire, including The West Mill and Hanbury Barns.",
   path: "/films/",
   image: "/images/banner-films.jpg",
 });

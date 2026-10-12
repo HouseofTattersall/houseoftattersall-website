@@ -30,8 +30,8 @@ export async function generateMetadata({
   if (!post) return {};
   const image = bannerFor(post);
   return {
-    title: `${post.title} | House of Tattersall`,
-    description: post.excerpt,
+    title: post.title,
+    description: post.seoDescription ?? post.excerpt,
     alternates: { canonical: `/blog/${post.slug}/` },
     openGraph: {
       type: "article",

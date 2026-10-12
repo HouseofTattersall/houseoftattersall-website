@@ -3,7 +3,7 @@ import { Article, H2, P, UL } from "@/components/article";
 import { FaqSchema } from "@/components/schema";
 
 export const metadata: Metadata = {
-  title: "How to choose a wedding videographer | House of Tattersall",
+  title: "How to choose a wedding videographer",
   description:
     "How to tell wedding videographers apart when every website shows beautiful work: what to watch, what to listen for, and the questions that reveal experience.",
 };

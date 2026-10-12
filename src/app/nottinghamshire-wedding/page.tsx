@@ -11,9 +11,9 @@ import { AwardsStrip } from "@/components/awards-strip";
 
 export const metadata: Metadata = {
   title:
-    "Nottinghamshire Wedding Videographer | Luxury Cinematic Wedding Films",
+    "Nottinghamshire Wedding Videographer | Cinematic Films",
   description:
-    "Luxury cinematic wedding videography across Nottinghamshire, including Hazel Gap Barn, The Pumping House and Cockliffe Country House. Core package £2,100, or £2,540 with a second videographer.",
+    "Cinematic wedding videography across Nottinghamshire, including Hazel Gap Barn and The Pumping House. From £2,100, or £2,540 with a second filmmaker.",
 };
 
 type Venue = {

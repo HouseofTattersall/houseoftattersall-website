@@ -3,7 +3,7 @@ import { Article, H2, P, Lead } from "@/components/article";
 import { FaqSchema } from "@/components/schema";
 
 export const metadata: Metadata = {
-  title: "Is a wedding videographer worth it? | House of Tattersall",
+  title: "Is a wedding videographer worth it?",
   description:
     "An honest answer from a wedding videographer, including the cases where it isn't worth it and what couples actually say about their films years later.",
 };

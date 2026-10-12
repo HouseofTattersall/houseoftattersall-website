@@ -3,7 +3,7 @@ import { Article, H2, P, UL, Lead } from "@/components/article";
 import { FaqSchema } from "@/components/schema";
 
 export const metadata: Metadata = {
-  title: "How much does a wedding videographer cost in the UK? | House of Tattersall",
+  title: "How much does a wedding videographer cost in the UK?",
   description:
     "An honest breakdown of UK wedding videography pricing, what moves the price, what should be included as standard, and what the common extras are worth.",
 };
