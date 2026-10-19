@@ -1,43 +1,39 @@
 const steps = [
   {
     title: "You enquire",
-    short: "Send your date and venue, I come back on availability.",
-    body: "Send me your date and your venue, and I'll come back to you on availability.",
+    short: "Send your date and venue, I come back on availability as soon as I can.",
+    body: "Send your date and venue, I come back on availability as soon as I can.",
   },
   {
     title: "A video call",
     short: "We meet properly before anything is signed.",
-    body: "We meet properly before anything is signed, and you ask whatever you want to ask.",
+    body: "We meet properly before anything is signed so you get to ask any questions and I can explain everything in as much detail as you need.",
   },
   {
-    title: "£200 secures your date",
-    short: "A £200 booking fee holds the date.",
-    body: "A £200 booking fee holds the date in the diary.",
-  },
-  {
-    title: "Your client portal",
-    short: "Contract, invoice, schedule and questionnaire, all in one place.",
-    body: "I send you a portal with your contract, invoice, schedule and questionnaire all in one place, rather than scattered across email.",
+    // Title added by Claude: Andy's step 3 was written without one.
+    title: "Securing your date",
+    short: "£200 secures the date, with the balance due six weeks before.",
+    body: "Once you are happy I send over links to your client portal, contract, invoice, schedule and questionnaire, all in one place. I ask for £200 to secure the date with the remaining balance due 6 weeks before your wedding.",
   },
   {
     title: "Six weeks before",
     short: "Automatic reminders, so nothing is left to memory.",
-    body: "Automatic reminders go out for your questionnaire and your remaining balance, so nothing is left to memory in the busiest weeks.",
+    body: "Automatic reminders, so nothing is left to memory.",
   },
   {
     title: "A second call, if it helps",
     short: "Another call if anything needs talking through.",
-    body: "Sometimes the questionnaire throws up something worth talking through properly. If it does, we have another call.",
+    body: "Another call if anything needs talking through.",
   },
   {
     title: "Your arrival time, confirmed",
     short: "You know exactly what time I arrive.",
-    body: "Before the day, I confirm exactly what time I'll arrive.",
+    body: "You know exactly what time I arrive.",
   },
   {
     title: "Your films",
     short: "Teaser expected within 6 to 9 weeks, on Vidflow.",
-    body: "Your teaser is expected within 6 to 9 weeks of the wedding, with everything else following within a week of that. It all lands on Vidflow, on your own page, ready to watch on any smart device.",
+    body: "Teaser expected within 6 to 9 weeks, on Vidflow.",
   },
 ];
 

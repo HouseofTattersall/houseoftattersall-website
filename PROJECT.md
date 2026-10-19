@@ -60,10 +60,14 @@ Getting these wrong across pages was a real problem once already. Check against 
   shoots every wedding personally.
 - **Delivery:** Vidflow. Plays on any smart device, downloadable, stores films for 10 years.
 - **Enquiry form:** Wedola (also his CRM).
-- **Booking fee:** **£200** secures the date.
-- **Booking process:** enquiry, video call, £200 to secure, client portal
-  (contract, invoice, schedule, questionnaire), automatic reminders six weeks
-  out, a second call if needed, arrival time confirmed, then delivery.
+- **Booking fee:** **£200** secures the date. The **remaining balance is due
+  six weeks before the wedding** (confirmed 19 October 2026).
+- **Booking process (Andy's wording, 19 October 2026, seven steps):** enquiry;
+  video call; then the client portal, contract, invoice, schedule and
+  questionnaire together with the £200 booking fee and the balance due six weeks
+  out; automatic reminders six weeks before; a second call if needed; arrival
+  time confirmed; then delivery. Lives in `src/components/journey.tsx` and
+  renders in two shapes, full on Investment and compact above the enquiry form.
 - **Delivery timing:** the teaser is **expected within 6 to 9 weeks**,
   everything else within a week of that. Always word it as *expected*
   turnaround, never as a guarantee. Changed from 6-12 on 2 October 2026.
