@@ -9,6 +9,8 @@ import {
   FaqSchema,
 } from "@/components/schema";
 import { Journey } from "@/components/journey";
+import { PackagePicker } from "@/components/package-picker";
+import { GuidePrompt } from "@/components/guide-prompt";
 import { Faq } from "@/components/faq";
 
 export const metadata: Metadata = pageMeta({
@@ -71,7 +73,7 @@ const packages: Package[] = [
 const secondShooterGains = [
   "Guest reactions and laughter during the speeches",
   "Happy tears in the ceremony, caught from both sides of the room",
-  "Bride and groom prep, happening at the same time in different rooms",
+  "Both of you getting ready at the same time, in different rooms",
   "Wide shots and close-up detail, filmed together rather than one after the other",
 ];
 
@@ -85,6 +87,11 @@ const extras = [
     name: "Home movie",
     desc: "Every usable clip in one film, from the main camera",
     price: "£400",
+  },
+  {
+    name: "Vintage Camera Add-on",
+    desc: "Vintage camera style footage woven through your film, free on the day. You can also borrow a camera in the months before the wedding to capture real moments of your own, for a small charge.",
+    price: "Free on the day",
   },
 ];
 
@@ -247,6 +254,8 @@ export default function InvestmentPage() {
           beyond that. Get in touch for exact availability for your date.
         </p>
 
+        <PackagePicker />
+
         {/* Why a second videographer */}
         <section className="pt-14">
           <p className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
@@ -326,6 +335,12 @@ export default function InvestmentPage() {
             ))}
           </ul>
         </section>
+
+        <GuidePrompt
+          variant="inline"
+          heading="Not ready to decide yet?"
+          body="The Honest Guide is free and has no pitch in it. When to start filming, how long portraits really take, the DJ light that spoils a first dance, and the bits where I talk you out of spending money."
+        />
 
         <Journey />
 

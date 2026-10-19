@@ -1,4 +1,5 @@
 import type { FaqItem } from "@/components/faq";
+import { embedUrl, type VideoSource } from "@/components/video-embed";
 
 function JsonLd({ data }: { data: object }) {
   return (
@@ -68,12 +69,14 @@ export function VideoSchema({
   videoId,
   thumbnail,
   uploadDate,
+  source = "vidflow",
 }: {
   name: string;
   description: string;
   videoId: string;
   thumbnail: string;
   uploadDate?: string;
+  source?: VideoSource;
 }) {
   return (
     <JsonLd
@@ -83,7 +86,7 @@ export function VideoSchema({
         name,
         description,
         thumbnailUrl: `${SITE}${thumbnail}`,
-        embedUrl: `https://galleries.vidflow.co/videos/${videoId}`,
+        embedUrl: embedUrl(videoId, source),
         ...(uploadDate ? { uploadDate } : {}),
         publisher: { "@id": `${SITE}/#business` },
       }}
@@ -127,7 +130,7 @@ export function LocalBusinessSchema() {
           "Documentary wedding films",
           "Barn wedding videography",
           "Multicultural wedding films",
-          "Destination wedding videography",
+          "Destination and international filming",
         ],
         sameAs: ["https://www.instagram.com/houseoftattersallfilms"],
         makesOffer: {

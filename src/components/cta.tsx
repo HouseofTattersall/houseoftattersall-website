@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AvailabilityLine } from "@/components/availability-note";
 
 export function CtaButton({
   href = "/enquire/",
@@ -26,20 +27,21 @@ export function CtaButton({
 export function CtaBand({
   heading = "Begin your story",
   body = "If this feels like the kind of film you're looking for, let's talk.",
-  note = "2027 & 2028 dates now open",
+  note,
 }: {
   heading?: string;
   body?: string;
-  note?: string;
+  /** Defaults to the live remaining-dates count */
+  note?: React.ReactNode;
 }) {
   return (
     <section className="bg-[var(--khaki)] px-6 py-20 text-center">
       <div className="mx-auto max-w-2xl">
         <h2 className="font-serif text-3xl text-[var(--paper)]">{heading}</h2>
         <p className="mt-4 text-[var(--paper)]/85">{body}</p>
-        {note ? (
+        {note !== null ? (
           <p className="mt-2 text-sm tracking-[0.15em] text-[var(--gold-wash)] uppercase">
-            {note}
+            {note ?? <AvailabilityLine />}
           </p>
         ) : null}
         <div className="mt-8">

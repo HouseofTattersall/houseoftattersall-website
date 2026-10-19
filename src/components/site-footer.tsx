@@ -1,15 +1,21 @@
 import Link from "next/link";
+import { AvailabilityLine } from "@/components/availability-note";
 
 export function SiteFooter() {
   return (
-    <footer className="border-t-2 border-[var(--gold)] bg-[var(--paper-alt)] py-14 text-[var(--ink-muted)]">
+    <footer
+      data-site-footer
+      className="border-t-2 border-[var(--gold)] bg-[var(--paper-alt)] py-14 text-[var(--ink-muted)]"
+    >
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 text-sm md:flex-row md:items-start md:justify-between">
         <div>
           <p className="font-serif text-base tracking-[0.12em] text-[var(--khaki)] uppercase">
             House of Tattersall
           </p>
           <p className="mt-2">Denstone, Staffordshire, UK</p>
-          <p className="mt-1 text-[var(--gold)]">2027 &amp; 2028 dates now open</p>
+          <p className="mt-1 text-[var(--gold)]">
+            <AvailabilityLine />
+          </p>
         </div>
 
         <div className="flex flex-col gap-2">
@@ -30,6 +36,9 @@ export function SiteFooter() {
           </Link>
           <Link href="/investment/" className="hover:text-[var(--khaki)]">
             Investment
+          </Link>
+          <Link href="/guide/" className="hover:text-[var(--khaki)]">
+            The Honest Guide
           </Link>
           <Link href="/blog/" className="hover:text-[var(--khaki)]">
             Film Reviews

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
 import { PageBanner } from "@/components/page-banner";
+import { GuidePrompt } from "@/components/guide-prompt";
 import { CtaBand } from "@/components/cta";
 import { realWeddings, venueGuides, guides } from "@/lib/posts";
 import type { Post } from "@/lib/posts";
@@ -28,7 +29,7 @@ const buyerGuides = [
     slug: "wedding-videographer-vs-photographer",
     title: "Wedding videographer vs photographer: do you need both?",
     excerpt:
-      "The real difference between the two, and which I'd prioritise if your budget only stretches to one.",
+      "The real difference between the two, and how to decide if your budget only stretches to one.",
   },
   {
     slug: "how-to-choose-a-wedding-videographer",
@@ -95,6 +96,8 @@ export default function BlogIndexPage() {
         <PostList heading="Venue guides" items={venueGuides.map(toItem)} />
         <PostList heading="Tips and updates" items={guides.map(toItem)} />
       </div>
+
+      <GuidePrompt />
 
       <CtaBand />
     </>

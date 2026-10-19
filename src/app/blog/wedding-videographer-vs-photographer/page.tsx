@@ -5,13 +5,13 @@ import { FaqSchema } from "@/components/schema";
 export const metadata: Metadata = {
   title: "Wedding videographer vs photographer: do you need both?",
   description:
-    "The difference between a wedding videographer and a photographer, whether you need both, and which to prioritise if your budget only stretches to one.",
+    "The difference between a wedding videographer and a photographer, whether you need both, and how to decide if your budget only stretches to one.",
 };
 
 const faqs = [
   {
     q: "Do you need both a wedding videographer and a photographer?",
-    a: "If your budget only stretches to one, book the photographer. Photographs are what go on the wall and in the album, so they are the everyday form your wedding takes afterwards. If you can stretch to both, the film is usually the one that surprises couples, because it holds the sound of the day rather than only the look of it.",
+    a: "If your budget only stretches to one, try this question. Would you rather look at photographs of your grandparents' wedding, or watch a video of it? Whatever you answered without thinking about it is probably your answer. If you can stretch to both, the film is usually the one that surprises couples, because it holds the sound of the day rather than only the look of it.",
   },
   {
     q: "What is the difference between a wedding videographer and a photographer?",
@@ -32,7 +32,7 @@ export default function Page() {
     <Article
       slug="wedding-videographer-vs-photographer"
       datePublished="2026-01-16"
-      description="The difference between a wedding videographer and a photographer, whether you need both, and which to prioritise if your budget only stretches to one."
+      description="The difference between a wedding videographer and a photographer, whether you need both, and how to decide if your budget only stretches to one."
       title="Wedding videographer vs photographer: do you need both?"
       banner="/images/banner-films.jpg"
       intro="This is the question I get asked most, usually phrased as 'we've booked a photographer, do we really need a videographer too?' Here's my honest answer, including the part where I argue against myself."
@@ -66,14 +66,15 @@ export default function Page() {
       <H2>Do we need both?</H2>
       <P>
         I&apos;m seeing more and more couples tell me that video has become the
-        more important of the two to them. But if I&apos;m honest, and if it
-        were me, I&apos;d still prioritise photography. That&apos;s what ends up
-        on your wall, in the album, as your phone background. It&apos;s the
-        everyday form your wedding takes afterwards.
+        more important of the two to them. I&apos;m not going to tell you which
+        to put first, because the honest answer depends entirely on what you
+        want to be left holding in thirty years.
       </P>
       <Lead>
-        If your budget genuinely only stretches to one, book the photographer.
-        I&apos;ll say that plainly, even though it costs me work.
+        If your budget genuinely only stretches to one, try this. Would you
+        rather look at photographs of your grandparents&apos; wedding, or watch
+        a video of it? Whatever you answered without thinking about it is
+        probably your answer.
       </Lead>
       <P>
         But if you can stretch to both, the film is the one that surprises

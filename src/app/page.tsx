@@ -7,6 +7,7 @@ import { CtaButton, CtaBand } from "@/components/cta";
 import { StyleExplainer } from "@/components/style-explainer";
 import { FeaturedQuote } from "@/components/featured-quote";
 import { AwardsStrip } from "@/components/awards-strip";
+import { GuidePrompt } from "@/components/guide-prompt";
 
 const films = [
   {
@@ -30,44 +31,52 @@ const films = [
 
 const faqs = [
   {
-    q: "How far in advance should we book our wedding videographer?",
-    a: "Most couples book 12 to 24 months in advance, especially for peak summer dates. I take a maximum of 15 weddings a year to keep every film personal and carefully crafted, so it's always worth enquiring as early as possible.",
+    q: "How much does a wedding videographer cost?",
+    a: "My Core package is £2,100. That covers a pre-wedding consultation, 10 hours of coverage, a 6 to 8 minute cinematic feature film, a 60 second film trailer, and your ceremony and speeches in full as standalone films, with drone footage where the venue allows. The Complete Story package is £2,540 and adds a second videographer alongside me all day, a 4 to 6 minute highlight film and a 14 to 18 minute feature film. The first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire. The full breakdown is on the Investment page.",
   },
   {
     q: "What areas do you cover?",
-    a: "I'm based on the border of Derbyshire and Staffordshire, and regularly film weddings across the UK. The first 50 miles are included in the price, which covers all of Staffordshire and Derbyshire, and there's a small charge per mile beyond that. I also film destination weddings across Europe.",
+    a: "I'm based on the border of Derbyshire and Staffordshire, and regularly film weddings across the UK. The first 50 miles are included in the price, which covers all of Staffordshire and Derbyshire, and there's a small charge per mile beyond that. I'm available for destination weddings in Europe too, and I've filmed professionally in France, Amsterdam, Germany and Switzerland for commercial clients, so working abroad is familiar ground. Every wedding I've filmed so far has been in the UK.",
+  },
+  {
+    q: "How far in advance should we book our wedding videographer?",
+    a: "Most couples book 12 to 24 months in advance, especially for peak summer dates. I take a maximum of 15 weddings a year to keep every film personal and carefully crafted, so it's always worth enquiring as early as possible.",
   },
   {
     q: "How do we book?",
     a: "The process is simple: send an enquiry, arrange a video call, secure your date with a booking fee. After that, we'll plan everything together leading up to the wedding. P.s. lots of the processes are automated so you know you will get emails reminding you at the key moments.",
   },
   {
+    q: "How long does it take to receive our wedding film?",
+    a: "Expect your teaser within 6 to 9 weeks of the wedding, with everything else following within a week of that.",
+  },
+  {
     q: "How would you describe your filming style?",
     a: "My films are cinematic, emotional, and story-driven. In practice that means: natural light over artificial staging, real audio from your vows and speeches rather than music-only edits, a moody editorial colour grade rather than a bright social-media look, and an edit built around the story of your day rather than a chronological checklist. I don't direct or re-stage moments, if it happens, I capture it; if I miss it, I let it go. That's what gives the finished film its documentary, cinematic feel rather than a produced one.",
-  },
-  {
-    q: "We're awkward in front of the camera, is that a problem?",
-    a: "Not at all. Most couples say this before booking. My approach is calm and unobtrusive, so you can enjoy your wedding naturally without feeling like you're constantly performing for the camera.",
-  },
-  {
-    q: "Do you use drones?",
-    a: "Yes, whenever weather, venue permissions, and local flight regulations allow. Drone footage can add beautiful cinematic context to your wedding film.",
-  },
-  {
-    q: "Do you work well with photographers?",
-    a: "Definitely. I've worked alongside many incredible photographers across the UK, and collaboration is a huge part of making the day feel relaxed and seamless. My aim is always to complement the photography team, never compete with them. If you would like recommendations, please do let me know.",
-  },
-  {
-    q: "Do you record vows and speeches?",
-    a: "Yes, clear audio is a huge part of storytelling. I professionally record your vows, speeches, and key moments throughout the day so your film feels emotional and immersive.",
   },
   {
     q: "Is wedding videography really worth it?",
     a: "Photography freezes moments beautifully, but film lets you relive them, the voices, movement, laughter, speeches, and emotion. Many couples say their wedding film became one of the most valuable things they invested in after the day itself.",
   },
   {
-    q: "How long does it take to receive our wedding film?",
-    a: "Expect your teaser within 6 to 9 weeks of the wedding, with everything else following within a week of that.",
+    q: "Do you record vows and speeches?",
+    a: "Yes, clear audio is a huge part of storytelling. I professionally record your vows, speeches, and key moments throughout the day so your film feels emotional and immersive.",
+  },
+  {
+    q: "We're awkward in front of the camera, is that a problem?",
+    a: "Not at all. Most couples say this before booking. My approach is calm and unobtrusive, so you can enjoy your wedding naturally without feeling like you're constantly performing for the camera.",
+  },
+  {
+    q: "Do you work well with photographers?",
+    a: "Definitely. I've worked alongside many incredible photographers across the UK, and collaboration is a huge part of making the day feel relaxed and seamless. My aim is always to complement the photography team, never compete with them. If you would like recommendations, please do let me know.",
+  },
+  {
+    q: "Do you film multicultural or religious weddings?",
+    a: "Absolutely. I've filmed a wide variety of weddings and celebrations, and I always approach every culture, tradition, and ceremony with respect and care.",
+  },
+  {
+    q: "Do you use drones?",
+    a: "Yes, whenever weather, venue permissions, and local flight regulations allow. Drone footage can add beautiful cinematic context to your wedding film.",
   },
   {
     q: "How do we receive our films?",
@@ -80,10 +89,6 @@ const faqs = [
   {
     q: "Can we choose the music for our wedding film?",
     a: "I carefully select licensed music that matches the emotion and energy of your day, but I'm always happy to hear your preferences and inspiration beforehand.",
-  },
-  {
-    q: "Do you film multicultural or religious weddings?",
-    a: "Absolutely. I've filmed a wide variety of weddings and celebrations, and I always approach every culture, tradition, and ceremony with respect and care.",
   },
 ];
 
@@ -205,6 +210,8 @@ export default function Home() {
       <div className="mx-auto max-w-3xl px-6 pb-8">
         <StyleExplainer />
       </div>
+
+      <GuidePrompt />
 
       <Testimonials />
 

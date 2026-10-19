@@ -13,7 +13,13 @@ export type Post = {
   faqs?: FaqItem[];
   banner?: string;
   /** A film embedded inside the body, for VideoObject markup */
-  video?: { id: string; name: string; description: string };
+  video?: {
+    id: string;
+    name: string;
+    description: string;
+    /** Defaults to vidflow; set "youtube" for an older film */
+    source?: "vidflow" | "youtube";
+  };
   /** Couples quoted in the body, by name, so the quotes carry Review markup */
   reviewNames?: string[];
   /**

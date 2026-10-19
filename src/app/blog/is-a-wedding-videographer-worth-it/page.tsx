@@ -67,15 +67,6 @@ export default function Page() {
       <H2>When it probably isn&apos;t worth it</H2>
       <P>
         <strong className="text-[var(--ink)]">
-          If it means cutting the photographer.
-        </strong>{" "}
-        Have the photographs. More and more couples tell me video has become the
-        more important of the two to them, but if it were me I&apos;d still
-        prioritise photography, because that&apos;s what hangs on your wall and
-        sits as your phone background.
-      </P>
-      <P>
-        <strong className="text-[var(--ink)]">
           If you genuinely won&apos;t watch it.
         </strong>{" "}
         Some people aren&apos;t film people. If you never rewatch videos, never

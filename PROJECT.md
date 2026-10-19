@@ -29,6 +29,10 @@ Getting these wrong across pages was a real problem once already. Check against 
     Core": the two packages are listed separately now.
   - Extras: extended feature film (6-8 up to 14-18 minutes) **£250**, home movie
     **£400**.
+  - **Vintage Camera Add-on** (added 18 October 2026): vintage camera style
+    footage, **free on the day**. Couples may also borrow a camera in the months
+    before the wedding for a **small charge**. Do **not** publish a figure for
+    that charge without asking, the same as the per-mile travel rate.
   - The **1 week anniversary teaser is discontinued**. Do not reintroduce it.
   - Never publish a different figure without asking.
 - **Wedding videography since:** 2022. Professional filming (live music, events, brand work) since **November 2014**.
@@ -84,14 +88,33 @@ Change these and the whole site follows. Do not hard-code colours.
 - `src/app/blog/<slug>/page.tsx` — the four buyer guides, which are their own routes.
 - `src/components/prose.tsx` — light markdown renderer. Supports `##`, `###`, `-` lists, `**bold**`, `[links](url)`. **Does not support bold-wrapped links** (`**[text](url)**`) — they render as raw text.
 - `src/components/schema.tsx` — FAQPage, LocalBusiness, Service JSON-LD.
-- `src/app/sitemap.ts` / `robots.ts` — generated at build. New posts self-register.
+- `src/app/sitemap.ts` — generated at build. New posts self-register, but a new
+  top-level page must be added to the `pages` array by hand.
+- `public/robots.txt` — static, and points at both the sitemap and `llms.txt`.
+  There is no longer a `robots.ts`; do not reintroduce one, the two conflict.
 - `public/_redirects` — legacy blog URLs not yet rebuilt. Remove a line when its post is restored.
 
 ## Still outstanding
 
 - Three legacy posts on redirects rather than real pages: wedding bands, and the two destination wedding posts.
-- Domain not yet switched. Site is on a Netlify preview URL; Pixieset is still live.
-- Andy's Google Business Profile should be checked for consistency against the facts above.
+- Andy's Google Business Profile. The pack is written and his review link is
+  `https://g.page/r/CeI_BdVqvlUgEBM/review`.
+- Netlify's primary domain is the apex `houseoftattersall.com`, while every
+  canonical tag, schema id and sitemap entry says `www.`. Make the two agree.
+- Images carry no width or height, so pages shift as photos load.
+- `--gold` (#a98950) fails WCAG AA on cream at 12px. Darkening to about #8a6d39
+  would clear it. Needs Andy's eye before changing a brand colour.
+
+## Settled, do not undo
+
+- The domain is live and switched. Netlify deploys from master on push.
+- **No destination weddings abroad.** Every wedding to date has been in the UK.
+  The European experience is commercial filming in France, Amsterdam, Germany
+  and Switzerland. Word it as availability, never as past wedding work.
+- **Photography is no longer recommended over film.** Andy's settled line is the
+  grandparents question: would you rather have photographs of your grandparents'
+  wedding, or a video of it? Do not reintroduce a ranking.
+- Availability counts live in `src/lib/availability.ts`. Keep them honest.
 
 ## Pushing
 

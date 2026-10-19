@@ -15,6 +15,7 @@ import {
   ReviewSchema,
 } from "@/components/schema";
 import { CtaBand } from "@/components/cta";
+import { GuidePrompt } from "@/components/guide-prompt";
 
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -92,6 +93,7 @@ export default async function PostPage({
           videoId={post.video.id}
           thumbnail={banner}
           uploadDate={published}
+          source={post.video.source}
         />
       ) : null}
       {post.videoId ? (
@@ -131,6 +133,8 @@ export default async function PostPage({
             <FaqSchema items={post.faqs} />
           </div>
         ) : null}
+
+        <GuidePrompt variant="inline" />
 
         <div className="mt-14 border-t border-[var(--rule)] pt-8">
           <Link

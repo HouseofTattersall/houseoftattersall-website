@@ -8,6 +8,7 @@ import Link from "next/link";
 import { StyleExplainer } from "@/components/style-explainer";
 import { Testimonials } from "@/components/testimonials";
 import { AwardsStrip } from "@/components/awards-strip";
+import { GuidePrompt } from "@/components/guide-prompt";
 
 export const metadata: Metadata = {
   title:
@@ -72,6 +73,14 @@ const faqs = [
   {
     q: "Do you film late into the evening?",
     a: "Yes. Several Nottinghamshire venues have late licences, Hazel Gap until 1am, and extended hours can be added so the film carries through to the end of the night.",
+  },
+  {
+    q: "Do you do wedding videos in Nottinghamshire?",
+    a: "Yes. Wedding video, wedding videography and wedding film all describe the same thing here: a full day covered in Nottinghamshire and edited into a cinematic film you will actually want to watch again. The Core package is £2,100 and includes your ceremony and speeches in full, and the first 50 miles of travel are included, which covers the whole county.",
+  },
+  {
+    q: "How do I find a good wedding filmmaker in Nottinghamshire?",
+    a: "Watch two or three full films rather than showreels, and listen to the audio through a phone speaker rather than headphones, because that is how most people will watch. Then ask how many weddings they take a year. A wedding filmmaker shooting forty or fifty dates cannot give each one the same attention, and the turnaround usually shows it. I take a maximum of 15 a year, every one filmed personally, at venues including Hazel Gap Barn and The Pumping House.",
   },
 ];
 
@@ -181,6 +190,8 @@ export default function NottinghamshirePage() {
       </div>
 
       <AwardsStrip heading="Award-winning wedding films" />
+
+      <GuidePrompt />
 
       <Testimonials
         heading="What couples married in Nottinghamshire said"

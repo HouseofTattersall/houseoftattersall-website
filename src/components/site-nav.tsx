@@ -17,6 +17,7 @@ const primary = [
 
 const secondary = [
   { href: "/investment/", label: "Investment" },
+  { href: "/guide/", label: "Free Guide" },
   { href: "/reviews/", label: "Kind Words" },
   { href: "/blog/", label: "Film Reviews" },
 ];
@@ -70,7 +71,10 @@ export function SiteNav() {
   }, [locOpen]);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-[var(--rule)] bg-[var(--paper)]/95 backdrop-blur">
+    <header
+      data-site-nav
+      className="sticky top-0 z-50 w-full border-b border-[var(--rule)] bg-[var(--paper)]/95 backdrop-blur"
+    >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 sm:py-5">
         <Link
           href="/"

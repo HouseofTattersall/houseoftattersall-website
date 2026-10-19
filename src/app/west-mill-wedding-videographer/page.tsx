@@ -15,6 +15,7 @@ import { CtaButton, CtaBand } from "@/components/cta";
 import { StyleExplainer } from "@/components/style-explainer";
 import { Testimonials } from "@/components/testimonials";
 import { AwardsStrip } from "@/components/awards-strip";
+import { GuidePrompt } from "@/components/guide-prompt";
 
 export const metadata: Metadata = pageMeta({
   title: "The West Mill Wedding Videographer, Derby",
@@ -247,6 +248,8 @@ export default function WestMillPage() {
       </div>
 
       <AwardsStrip heading="Award-winning wedding films" />
+
+      <GuidePrompt />
 
       <Testimonials
         heading="What couples married at The West Mill said"

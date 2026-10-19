@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "What areas do you cover?",
-    a: "Derbyshire and the Peak District, Staffordshire, Nottinghamshire, Leicestershire, Rutland and Warwickshire, plus UK-wide and European destination weddings. The first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire, with a small charge per mile beyond that.",
+    a: "Derbyshire and the Peak District, Staffordshire, Nottinghamshire, Leicestershire, Rutland and Warwickshire, plus UK-wide. The first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire, with a small charge per mile beyond that. I'm available for destination weddings in Europe, and I've filmed commercial work in France, Amsterdam, Germany and Switzerland, though every wedding so far has been in the UK.",
   },
   {
     q: "How much do your wedding films cost?",

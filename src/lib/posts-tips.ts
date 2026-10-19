@@ -2,6 +2,112 @@ import type { Post } from "./post-types";
 
 export const tipsPosts: Post[] = [
   {
+    slug: "how-long-does-a-wedding-video-take",
+    title: "How Long Does a Wedding Video Take? Mine Took Six Weeks",
+    category: "Updates",
+    date: "16 October 2026",
+    excerpt:
+      "Across the whole of the 2026 season, including the busiest weeks of summer, no film took longer than six weeks. Not by rushing. By planning the edit before the wedding rather than after it.",
+    seoDescription:
+      "Across the 2026 season no film took longer than six weeks, including through peak summer. Why most wedding videos take months, and what makes the difference.",
+    body: `
+The question comes up on nearly every video call, usually near the end, usually a little apologetically. **How long will we have to wait?**
+
+It is a fair question with a bad industry answer. Six months is common. Nine months happens. Couples are routinely told "it depends on the season" in a way that means "I do not know".
+
+So here is my answer for 2026, which I can give because the season has finished and I can count.
+
+## Every film this season landed inside six weeks
+
+Across the whole 2026 season, including July and August when the weekends run back to back, **no film took longer than six weeks** from wedding day to delivery.
+
+Not one.
+
+That is not me working faster, pulling all-nighters, or cutting corners on the edit. It is the result of a workflow decision made a long time before any of those weddings happened.
+
+## The reason most films take months
+
+This is not a criticism of other videographers, it is just arithmetic.
+
+If you film forty weddings a year and you edit them all yourself, the summer creates a queue. Twelve weddings between June and August means twelve edits waiting, and each one takes days of actual work. The twelfth couple in that queue is not waiting because anyone is being slack. They are waiting because eleven people are in front of them.
+
+Then the next season starts before the queue has cleared, and the backlog becomes permanent.
+
+The two variables are **how many weddings you take** and **when you book the editing capacity**. Most of the industry is stretched on both.
+
+## What I do differently
+
+Two things, neither of them clever.
+
+**I take a maximum of 15 weddings a year.** It is a hard ceiling, not a target, and it is the reason the queue never gets long enough to become a problem. Fifteen weddings spread across a year is a manageable amount of post-production. Forty is not.
+
+**The editor is booked before your wedding, not after it.** This is the part most couples find surprising. My films are edited by Vlad at Bride & Groom, to an extensive brief I write, and his time is reserved in the diary when you book me, months ahead. By the time I have filmed your day, the slot to cut it already exists.
+
+So the footage does not land on a pile. It goes straight into a slot that was waiting for it. The first draft usually comes back about four weeks after the wedding, I review it against the brief, we go through notes, and it reaches you inside six weeks.
+
+There is more on exactly who touches your film in [who actually makes your wedding film](/blog/who-makes-your-wedding-film/).
+
+## Why I still publish 6 to 9 weeks
+
+You will notice my packages say an expected turnaround of **6 to 9 weeks**, not six.
+
+That is deliberate, and I am not going to change it just because I beat it this year. Six to nine is what I am confident I can do in any season, including one where someone is ill, a drive fails, or life happens. Quoting six weeks as a promise would mean quoting a number I could only just hit on a good year.
+
+I would rather tell you what I expect and then beat it than tell you what you want to hear and then apologise.
+
+So: expect 6 to 9 weeks. This year, everyone got it sooner.
+
+## The content creator question
+
+This is really why turnaround has become such a live issue.
+
+Content creators have changed what couples expect. Next morning. Same day sometimes. Vertical clips on your phone before the hangover has worn off, and it genuinely is lovely to have.
+
+I am not going to pretend I can match that, and I would be suspicious of a cinematic filmmaker who claimed they could. A graded, properly edited feature film with mixed audio from your vows and speeches is not a thing that can be made overnight. The work is the work.
+
+But there is a lot of room between **tomorrow morning** and **next spring**, and I think six weeks sits in a sensible place in that gap. Close enough that the day is still vivid when the film lands. Far enough away that nothing has been rushed to get there.
+
+Plenty of couples now book both, and that is a perfectly good answer. There is a longer piece on how the two compare, including what each actually costs, in [wedding content creator or wedding videographer](/blog/wedding-content-creator-vs-videographer/).
+
+## What this means if you are booking
+
+If turnaround matters to you, and it should, ask any videographer you are considering two questions:
+
+- **How many weddings do you take a year?**
+- **When do you book the editing time for my wedding?**
+
+The answers tell you almost everything. A small number and "before your date" means a film that arrives while the day still feels close. A large number and "when I get to it" means a queue, and you will be somewhere in it.
+
+!cta[Check your date](/enquire/)
+`,
+    faqs: [
+      {
+        q: "How long does a wedding video take to arrive?",
+        a: "Across the industry it varies enormously, from about six weeks to nine months. House of Tattersall publishes an expected turnaround of 6 to 9 weeks, and across the whole 2026 season no film took longer than six weeks, including through the busiest part of summer.",
+      },
+      {
+        q: "Why do some wedding videographers take six months or more?",
+        a: "Usually volume and scheduling rather than slowness. A videographer filming forty weddings a year and editing them personally builds a queue through summer that never fully clears before the next season starts. If the editing time is only booked after the wedding, the queue gets longer still.",
+      },
+      {
+        q: "How does House of Tattersall deliver in six weeks?",
+        a: "Two things. A hard cap of 15 weddings a year, so the queue never grows long enough to matter, and the editor's time is booked before the wedding rather than after it. The first draft usually comes back about four weeks after the day, leaving room for review and notes inside six weeks.",
+      },
+      {
+        q: "Is six weeks a guarantee?",
+        a: "No. The published figure is an expected turnaround of 6 to 9 weeks, and that is deliberate. Six to nine is what can be delivered in any season, including one where something goes wrong. In 2026 every film beat it, but it is quoted as an expectation rather than a promise.",
+      },
+      {
+        q: "Can a wedding content creator deliver faster?",
+        a: "Yes, considerably, and that is the honest answer. A content creator can turn around vertical clips the next morning. A graded, properly edited cinematic film with mixed audio from your vows and speeches cannot be made overnight. Many couples now book both, which works well.",
+      },
+      {
+        q: "What should I ask a wedding videographer about turnaround?",
+        a: "Two questions. How many weddings do you take a year, and when do you book the editing time for my wedding? A small number and editing booked in advance means a short wait. A large number and editing booked after the day means you are joining a queue.",
+      },
+    ],
+  },
+  {
     slug: "more-than-your-videographer",
     title: "More Than Your Videographer: I'm Your Hype Man Too",
     category: "Guides",
@@ -460,6 +566,18 @@ If you do book both, two practical things worth sorting in advance:
 
 Everywhere else, a content creator being close and quick is no trouble at all.
 
+## Ask me and I will put the team together
+
+This is the part worth knowing before you go hunting on Instagram at midnight.
+
+I will not publish a list of recommended suppliers, because every wedding is different and a name that suits one couple is wrong for the next. But ask me and I almost certainly know someone.
+
+I have worked alongside a lot of photographers and a growing number of content creators across Derbyshire, Staffordshire and Nottinghamshire, and I have a decent sense of who fits whom. Some photographers are brilliant and quiet, some are brilliant and run the room, and the right answer depends entirely on you. The same goes for content creators: some are pure energy, some are calm and observational, and the two work very differently next to a documentary filmmaker.
+
+There is also a practical advantage to a team that already knows each other. People who have worked together before do not spend your morning negotiating. They know who stands where during the ceremony, who has the aisle on the way out, and how to get three sets of coverage without any of it ending up in shot. That is invisible on the day, which is exactly the point, and it shows up in all three sets of results.
+
+So if you have booked me and you are still missing a photographer or a content creator, just ask. It costs you nothing, and it is a great deal quicker than scrolling.
+
 ## If you can only have one
 
 Here is the honest answer rather than the sales one.
@@ -468,17 +586,13 @@ If what you most want is to relive the day properly, hear the vows and the speec
 
 If what you most want is to see your wedding through your friends' eyes this week, and your budget is a few hundred pounds, book the content creator. You will get far more out of that than out of the cheapest videographer you can find.
 
-## One more thing, since I am being honest
-
-More couples tell me video matters to them every year, and I am glad about that.
-
-But if I were planning my own wedding, I would still put photography first. That is what hangs on your wall and sits as your phone background. Then film. Then, if there is room in the budget, content.
-
-You are welcome to disagree. Most videographers would.
-
 !cta[Talk to me about your film](/enquire/)
 `,
     faqs: [
+      {
+        q: "Can you recommend a wedding content creator or photographer to work alongside you?",
+        a: "Yes, just ask. No list is published, because the right name depends entirely on the couple, but having worked alongside a lot of photographers and content creators across Derbyshire, Staffordshire and Nottinghamshire, there is usually someone who would suit you. A team who have worked together before also run a smoother morning, because nobody is negotiating positions on the day.",
+      },
       {
         q: "What is the difference between a wedding content creator and a wedding videographer?",
         a: "A content creator covers your day for social media, filming mostly on a phone and delivering three to five edited reels plus raw clips within 24 to 48 hours. A wedding videographer makes a film, using multiple camera angles, professionally recorded audio from your vows and speeches, and a story-led edit, delivered over several weeks. Speed against permanence is most of the difference.",
@@ -1041,7 +1155,7 @@ If you're planning a wedding in the UK; Derbyshire, Staffordshire, or Nottingham
       },
       {
         q: "Which counties does House of Tattersall film weddings in?",
-        a: "Derbyshire and the Peak District, Staffordshire, Nottinghamshire, Leicestershire, Rutland and Warwickshire, plus UK-wide and European destination weddings. The first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire.",
+        a: "Derbyshire and the Peak District, Staffordshire, Nottinghamshire, Leicestershire, Rutland and Warwickshire, plus UK-wide. The first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire. I'm available for destination weddings in Europe, and I've filmed commercial work in France, Amsterdam, Germany and Switzerland, though every wedding so far has been in the UK.",
       },
       {
         q: "How are The Wedding Industry Awards judged?",

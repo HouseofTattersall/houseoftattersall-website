@@ -119,6 +119,17 @@ export function Prose({ body }: { body: string }) {
           <VideoEmbed id={id} title={title} />
         </div>,
       );
+    } else if (line.startsWith("!yt[")) {
+      // !yt[Title](youtubeId) for an older film hosted on YouTube
+      flushPara();
+      flushList();
+      const title = line.slice(4, line.indexOf("]("));
+      const id = line.slice(line.indexOf("](") + 2, line.lastIndexOf(")"));
+      out.push(
+        <div key={`yt${k++}`} className="mt-10">
+          <VideoEmbed id={id} title={title} source="youtube" />
+        </div>,
+      );
     } else if (line.startsWith("!cta[")) {
       // !cta[Label](/enquire/)
       flushPara();

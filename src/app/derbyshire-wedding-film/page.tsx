@@ -9,6 +9,7 @@ import { CtaButton, CtaBand } from "@/components/cta";
 import { StyleExplainer } from "@/components/style-explainer";
 import { Testimonials } from "@/components/testimonials";
 import { AwardsStrip } from "@/components/awards-strip";
+import { GuidePrompt } from "@/components/guide-prompt";
 import Link from "next/link";
 
 export const metadata: Metadata = pageMeta({
@@ -86,6 +87,14 @@ const faqs = [
   {
     q: "Do you use a drone?",
     a: "Yes, where the venue allows it and conditions are safe. Several Derbyshire venues I work at, including Yeldersley Hall, have grounds that lend themselves particularly well to aerial footage.",
+  },
+  {
+    q: "Do you do wedding videos in Derbyshire?",
+    a: "Yes. Wedding video, wedding videography and wedding film all describe the same thing here: a full day covered in Derbyshire and edited into a cinematic film you will actually want to watch again. The Core package is £2,100 and includes your ceremony and speeches in full, and the first 50 miles of travel are included, which covers the whole county.",
+  },
+  {
+    q: "How do I find a good wedding filmmaker in Derbyshire?",
+    a: "Watch two or three full films rather than showreels, and listen to the audio through a phone speaker rather than headphones, because that is how most people will watch. Then ask how many weddings they take a year. A wedding filmmaker shooting forty or fifty dates cannot give each one the same attention, and the turnaround usually shows it. I take a maximum of 15 a year, every one filmed personally, at venues including The West Mill, Grangefields and Yeldersley Hall.",
   },
 ];
 
@@ -180,6 +189,8 @@ export default function DerbyshirePage() {
       </div>
 
       <AwardsStrip heading="Award-winning wedding films" />
+
+      <GuidePrompt />
 
       <Testimonials
         heading="What couples married in Derbyshire said"

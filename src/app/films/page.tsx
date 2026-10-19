@@ -4,6 +4,7 @@ import { pageMeta } from "@/lib/seo";
 import { PageBanner } from "@/components/page-banner";
 import { VideoEmbed } from "@/components/video-embed";
 import { CtaButton, CtaBand } from "@/components/cta";
+import { GuidePrompt } from "@/components/guide-prompt";
 import { BreadcrumbSchema, FilmListSchema } from "@/components/schema";
 
 export const metadata: Metadata = pageMeta({
@@ -111,6 +112,11 @@ export default function FilmsPage() {
         <CtaButton>Enquire</CtaButton>
       </div>
       </div>
+
+      <GuidePrompt
+        heading="Planning the day these films came from?"
+        body="The Honest Guide is free and has no pitch in it. When to start filming, how long portraits really take, the DJ light that spoils a first dance, and the bits where I talk you out of spending money."
+      />
 
       <CtaBand />
     </>
