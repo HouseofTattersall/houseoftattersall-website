@@ -27,4 +27,9 @@ export type Post = {
    * ~160 characters Google shows. The excerpt stays as written for readers.
    */
   seoDescription?: string;
+  /**
+   * Search-result title, when the headline on the page and the title you want
+   * in Google are different. Falls back to `title`.
+   */
+  seoTitle?: string;
 };

@@ -2,6 +2,90 @@ import type { Post } from "./post-types";
 
 export const weddingPosts: Post[] = [
   {
+    slug: "ashton-ben-irnham-hall",
+    title: "Ashton & Ben at Irnham Hall: two days, one film",
+    seoTitle:
+      "Ashton & Ben at Irnham Hall | A High-Energy Lincolnshire Wedding Film",
+    category: "Real Weddings, Lincolnshire",
+    date: "22 October 2026",
+    excerpt:
+      "A 13-minute wedding film blending two wedding days, vintage-style footage and 4K at Irnham Hall, South Lincolnshire. Ashton and Ben's story, and why the venue is one to see.",
+    seoDescription:
+      "A 13 minute wedding film blending two wedding days, vintage-style footage and 4K at Irnham Hall in South Lincolnshire. Ashton and Ben's story, and the venue.",
+    videoId: "iei8p632",
+    video: {
+      id: "iei8p632",
+      name: "Ashton and Ben, Irnham Hall, Lincolnshire",
+      description:
+        "A 13 minute cinematic wedding film by House of Tattersall for Ashton and Ben, filmed at Irnham Hall in South Lincolnshire, blending two wedding days with vintage-style footage and 4K.",
+    },
+    body: `
+## No two weddings are the same, so no two films should be
+
+I do my very best not to template wedding films. Every story is different and every day is unique, so every film needs to be different too.
+
+There are a couple of things I build around. The first is the vows, readings and speeches. These act as subtle chapters within a film and help control the pace throughout, and I pair them with music chosen to suit the atmosphere of the day and the tone of each speech.
+
+The second is the couple's personalities. A slow, gentle film would be perfect for one couple and completely wrong for another who are quirky and bursting with extrovert energy.
+
+## Ashton and Ben needed something with character
+
+Ashton and Ben both have amazing, bubbly personalities. They're brilliant at expressing how they feel, and very comfortable speaking in front of a crowd. As a couple, they needed more than a typical wedding film. They needed something high-energy and full of character.
+
+You may already know Ashton as @scrambledashton, a UK-based content creator, Twitch streamer, gamer and presenter.
+
+## The film started weeks before the wedding
+
+Ashton and Ben were legally married a few weeks before their celebration at Irnham Hall. So I set them some homework: get one of their guests to document that first day, because it would be integral to the film. Intertwining the two days gave us a far richer, more visually intriguing story than either day on its own.
+
+## On the day
+
+On the day itself, it was business as usual: multicam setups for the ceremony and speeches, early-morning drone work, a real focus on clean audio, and taking in the day as it unfolded. Their ceremony was held outdoors in the grounds, with the hall as the backdrop, which made it look and feel effortlessly British. Later on, we rushed the couple out for the most perfect golden hour I've ever had. The timing couldn't have been better.
+
+## Why a vintage-style camera (and not real Super 8)?
+
+Alongside my HD cameras, I brought a vintage-style digital camera that mimics Super 8. We wanted that nostalgic feel, and it looked so cool that it sparked curiosity among the guests too.
+
+So why not shoot actual Super 8? It comes down to cost and workflow. Film adds extra steps, extra time and significant cost. That's fine for some videographers, but I love being able to see the footage as soon as I get home and factor it straight into the creative plan for the film. You get the look, without the wait.
+
+(This retro footage is now available as an optional extra on all of my packages.)
+
+## The result: my longest film to date
+
+The finished film runs to 13 minutes, a work of art, if I do say so myself. It blends the two wedding days, mixes vintage-style footage with clean 4K, and the pace keeps shifting so it never sits still. It's my longest film yet, and also the one I've enjoyed making most.
+
+Watch Ashton and Ben's film in full:
+
+!video[Ashton and Ben, Irnham Hall, Lincolnshire](iei8p632)
+
+## Irnham Hall: a quintessentially British wedding venue
+
+Irnham Hall sits in the South Lincolnshire countryside, between Stamford and Grantham, and it was a first visit for me. It wasn't daunting in the slightest, because Sir James (Jamie) Benton Jones and his wife, Lady Leila Benton Jones, greeted me straight away and made me feel at home. I also chatted to some of the estate staff, and every one of them had lovely things to say about the place.
+
+### From the air
+
+I took to the sky with the drone right away, and from up there you can see the whole estate: the Grade II listed hall, the spot where the ceremony would take place, and the beautiful walled garden and summer house. On a sunny day, it's an absolute treat.
+
+### A venue that matched the couple
+
+The setting is quintessentially British countryside, and having got to know Ashton and Ben, it was easy to see why they chose it. The venue is full of character, just like them. The hall stood proud, and so did Ashton and Ben through their ceremony and speeches. Their personalised vows were some of the best I've heard, and you could see the genuine love between them.
+
+You can tell how much the Benton Jones family adore the estate. Jamie in particular was exceptionally helpful. He has a great creative eye for what will work well across the grounds, and he was on hand all day to support the vision. It felt like a real collaboration, and that makes a huge difference to what ends up on screen.
+
+## Thinking about Irnham Hall?
+
+If you're after an exclusive-use country estate with real character, gardens to explore and the option of an outdoor ceremony, Irnham Hall is well worth a visit. The family offer private tours, so you can see the hall, the walled garden and the summer house for yourself.
+
+[Visit Irnham Hall's website to book a viewing](https://www.irnhamhall.co.uk/)
+
+## Let's make your film
+
+If you're getting married at Irnham Hall, or anywhere else, and want a film that feels like you rather than a template, I'd love to hear about your plans. I take on a limited number of weddings each year.
+
+!cta[Get in touch to check my availability](/enquire/)
+`,
+  },
+  {
     slug: "lowerdamgate-ilam",
     title:
       "Laura & Daniel's Peak District Wedding Film | Lower Damgate",
