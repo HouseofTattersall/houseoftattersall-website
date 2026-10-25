@@ -36,7 +36,7 @@ export function Testimonials({
           {items.map((t) => (
             <figure key={t.names}>
               <blockquote className="leading-relaxed text-[var(--ink-muted)] italic">
-                &ldquo;{t.quote}&rdquo;
+                &ldquo;{t.short ?? t.quote}&rdquo;
               </blockquote>
               <figcaption className="mt-4 text-sm">
                 <span className="block font-medium text-[var(--khaki)]">

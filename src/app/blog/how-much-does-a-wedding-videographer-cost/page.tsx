@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: "Is House of Tattersall an affordable wedding videographer for Derbyshire and Staffordshire?",
-    a: "Not the cheapest, and I would not claim to be. The Core package is £2,100, which sits in the middle of the £1,500 to £3,500 range most full-day UK wedding videography falls into. For that you get 10 hours of coverage, a cinematic feature film, your ceremony and speeches in full, professionally recorded vows, and the first 50 miles of travel included, which covers all of Staffordshire and Derbyshire. If your budget is a few hundred pounds, I am not the right fit and I will say so rather than sell you three hours of coverage.",
+    a: "Not the cheapest, and I would not claim to be. The Core package is £2,100, which sits in the middle of the £1,500 to £3,500 range most full-day UK wedding videography falls into. For that you end up with four films: a cinematic feature film, a 60 second trailer, your ceremony in full and your speeches in full. Making them takes 10 hours of coverage, professionally recorded vows, and the first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire. If your budget is a few hundred pounds, I am not the right fit and I will say so rather than sell you three hours of coverage.",
   },
   {
     q: "Do wedding videographers charge for travel?",

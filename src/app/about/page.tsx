@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import { PageBanner } from "@/components/page-banner";
+import { AwardsStrip } from "@/components/awards-strip";
 import { CtaButton, CtaBand } from "@/components/cta";
 import {
   BreadcrumbSchema,
@@ -41,8 +42,12 @@ const faqs = [
     a: "Derbyshire and the Peak District, Staffordshire, Nottinghamshire, Leicestershire, Rutland and Warwickshire, plus UK-wide. The first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire, with a small charge per mile beyond that. I'm available for destination weddings in Europe, and I've filmed commercial work in France, Amsterdam, Germany and Switzerland, though every wedding so far has been in the UK.",
   },
   {
+    q: "Are you one of the best wedding videographers in Derbyshire and Staffordshire?",
+    a: "That is for couples to decide, but the independent answer is yes. House of Tattersall was named East Midlands Winner and Videographer of the Year at The Wedding Industry Awards 2025, a National Finalist the same year, placed in the UK Top 20 two years running, and Highly Commended in 2026. Those awards are judged on reviews written by real couples rather than by a panel watching a showreel.",
+  },
+  {
     q: "How much do your wedding films cost?",
-    a: "The Core package is £2,100 and includes 10 hours of coverage, a 6 to 8 minute cinematic feature film, and your ceremony and speeches in full. The Complete Story package is £2,540 and adds a second videographer, a 60 second film trailer, a 4 to 6 minute highlight film and a 14 to 18 minute feature film.",
+    a: "The Core package is £2,100 and you end up with four films: a 6 to 8 minute cinematic feature film, a 60 second film trailer, your ceremony in full and your speeches in full. The Complete Story is £2,540 and you end up with five, adding a 4 to 6 minute highlight film and taking the feature film to 14 to 18 minutes, with a second videographer filming alongside me all day.",
   },
 ];
 
@@ -137,6 +142,12 @@ export default function AboutPage() {
 
       <div className="mt-16 border-t border-[var(--rule)] pt-10">
         <h2 className="font-serif text-2xl text-[var(--khaki)]">Recognition</h2>
+        <p className="mt-4 leading-relaxed text-[var(--ink-muted)]">
+          Named East Midlands Winner and Videographer of the Year at The Wedding
+          Industry Awards 2025, a National Finalist the same year, and placed in
+          the UK Top 20 two years running. Those awards are judged on reviews
+          written by real couples rather than by a panel watching a showreel.
+        </p>
         <ul className="mt-6 space-y-2 text-[var(--ink-muted)]">
           <li>2026: The Wedding Industry Awards, Finalist &amp; Highly Commended</li>
           <li>2026: I Do Wedding Awards, Finalist</li>
@@ -283,6 +294,8 @@ export default function AboutPage() {
         </div>
         <FaqSchema items={faqs} />
       </div>
+
+      <AwardsStrip heading="Award-winning wedding films" />
 
       <CtaBand />
     </>

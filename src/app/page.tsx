@@ -32,7 +32,7 @@ const films = [
 const faqs = [
   {
     q: "How much does a wedding videographer cost?",
-    a: "My Core package is £2,100. That covers a pre-wedding consultation, 10 hours of coverage, a 6 to 8 minute cinematic feature film, a 60 second film trailer, and your ceremony and speeches in full as standalone films, with drone footage where the venue allows. The Complete Story package is £2,540 and adds a second videographer alongside me all day, a 4 to 6 minute highlight film and a 14 to 18 minute feature film. The first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire. The full breakdown is on the Investment page.",
+    a: "My Core package is £2,100 and you end up with four films: a 6 to 8 minute cinematic feature film, a 60 second film trailer, your ceremony in full and your speeches in full. The Complete Story is £2,540 and you end up with five: a 60 second trailer, a 4 to 6 minute highlight film, a 14 to 18 minute feature film, your ceremony in full and your speeches in full. Making them takes a pre-wedding consultation, 10 hours of coverage on the day, drone footage where the venue allows, and a second videographer on The Complete Story. The first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire.",
   },
   {
     q: "What areas do you cover?",

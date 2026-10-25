@@ -465,7 +465,7 @@ If you are getting married in [Derbyshire](/derbyshire-wedding-film/), [Stafford
     faqs: [
       {
         q: "How much does wedding videography cost for 2027?",
-        a: "The Core package is £2,100 and includes 10 hours of coverage, a 6 to 8 minute cinematic feature film, a 60 second film trailer, and your ceremony and speeches in full. The Complete Story package is £2,540 and adds a second videographer, a 4 to 6 minute highlight film, and a 14 to 18 minute feature film. Both include drone footage and the first 50 miles of travel.",
+        a: "The Core package is £2,100 and you end up with four films: a 6 to 8 minute cinematic feature film, a 60 second film trailer, your ceremony in full and your speeches in full. The Complete Story is £2,540 and you end up with five, adding a 4 to 6 minute highlight film and a longer 14 to 18 minute feature film, filmed by two videographers. Both include 10 hours of coverage, drone footage and the first 50 miles of travel.",
       },
       {
         q: "Why did the Complete Story package get cheaper?",

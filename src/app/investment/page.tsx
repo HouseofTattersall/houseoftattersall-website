@@ -10,6 +10,7 @@ import {
 } from "@/components/schema";
 import { Journey } from "@/components/journey";
 import { PackagePicker } from "@/components/package-picker";
+import { ReactionVideo } from "@/components/reaction-video";
 import { GuidePrompt } from "@/components/guide-prompt";
 import { Faq } from "@/components/faq";
 
@@ -33,7 +34,7 @@ type Package = {
 const packages: Package[] = [
   {
     name: "Core",
-    strap: "For couples who want the full day, beautifully told",
+    strap: "Four films from your wedding day",
     price: "£2,100",
     films: [
       { name: "Cinematic feature film", length: "6 to 8 min" },
@@ -50,7 +51,7 @@ const packages: Package[] = [
   },
   {
     name: "The Complete Story",
-    strap: "Two filmmakers, five films, nothing missed",
+    strap: "Five films, and two filmmakers to catch them",
     price: "£2,540",
     featured: true,
     films: [
@@ -181,11 +182,19 @@ export default function InvestmentPage() {
                 </p>
 
                 <p
-                  className={`mt-8 text-xs tracking-[0.3em] uppercase ${
+                  className={`mt-8 font-serif text-xl ${
+                    dark ? "text-[var(--paper)]" : "text-[var(--khaki)]"
+                  }`}
+                >
+                  {pkg.films.length === 4 ? "Four" : "Five"} films, yours to
+                  keep
+                </p>
+                <p
+                  className={`mt-1 text-xs tracking-[0.3em] uppercase ${
                     dark ? "text-[var(--gold-wash)]" : "text-[var(--gold)]"
                   }`}
                 >
-                  The films
+                  What you end up with
                 </p>
                 <ul
                   className={`mt-3 divide-y border-t ${
@@ -226,7 +235,7 @@ export default function InvestmentPage() {
                     dark ? "text-[var(--gold-wash)]" : "text-[var(--gold)]"
                   }`}
                 >
-                  Also included
+                  How they get made
                 </p>
                 <ul className="mt-3 space-y-2">
                   {pkg.included.map((item) => (
@@ -340,6 +349,12 @@ export default function InvestmentPage() {
           variant="inline"
           heading="Not ready to decide yet?"
           body="The Honest Guide is free and has no pitch in it. When to start filming, how long portraits really take, the DJ light that spoils a first dance, and the bits where I talk you out of spending money."
+        />
+
+        <ReactionVideo
+          className="mt-16 border-t border-[var(--rule)] pt-14"
+          heading="This is what you are actually buying"
+          body="Packages and prices are the easy part to put on a page. This is the bit that is hard to describe and the reason any of it is worth doing."
         />
 
         <Journey />

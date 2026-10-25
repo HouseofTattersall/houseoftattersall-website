@@ -4,6 +4,7 @@ import { pageMeta } from "@/lib/seo";
 import { PageBanner } from "@/components/page-banner";
 import { CtaButton, CtaBand } from "@/components/cta";
 import { AwardsStrip } from "@/components/awards-strip";
+import { ReactionVideo } from "@/components/reaction-video";
 import { BreadcrumbSchema, ReviewSchema, FaqSchema } from "@/components/schema";
 import { testimonials } from "@/lib/testimonials";
 
@@ -49,6 +50,14 @@ export default function ReviewsPage() {
           Nottinghamshire and beyond, and wrote this after their film arrived.
           Nothing here is edited for length or tidied up.
         </p>
+
+        <ReactionVideo className="mt-12 border-t border-[var(--rule)] pt-12" />
+
+        <div className="mt-16 border-t border-[var(--rule)] pt-12">
+          <h2 className="font-serif text-3xl text-[var(--khaki)]">
+            And once they had found the words
+          </h2>
+        </div>
 
         <div className="mt-14 space-y-12">
           {testimonials.map((t) => (

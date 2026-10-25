@@ -54,7 +54,15 @@ So why not shoot actual Super 8? It comes down to cost and workflow. Film adds e
 
 The finished film runs to 13 minutes, a work of art, if I do say so myself. It blends the two wedding days, mixes vintage-style footage with clean 4K, and the pace keeps shifting so it never sits still. It's my longest film yet, and also the one I've enjoyed making most.
 
-Watch Ashton and Ben's film in full:
+## Something I have never done before
+
+An outtakes and bloopers reel, right at the end of the film.
+
+It just felt right. It was such a fun day that it had to end this way. Maybe not something for a serious film, but for fun loving couples this was perfect.
+
+## Watch Ashton and Ben's film in full
+
+Stay to the end.
 
 !video[Ashton and Ben, Irnham Hall, Lincolnshire](iei8p632)
 
@@ -94,6 +102,7 @@ If you're getting married at Irnham Hall, or anywhere else, and want a film that
     videoId: "2ee05a0c",
     excerpt:
       "A National Trust church under Thorpe Cloud, a working Peak District farm, and an honest note on the dance floor lighting.",
+    reviewNames: ["Laura and Daniel"],
     body: `
 ## Filming a Peak District Wedding: Laura & Daniel at Ilam and Lower Damgate Farm
 
