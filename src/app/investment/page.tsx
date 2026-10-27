@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { Testimonials } from "@/components/testimonials";
 import { PageBanner } from "@/components/page-banner";
@@ -11,6 +12,7 @@ import {
 import { Journey } from "@/components/journey";
 import { PackagePicker } from "@/components/package-picker";
 import { ReactionVideo } from "@/components/reaction-video";
+import { VintageFootage } from "@/components/vintage-footage";
 import { GuidePrompt } from "@/components/guide-prompt";
 import { Faq } from "@/components/faq";
 
@@ -28,6 +30,8 @@ type Package = {
   price: string;
   films: { name: string; length: string }[];
   included: string[];
+  /** A free add-on, shown under the list with a link to the section below */
+  addOn?: { label: string; note: string; href: string };
   featured?: boolean;
 };
 
@@ -42,6 +46,11 @@ const packages: Package[] = [
       { name: "Your ceremony", length: "In full" },
       { name: "Your speeches", length: "In full" },
     ],
+    addOn: {
+      label: "Vintage camera footage",
+      note: "Free, on request",
+      href: "#vintage",
+    },
     included: [
       "Pre-wedding consultation",
       "10 hours of full-day coverage",
@@ -61,6 +70,11 @@ const packages: Package[] = [
       { name: "Your ceremony", length: "In full" },
       { name: "Your speeches", length: "In full" },
     ],
+    addOn: {
+      label: "Vintage camera footage",
+      note: "Free, on request",
+      href: "#vintage",
+    },
     included: [
       "Pre-wedding consultation",
       "10 hours of full-day coverage",
@@ -252,6 +266,34 @@ export default function InvestmentPage() {
                     </li>
                   ))}
                 </ul>
+
+                {pkg.addOn ? (
+                  <p
+                    className={`mt-5 border-t pt-5 text-sm leading-relaxed ${
+                      dark
+                        ? "border-[var(--paper)]/20 text-[var(--paper)]/90"
+                        : "border-[var(--rule)] text-[var(--ink-muted)]"
+                    }`}
+                  >
+                    <Link
+                      href={pkg.addOn.href}
+                      className={`underline underline-offset-4 ${
+                        dark ? "text-[var(--gold-wash)]" : "text-[var(--khaki)]"
+                      }`}
+                    >
+                      {pkg.addOn.label}
+                    </Link>{" "}
+                    <span
+                      className={
+                        dark
+                          ? "text-[var(--gold-wash)]"
+                          : "text-[var(--ink-faint)]"
+                      }
+                    >
+                      {pkg.addOn.note}
+                    </span>
+                  </p>
+                ) : null}
               </div>
             );
           })}
@@ -350,6 +392,8 @@ export default function InvestmentPage() {
           heading="Not ready to decide yet?"
           body="The Honest Guide is free and has no pitch in it. When to start filming, how long portraits really take, the DJ light that spoils a first dance, and the bits where I talk you out of spending money."
         />
+
+        <VintageFootage className="mt-16 border-t border-[var(--rule)] pt-14" />
 
         <ReactionVideo
           className="mt-16 border-t border-[var(--rule)] pt-14"

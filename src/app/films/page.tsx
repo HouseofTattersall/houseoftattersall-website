@@ -19,6 +19,20 @@ export const metadata: Metadata = pageMeta({
 
 const films = [
   {
+    couple: "Ashton & Ben",
+    venue: "Irnham Hall, Lincolnshire | 2026",
+    videoId: "iei8p632",
+    venuePage: {
+      href: "/blog/ashton-ben-irnham-hall/",
+      label: "Irnham Hall",
+    },
+  },
+  {
+    couple: "Rob & Jack",
+    venue: "The Wilderness, Canterbury | 2026",
+    videoId: "prev8ow4",
+  },
+  {
     couple: "Emily & James",
     venue: "The Pumping House, Ollerton | 2025",
     videoId: "bcd7089f",
@@ -33,11 +47,6 @@ const films = [
     couple: "Hattie & Jack",
     venue: "Normanton Church | 2026",
     videoId: "xdn589wd",
-  },
-  {
-    couple: "Rob & Jack",
-    venue: "The Wilderness, Canterbury | 2026",
-    videoId: "prev8ow4",
   },
   {
     couple: "Mira & Mitul",

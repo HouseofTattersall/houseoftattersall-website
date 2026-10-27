@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Split } from "@/components/split";
 import { Testimonials } from "@/components/testimonials";
 import { FaqSchema } from "@/components/schema";
@@ -11,6 +12,11 @@ import { GuidePrompt } from "@/components/guide-prompt";
 
 const films = [
   {
+    couple: "Ashton & Ben",
+    venue: "Irnham Hall, Lincolnshire | 2026",
+    videoId: "iei8p632",
+  },
+  {
     couple: "Faye & Daniel",
     venue: "Bourton Hall, Warwickshire | 2026",
     videoId: "rmvfmefr",
@@ -19,11 +25,6 @@ const films = [
     couple: "Rob & Jack",
     venue: "The Wilderness, Canterbury | 2026",
     videoId: "prev8ow4",
-  },
-  {
-    couple: "Elisy & Sam",
-    venue: "West Mill, Derbyshire | 2025",
-    videoId: "356a0a1b",
   },
 ];
 
@@ -125,6 +126,37 @@ export default function Home() {
       <AwardsStrip />
 
       <FeaturedQuote />
+
+      <section className="px-6 pt-6 pb-10">
+        <div className="mx-auto max-w-4xl">
+          <p className="text-xs tracking-[0.3em] text-[var(--gold)] uppercase">
+            The one I would show you first
+          </p>
+          <h2 className="mt-4 font-serif text-3xl text-[var(--khaki)]">
+            Ashton and Ben at Irnham Hall
+          </h2>
+          <p className="mt-4 max-w-2xl leading-relaxed text-[var(--ink-muted)]">
+            Thirteen minutes, two wedding days woven together, and vintage
+            camera footage running through the whole thing. It is the longest
+            film I have made, the one I enjoyed making most, and it ends with
+            an outtakes reel because the day deserved it.
+          </p>
+          <div className="mt-8">
+            <VideoEmbed
+              id="iei8p632"
+              title="Ashton and Ben, Irnham Hall, Lincolnshire"
+            />
+          </div>
+          <p className="mt-4 text-sm">
+            <Link
+              href="/blog/ashton-ben-irnham-hall/"
+              className="text-[var(--khaki)] underline underline-offset-4"
+            >
+              Read how this one came together
+            </Link>
+          </p>
+        </div>
+      </section>
 
       <Split
         image="/images/home-1.jpg"
