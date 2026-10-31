@@ -89,8 +89,8 @@ export default function NottinghamshirePage() {
     <>
       <BreadcrumbSchema trail={[{ name: "Nottinghamshire Wedding Films", path: "/nottinghamshire-wedding/" }]} />
       <PageBanner
-        title="Nottinghamshire Wedding Films"
-        eyebrow="Nottinghamshire Wedding Videographer"
+        title="Nottinghamshire Wedding Videographer"
+        eyebrow="Cinematic wedding films across the county"
         image="/images/banner-blog.jpg"
       />
 
@@ -105,6 +105,21 @@ export default function NottinghamshirePage() {
 
         <p className="text-lg leading-relaxed text-[var(--ink-muted)]">
         House of Tattersall is a wedding videographer covering Nottinghamshire, based on the Staffordshire and Derbyshire border and filming cinematic wedding films at venues across the county, from Hazel Gap Barn on the edge of Sherwood Forest to The Pumping House in Ollerton.
+      </p>
+
+      <p className="mt-6 leading-relaxed text-[var(--ink-muted)]">
+        If you are looking for award winning wedding videography in Nottinghamshire,
+        that is what this is. House of Tattersall was named East Midlands Winner
+        and Videographer of the Year at The Wedding Industry Awards 2025, judged
+        on reviews written by real couples, and has filmed at venues including 
+        Hazel Gap Barn and The Pumping House. 
+        <Link
+          href="/awards/"
+          className="text-[var(--khaki)] underline underline-offset-4"
+        >
+          See the full award record
+        </Link>
+        .
       </p>
 
       <p className="mt-6 leading-relaxed text-[var(--ink-muted)]">

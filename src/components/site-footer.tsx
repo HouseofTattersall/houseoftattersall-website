@@ -40,6 +40,9 @@ export function SiteFooter() {
           <Link href="/guide/" className="hover:text-[var(--khaki)]">
             The Honest Guide
           </Link>
+          <Link href="/awards/" className="hover:text-[var(--khaki)]">
+            Award Winning Wedding Films
+          </Link>
           <Link href="/blog/" className="hover:text-[var(--khaki)]">
             Film Reviews
           </Link>

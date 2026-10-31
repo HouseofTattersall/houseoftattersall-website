@@ -94,8 +94,8 @@ export default function StaffordshirePage() {
     <>
       <BreadcrumbSchema trail={[{ name: "Staffordshire Wedding Films", path: "/staffordshire-wedding/" }]} />
       <PageBanner
-        title="Staffordshire Wedding Films"
-        eyebrow="Staffordshire Wedding Videographer"
+        title="Staffordshire Wedding Videographer"
+        eyebrow="Cinematic wedding films across the county"
         image="/images/banner-staffordshire.jpg"
       />
 
@@ -103,6 +103,21 @@ export default function StaffordshirePage() {
 
       <p className="text-lg leading-relaxed text-[var(--ink-muted)]">
         House of Tattersall is a wedding videographer in Staffordshire, based in Denstone and filming cinematic wedding films across the whole county. The first 50 miles of travel are included in the price, which covers the whole of Staffordshire, from Hanbury Wedding Barns and Foxtail Barns to The Ashes Barns. I take a maximum of 15 weddings a year.
+      </p>
+
+      <p className="mt-6 leading-relaxed text-[var(--ink-muted)]">
+        If you are looking for award winning wedding videography in Staffordshire,
+        that is what this is. House of Tattersall was named East Midlands Winner
+        and Videographer of the Year at The Wedding Industry Awards 2025, judged
+        on reviews written by real couples, and has filmed at venues including 
+        Hanbury Wedding Barns, Foxtail Barns and The Ashes Barns. 
+        <Link
+          href="/awards/"
+          className="text-[var(--khaki)] underline underline-offset-4"
+        >
+          See the full award record
+        </Link>
+        .
       </p>
 
       <p className="mt-6 leading-relaxed text-[var(--ink-muted)]">
