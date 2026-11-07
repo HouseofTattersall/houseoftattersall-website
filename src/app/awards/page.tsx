@@ -141,6 +141,41 @@ export default function AwardsPage() {
 
         <div className="mt-16 border-t border-[var(--rule)] pt-12">
           <h2 className="font-serif text-2xl text-[var(--khaki)]">
+            Entered, and waiting
+          </h2>
+          <p className="mt-4 leading-relaxed text-[var(--ink-muted)]">
+            Two films have been entered into the British Wedding Film Festival
+            2026, across three categories:
+          </p>
+          <ul className="mt-4 space-y-2 text-[var(--ink-muted)]">
+            <li>Innovation in Wedding Filmmaking</li>
+            <li>Best Beyond the Wedding Film</li>
+            <li>Best Vintage Style Wedding Film, for best use of analog</li>
+          </ul>
+          <p className="mt-6 leading-relaxed text-[var(--ink-muted)]">
+            Nothing has been won. This festival judges the filmmaking itself
+            rather than the service around it, which is the opposite of how The
+            Wedding Industry Awards work, and that is exactly why I entered.
+            These are the two pieces of work I am proudest of from this season,
+            and putting them in front of a panel of other filmmakers is the
+            honest test of that.
+          </p>
+          <p className="mt-4 leading-relaxed text-[var(--ink-muted)]">
+            Whatever comes back, the films are already on this site. You can
+            judge them yourself without waiting for a panel to tell you.
+          </p>
+          <p className="mt-6 text-sm">
+            <Link
+              href="/films/"
+              className="text-[var(--khaki)] underline underline-offset-4"
+            >
+              Watch the films
+            </Link>
+          </p>
+        </div>
+
+        <div className="mt-16 border-t border-[var(--rule)] pt-12">
+          <h2 className="font-serif text-2xl text-[var(--khaki)]">
             What it does not mean
           </h2>
           <p className="mt-4 leading-relaxed text-[var(--ink-muted)]">

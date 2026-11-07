@@ -9,10 +9,15 @@ export function SiteFooter() {
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 text-sm md:flex-row md:items-start md:justify-between">
         <div>
-          <p className="font-serif text-base tracking-[0.12em] text-[var(--khaki)] uppercase">
-            House of Tattersall
-          </p>
-          <p className="mt-2">Denstone, Staffordshire, UK</p>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/logo.png"
+            alt="House of Tattersall, wedding films"
+            width={1200}
+            height={376}
+            className="h-14 w-auto"
+          />
+          <p className="mt-4">Denstone, Staffordshire, UK</p>
           <p className="mt-1 text-[var(--gold)]">
             <AvailabilityLine />
           </p>

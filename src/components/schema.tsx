@@ -107,6 +107,7 @@ export function LocalBusinessSchema() {
         url: "https://www.houseoftattersall.com/",
         email: "info@houseoftattersall.com",
         image: "https://www.houseoftattersall.com/images/banner-films.jpg",
+        logo: "https://www.houseoftattersall.com/images/logo.png",
         founder: { "@type": "Person", name: "Andy Tattersall" },
         foundingDate: "2022",
         priceRange: "££££",

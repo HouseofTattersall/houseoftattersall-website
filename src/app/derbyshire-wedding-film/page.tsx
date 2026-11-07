@@ -111,7 +111,7 @@ export default function DerbyshirePage() {
       <div className="mx-auto max-w-3xl px-6 py-24">
 
       <p className="text-lg leading-relaxed text-[var(--ink-muted)]">
-        House of Tattersall is a wedding videographer in Derbyshire, based on the Staffordshire and Derbyshire border and filming cinematic wedding films right across the county and the Peak District. The first 50 miles of travel are included in the price, which covers the whole of Derbyshire, whether you are marrying at The West Mill in Derby, Yeldersley Hall, Grangefields or Lower Damgate Farm. I take a maximum of 15 weddings a year.
+        House of Tattersall provides cinematic wedding videography in Derbyshire from £2,100, including 10 hours of full-day coverage, drone footage and your ceremony and speeches in full. House of Tattersall is a wedding videographer in Derbyshire, based on the Staffordshire and Derbyshire border and filming cinematic wedding films right across the county and the Peak District. The first 50 miles of travel are included in the price, which covers the whole of Derbyshire, whether you are marrying at The West Mill in Derby, Yeldersley Hall, Grangefields or Lower Damgate Farm. I take a maximum of 15 weddings a year.
       </p>
 
       <p className="mt-6 leading-relaxed text-[var(--ink-muted)]">

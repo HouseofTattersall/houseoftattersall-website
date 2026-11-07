@@ -77,12 +77,15 @@ export function SiteNav() {
       className="sticky top-0 z-50 w-full border-b border-[var(--rule)] bg-[var(--paper)]/95 backdrop-blur"
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 sm:py-5">
-        <Link
-          href="/"
-          onClick={closeAll}
-          className="font-serif text-sm tracking-[0.08em] text-[var(--khaki)] uppercase sm:text-base sm:tracking-[0.12em] lg:text-lg"
-        >
-          House of Tattersall
+        <Link href="/" onClick={closeAll} aria-label="House of Tattersall, home">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/logo.png"
+            alt="House of Tattersall, wedding films"
+            width={1200}
+            height={376}
+            className="h-10 w-auto sm:h-12 lg:h-14"
+          />
         </Link>
 
         {/* Desktop navigation */}

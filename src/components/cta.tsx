@@ -37,6 +37,15 @@ export function CtaBand({
   return (
     <section className="bg-[var(--khaki)] px-6 py-20 text-center">
       <div className="mx-auto max-w-2xl">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/knot-white.png"
+          alt=""
+          aria-hidden="true"
+          width={600}
+          height={320}
+          className="mx-auto mb-7 h-6 w-auto opacity-55"
+        />
         <h2 className="font-serif text-3xl text-[var(--paper)]">{heading}</h2>
         <p className="mt-4 text-[var(--paper)]/85">{body}</p>
         {note !== null ? (

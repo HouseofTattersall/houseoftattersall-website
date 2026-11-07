@@ -9,6 +9,7 @@ import {
   FaqSchema,
 } from "@/components/schema";
 import { Faq } from "@/components/faq";
+import { KnotRule } from "@/components/knot";
 
 export const metadata: Metadata = pageMeta({
   title:
@@ -283,6 +284,27 @@ export default function AboutPage() {
           </li>
         </ul>
       </div>
+      </div>
+
+      <div className="mx-auto max-w-3xl px-6 pb-16">
+        <KnotRule />
+        <h2 className="mt-12 font-serif text-2xl text-[var(--khaki)]">
+          About the knot
+        </h2>
+        <p className="mt-4 leading-relaxed text-[var(--ink-muted)]">
+          The mark above the name is a knot, and it is doing two jobs at once.
+        </p>
+        <p className="mt-4 leading-relaxed text-[var(--ink-muted)]">
+          The first is Staffordshire. It is a nod to the Staffordshire knot,
+          the county&apos;s own symbol, which is on buildings and badges all
+          over this part of the world. I was born here and I still live here,
+          so it felt like the right thing to put at the top of the page.
+        </p>
+        <p className="mt-4 leading-relaxed text-[var(--ink-muted)]">
+          The second is the obvious one, and I make no apology for it. Tying
+          the knot. One continuous line, two loops, no beginning and no end
+          that you can easily point at. That is the thing I am there to film.
+        </p>
       </div>
 
       <div className="mx-auto max-w-3xl px-6 pb-20">

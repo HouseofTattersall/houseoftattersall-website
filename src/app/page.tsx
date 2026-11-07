@@ -9,6 +9,8 @@ import { StyleExplainer } from "@/components/style-explainer";
 import { FeaturedQuote } from "@/components/featured-quote";
 import { AwardsStrip } from "@/components/awards-strip";
 import { GuidePrompt } from "@/components/guide-prompt";
+import { WhereIFilm } from "@/components/where-i-film";
+import { KnotRule } from "@/components/knot";
 
 const films = [
   {
@@ -114,6 +116,11 @@ export default function Home() {
           House of Tattersall is a wedding videographer based in Denstone,
           Staffordshire, filming cinematic wedding films across Staffordshire,
           Derbyshire and Nottinghamshire. Films start from £2,100.
+        </p>
+        <p className="mx-auto mt-3 max-w-2xl leading-relaxed text-[var(--ink-muted)]">
+          Wedding videography in Staffordshire and Derbyshire includes 10 hours
+          of full-day coverage, drone footage and your ceremony and speeches in
+          full, with the first 50 miles of travel included.
         </p>
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <CtaButton>Enquire</CtaButton>
@@ -243,11 +250,14 @@ export default function Home() {
         <StyleExplainer />
       </div>
 
+      <WhereIFilm />
+
       <GuidePrompt />
 
       <Testimonials />
 
       <section className="mx-auto max-w-3xl px-6 py-24">
+        <KnotRule className="mb-14" />
         <h2 className="text-center font-serif text-3xl text-[var(--khaki)]">
           Frequently asked questions
         </h2>

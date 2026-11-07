@@ -102,7 +102,7 @@ export default function StaffordshirePage() {
       <div className="mx-auto max-w-3xl px-6 py-24">
 
       <p className="text-lg leading-relaxed text-[var(--ink-muted)]">
-        House of Tattersall is a wedding videographer in Staffordshire, based in Denstone and filming cinematic wedding films across the whole county. The first 50 miles of travel are included in the price, which covers the whole of Staffordshire, from Hanbury Wedding Barns and Foxtail Barns to The Ashes Barns. I take a maximum of 15 weddings a year.
+        House of Tattersall provides cinematic wedding videography in Staffordshire from £2,100, including 10 hours of full-day coverage, drone footage and your ceremony and speeches in full. House of Tattersall is a wedding videographer in Staffordshire, based in Denstone and filming cinematic wedding films across the whole county. The first 50 miles of travel are included in the price, which covers the whole of Staffordshire, from Hanbury Wedding Barns and Foxtail Barns to The Ashes Barns. I take a maximum of 15 weddings a year.
       </p>
 
       <p className="mt-6 leading-relaxed text-[var(--ink-muted)]">

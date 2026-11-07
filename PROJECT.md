@@ -50,6 +50,12 @@ Getting these wrong across pages was a real problem once already. Check against 
   - 2024 The Wedding Industry Awards, Finalist
   - Guest on That Wedding Videographer Podcast, 2026
   - Previously Top 100 Music Photographers in the World, How To Become A Rockstar Photographer
+  - **British Wedding Film Festival 2026: two films ENTERED across three
+    categories** (entered 24 October 2026): Innovation in Wedding Filmmaking,
+    Best Beyond the Wedding Film, and Best Vintage Style Wedding Film (best use
+    of analog). Results not known. Word it as an entry only, never as a win, a
+    placing or a shortlist. **Do not name the films**, Andy's instruction.
+    Lives on `/awards/` under "Entered, and waiting".
 - **Former trading name:** Andy Tatt Media. Where it appears, write "House of Tattersall (at the time 'Andy Tatt Media')".
 - **Camera setup:** two or three angles on ceremony and speeches.
 - **Backups:** Andy backs footage up himself and sends it to his editor the following day, so it sits in three places within 24 hours.
