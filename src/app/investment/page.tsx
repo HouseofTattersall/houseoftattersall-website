@@ -359,6 +359,44 @@ export default function InvestmentPage() {
           beyond that. Get in touch for exact availability for your date.
         </p>
 
+        {/* Optional extras */}
+        <section className="pt-16">
+          <h2 className="font-serif text-3xl text-[var(--khaki)]">
+            Optional extras
+          </h2>
+          <p className="mt-3 max-w-xl text-[var(--ink-faint)]">
+            Booked the Core package but want to add something on? These are
+            available individually, or already included in the Complete Story
+            package above.
+          </p>
+
+          <ul className="mt-8 divide-y divide-[var(--rule)] border-t border-b border-[var(--rule)]">
+            {extras.map((extra) => (
+              <li
+                key={extra.name}
+                className="flex items-baseline justify-between gap-6 py-5"
+              >
+                <span>
+                  <span className="block text-[var(--ink-muted)]">
+                    {extra.name}
+                    {"tag" in extra && extra.tag ? (
+                      <span className="ml-3 align-middle text-[0.65rem] tracking-[0.2em] text-[var(--gold)] uppercase">
+                        {extra.tag}
+                      </span>
+                    ) : null}
+                  </span>
+                  <span className="mt-1 block text-sm text-[var(--ink-faint)]">
+                    {extra.desc}
+                  </span>
+                </span>
+                <span className="shrink-0 font-serif text-xl text-[var(--khaki)]">
+                  {extra.price}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
         <PackagePicker />
 
         {/* Why a second videographer */}
@@ -406,44 +444,6 @@ export default function InvestmentPage() {
               </div>
             </details>
           </div>
-        </section>
-
-        {/* Optional extras */}
-        <section className="pt-16">
-          <h2 className="font-serif text-3xl text-[var(--khaki)]">
-            Optional extras
-          </h2>
-          <p className="mt-3 max-w-xl text-[var(--ink-faint)]">
-            Booked the Core package but want to add something on? These are
-            available individually, or already included in the Complete Story
-            package above.
-          </p>
-
-          <ul className="mt-8 divide-y divide-[var(--rule)] border-t border-b border-[var(--rule)]">
-            {extras.map((extra) => (
-              <li
-                key={extra.name}
-                className="flex items-baseline justify-between gap-6 py-5"
-              >
-                <span>
-                  <span className="block text-[var(--ink-muted)]">
-                    {extra.name}
-                    {"tag" in extra && extra.tag ? (
-                      <span className="ml-3 align-middle text-[0.65rem] tracking-[0.2em] text-[var(--gold)] uppercase">
-                        {extra.tag}
-                      </span>
-                    ) : null}
-                  </span>
-                  <span className="mt-1 block text-sm text-[var(--ink-faint)]">
-                    {extra.desc}
-                  </span>
-                </span>
-                <span className="shrink-0 font-serif text-xl text-[var(--khaki)]">
-                  {extra.price}
-                </span>
-              </li>
-            ))}
-          </ul>
         </section>
 
         <GuidePrompt
