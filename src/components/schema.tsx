@@ -103,7 +103,7 @@ export function LocalBusinessSchema() {
         "@id": "https://www.houseoftattersall.com/#business",
         name: "House of Tattersall",
         description:
-          "House of Tattersall offers award-winning cinematic and documentary-style wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Run by Andy Tattersall from Denstone on the Staffordshire and Derbyshire border, filming a maximum of 15 weddings a year, every one personally. East Midlands Winner and Videographer of the Year at The Wedding Industry Awards 2025. Packages from £2,100, with the first 50 miles of travel included.",
+          "House of Tattersall offers award-winning cinematic and documentary-style wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Run by Andy Tattersall from Denstone on the Staffordshire and Derbyshire border, filming a maximum of 15 weddings a year, every one personally. East Midlands Winner and Videographer of the Year at The Wedding Industry Awards 2025. Packages from £2,000, with the first 50 miles of travel included.",
         url: "https://www.houseoftattersall.com/",
         email: "info@houseoftattersall.com",
         image: "https://www.houseoftattersall.com/images/banner-films.jpg",
@@ -138,12 +138,12 @@ export function LocalBusinessSchema() {
           "@type": "Offer",
           name: "Wedding film core package",
           description:
-            "Four films from your wedding day: a 6-8 minute cinematic feature film, a 60 second film trailer, your ceremony in full and your speeches in full. Made with a pre-wedding consultation, 10 hours of full-day coverage, drone footage, and a 6-9 week expected turnaround. Delivered through Vidflow with 10 years of access.",
+            "Three films from your wedding day: a 10+ minute cinematic feature film, your ceremony in full and your speeches in full. Made with a pre-wedding consultation, 10 hours of full-day coverage, drone footage, and a 6-9 week expected turnaround. Delivered through Vidflow with 10 years of access.",
           priceCurrency: "GBP",
           priceSpecification: {
             "@type": "PriceSpecification",
-            minPrice: 2100,
-            maxPrice: 2540,
+            minPrice: 2000,
+            maxPrice: 2800,
             priceCurrency: "GBP",
           },
         },
@@ -329,12 +329,12 @@ export function PackagesSchema() {
           "@type": "Offer",
           name: "Wedding film core package",
           description:
-            "Four films from your wedding day: a 6 to 8 minute cinematic feature film, a 60 second film trailer, your ceremony in full and your speeches in full. Made with a pre-wedding consultation, 10 hours of full-day coverage, drone footage where permitted, and an expected 6 to 9 week turnaround. Delivered through Vidflow with 10 years of access.",
+            "Three films from your wedding day: a 10+ minute cinematic feature film, your ceremony in full and your speeches in full. Made with a pre-wedding consultation, 10 hours of full-day coverage, drone footage where permitted, and an expected 6 to 9 week turnaround. Delivered through Vidflow with 10 years of access.",
           priceCurrency: "GBP",
           priceSpecification: {
             "@type": "PriceSpecification",
-            minPrice: 2100,
-            maxPrice: 2540,
+            minPrice: 2000,
+            maxPrice: 2800,
             priceCurrency: "GBP",
           },
         },
@@ -342,16 +342,19 @@ export function PackagesSchema() {
           "@type": "OfferCatalog",
           name: "Packages and optional extras",
           itemListElement: [
-            { name: "Core package: four films, a 6 to 8 minute feature film, a 60 second trailer, ceremony in full and speeches in full", price: 2100 },
+            { name: "Core package: three films, a 10+ minute cinematic feature film, ceremony in full and speeches in full", price: 2000 },
             {
-              name: "The Complete Story package: five films, a 60 second trailer, a 4 to 6 minute highlight film, a 14 to 18 minute feature film, ceremony in full and speeches in full, filmed by two videographers",
-              price: 2540,
+              name: "The Complete Story package: five films, a 60 second social media trailer, a 4 to 6 minute highlight film, a 14 to 18 minute feature film, ceremony in full and speeches in full, filmed by two videographers",
+              price: 2800,
             },
-            { name: "Home movie, every usable clip in one film", price: 400 },
             {
-              name: "Feature film extended to 14 to 18 minutes",
-              price: 250,
+              name: "The Complete Story package with one videographer: five films, a 60 second social media trailer, a 4 to 6 minute highlight film, a 14 to 18 minute feature film, ceremony in full and speeches in full",
+              price: 2550,
             },
+            { name: "Social media trailer, 60 seconds", price: 195 },
+            { name: "Highlight film, 4 to 6 minutes", price: 495 },
+            { name: "Second videographer for the day", price: 450 },
+            { name: "Home movie docufilm, every usable clip in one film", price: 400 },
           ].map((o) => ({
             "@type": "Offer",
             itemOffered: { "@type": "Service", name: o.name },
@@ -409,8 +412,8 @@ export function VenuePageSchema({
           priceCurrency: "GBP",
           priceSpecification: {
             "@type": "PriceSpecification",
-            minPrice: 2100,
-            maxPrice: 2540,
+            minPrice: 2000,
+            maxPrice: 2800,
             priceCurrency: "GBP",
           },
         },
@@ -443,8 +446,8 @@ export function ServiceAreaSchema({
           priceCurrency: "GBP",
           priceSpecification: {
             "@type": "PriceSpecification",
-            minPrice: 2100,
-            maxPrice: 2540,
+            minPrice: 2000,
+            maxPrice: 2800,
             priceCurrency: "GBP",
           },
         },

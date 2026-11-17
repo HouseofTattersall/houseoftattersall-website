@@ -9,14 +9,14 @@ export const metadata: Metadata = {
   title:
     "Wedding Videographer Derbyshire & Staffordshire | House of Tattersall",
   description:
-    "Award-winning cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Films from £2,100, a maximum of 15 weddings a year.",
+    "Award-winning cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Films from £2,000, a maximum of 15 weddings a year.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     title:
       "Wedding Videographer Derbyshire & Staffordshire | House of Tattersall",
     description:
-      "Award-winning cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Films from £2,100, a maximum of 15 weddings a year.",
+      "Award-winning cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Films from £2,000, a maximum of 15 weddings a year.",
     url: "/",
     images: ["/images/banner-films.jpg"],
     siteName: "House of Tattersall",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "House of Tattersall | Luxury Cinematic Wedding Videographer",
     description:
-      "Luxury cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Films from £2,100.",
+      "Luxury cinematic wedding videography across Derbyshire, Staffordshire and Nottinghamshire. Films from £2,000.",
     images: ["/images/banner-films.jpg"],
   },
 };

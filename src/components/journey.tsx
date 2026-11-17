@@ -71,7 +71,7 @@ export function Journey({ compact = false }: { compact?: boolean }) {
           ))}
         </ol>
         <p className="mt-5 text-sm text-[var(--ink-faint)]">
-          No obligation at any point before the booking fee.
+          No obligation at any point before the deposit.
         </p>
       </section>
     );

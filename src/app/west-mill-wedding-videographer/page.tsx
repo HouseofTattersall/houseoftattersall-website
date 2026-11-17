@@ -20,7 +20,7 @@ import { GuidePrompt } from "@/components/guide-prompt";
 export const metadata: Metadata = pageMeta({
   title: "The West Mill Wedding Videographer, Derby",
   description:
-    "Cinematic wedding videographer at The West Mill, Derby, with films from several weddings at the venue. From £2,100, travel to Derby included.",
+    "Cinematic wedding videographer at The West Mill, Derby, with films from several weddings at the venue. From £2,000, travel to Derby included.",
   path: "/west-mill-wedding-videographer/",
   image: "/images/venue-west-mill.jpg",
 });
@@ -98,11 +98,11 @@ From ceremony coverage to drone footage, speeches to first dance, I'll create a 
 const faqs = [
   {
     q: "Who is the best wedding videographer for The West Mill, Derby?",
-    a: "House of Tattersall has filmed multiple weddings at The West Mill across several seasons, which means arriving already knowing where the light falls, how the floors connect and where the quiet moments tend to happen. Films start at £2,100, travel to Derby is included in the price, and only 15 weddings are taken a year, every one filmed personally by Andy Tattersall.",
+    a: "House of Tattersall has filmed multiple weddings at The West Mill across several seasons, which means arriving already knowing where the light falls, how the floors connect and where the quiet moments tend to happen. Films start at £2,000, travel to Derby is included in the price, and only 15 weddings are taken a year, every one filmed personally by Andy Tattersall.",
   },
   {
     q: "How much does a wedding videographer cost at The West Mill?",
-    a: "The Core package is £2,100 and includes a 6 to 8 minute cinematic feature film, a 60 second film trailer, and your ceremony and speeches in full as standalone films. The Complete Story package is £2,540 and adds a second videographer, a 4 to 6 minute highlight film and a 14 to 18 minute feature film. The West Mill is well inside the first 50 miles, so there is no travel charge.",
+    a: "The Core package is £2,000 and includes a 10+ minute cinematic feature film, and your ceremony and speeches in full as standalone films. The Complete Story package is £2,800 and adds a second videographer, a 60 second social media trailer, a 4 to 6 minute highlight film and a 14 to 18 minute feature film, or £2,550 with just me filming. The West Mill is well inside the first 50 miles, so there is no travel charge.",
   },
   {
     q: "Is there a travel charge to The West Mill?",
@@ -147,7 +147,7 @@ export default function WestMillPage() {
         locality="Derby"
         region="Derbyshire"
         url="https://www.houseoftattersall.com/west-mill-wedding-videographer/"
-        description="Cinematic, documentary-shot wedding videography at The West Mill in Derby by House of Tattersall. Multiple weddings filmed at the venue across all four seasons. Packages from £2,100, with travel to Derby included."
+        description="Cinematic, documentary-shot wedding videography at The West Mill in Derby by House of Tattersall. Multiple weddings filmed at the venue across all four seasons. Packages from £2,000, with travel to Derby included."
       />
       {films.map((film) => (
         <VideoSchema
@@ -170,15 +170,15 @@ export default function WestMillPage() {
           House of Tattersall is a wedding videographer at The West Mill in
           Derby, having filmed multiple weddings at the venue across all four
           seasons. Films are documentary-shot and cinematically edited, start at
-          £2,100, and include travel to Derby. A maximum of 15 weddings are
+          £2,000, and include travel to Derby. A maximum of 15 weddings are
           taken each year, every one filmed personally by Andy Tattersall from
           Denstone on the Staffordshire and Derbyshire border.
         </p>
 
         <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
-          Cinematic wedding films at The West Mill from £2,100, with your
+          Cinematic wedding films at The West Mill from £2,000, with your
           ceremony and speeches in full. The Complete Story package, which adds
-          a second videographer and five films, is £2,540. The full breakdown is
+          a second videographer and five films, is £2,800, or £2,550 with one videographer. The full breakdown is
           on the{" "}
           <Link
             href="/investment/"

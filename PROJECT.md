@@ -18,17 +18,26 @@ The website for **House of Tattersall**, a cinematic wedding videographer run by
 
 Getting these wrong across pages was a real problem once already. Check against this list.
 
-- **Pricing** (set 2 October 2026):
-  - **Core, £2,100.** Consultation, 10 hours coverage, **6-8 minute** feature
-    film, **60 second film trailer**, ceremony in full, speeches in full, drone,
-    6-9 week expected turnaround.
-  - **The Complete Story, £2,540.** Consultation, 10 hours coverage, a second
-    videographer, **60 second film trailer**, **4-6 minute highlight film**,
-    **14-18 minute feature film**, ceremony in full, speeches in full, drone,
-    6-9 week expected turnaround. Do **not** describe it as "everything in
-    Core": the two packages are listed separately now.
-  - Extras: extended feature film (6-8 up to 14-18 minutes) **£250**, home movie
-    **£400**.
+- **Pricing** (set 17 November 2026, replacing the 2 October 2026 prices):
+  - **Core, £2,000.** You end up with **THREE films**: a **10+ minute**
+    cinematic feature film, ceremony in full, speeches in full. Made with a
+    consultation, 10 hours coverage, drone, 6-9 week expected turnaround.
+    Core **no longer includes a trailer**; it is a £195 extra.
+  - **The Complete Story, £2,800** with a second videographer, or **£2,550**
+    for the same five films with Andy filming alone. You end up with **FIVE
+    films**: **60 second social media trailer**, **4-6 minute highlight film**,
+    **14-18 minute feature film**, ceremony in full, speeches in full. Do
+    **not** describe it as "everything in Core": the packages are listed
+    separately. Published saving line: "Save £340 compared with adding these to
+    Core as extras" (2000 + 495 + 195 + 450 = 3140).
+  - **Extras:** social media trailer (60 sec) **£195**, highlight film (4-6
+    min) **£495**, second videographer **£450**, home movie (docufilm)
+    **£400**. The trailer and highlight film can be added up to **one week**
+    after the wedding, the home movie up to **12 months** after, the second
+    videographer **must be booked before** the wedding.
+  - The **£250 extended feature film extra is retired** (17 November 2026). Do
+    not reintroduce it.
+  - **"Film trailer" is now "social media trailer"** everywhere.
   - **Vintage Camera Add-on** (added 18 October 2026): vintage camera style
     footage, **free on the day**. Couples may also borrow a camera in the months
     before the wedding for a **small charge**. Do **not** publish a figure for
@@ -66,8 +75,10 @@ Getting these wrong across pages was a real problem once already. Check against 
   shoots every wedding personally.
 - **Delivery:** Vidflow. Plays on any smart device, downloadable, stores films for 10 years.
 - **Enquiry form:** Wedola (also his CRM).
-- **Booking fee:** **£200** secures the date. The **remaining balance is due
-  six weeks before the wedding** (confirmed 19 October 2026).
+- **Deposit:** **£200** secures the date and **comes out of the package price
+  rather than being added to it** (17 November 2026). Call it a deposit, not a
+  booking fee. The **remaining balance is due six weeks before the wedding**
+  (confirmed 19 October 2026).
 - **Booking process (Andy's wording, 19 October 2026, seven steps):** enquiry;
   video call; then the client portal, contract, invoice, schedule and
   questionnaire together with the £200 booking fee and the balance due six weeks

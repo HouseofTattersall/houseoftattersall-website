@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title:
     "Nottinghamshire Wedding Videographer | Cinematic Films",
   description:
-    "Cinematic wedding videography across Nottinghamshire, including Hazel Gap Barn and The Pumping House. From £2,100, or £2,540 with a second filmmaker.",
+    "Cinematic wedding videography across Nottinghamshire, including Hazel Gap Barn and The Pumping House. From £2,000, or £2,800 with a second filmmaker.",
 };
 
 type Venue = {
@@ -52,7 +52,7 @@ const venues: Venue[] = [
 const faqs = [
   {
     q: "How much does a wedding videographer in Nottinghamshire cost?",
-    a: "My Core package is £2,100 and includes your ceremony and speeches in full. The Complete Story package is £2,540 and adds a second videographer, a teaser, a highlight film and a 14 to 18 minute feature film. My full package breakdown is on the Investment page.",
+    a: "My Core package is £2,000 and gives you three films: a 10+ minute cinematic feature film, your ceremony in full and your speeches in full. The Complete Story package is £2,800 and gives you five films with a second videographer, or £2,550 with just me filming. My full package breakdown is on the Investment page.",
   },
   {
     q: "Which Nottinghamshire wedding venues have you filmed at?",
@@ -76,7 +76,7 @@ const faqs = [
   },
   {
     q: "Do you do wedding videos in Nottinghamshire?",
-    a: "Yes. Wedding video, wedding videography and wedding film all describe the same thing here: a full day covered in Nottinghamshire and edited into a cinematic film you will actually want to watch again. The Core package is £2,100 and includes your ceremony and speeches in full, and the first 50 miles of travel are included, which covers the whole county.",
+    a: "Yes. Wedding video, wedding videography and wedding film all describe the same thing here: a full day covered in Nottinghamshire and edited into a cinematic film you will actually want to watch again. The Core package is £2,000 and includes your ceremony and speeches in full, and the first 50 miles of travel are included, which covers the whole county.",
   },
   {
     q: "How do I find a good wedding filmmaker in Nottinghamshire?",
@@ -129,7 +129,7 @@ export default function NottinghamshirePage() {
       </p>
 
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
-          Luxury cinematic wedding films in Nottinghamshire from £2,100. The Complete Story package, which adds a second videographer and five films, is £2,540. The full breakdown is on the{" "}
+          Luxury cinematic wedding films in Nottinghamshire from £2,000. The Complete Story package, which gives you five films, is £2,800 with a second videographer or £2,550 with one. The full breakdown is on the{" "}
           <Link href="/investment/" className="underline underline-offset-4">
             Investment
           </Link>{" "}

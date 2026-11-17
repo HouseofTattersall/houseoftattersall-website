@@ -35,7 +35,7 @@ const films = [
 const faqs = [
   {
     q: "How much does a wedding videographer cost?",
-    a: "My Core package is £2,100 and you end up with four films: a 6 to 8 minute cinematic feature film, a 60 second film trailer, your ceremony in full and your speeches in full. The Complete Story is £2,540 and you end up with five: a 60 second trailer, a 4 to 6 minute highlight film, a 14 to 18 minute feature film, your ceremony in full and your speeches in full. Making them takes a pre-wedding consultation, 10 hours of coverage on the day, drone footage where the venue allows, and a second videographer on The Complete Story. The first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire.",
+    a: "My Core package is £2,000 and you end up with three films: a 10+ minute cinematic feature film, your ceremony in full and your speeches in full. The Complete Story is £2,800 and you end up with five: a 60 second social media trailer, a 4 to 6 minute highlight film, a 14 to 18 minute feature film, your ceremony in full and your speeches in full, filmed by two videographers. The same five films with just me filming are £2,550. Making them takes a pre-wedding consultation, 10 hours of coverage on the day, and drone footage where the venue allows. The first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire.",
   },
   {
     q: "What areas do you cover?",
@@ -115,7 +115,7 @@ export default function Home() {
         <p className="mx-auto mt-6 max-w-2xl leading-relaxed text-[var(--ink-muted)]">
           House of Tattersall is a wedding videographer based in Denstone,
           Staffordshire, filming cinematic wedding films across Staffordshire,
-          Derbyshire and Nottinghamshire. Films start from £2,100.
+          Derbyshire and Nottinghamshire. Films start from £2,000.
         </p>
         <p className="mx-auto mt-3 max-w-2xl leading-relaxed text-[var(--ink-muted)]">
           Wedding videography in Staffordshire and Derbyshire includes 10 hours
@@ -184,7 +184,7 @@ export default function Home() {
           wedding, not a template.
         </p>
         <p className="mt-6 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-5 py-4 text-[var(--ink-muted)]">
-          Luxury cinematic wedding films from £2,100. The Complete Story package, which adds a second videographer and five films, is £2,540.
+          Luxury cinematic wedding films from £2,000. The Complete Story package, which gives you five films, is £2,800 with a second videographer or £2,550 with one.
         </p>
       </Split>
 

@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     q: "What does the award winning package cost?",
-    a: "The same as everything else: the Core package is £2,100 and produces four films, and The Complete Story is £2,540 and produces five, with a second videographer. There is no premium for the award. A maximum of 15 weddings a year are taken, every one filmed personally by Andy Tattersall.",
+    a: "The same as everything else: the Core package is £2,000 and produces three films, and The Complete Story is £2,800 and produces five with a second videographer, or £2,550 with one. There is no premium for the award. A maximum of 15 weddings a year are taken, every one filmed personally by Andy Tattersall.",
   },
 ];
 

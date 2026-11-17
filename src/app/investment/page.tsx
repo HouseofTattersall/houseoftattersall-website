@@ -17,9 +17,9 @@ import { GuidePrompt } from "@/components/guide-prompt";
 import { Faq } from "@/components/faq";
 
 export const metadata: Metadata = pageMeta({
-  title: "Wedding Videography Packages & Pricing | From £2,100",
+  title: "Wedding Videography Packages & Pricing | From £2,000",
   description:
-    "Wedding film packages from £2,100, with your ceremony and speeches in full. The Complete Story is £2,540 and adds a second videographer and five films.",
+    "Wedding film packages from £2,000, with your ceremony and speeches in full. The Complete Story is £2,800 with a second videographer, or £2,550 with one.",
   path: "/investment/",
   image: "/images/banner-investment.jpg",
 });
@@ -28,21 +28,24 @@ type Package = {
   name: string;
   strap: string;
   price: string;
+  /** A second way to book the same package, shown under the headline price */
+  altPrice?: { price: string; label: string };
   films: { name: string; length: string }[];
   included: string[];
   /** A free add-on, shown under the list with a link to the section below */
   addOn?: { label: string; note: string; href: string };
+  /** A closing line inside the card */
+  note?: string;
   featured?: boolean;
 };
 
 const packages: Package[] = [
   {
     name: "Core",
-    strap: "Four films from your wedding day",
-    price: "£2,100",
+    strap: "Three films from your wedding day",
+    price: "£2,000",
     films: [
-      { name: "Cinematic feature film", length: "6 to 8 min" },
-      { name: "Film trailer", length: "60 sec" },
+      { name: "Cinematic feature film", length: "10+ min" },
       { name: "Your ceremony", length: "In full" },
       { name: "Your speeches", length: "In full" },
     ],
@@ -60,11 +63,15 @@ const packages: Package[] = [
   },
   {
     name: "The Complete Story",
-    strap: "Five films, and two filmmakers to catch them",
-    price: "£2,540",
+    strap: "Five films, and the option of two filmmakers",
+    price: "£2,800",
+    altPrice: {
+      price: "£2,550",
+      label: "with just me filming, for a smaller wedding",
+    },
     featured: true,
     films: [
-      { name: "Film trailer", length: "60 sec" },
+      { name: "Social media trailer", length: "60 sec" },
       { name: "Highlight film", length: "4 to 6 min" },
       { name: "Feature film", length: "14 to 18 min" },
       { name: "Your ceremony", length: "In full" },
@@ -78,10 +85,11 @@ const packages: Package[] = [
     included: [
       "Pre-wedding consultation",
       "10 hours of full-day coverage",
-      "A second videographer throughout your day",
+      "A second videographer throughout your day, on the £2,800 version",
       "Drone footage",
       "6 to 9 week expected turnaround",
     ],
+    note: "Save £340 compared with adding these to Core as extras.",
   },
 ];
 
@@ -94,13 +102,24 @@ const secondShooterGains = [
 
 const extras = [
   {
-    name: "Extended feature film",
-    desc: "Your feature film extended from 6 to 8 minutes up to 14 to 18 minutes. Included as standard in The Complete Story.",
-    price: "£250",
+    name: "Social media trailer",
+    desc: "A 60 second cut of your day, built for your phone and for sharing. Can be added up to one week after your wedding.",
+    price: "£195",
+    tag: "The one most couples add",
   },
   {
-    name: "Home movie",
-    desc: "Every usable clip in one film, from the main camera",
+    name: "Highlight film",
+    desc: "A 4 to 6 minute film alongside your feature. Can be added up to one week after your wedding.",
+    price: "£495",
+  },
+  {
+    name: "Second videographer",
+    desc: "A second filmmaker with me throughout your day. Has to be booked before the wedding, as I need to hold someone's date too.",
+    price: "£450",
+  },
+  {
+    name: "Home movie (docufilm)",
+    desc: "Every usable clip in one film, from the main camera. Can be added up to 12 months after your wedding.",
     price: "£400",
   },
   {
@@ -113,11 +132,15 @@ const extras = [
 const faqs = [
   {
     q: "How do I book you for our wedding?",
-    a: "Send an enquiry with your date and venue, then we have a video call so you can meet me and ask anything. A £200 booking fee secures the date, and I send you a client portal holding your contract, invoice, schedule and questionnaire in one place.",
+    a: "Send an enquiry with your date and venue, then we have a video call so you can meet me and ask anything. A £200 deposit secures the date, and I send you a client portal holding your contract, invoice, schedule and questionnaire in one place.",
   },
   {
-    q: "How much is the booking fee?",
-    a: "£200 secures your date. The remaining balance is due before the wedding, and you get automatic reminders for it six weeks beforehand alongside your questionnaire.",
+    q: "How much is the deposit?",
+    a: "£200 secures your date, and it comes out of the package price rather than being added to it. The remaining balance is due before the wedding, and you get automatic reminders for it six weeks beforehand alongside your questionnaire.",
+  },
+  {
+    q: "How much does a wedding videographer cost?",
+    a: "With House of Tattersall, the Core package is £2,000 and gives you three films: a 10+ minute cinematic feature film, your ceremony in full and your speeches in full. The Complete Story is £2,800 and gives you five films with a second videographer throughout the day, or £2,550 with one videographer. Optional extras are a social media trailer at £195, a highlight film at £495, a second videographer at £450 and a home movie at £400.",
   },
   {
     q: "What happens in the run-up to the wedding?",
@@ -157,7 +180,7 @@ export default function InvestmentPage() {
           to unfold naturally while everything is captured with care.
         </p>
         <p className="mt-5 font-serif text-xl text-[var(--khaki)] italic">
-          Wedding films start from £2,100
+          Wedding films start from £2,000
         </p>
 
         {/* Packages */}
@@ -194,13 +217,27 @@ export default function InvestmentPage() {
                 >
                   {pkg.price}
                 </p>
+                {pkg.altPrice ? (
+                  <p
+                    className={`mt-2 text-sm ${
+                      dark
+                        ? "text-[var(--gold-wash)]"
+                        : "text-[var(--ink-faint)]"
+                    }`}
+                  >
+                    <span className="font-serif text-lg">
+                      {pkg.altPrice.price}
+                    </span>{" "}
+                    {pkg.altPrice.label}
+                  </p>
+                ) : null}
 
                 <p
                   className={`mt-8 font-serif text-xl ${
                     dark ? "text-[var(--paper)]" : "text-[var(--khaki)]"
                   }`}
                 >
-                  {pkg.films.length === 4 ? "Four" : "Five"} films, yours to
+                  {pkg.films.length === 3 ? "Three" : "Five"} films, yours to
                   keep
                 </p>
                 <p
@@ -294,12 +331,29 @@ export default function InvestmentPage() {
                     </span>
                   </p>
                 ) : null}
+
+                {pkg.note ? (
+                  <p
+                    className={`mt-5 text-sm leading-relaxed ${
+                      dark
+                        ? "text-[var(--gold-wash)]"
+                        : "text-[var(--ink-faint)]"
+                    }`}
+                  >
+                    {pkg.note}
+                  </p>
+                ) : null}
               </div>
             );
           })}
         </div>
 
-        <p className="border-b border-[var(--rule)] py-8 text-center text-sm text-[var(--ink-faint)]">
+        <p className="pt-8 text-center text-[var(--ink-muted)]">
+          A £200 deposit secures your date. It comes out of the price above
+          rather than being added to it.
+        </p>
+
+        <p className="border-b border-[var(--rule)] py-6 text-center text-sm text-[var(--ink-faint)]">
           Both packages include the first 50 miles of travel, which covers
           all of Staffordshire and Derbyshire, with a small charge per mile
           beyond that. Get in touch for exact availability for your date.
@@ -374,6 +428,11 @@ export default function InvestmentPage() {
                 <span>
                   <span className="block text-[var(--ink-muted)]">
                     {extra.name}
+                    {"tag" in extra && extra.tag ? (
+                      <span className="ml-3 align-middle text-[0.65rem] tracking-[0.2em] text-[var(--gold)] uppercase">
+                        {extra.tag}
+                      </span>
+                    ) : null}
                   </span>
                   <span className="mt-1 block text-sm text-[var(--ink-faint)]">
                     {extra.desc}

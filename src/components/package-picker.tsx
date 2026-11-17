@@ -150,13 +150,13 @@ export function PackagePicker() {
 
       <div className="mt-12 rounded-sm border border-[var(--rule)] bg-[var(--paper-alt)] p-7">
         <h3 className="font-serif text-xl text-[var(--khaki)]">
-          If you only want the longer film
+          If you want all five films but not a second filmmaker
         </h3>
         <p className="mt-3 leading-relaxed text-[var(--ink-muted)]">
-          Some couples want a 14 to 18 minute film and genuinely do not need a
-          second filmmaker. If that is you, do not buy The Complete Story. Add
-          the extended feature film to the Core package for £250 instead and
-          keep the difference.
+          Some couples want the longer feature, the highlight film and the
+          trailer, and genuinely do not need two cameras. If that is you, book
+          The Complete Story at £2,550 with just me filming. You get all five
+          films and keep the £250.
         </p>
         <p className="mt-3 leading-relaxed text-[var(--ink-muted)]">
           What you give up by doing that is everything in the list above, which

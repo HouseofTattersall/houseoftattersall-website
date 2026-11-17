@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     q: "How much do your wedding films cost?",
-    a: "The Core package is £2,100 and you end up with four films: a 6 to 8 minute cinematic feature film, a 60 second film trailer, your ceremony in full and your speeches in full. The Complete Story is £2,540 and you end up with five, adding a 4 to 6 minute highlight film and taking the feature film to 14 to 18 minutes, with a second videographer filming alongside me all day.",
+    a: "The Core package is £2,000 and you end up with three films: a 10+ minute cinematic feature film, your ceremony in full and your speeches in full. The Complete Story is £2,800 and you end up with five, adding a 60 second social media trailer and a 4 to 6 minute highlight film and taking the feature film to 14 to 18 minutes, with a second videographer filming alongside me all day. The same five films with just me filming are £2,550.",
   },
 ];
 

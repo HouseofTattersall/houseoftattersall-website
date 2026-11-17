@@ -15,7 +15,7 @@ const routes = [
   {
     href: "/investment/",
     label: "Packages and pricing",
-    body: "What is included, what it costs, and how booking works. Films from £2,100.",
+    body: "What is included, what it costs, and how booking works. Films from £2,000.",
   },
 ];
 

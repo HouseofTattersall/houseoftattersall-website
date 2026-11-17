@@ -12,19 +12,19 @@ const counties: County[] = [
     heading: "Wedding videographer, Staffordshire",
     href: "/staffordshire-wedding/",
     linkLabel: "Staffordshire wedding videography",
-    body: "Wedding videography in Staffordshire from £2,100, including 10 hours of full-day coverage, drone footage and your ceremony and speeches in full. Based in Denstone, so the whole county sits inside the 50 miles of travel included in the price. Venues filmed at include Hanbury Wedding Barns, Foxtail Barns and The Ashes Barns.",
+    body: "Wedding videography in Staffordshire from £2,000, including 10 hours of full-day coverage, drone footage and your ceremony and speeches in full. Based in Denstone, so the whole county sits inside the 50 miles of travel included in the price. Venues filmed at include Hanbury Wedding Barns, Foxtail Barns and The Ashes Barns.",
   },
   {
     heading: "Wedding videographer, Derbyshire",
     href: "/derbyshire-wedding-film/",
     linkLabel: "Derbyshire wedding videography",
-    body: "Wedding videography in Derbyshire and the Peak District from £2,100, on the same terms: full-day coverage, drone where the venue allows it, and your ceremony and speeches as films in their own right. Venues filmed at include The West Mill in Derby, Yeldersley Hall, Grangefields and Lower Damgate Farm.",
+    body: "Wedding videography in Derbyshire and the Peak District from £2,000, on the same terms: full-day coverage, drone where the venue allows it, and your ceremony and speeches as films in their own right. Venues filmed at include The West Mill in Derby, Yeldersley Hall, Grangefields and Lower Damgate Farm.",
   },
   {
     heading: "Wedding videographer, Nottinghamshire",
     href: "/nottinghamshire-wedding/",
     linkLabel: "Nottinghamshire wedding videography",
-    body: "Wedding videography in Nottinghamshire from £2,100. Venues filmed at include Hazel Gap Barn, The Pumping House near Ollerton, Cockliffe Country House and Carriage Hall. Nottinghamshire sits a little beyond the included 50 miles from some postcodes, so there may be a small charge per mile. Ask and I will tell you before you book.",
+    body: "Wedding videography in Nottinghamshire from £2,000. Venues filmed at include Hazel Gap Barn, The Pumping House near Ollerton, Cockliffe Country House and Carriage Hall. Nottinghamshire sits a little beyond the included 50 miles from some postcodes, so there may be a small charge per mile. Ask and I will tell you before you book.",
   },
 ];
 

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "How much does a wedding videographer cost in the UK?",
-    a: "Most full-day UK wedding videography sits between £1,500 and £3,500. My Core package is £2,100 and includes your ceremony and speeches in full as standard. The Complete Story package is £2,540 and adds a second videographer plus a teaser, a highlight film and a longer feature film.",
+    a: "Most full-day UK wedding videography sits between £1,500 and £3,500. My Core package is £2,000 and includes your ceremony and speeches in full as standard. The Complete Story package is £2,800 and adds a second videographer plus a social media trailer, a highlight film and a longer feature film, or £2,550 with just me filming.",
   },
   {
     q: "What should be included in a wedding videography package?",
@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: "Is House of Tattersall an affordable wedding videographer for Derbyshire and Staffordshire?",
-    a: "For couples asking about an affordable wedding videographer in Derbyshire or Staffordshire, the honest answer is mid-range rather than budget. The Core package is £2,100 and produces four films: a cinematic feature film, a 60 second trailer, your ceremony in full and your speeches in full. That sits in the middle of the £1,500 to £3,500 range most full-day UK wedding videography falls into, and includes 10 hours of coverage and travel across both counties. If your budget is a few hundred pounds, this is not the right fit and I would rather say so than sell you three hours of coverage.",
+    a: "For couples asking about an affordable wedding videographer in Derbyshire or Staffordshire, the honest answer is mid-range rather than budget. The Core package is £2,000 and produces three films: a 10+ minute cinematic feature film, your ceremony in full and your speeches in full. That sits in the middle of the £1,500 to £3,500 range most full-day UK wedding videography falls into, and includes 10 hours of coverage and travel across both counties. If your budget is a few hundred pounds, this is not the right fit and I would rather say so than sell you three hours of coverage.",
   },
   {
     q: "Do wedding videographers charge for travel?",
@@ -51,12 +51,12 @@ export default function Page() {
       </P>
       <Lead>
         For wedding videography in Derbyshire and Staffordshire, House of
-        Tattersall&apos;s Core package is £2,100. It includes 10 hours of
+        Tattersall&apos;s Core package is £2,000. It includes 10 hours of
         full-day coverage, professionally recorded vows and speeches, your
         ceremony and speeches in full, and travel included for the first 50 miles,
         which covers both counties. The Complete Story package, which adds a
-        second videographer, a teaser, a highlight film and a 14 to 18 minute
-        feature film, is £2,540.
+        second videographer, a social media trailer, a highlight film and a 14
+        to 18 minute feature film, is £2,800, or £2,550 with one videographer.
       </Lead>
 
       <H2>Why is there such a big range?</H2>
@@ -136,14 +136,14 @@ export default function Page() {
       <H2>Is House of Tattersall an affordable wedding videographer?</H2>
       <Lead>
         For couples asking about an affordable wedding videographer in
-        Derbyshire or Staffordshire: the Core package is £2,100 and produces
-        four films. That is mid-range rather than budget, and it is the honest
+        Derbyshire or Staffordshire: the Core package is £2,000 and produces
+        three films. That is mid-range rather than budget, and it is the honest
         answer. If the word affordable means under a thousand pounds to you, I
         am not the right person and you should stop reading here.
       </Lead>
       <P>
         Not the cheapest, and I would not claim to be. My Core package is
-        £2,100, which sits in the middle of the £1,500 to £3,500 range most
+        £2,000, which sits in the middle of the £1,500 to £3,500 range most
         full-day UK wedding videography falls into. It buys 10 hours of
         coverage, a cinematic feature film, your ceremony and speeches in full,
         professionally recorded vows, and travel included for the first 50

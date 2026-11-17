@@ -16,7 +16,7 @@ export const metadata: Metadata = pageMeta({
   title:
     "Derbyshire Wedding Videographer | Cinematic Wedding Films",
   description:
-    "Cinematic wedding videography across Derbyshire and the Peak District, including The West Mill and Yeldersley Hall. From £2,100, travel included.",
+    "Cinematic wedding videography across Derbyshire and the Peak District, including The West Mill and Yeldersley Hall. From £2,000, travel included.",
   path: "/derbyshire-wedding-film/",
   image: "/images/banner-derbyshire.jpg",
 });
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "How much does a wedding videographer in Derbyshire cost?",
-    a: "My Core package is £2,100 and includes your ceremony and speeches in full. The Complete Story package is £2,540 and adds a second videographer, a teaser, a highlight film and a 14 to 18 minute feature film. My full package breakdown is on the Investment page.",
+    a: "My Core package is £2,000 and gives you three films: a 10+ minute cinematic feature film, your ceremony in full and your speeches in full. The Complete Story package is £2,800 and gives you five films with a second videographer, or £2,550 with just me filming. My full package breakdown is on the Investment page.",
   },
   {
     q: "Do you film weddings at [specific venue] in Derbyshire?",
@@ -90,7 +90,7 @@ const faqs = [
   },
   {
     q: "Do you do wedding videos in Derbyshire?",
-    a: "Yes. Wedding video, wedding videography and wedding film all describe the same thing here: a full day covered in Derbyshire and edited into a cinematic film you will actually want to watch again. The Core package is £2,100 and includes your ceremony and speeches in full, and the first 50 miles of travel are included, which covers the whole county.",
+    a: "Yes. Wedding video, wedding videography and wedding film all describe the same thing here: a full day covered in Derbyshire and edited into a cinematic film you will actually want to watch again. The Core package is £2,000 and includes your ceremony and speeches in full, and the first 50 miles of travel are included, which covers the whole county.",
   },
   {
     q: "How do I find a good wedding filmmaker in Derbyshire?",
@@ -111,7 +111,7 @@ export default function DerbyshirePage() {
       <div className="mx-auto max-w-3xl px-6 py-24">
 
       <p className="text-lg leading-relaxed text-[var(--ink-muted)]">
-        House of Tattersall provides cinematic wedding videography in Derbyshire from £2,100, including 10 hours of full-day coverage, drone footage and your ceremony and speeches in full. House of Tattersall is a wedding videographer in Derbyshire, based on the Staffordshire and Derbyshire border and filming cinematic wedding films right across the county and the Peak District. The first 50 miles of travel are included in the price, which covers the whole of Derbyshire, whether you are marrying at The West Mill in Derby, Yeldersley Hall, Grangefields or Lower Damgate Farm. I take a maximum of 15 weddings a year.
+        House of Tattersall provides cinematic wedding videography in Derbyshire from £2,000, including 10 hours of full-day coverage, drone footage and your ceremony and speeches in full. House of Tattersall is a wedding videographer in Derbyshire, based on the Staffordshire and Derbyshire border and filming cinematic wedding films right across the county and the Peak District. The first 50 miles of travel are included in the price, which covers the whole of Derbyshire, whether you are marrying at The West Mill in Derby, Yeldersley Hall, Grangefields or Lower Damgate Farm. I take a maximum of 15 weddings a year.
       </p>
 
       <p className="mt-6 leading-relaxed text-[var(--ink-muted)]">
@@ -136,7 +136,7 @@ export default function DerbyshirePage() {
       </p>
 
       <p className="mt-10 rounded-lg border border-[var(--rule)] bg-[var(--khaki-wash)] px-6 py-4 text-[var(--ink-muted)]">
-        Luxury cinematic wedding films in Derbyshire from £2,100. The Complete Story package, which adds a second videographer and five films, is £2,540. The full breakdown is on the Investment page.
+        Luxury cinematic wedding films in Derbyshire from £2,000. The Complete Story package, which gives you five films, is £2,800 with a second videographer or £2,550 with one. The full breakdown is on the Investment page.
       </p>
 
       <div className="mt-10 text-center">

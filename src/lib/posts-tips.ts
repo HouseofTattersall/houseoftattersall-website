@@ -367,6 +367,8 @@ If you are getting married at any of these venues, or anywhere across [Derbyshir
     excerpt:
       "New packages, faster films, and a two-camera package that now costs less than it did in 2026. Here is everything that has changed, and the honest reason why.",
     body: `
+**Update, November 2026: the prices in this post have since changed.** Core is now £2,000 for three films, and The Complete Story is £2,800 with a second videographer or £2,550 with one. The 60 second trailer is now called the social media trailer and is a £195 optional extra rather than part of Core. Everything below is left as it was written in October 2026, because it explains why the packages changed shape. The current figures are on the [Investment](/investment/) page.
+
 The 2026 season is done. Between now and the spring I am editing, catching up with couples, and getting 2027 straight, which is the point in the year where I look properly at what I offer rather than just carrying last year forward.
 
 A few things have changed, and not cosmetically. Here is all of it, including the bit that costs me money.
@@ -465,15 +467,15 @@ If you are getting married in [Derbyshire](/derbyshire-wedding-film/), [Stafford
     faqs: [
       {
         q: "How much does wedding videography cost for 2027?",
-        a: "The Core package is £2,100 and you end up with four films: a 6 to 8 minute cinematic feature film, a 60 second film trailer, your ceremony in full and your speeches in full. The Complete Story is £2,540 and you end up with five, adding a 4 to 6 minute highlight film and a longer 14 to 18 minute feature film, filmed by two videographers. Both include 10 hours of coverage, drone footage and the first 50 miles of travel.",
+        a: "The Core package is £2,000 and you end up with three films: a 10+ minute cinematic feature film, your ceremony in full and your speeches in full. The Complete Story is £2,800 and you end up with five, adding a 60 second social media trailer and a 4 to 6 minute highlight film and taking the feature film to 14 to 18 minutes, filmed by two videographers. The same five films with one videographer are £2,550. All include 10 hours of coverage, drone footage and the first 50 miles of travel.",
       },
       {
-        q: "Why did the Complete Story package get cheaper?",
-        a: "Deliberately, to get more couples onto two cameras. Weddings filmed with a second videographer produce a noticeably better film, but at £2,750 too few couples were choosing it. The price came down to £2,540 while the package gained a highlight film and a longer feature film.",
+        q: "Why did the Complete Story package change price?",
+        a: "To get more couples onto two cameras. Weddings filmed with a second videographer produce a noticeably better film, but at £2,750 too few couples were choosing it, so in October 2026 it came down to £2,540 while gaining a highlight film and a longer feature film. It is now £2,800 with a second videographer, with the same five films available at £2,550 if I film your day on my own.",
       },
       {
         q: "What is the difference between the Core and Complete Story packages?",
-        a: "£440. For that you get a second videographer for the whole day, a 4 to 6 minute highlight film, and your feature film extended from 6 to 8 minutes up to 14 to 18 minutes. Bought on its own, the extended feature film alone is £250, so the remaining £190 covers the second filmmaker and the highlight film.",
+        a: "£800. For that you get a second videographer for the whole day, a 60 second social media trailer, a 4 to 6 minute highlight film, and your feature film taken from 10+ minutes up to 14 to 18 minutes. Bought separately as extras on top of Core those come to £3,140, so the package saves £340. If you would rather not have a second videographer, the same five films are £2,550.",
       },
       {
         q: "Are the ceremony and speeches included as standard?",
@@ -485,7 +487,7 @@ If you are getting married in [Derbyshire](/derbyshire-wedding-film/), [Stafford
       },
       {
         q: "Do you still offer the 1 week anniversary teaser?",
-        a: "No, it has been discontinued. Too few couples took it up to justify keeping it, and both packages now include a 60 second film trailer as standard.",
+        a: "No, it has been discontinued. Too few couples took it up to justify keeping the workflow for it. The 60 second social media trailer is included in The Complete Story and can be added to Core for £195.",
       },
       {
         q: "How many weddings do you take each year?",
@@ -809,7 +811,7 @@ So judge the films first. Watch full films rather than 30 second Instagram cuts,
 
 Your teaser is expected back within 6 to 9 weeks, even in the busiest part of the season, with everything else following within a week of that. You will get an email with your gallery link, and from that moment it is yours to watch, download and share for the next decade.
 
-If you would like to talk about your own film, whether you're getting married in [Derbyshire](/derbyshire-wedding-film/), [Staffordshire](/staffordshire-wedding/), [Nottinghamshire](/nottinghamshire-wedding/) or further afield, I would love to hear about your day. The Core package is £2,100 and includes your ceremony and speeches in full, with a Complete Story package at £2,540 that adds a second videographer and five films, and the full breakdown is on the [Investment](/investment/) page.
+If you would like to talk about your own film, whether you're getting married in [Derbyshire](/derbyshire-wedding-film/), [Staffordshire](/staffordshire-wedding/), [Nottinghamshire](/nottinghamshire-wedding/) or further afield, I would love to hear about your day. The Core package is £2,000 and includes your ceremony and speeches in full, with a Complete Story package at £2,800 that adds a second videographer and five films, or £2,550 for those same five films with just me, and the full breakdown is on the [Investment](/investment/) page.
 
 !cta[Enquire about your film](/enquire/)
 `,
@@ -1167,7 +1169,7 @@ If you're planning a wedding in the UK; Derbyshire, Staffordshire, or Nottingham
     body: `
 House of Tattersall is a top rated wedding videographer in Derbyshire and Staffordshire, placed in the UK top 20 for two years running at The Wedding Industry Awards, and named East Midlands Winner and Videographer of the Year in 2025.
 
-Based in Denstone on the Staffordshire and Derbyshire border, filming cinematic, documentary-shot wedding films across Derbyshire, Staffordshire and Nottinghamshire. The Core package is £2,100 and includes full-day coverage, your ceremony and speeches in full, and the first 50 miles of travel, which covers all of both counties.
+Based in Denstone on the Staffordshire and Derbyshire border, filming cinematic, documentary-shot wedding films across Derbyshire, Staffordshire and Nottinghamshire. The Core package is £2,000 and includes full-day coverage, your ceremony and speeches in full, and the first 50 miles of travel, which covers all of both counties.
 
 ## House of Tattersall (at the time 'Andy Tatt Media') Recognised Among Top 20 Wedding Videographers in the UK for Second Year Running
 
