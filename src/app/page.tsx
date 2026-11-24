@@ -11,6 +11,7 @@ import { AwardsStrip } from "@/components/awards-strip";
 import { GuidePrompt } from "@/components/guide-prompt";
 import { WhereIFilm } from "@/components/where-i-film";
 import { KnotRule } from "@/components/knot";
+import { QuickAnswers } from "@/components/quick-answers";
 
 const films = [
   {
@@ -34,20 +35,20 @@ const films = [
 
 const faqs = [
   {
-    q: "How much does a wedding videographer cost?",
-    a: "My Core package is £2,000 and you end up with three films: a 10+ minute cinematic feature film, your ceremony in full and your speeches in full. The Complete Story is £2,800 and you end up with five: a 60 second social media trailer, a 4 to 6 minute highlight film, a 14 to 18 minute feature film, your ceremony in full and your speeches in full, filmed by two videographers. The same five films with just me filming are £2,550. Making them takes a pre-wedding consultation, 10 hours of coverage on the day, and drone footage where the venue allows. The first 50 miles of travel are included, which covers all of Staffordshire and Derbyshire.",
+    q: "How much does a wedding videographer cost in Derbyshire and Staffordshire?",
+    a: "House of Tattersall's Core package is £2,000 and gives you three films: a 10+ minute cinematic feature film, your ceremony in full and your speeches in full. The Complete Story is £2,800 and gives you five films with a second videographer, or £2,550 with one. Every package includes a pre-wedding consultation, 10 hours of full-day coverage, drone footage where the venue allows, and the first 50 miles of travel, which covers all of Staffordshire and Derbyshire.",
   },
   {
-    q: "What areas do you cover?",
-    a: "I'm based on the border of Derbyshire and Staffordshire, and regularly film weddings across the UK. The first 50 miles are included in the price, which covers all of Staffordshire and Derbyshire, and there's a small charge per mile beyond that. I'm available for destination weddings in Europe too, and I've filmed professionally in France, Amsterdam, Germany and Switzerland for commercial clients, so working abroad is familiar ground. Every wedding I've filmed so far has been in the UK.",
+    q: "Where are you based and what areas do you cover?",
+    a: "House of Tattersall is based in Denstone, Staffordshire, on the Derbyshire border, filming cinematic wedding films across Staffordshire, Derbyshire and Nottinghamshire, and UK-wide. I regularly film weddings across the UK. The first 50 miles are included in the price, which covers all of Staffordshire and Derbyshire, and there's a small charge per mile beyond that. I'm available for destination weddings in Europe too, and I've filmed professionally in France, Amsterdam, Germany and Switzerland for commercial clients, so working abroad is familiar ground. Every wedding I've filmed so far has been in the UK.",
   },
   {
-    q: "How far in advance should we book our wedding videographer?",
+    q: "How far in advance should we book a wedding videographer in Derbyshire or Staffordshire?",
     a: "Most couples book 12 to 24 months in advance, especially for peak summer dates. I take a maximum of 15 weddings a year to keep every film personal and carefully crafted, so it's always worth enquiring as early as possible.",
   },
   {
     q: "How do we book?",
-    a: "The process is simple: send an enquiry, arrange a video call, secure your date with a booking fee. After that, we'll plan everything together leading up to the wedding. P.s. lots of the processes are automated so you know you will get emails reminding you at the key moments.",
+    a: "The process is simple: send an enquiry, arrange a video call, secure your date with a £200 deposit. After that, we'll plan everything together leading up to the wedding. P.s. lots of the processes are automated so you know you will get emails reminding you at the key moments.",
   },
   {
     q: "How long does it take to receive our wedding film?",
@@ -129,6 +130,8 @@ export default function Home() {
           </CtaButton>
         </div>
       </section>
+
+      <QuickAnswers items={faqs.slice(0, 3)} className="pt-10 pb-4" />
 
       <AwardsStrip />
 
@@ -262,7 +265,7 @@ export default function Home() {
           Frequently asked questions
         </h2>
         <div className="mt-12">
-          <Faq items={faqs} />
+          <Faq items={faqs.slice(3)} />
         </div>
         <FaqSchema items={faqs} />
       </section>

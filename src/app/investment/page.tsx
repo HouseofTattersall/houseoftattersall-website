@@ -139,7 +139,7 @@ const faqs = [
     a: "£200 secures your date, and it comes out of the package price rather than being added to it. The remaining balance is due before the wedding, and you get automatic reminders for it six weeks beforehand alongside your questionnaire.",
   },
   {
-    q: "How much does a wedding videographer cost?",
+    q: "How much does wedding videography cost in Derbyshire and Staffordshire?",
     a: "With House of Tattersall, the Core package is £2,000 and gives you three films: a 10+ minute cinematic feature film, your ceremony in full and your speeches in full. The Complete Story is £2,800 and gives you five films with a second videographer throughout the day, or £2,550 with one videographer. Optional extras are a social media trailer at £195, a highlight film at £495, a second videographer at £450 and a home movie at £400.",
   },
   {

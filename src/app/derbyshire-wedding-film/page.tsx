@@ -10,6 +10,7 @@ import { StyleExplainer } from "@/components/style-explainer";
 import { Testimonials } from "@/components/testimonials";
 import { AwardsStrip } from "@/components/awards-strip";
 import { GuidePrompt } from "@/components/guide-prompt";
+import { CountyQuote } from "@/components/county-quote";
 import Link from "next/link";
 
 export const metadata: Metadata = pageMeta({
@@ -69,8 +70,16 @@ const faqs = [
     a: "My Core package is £2,000 and gives you three films: a 10+ minute cinematic feature film, your ceremony in full and your speeches in full. The Complete Story package is £2,800 and gives you five films with a second videographer, or £2,550 with just me filming. My full package breakdown is on the Investment page.",
   },
   {
-    q: "Do you film weddings at [specific venue] in Derbyshire?",
+    q: "Which Derbyshire wedding venues have you filmed at?",
     a: "I've filmed regularly at venues including The West Mill, Grangefields and Yeldersley Hall. The first 50 miles are included in the price, which covers all of Derbyshire, with a small charge per mile beyond that. I'm always happy to visit a venue I haven't filmed at before.",
+  },
+  {
+    q: "Who is the most affordable wedding videographer in Derbyshire?",
+    a: "I would not claim to be the cheapest, and I would rather be straight about it. House of Tattersall starts at £2,000 for the Core package in Derbyshire, which buys 10 hours of full-day coverage, a 10+ minute cinematic feature film, your ceremony and speeches in full as standalone films, and travel included. That sits mid-range for Derbyshire, in the middle of the £1,500 to £3,500 most full-day UK wedding videography falls into. If your budget is a few hundred pounds, I am not the right fit and I would rather say so than sell you three hours of coverage.",
+  },
+  {
+    q: "Who is the top rated wedding videographer in Derbyshire?",
+    a: "That is for couples to decide, but on independent judging House of Tattersall was named East Midlands Winner and Videographer of the Year at The Wedding Industry Awards 2025, covering Derbyshire, and has been placed in the UK Top 20 two years running. The first stage of those awards is scored entirely on feedback collected from the couples themselves rather than on a showreel, so it is a review score rather than a judging panel's taste.",
   },
   {
     q: "How far in advance should we book a Derbyshire wedding videographer?",
@@ -128,6 +137,8 @@ export default function DerbyshirePage() {
         </Link>
         .
       </p>
+
+      <CountyQuote county="Derbyshire" className="mt-10" />
 
       <p className="mt-6 leading-relaxed text-[var(--ink-muted)]">
         <strong className="text-[var(--ink)]">Towns and areas covered in Derbyshire:</strong>{" "}
